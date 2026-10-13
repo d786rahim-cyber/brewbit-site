@@ -361,6 +361,16 @@ body { padding-block: 0 56px; padding-inline: 0; }
 .row p { font-size: 0.92rem; color: var(--muted); margin-top: 2px; max-width: 70ch; }
 .row .read { font-family: var(--font-mono); font-size: 0.8rem; color: var(--d); white-space: nowrap; }
 .themes { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+
+/* Color-coded topic buttons */
+:root { --chip-ink: #FFFFFF; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --chip-ink: #14110F; } }
+:root[data-theme="dark"] { --chip-ink: #14110F; }
+.chipbtn[data-c="tech"] { --c: var(--d-tech); } .chipbtn[data-c="coffee"] { --c: var(--d-coffee); }
+.chipbtn[data-c="cycling"] { --c: var(--d-cycling); } .chipbtn[data-c="travel"] { --c: var(--d-travel); }
+.chipbtn[data-c]:not([data-c="all"]) { color: var(--c); border-color: color-mix(in srgb, var(--c) 55%, transparent); }
+.chipbtn[data-c]:not([data-c="all"]):hover { background: color-mix(in srgb, var(--c) 12%, var(--surface)); }
+.chipbtn[data-c]:not([data-c="all"])[aria-pressed="true"] { background: var(--c); border-color: var(--c); color: var(--chip-ink); }
 </style>
 </head>
 <body>
