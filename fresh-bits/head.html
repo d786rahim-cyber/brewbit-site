@@ -371,6 +371,10 @@ body { padding-block: 0 56px; padding-inline: 0; }
 .chipbtn[data-c]:not([data-c="all"]) { color: var(--c); border-color: color-mix(in srgb, var(--c) 55%, transparent); }
 .chipbtn[data-c]:not([data-c="all"]):hover { background: color-mix(in srgb, var(--c) 12%, var(--surface)); }
 .chipbtn[data-c]:not([data-c="all"])[aria-pressed="true"] { background: var(--c); border-color: var(--c); color: var(--chip-ink); }
+
+.newsbar { position: sticky; top: 52px; z-index: 4; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(8px); padding-block: 10px; }
+@media (max-width: 899px) { .newsbar { position: static; } }
+.desk { scroll-margin-top: 130px; }
 </style>
 </head>
 <body>

@@ -57,8 +57,8 @@ body = f'''<div class="page ">
   <p class="label">Fresh Bits</p>
   <h1>Freshly brewed news, every morning.</h1>
   <p class="lede">One page for what I follow: technology (AI, cybersecurity and infrastructure), coffee and roasting, cycling, and travel. Every story links to the original source, and the page refreshes daily.</p>
-  <div class="newsbar">{chips}<span class="updated">Updated {e(data["updated"])} · {total} stories</span></div>
 </section>
+<div class="newsbar">{chips}<span class="updated">Updated {e(data["updated"])} · {total} stories</span></div>
 <section>
   <p class="label">Today at a glance</p>
   <div class="themes">{themes}</div>
@@ -70,10 +70,25 @@ body = f'''<div class="page ">
   <p class="credit">Summaries are my own short notes. Follow each link for the full story. Deals and prices change quickly, so confirm terms before booking or buying. Some reports come from a single source.</p>
 </section>
 <script>
-(function(){{var btns=document.querySelectorAll('.chipbtn');var secs=document.querySelectorAll('section[data-cat]');
-function show(c){{secs.forEach(function(s){{s.hidden=!(c==='all'||s.getAttribute('data-cat')===c);}});btns.forEach(function(b){{b.setAttribute('aria-pressed',b.getAttribute('data-c')===c?'true':'false');}});}}
-btns.forEach(function(b){{b.addEventListener('click',function(){{show(b.getAttribute('data-c'));}});}});
-var h=(location.hash||'').slice(1);if(['tech','coffee','cycling','travel'].indexOf(h)>-1)show(h);}})();
+(function(){{
+var btns=[].slice.call(document.querySelectorAll('.chipbtn'));
+var ids=['tech','coffee','cycling','travel'];
+function mark(c){{btns.forEach(function(b){{b.setAttribute('aria-pressed',b.getAttribute('data-c')===c?'true':'false');}});}}
+function go(c){{
+  var el=c==='all'?document.querySelector('.page-hero'):document.getElementById(c);
+  if(!el)return; mark(c);
+  var off=0;if(c!=='all'){{var tb=document.querySelector('.topbar'),nb=document.querySelector('.newsbar');off=(tb?tb.offsetHeight:0)+(nb&&getComputedStyle(nb).position==='sticky'?nb.offsetHeight:0)+18;}}
+  var top=el.getBoundingClientRect().top+window.pageYOffset-off;
+  window.scrollTo({{top:top,behavior:'smooth'}});
+  try{{history.replaceState(null,'',c==='all'?location.pathname:'#'+c);}}catch(e){{}}
+}}
+btns.forEach(function(b){{b.addEventListener('click',function(){{go(b.getAttribute('data-c'));}});}});
+if('IntersectionObserver' in window){{
+  var io=new IntersectionObserver(function(es){{es.forEach(function(en){{if(en.isIntersecting)mark(en.target.id);}});}},{{rootMargin:'-45% 0px -50% 0px'}});
+  ids.forEach(function(i){{var el=document.getElementById(i);if(el)io.observe(el);}});
+}}
+var h=(location.hash||'').slice(1);if(ids.indexOf(h)>-1)setTimeout(function(){{go(h);}},50);
+}})();
 </script>
 <footer class="site">© 2026 Daniel Rahim · Houston, Texas · brewbit.tech</footer>
 </div>
