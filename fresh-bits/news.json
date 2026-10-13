@@ -1,45 +1,534 @@
 {
  "updated": "October 13, 2026",
  "themes": [
-  "Agents are moving faster than the checks around them. Meta's new Muse Wonder models target agent work and memory, Microsoft and Anthropic are limiting what agents can reach, and OpenAI pulled three AI-written math papers a day after release.",
-  "Attackers move within days, sometimes hours, of disclosure. SonicWall SMA 1000, Bricksforge, AhsayCBS and Atlassian Data Center flaws all drew exploitation soon after details went public.",
-  "Power is still the constraint for data centers. Oracle is trucking in natural gas, PJM gets a data center database, fires and power failures have doubled, and Microsoft pitches Maia 300 on tokens per megawatt."
+  {
+   "desk": "Technology",
+   "text": "Agents are moving faster than the checks around them, and attackers now exploit new flaws within days of disclosure."
+  },
+  {
+   "desk": "Coffee",
+   "text": "Arabica tops $3 a pound while roasting quietly electrifies, from $2,995 fluid-bed machines to solar heat stored in rock."
+  },
+  {
+   "desk": "Cycling",
+   "text": "A 20-year-old wins Il Lombardia, Lachlan Morton outrides the Pony Express, and new gravel world champions are crowned in Australia."
+  },
+  {
+   "desk": "Travel",
+   "text": "Paris flights may be hit Oct 17–21, ETIAS still isn't open (skip the paid look-alike sites), and new nonstops reach Costa Rica and Iceland."
+  }
  ],
- "sections": [
-  {"id": "ai", "title": "AI", "blurb": "Agents, models, standards and policy.", "items": [
-   {"date": "Oct 12, 2026", "head": "Meta launches Muse Wonder frontier models", "text": "Muse Wonder and Muse Wonder Full target agent work, long-term memory and coding, and are available through the Meta Model API and Muse Code. Meta's benchmark claims have not yet been tested independently.", "src": "Axios", "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"},
-   {"date": "Oct 8, 2026", "head": "OpenAI pulls three of its 722 AI-written math papers", "text": "OpenAI posted the papers from an unreleased internal model on Oct 6 and withdrew three a day later over a sign error. Many mathematicians criticized the release for skipping verification.", "src": "Retraction Watch", "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/"},
-   {"date": "Oct 8, 2026", "head": "White House announces $6 billion in science initiatives", "text": "Eleven companies pledged $2.4 billion in computing credits and AI tools for DOE's Genesis Mission, including $1 billion from Nvidia, $500 million from AMD and $200 million from OpenAI.", "src": "AIP FYI", "url": "https://www.aip.org/fyi/the-week-of-october-12-2026"},
-   {"date": "Oct 10, 2026", "head": "Anthropic turns off live internet for internal agent evaluations", "text": "The change stays in place until the company can better monitor and control its agents.", "src": "AI Weekly", "url": "https://aiweekly.co/alerts/anthropic-disables-live-internet-for-all-internal-agent-evals"},
-   {"date": "Oct 7, 2026", "head": "Microsoft adds execution containers for AI agents", "text": "Windows gains local AI models and Microsoft Execution Containers, which restrict the data agents can access. The premium Surface Laptop Ultra starts at $2,599.", "src": "Reuters", "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"},
-   {"date": "Oct 7, 2026", "head": "Anthropic cuts Claude Haiku 5.5 prices", "text": "Anthropic estimates average savings of about 75% and adds adjustable reasoning effort to its smallest model.", "src": "The New Stack", "url": "https://thenewstack.io/anthropic-claude-haiku-5-5/"},
-   {"date": "Oct 6, 2026", "head": "Meta, Walmart and Stripe back an open protocol for AI agents", "text": "A proposed personal agent protocol would standardize how AI assistants deal with business websites. OpenAI and Anthropic are not yet taking part.", "src": "CNBC", "url": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html"}
-  ]},
-  {"id": "cyber", "title": "Cybersecurity", "blurb": "Advisories, vulnerabilities and attacks worth knowing.", "items": [
-   {"date": "Oct 12, 2026", "head": "Critical SonicWall SMA 1000 flaw under attack", "text": "CVE-2026-102255 (CVSS 10.0) is a pre-auth SSRF patched on Oct 6. Previdian has seen 135 exploitation attempts from two US IP addresses. SonicWall's advisory does not yet list active exploitation.", "src": "The Hacker News", "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"},
-   {"date": "Oct 12, 2026", "head": "Bricksforge WordPress plugin flaw exploited", "text": "CVE-2026-85097 (CVSS 10.0) lets unauthenticated attackers upload and run PHP code. Patchstack saw attacks from Oct 7. Version 3.1.8.10 fixes it.", "src": "The Hacker News", "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"},
-   {"date": "Oct 9, 2026", "head": "AhsayCBS backup flaws used to plant web shells and miners", "text": "Attackers chain two flaws to bypass authentication and run commands, then install XMRig miners disguised as Microsoft Edge. Huntress says the latest version, 10.3.4, is still vulnerable.", "src": "The Hacker News", "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"},
-   {"date": "Oct 9, 2026", "head": "Public exploit gives root on AnyDesk for Linux 8.0.2", "text": "The pre-auth exploit works over direct TCP connections on port 7070. AnyDesk fixed the bug in 8.0.3 in June without a CVE or advisory, so check Linux hosts are updated.", "src": "The Hacker News", "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html"},
-   {"date": "Oct 7, 2026", "head": "Atlassian Data Center flaw now exploited", "text": "CVE-2026-21589 (CVSS 9.3) drew exploitation attempts within two hours of public details, and watchTowr confirms in-the-wild exploitation. It affects Jira, Confluence, Bitbucket and other Data Center products.", "src": "The Hacker News", "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"},
-   {"date": "Oct 6, 2026", "head": "FBI and Secret Service warn about FortiBleed", "text": "A credential-harvesting campaign targets internet-facing FortiGate firewalls and SSL VPN gateways. No CVE has been assigned. SOCRadar counts 86,644 compromised devices in 194 countries, and attackers sometimes change or delete the original admin accounts.", "src": "The Record", "url": "https://therecord.media/fortibleed-warning-fbi-secret-service"},
-   {"date": "Oct 2026", "head": "Ransomware affiliate uses an MCP service for command and control", "text": "CloudSEK documents an affiliate of the Gentlemen ransomware group running SSH commands through a local Model Context Protocol service. In one case, over 120,000 records were stolen.", "src": "Telefónica Tech briefing", "url": "https://telefonicatech.com/en/blog/cybersecurity-briefing-3-9-october-2026"}
-  ]},
-  {"id": "infra", "title": "IT infrastructure", "blurb": "Data centers, power, cooling and servers.", "items": [
-   {"date": "Oct 13, 2026", "head": "Microsoft unveils Azure Maia 300", "text": "Maia 200 is in production across the US, Europe and Australia. Maia 300 racks of 96 accelerators at 167kW arrive in 2027, and Microsoft claims up to 40% more tokens per megawatt than leading GPU systems.", "src": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/microsoft-unveils-azure-maia-300-says-chip-will-be-its-primary-inference-system/"},
-   {"date": "Oct 13, 2026", "head": "NTT reportedly near $6.3bn data center deal with Anthropic", "text": "Nikkei reports an Osaka site of up to 500MW, with partial operations from 2028. Unconfirmed: neither company commented.", "src": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"},
-   {"date": "Oct 13, 2026", "head": "Oracle trucks in natural gas to keep data centers running", "text": "Bloomberg reports Oracle has trucked compressed gas to its Salt Lake City site for over a year while waiting for a pipeline, and is considering the same for its stalled Project Jupiter in New Mexico.", "src": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/oracle-trucks-in-gas-to-support-operations-at-utah-and-texas-data-centers-report/"},
-   {"date": "Oct 13, 2026", "head": "FERC approves PJM data center database", "text": "PJM will track each site's location, power providers, ramp-up and backup generation. FERC rejected a separate plan to cut grid power to data centers during peak stress.", "src": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/ferc-approves-pjms-request-to-create-data-center-database/"},
-   {"date": "Oct 12, 2026", "head": "Data center fires and power failures have doubled since 2024", "text": "The Energy Incident Register counts 8 in 2024, 20 in 2025 and 19 so far in 2026. UPS systems and battery rooms are the most common named failure point.", "src": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024/"},
-   {"date": "Oct 10, 2026", "head": "Cloudflare acquires Deno", "text": "The Deno team joins Cloudflare Workers. The standalone runtime and Deno Deploy will wind down over the next year.", "src": "AI Weekly", "url": "https://aiweekly.co/alerts/cloudflare-acquires-deno-dahls-team-to-merge-celld-into-workerd"},
-   {"date": "Oct 2026", "head": "Constellation signs nuclear power deals with Google and Amazon", "text": "Two 20-year agreements within a week support nearly 1.1 GW of nuclear expansion, including an 890 MW deal with Google.", "src": "Construction Dive", "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/"}
-  ]}
+ "desks": [
+  {
+   "id": "tech",
+   "title": "Technology",
+   "kicker": "AI · Cybersecurity · Infrastructure",
+   "blurb": "The most important moves in AI, security and the infrastructure that runs it, with the original reporting linked.",
+   "sections": [
+    {
+     "id": "ai",
+     "title": "AI",
+     "blurb": "",
+     "items": [
+      {
+       "date": "Oct 12, 2026",
+       "head": "Meta launches Muse Wonder frontier models",
+       "text": "Muse Wonder and Muse Wonder Full target agent work, long-term memory and coding, and are available through the Meta Model API and Muse Code. Meta's benchmark claims have not yet been tested independently.",
+       "src": "Axios",
+       "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"
+      },
+      {
+       "date": "Oct 8, 2026",
+       "head": "OpenAI pulls three of its 722 AI-written math papers",
+       "text": "OpenAI posted the papers from an unreleased internal model on Oct 6 and withdrew three a day later over a sign error. Many mathematicians criticized the release for skipping verification.",
+       "src": "Retraction Watch",
+       "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/"
+      },
+      {
+       "date": "Oct 8, 2026",
+       "head": "White House announces $6 billion in science initiatives",
+       "text": "Eleven companies pledged $2.4 billion in computing credits and AI tools for DOE's Genesis Mission, including $1 billion from Nvidia, $500 million from AMD and $200 million from OpenAI.",
+       "src": "AIP FYI",
+       "url": "https://www.aip.org/fyi/the-week-of-october-12-2026"
+      },
+      {
+       "date": "Oct 7, 2026",
+       "head": "Microsoft adds execution containers for AI agents",
+       "text": "Windows gains local AI models and Microsoft Execution Containers, which restrict the data agents can access. The premium Surface Laptop Ultra starts at $2,599.",
+       "src": "Reuters",
+       "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
+      }
+     ]
+    },
+    {
+     "id": "cyber",
+     "title": "Cybersecurity",
+     "blurb": "",
+     "items": [
+      {
+       "date": "Oct 12, 2026",
+       "head": "Critical SonicWall SMA 1000 flaw under attack",
+       "text": "CVE-2026-102255 (CVSS 10.0) is a pre-auth SSRF patched on Oct 6. Previdian has seen 135 exploitation attempts from two US IP addresses. SonicWall's advisory does not yet list active exploitation.",
+       "src": "The Hacker News",
+       "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+      },
+      {
+       "date": "Oct 7, 2026",
+       "head": "Atlassian Data Center flaw now exploited",
+       "text": "CVE-2026-21589 (CVSS 9.3) drew exploitation attempts within two hours of public details, and watchTowr confirms in-the-wild exploitation. It affects Jira, Confluence, Bitbucket and other Data Center products.",
+       "src": "The Hacker News",
+       "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
+      },
+      {
+       "date": "Oct 9, 2026",
+       "head": "Public exploit gives root on AnyDesk for Linux 8.0.2",
+       "text": "The pre-auth exploit works over direct TCP connections on port 7070. AnyDesk fixed the bug in 8.0.3 in June without a CVE or advisory, so check Linux hosts are updated.",
+       "src": "The Hacker News",
+       "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html"
+      },
+      {
+       "date": "Oct 6, 2026",
+       "head": "FBI and Secret Service warn about FortiBleed",
+       "text": "A credential-harvesting campaign targets internet-facing FortiGate firewalls and SSL VPN gateways. No CVE has been assigned. SOCRadar counts 86,644 compromised devices in 194 countries, and attackers sometimes change or delete the original admin accounts.",
+       "src": "The Record",
+       "url": "https://therecord.media/fortibleed-warning-fbi-secret-service"
+      }
+     ]
+    },
+    {
+     "id": "infra",
+     "title": "IT infrastructure",
+     "blurb": "",
+     "items": [
+      {
+       "date": "Oct 13, 2026",
+       "head": "Microsoft unveils Azure Maia 300",
+       "text": "Maia 200 is in production across the US, Europe and Australia. Maia 300 racks of 96 accelerators at 167kW arrive in 2027, and Microsoft claims up to 40% more tokens per megawatt than leading GPU systems.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/microsoft-unveils-azure-maia-300-says-chip-will-be-its-primary-inference-system/"
+      },
+      {
+       "date": "Oct 13, 2026",
+       "head": "Oracle trucks in natural gas to keep data centers running",
+       "text": "Bloomberg reports Oracle has trucked compressed gas to its Salt Lake City site for over a year while waiting for a pipeline, and is considering the same for its stalled Project Jupiter in New Mexico.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/oracle-trucks-in-gas-to-support-operations-at-utah-and-texas-data-centers-report/"
+      },
+      {
+       "date": "Oct 13, 2026",
+       "head": "FERC approves PJM data center database",
+       "text": "PJM will track each site's location, power providers, ramp-up and backup generation. FERC rejected a separate plan to cut grid power to data centers during peak stress.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/ferc-approves-pjms-request-to-create-data-center-database/"
+      },
+      {
+       "date": "Oct 12, 2026",
+       "head": "Data center fires and power failures have doubled since 2024",
+       "text": "The Energy Incident Register counts 8 in 2024, 20 in 2025 and 19 so far in 2026. UPS systems and battery rooms are the most common named failure point.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024/"
+      }
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "coffee",
+   "title": "Coffee",
+   "kicker": "Industry · Roasting · Electric roasters",
+   "blurb": "What is moving the coffee business, and the shift from gas drum roasters to electric roasting.",
+   "sections": [
+    {
+     "id": "coffee-industry",
+     "title": "Industry and markets",
+     "blurb": "Prices, companies and rules that shape the cup.",
+     "items": [
+      {
+       "date": "Oct 6, 2026",
+       "head": "Arabica climbs above $3 a pound",
+       "text": "A stronger Brazilian real pushed arabica past US$3/lb before prices gave back gains. Brazil's September exports rose over 20% year on year, and US forecasters expect one of the strongest El Niños in 75 years.",
+       "src": "Perfect Daily Grind",
+       "url": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/"
+      },
+      {
+       "date": "Oct 12, 2026",
+       "head": "Coca-Cola reportedly revisits a Costa Coffee sale",
+       "text": "Costa is back in profit on £1.3bn in revenue, and sources say Coca-Cola is again exploring a sale after earlier bids fell short of its valuation.",
+       "src": "World Coffee Portal",
+       "url": "https://www.worldcoffeeportal.com/news/back-to-profitability-back-on-the-market-coca-cola-reportedly-revisits-costa-coffee-sale/"
+      },
+      {
+       "date": "Oct 8, 2026",
+       "head": "Nespresso drops its compostable paper capsules",
+       "text": "Nespresso is ending the home-compostable capsules sold in 14 European markets, citing short shelf life and customer feedback, and will focus on aluminum.",
+       "src": "Daily Coffee News",
+       "url": "https://dailycoffeenews.com/2026/10/08/citing-quality-nespresso-discontinues-compostable-capsules/"
+      }
+     ]
+    },
+    {
+     "id": "coffee-electric",
+     "title": "Electric roasting watch",
+     "blurb": "Machines and experiments moving roasting off gas.",
+     "items": [
+      {
+       "date": "Sep 21, 2026",
+       "head": "Sandia tests stored solar heat for drum roasters",
+       "text": "Sandia National Laboratories and Albuquerque's Michael Thomas Coffee stored solar electricity as heat in a rock bed and fed it to a drum roaster, reaching 600°C. The goal is a bolt-on retrofit that cuts gas use.",
+       "src": "Daily Coffee News",
+       "url": "https://dailycoffeenews.com/2026/09/21/new-mexico-experiment-brings-solar-heat-to-the-roasting-drum/"
+      },
+      {
+       "date": "Jun 30, 2026",
+       "head": "Coffee Crafters ships the all-electric Duo",
+       "text": "A compact fluid-bed roaster for 200 grams to 2 pounds a batch, up to 10 pounds an hour, on 240-volt power. It starts at $2,995.",
+       "src": "Daily Coffee News",
+       "url": "https://dailycoffeenews.com/2026/06/30/coffee-crafters-returns-to-its-roots-with-new-2-pound-roaster-the-duo/"
+      },
+      {
+       "date": "Apr 15, 2026",
+       "head": "Rex Roaster's 4-pound electric drum plugs into 120 volts",
+       "text": "The manual, stainless machine runs on a standard 20-amp outlet, works with Artisan profiling software and lists at $6,000.",
+       "src": "Daily Coffee News",
+       "url": "https://dailycoffeenews.com/2026/04/15/rex-roaster-readies-release-of-4-pound-capacity-flagship-machine/"
+      }
+     ]
+    },
+    {
+     "id": "coffee-events",
+     "title": "Coming up",
+     "blurb": "Trade events worth knowing.",
+     "items": [
+      {
+       "date": "Oct 14–17, 2026",
+       "head": "SCAJ World Specialty Coffee Conference, Tokyo",
+       "text": "Japan's specialty coffee show runs under the theme \"Brew The Future.\"",
+       "src": "Perfect Daily Grind",
+       "url": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/"
+      },
+      {
+       "date": "Oct 17–18, 2026",
+       "head": "Coffee Fest Dallas-Fort Worth",
+       "text": "More than 50 free seminars plus paid workshops, close to home for Texas roasters and café owners.",
+       "src": "Perfect Daily Grind",
+       "url": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/"
+      }
+     ],
+     "style": "list"
+    }
+   ],
+   "links": [
+    {
+     "name": "Bellwether",
+     "url": "https://bellwethercoffee.com/",
+     "note": "Ventless electric shop roasters"
+    },
+    {
+     "name": "Aillio",
+     "url": "https://aillio.com/",
+     "note": "Bullet electric roasters"
+    },
+    {
+     "name": "ROEST",
+     "url": "https://www.roestcoffee.com/",
+     "note": "Electric sample and production roasters"
+    },
+    {
+     "name": "Why electric roasting?",
+     "url": "https://freshcup.com/is-electric-roasting-here-to-stay/",
+     "note": "Fresh Cup explainer on gas vs electric"
+    }
+   ]
+  },
+  {
+   "id": "cycling",
+   "title": "Cycling",
+   "kicker": "Racing · Events · Gear",
+   "blurb": "Big rides and races in the US and worldwide, plus where to buy and service your bike.",
+   "sections": [
+    {
+     "id": "cycling-news",
+     "title": "Racing and rides",
+     "blurb": "The stories riders are talking about.",
+     "items": [
+      {
+       "date": "Oct 12, 2026",
+       "head": "Lachlan Morton beats the 1861 Pony Express record",
+       "text": "Morton rode 1,998 miles from St. Joseph, Missouri to Sacramento in 6 days, 21 hours and 15 minutes, beating the horseback record by 19 hours 45 minutes.",
+       "src": "Cyclingnews",
+       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/the-scale-of-it-blows-me-away-lachlan-morton-eclipses-160-year-old-pony-express-record-by-more-than-19-hours-in-adventure-across-eight-us-states/"
+      },
+      {
+       "date": "Oct 10, 2026",
+       "head": "Paul Seixas, 20, becomes youngest Il Lombardia winner",
+       "text": "The Frenchman won the season's last Monument solo, his first Monument victory. Tadej Pogačar did not start.",
+       "src": "Cyclingnews",
+       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/its-a-great-dream-to-really-be-able-to-compete-against-tadej-pogacar-paul-seixas-takes-another-step-towards-his-man-made-destiny-at-il-lombardia/"
+      },
+      {
+       "date": "Oct 11, 2026",
+       "head": "Gravel worlds: Bak Klaris and Vos take the rainbow jerseys",
+       "text": "Denmark's Magnus Bak Klaris won the men's 144 km race in Nannup, Western Australia, and Marianne Vos took her second gravel world title, her 15th world title overall.",
+       "src": "Cyclingnews",
+       "url": "https://www.cyclingnews.com/pro-cycling/racing/gravel-world-championships-magnus-bak-klaris-sprints-to-huge-victory-in-thrilling-elite-mens-race/"
+      }
+     ]
+    },
+    {
+     "id": "cycling-calendar",
+     "title": "Ride and race calendar",
+     "blurb": "US and world events coming up.",
+     "items": [
+      {
+       "date": "Oct 14–18, 2026",
+       "head": "UCI Track World Championships, Shanghai",
+       "text": "About 400 riders from some 45 nations race for 22 world titles, with points toward the LA 2028 Olympics.",
+       "src": "Shanghai government",
+       "url": "https://english.shanghai.gov.cn/en-SportsEvents/20260803/b2691b36a6254738ab4656d757b899f4.html"
+      },
+      {
+       "date": "Oct 17, 2026",
+       "head": "Big Sugar Gravel, Bentonville, Arkansas",
+       "text": "The 100- and 50-mile routes were still open for registration at last check; elite fields are closed.",
+       "src": "Let's Do This",
+       "url": "https://www.letsdothis.com/us/e/2026-life-time-big-sugar-gravel-264818"
+      },
+      {
+       "date": "Oct 22, 2026",
+       "head": "2027 Tour de France route revealed in Paris",
+       "text": "The route is announced live; the 2027 race starts in Edinburgh on July 2, Scotland's first Grand Départ.",
+       "src": "IDL Pro Cycling",
+       "url": "https://www.idlprocycling.com/cycling/2027-tour-de-france-route-to-be-revealed-live-on-october-22-heres-what-the-rumour-mill-says"
+      },
+      {
+       "date": "Apr 24–25, 2027",
+       "head": "Texas MS 150: Houston and Austin to College Station",
+       "text": "Two-day ride with starts in Houston and Austin, an overnight in La Grange and the finish in College Station.",
+       "src": "National MS Society",
+       "url": "https://events.nationalmssociety.org/pages/11747"
+      }
+     ],
+     "style": "list"
+    }
+   ],
+   "links": [
+    {
+     "name": "REI Cycling",
+     "url": "https://www.rei.com/c/cycling",
+     "note": "Bikes, gear and in-store service"
+    },
+    {
+     "name": "Competitive Cyclist",
+     "url": "https://www.competitivecyclist.com/",
+     "note": "Road and gravel bikes, components, apparel"
+    },
+    {
+     "name": "velofix",
+     "url": "https://www.velofix.com/",
+     "note": "Mobile bike repair that comes to you"
+    },
+    {
+     "name": "BikeRadar buyer's guides",
+     "url": "https://www.bikeradar.com/advice/buyers-guides",
+     "note": "Tested picks before you buy"
+    }
+   ]
+  },
+  {
+   "id": "travel",
+   "title": "Travel",
+   "kicker": "News · Restrictions · Safety · Destinations · Deals",
+   "blurb": "What affects your next trip, the rules and safety basics to check first, where to go, and offers worth a look.",
+   "sections": [
+    {
+     "id": "travel-news",
+     "title": "Travel news",
+     "blurb": "Disruptions, routes and rules.",
+     "items": [
+      {
+       "date": "Oct 12, 2026",
+       "head": "French flight crews file strike notice for Oct 17–21",
+       "text": "About 36,000 crew are covered, with Air France, Transavia and Corsair most exposed. No cancellations announced yet, and the notice could be lifted. Check your airline 48 to 72 hours before flying.",
+       "src": "Sortiraparis",
+       "url": "https://www.sortiraparis.com/en/news/in-paris/articles/353907-strike-on-october-17-2026-air-travel-railways-and-protests-what-to-expect-in-paris"
+      },
+      {
+       "date": "Oct 10, 2026",
+       "head": "New nonstops to Costa Rica, Austin–San Jose and St. Louis–Iceland",
+       "text": "Breeze now flies Tampa to San José, Costa Rica, its first Central America route. Delta added daily Austin to San Jose, California, and Icelandair adds seasonal St. Louis service from May 2027.",
+       "src": "Upgraded Points",
+       "url": "https://upgradedpoints.com/news/airline-news-roundup-october-week-2-2026/"
+      }
+     ]
+    },
+    {
+     "id": "travel-restrictions",
+     "title": "Restrictions and entry rules",
+     "blurb": "Advisories, entry permits and health notices to check before you book.",
+     "items": [
+      {
+       "date": "Oct 13, 2026",
+       "head": "Don't pay for ETIAS yet: Europe isn't taking applications",
+       "text": "More than 150 sites reportedly sell ETIAS applications for €50 to €178, but the EU system isn't open and has no launch date. Use only the official EU site once it opens.",
+       "src": "Pakistan Observer",
+       "url": "https://pakobserver.net/europe-travel-alert-over-150-fake-etias-websites-target-visitors"
+      },
+      {
+       "date": "Official",
+       "head": "Americans need a UK ETA before flying to Britain",
+       "text": "The electronic travel authorisation costs £20 on GOV.UK, covers visits of up to six months, and every traveler needs one, including children. Unofficial sites charge more.",
+       "src": "GOV.UK",
+       "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
+      },
+      {
+       "date": "Jun 15, 2026",
+       "head": "CDC: reconsider travel to Ebola areas of eastern DR Congo",
+       "text": "A Level 3 notice covers Ituri, North Kivu and South Kivu provinces. Level 2 precautions apply to the rest of DR Congo and Uganda.",
+       "src": "CDC Travelers' Health",
+       "url": "https://wwwnc.cdc.gov/travel/notices"
+      }
+     ]
+    },
+    {
+     "id": "travel-destinations",
+     "title": "Where to go",
+     "blurb": "Fresh picks for planning ahead.",
+     "items": [
+      {
+       "date": "Sep 23, 2026",
+       "head": "Lonely Planet names its Best in Travel 2027",
+       "text": "The 25 picks include Okinawa, Oman, Šibenik, Bariloche, Da Nang and Rabat, plus US choices Maryland, New Mexico and the Northern California redwood coast.",
+       "src": "Time Out",
+       "url": "https://www.timeout.com/news/lonely-planet-best-in-travel-2027-092326"
+      }
+     ]
+    },
+    {
+     "id": "travel-tips",
+     "title": "Safety and smart-travel tips",
+     "blurb": "Simple habits that save money and trouble.",
+     "items": [
+      {
+       "date": "Tip",
+       "head": "Enroll in STEP before any international trip",
+       "text": "The State Department's free Smart Traveler program emails embassy alerts for your destination and helps the embassy reach you in an emergency.",
+       "src": "US State Department",
+       "url": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/step.html"
+      },
+      {
+       "date": "Tip",
+       "head": "Buy entry permits only on government sites",
+       "text": "Look-alike sites charge several times the real fee for UK ETAs and EU permits. Skip sponsored search results and go to GOV.UK or the official EU site directly.",
+       "src": "GOV.UK",
+       "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
+      },
+      {
+       "date": "Tip",
+       "head": "Get TSA PreCheck to keep shoes and laptop in place",
+       "text": "Enrolled travelers keep shoes, belts, laptops and liquids in their bags at screening. Enrollment costs $77.95 to $85 depending on the provider.",
+       "src": "TSA",
+       "url": "https://www.tsa.gov/precheck"
+      },
+      {
+       "date": "Tip",
+       "head": "Check health notices before you book",
+       "text": "CDC lists outbreaks and recommended precautions by destination, from malaria to chikungunya. Some need vaccines or medicine weeks before you leave.",
+       "src": "CDC Travelers' Health",
+       "url": "https://wwwnc.cdc.gov/travel/notices"
+      }
+     ],
+     "style": "list"
+    },
+    {
+     "id": "travel-deals",
+     "title": "Deals worth a look",
+     "blurb": "Check terms and dates before booking.",
+     "items": [
+      {
+       "date": "Ends Oct 15",
+       "head": "United offers status match to Delta and American members",
+       "text": "Elite members can match status and keep it through January 2028 by flying and spending within 90 days.",
+       "src": "TravelPulse",
+       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+      },
+      {
+       "date": "Book by Nov 5",
+       "head": "Princess Hotels: up to 42% off in Punta Cana and Riviera Maya",
+       "text": "For travel through March 28, 2027.",
+       "src": "TravelPulse",
+       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+      },
+      {
+       "date": "Book by Oct 31",
+       "head": "Uniworld: $500 to $1,500 off 2027 river cruises",
+       "text": "Includes Milan to Venice, Portugal and Spain, and Budapest to Passau itineraries.",
+       "src": "TravelPulse",
+       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+      }
+     ],
+     "style": "list"
+    }
+   ],
+   "links": [
+    {
+     "name": "State Dept travel advisories",
+     "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
+     "note": "Check before you book"
+    },
+    {
+     "name": "Going",
+     "url": "https://www.going.com/",
+     "note": "Flight deal and mistake-fare alerts"
+    },
+    {
+     "name": "TravelPulse deals",
+     "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026",
+     "note": "Monthly deal roundup"
+    }
+   ]
+  }
  ],
  "readers": [
-  {"name": "Axios", "url": "https://www.axios.com/technology"},
-  {"name": "The Hacker News", "url": "https://thehackernews.com/"},
-  {"name": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/"},
-  {"name": "AIP FYI", "url": "https://www.aip.org/fyi"},
-  {"name": "Retraction Watch", "url": "https://retractionwatch.com/"},
-  {"name": "AI Weekly", "url": "https://aiweekly.co/"}
+  {
+   "name": "Axios",
+   "url": "https://www.axios.com/technology"
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/"
+  },
+  {
+   "name": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/"
+  },
+  {
+   "name": "AIP FYI",
+   "url": "https://www.aip.org/fyi"
+  },
+  {
+   "name": "Retraction Watch",
+   "url": "https://retractionwatch.com/"
+  },
+  {
+   "name": "AI Weekly",
+   "url": "https://aiweekly.co/"
+  },
+  {
+   "name": "Daily Coffee News",
+   "url": "https://dailycoffeenews.com/"
+  },
+  {
+   "name": "Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/"
+  },
+  {
+   "name": "Cyclingnews",
+   "url": "https://www.cyclingnews.com/"
+  },
+  {
+   "name": "Upgraded Points",
+   "url": "https://upgradedpoints.com/news/"
+  }
  ]
 }

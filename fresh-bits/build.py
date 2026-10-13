@@ -1,47 +1,79 @@
-import json, html, sys, os
+"""Build news.html (repo root) from fresh-bits/news.json and fresh-bits/head.html."""
+import json, html, os, sys
 d = os.path.dirname(os.path.abspath(__file__))
 data = json.load(open(os.path.join(d, "news.json"), encoding="utf-8"))
 head = open(os.path.join(d, "head.html"), encoding="utf-8").read()
-e = lambda s: html.escape(s, quote=True)
+e = lambda s: html.escape(str(s), quote=True)
+DESKS = ["tech", "coffee", "cycling", "travel"]
+ids = [x["id"] for x in data["desks"]]
+assert ids == DESKS, f"desks must be {DESKS}, got {ids}"
+seen = set()
+for desk in data["desks"]:
+    for s in desk["sections"]:
+        for it in s["items"]:
+            for k in ("date", "head", "text", "src", "url"):
+                assert it.get(k), f"missing {k} in {it.get('head')}"
+            assert it["url"].startswith(("http://", "https://")), it["url"]
+            assert it["head"] not in seen, "duplicate headline: " + it["head"]
+            seen.add(it["head"])
 
-themes = "".join(f'<div class="theme"><b>Pattern {i}</b>{e(t)}</div>' for i, t in enumerate(data["themes"], 1))
-secs = []
-for s in data["sections"]:
-    cards = "".join(
-        f'<article class="card"><span class="when">{e(it["date"])}</span><h3>{e(it["head"])}</h3>'
-        f'<p>{e(it["text"])}</p><a class="read" href="{e(it["url"])}">{e(it["src"])} →</a></article>'
-        for it in s["items"])
-    secs.append(f'<section id="{s["id"]}" data-cat="{s["id"]}"><p class="label">{e(s["title"])}</p>'
-                f'<h2>{e(s["blurb"])}</h2><div class="news">{cards}</div></section>')
+def row(it):
+    return (f'<li class="row"><span class="when">{e(it["date"])}</span><div><b>{e(it["head"])}</b>'
+            f'<p>{e(it["text"])}</p></div><a class="read" href="{e(it["url"])}">{e(it["src"])} →</a></li>')
+
+def block(s):
+    if s.get("style") == "list":
+        return f'<ul class="rows">{"".join(row(i) for i in s["items"])}</ul>'
+    return f'<div class="news n{len(s["items"])}">{"".join(card(i) for i in s["items"])}</div>'
+
+def card(it):
+    return (f'<article class="card"><span class="when">{e(it["date"])}</span><h3>{e(it["head"])}</h3>'
+            f'<p>{e(it["text"])}</p><a class="read" href="{e(it["url"])}">{e(it["src"])} →</a></article>')
+
+themes = "".join(
+    f'<a class="theme t-{dk}" href="#{dk}" style="text-decoration:none;color:inherit"><b>{e(t["desk"])}</b>{e(t["text"])}</a>'
+    for dk, t in zip(DESKS, data["themes"]))
+desks = []
+for desk in data["desks"]:
+    subs = "".join(
+        f'<div class="sub" id="{e(s["id"])}"><div class="sub-head"><h3>{e(s["title"])}</h3><span>{e(s.get("blurb",""))}</span></div>'
+        f'{block(s)}</div>'
+        for s in desk["sections"])
+    links = ""
+    if desk.get("links"):
+        lt = {"cycling": "Where to buy and service", "travel": "Plan and book"}.get(desk["id"], "Worth bookmarking")
+        links = (f'<div class="sub"><div class="sub-head"><h3>{lt}</h3></div><div class="links">'
+                 + "".join(f'<a href="{e(l["url"])}"><b>{e(l["name"])} →</b><span>{e(l.get("note",""))}</span></a>' for l in desk["links"])
+                 + '</div></div>')
+    desks.append(f'<section class="desk desk-{desk["id"]}" id="{desk["id"]}" data-cat="{desk["id"]}">'
+                 f'<div class="desk-head"><span class="kicker">{e(desk["kicker"])}</span><h2>{e(desk["title"])}</h2><p>{e(desk["blurb"])}</p></div>'
+                 f'{subs}{links}</section>')
 readers = "".join(f'<a href="{e(r["url"])}">{e(r["name"])}</a>' for r in data["readers"])
-
+total = len(seen)
+chips = "".join(f'<button class="chipbtn" type="button" data-c="{c}" aria-pressed="{"true" if c=="all" else "false"}">{n}</button>'
+                for c, n in [("all","All"),("tech","Technology"),("coffee","Coffee"),("cycling","Cycling"),("travel","Travel")])
 body = f'''<div class="page ">
 <section class="page-hero">
   <p class="label">Fresh Bits</p>
-  <h1>Freshly brewed tech news.</h1>
-  <p class="lede">What is new in AI, cybersecurity and IT infrastructure, with links to the original reporting. I follow these areas every week because they shape the systems I run.</p>
-  <div class="newsbar">
-    <button class="chipbtn" type="button" data-c="all" aria-pressed="true">All</button>
-    <button class="chipbtn" type="button" data-c="ai" aria-pressed="false">AI</button>
-    <button class="chipbtn" type="button" data-c="cyber" aria-pressed="false">Cybersecurity</button>
-    <button class="chipbtn" type="button" data-c="infra" aria-pressed="false">Infrastructure</button>
-    <span class="updated">Updated {e(data["updated"])}</span>
-  </div>
+  <h1>Freshly brewed news, every morning.</h1>
+  <p class="lede">One page for what I follow: technology (AI, cybersecurity and infrastructure), coffee and roasting, cycling, and travel. Every story links to the original source, and the page refreshes daily.</p>
+  <div class="newsbar">{chips}<span class="updated">Updated {e(data["updated"])} · {total} stories</span></div>
 </section>
 <section>
-  <p class="label">This week at a glance</p>
+  <p class="label">Today at a glance</p>
   <div class="themes">{themes}</div>
 </section>
-{chr(10).join(secs)}
+{chr(10).join(desks)}
 <section>
   <p class="label">Where I read</p>
   <div class="readers">{readers}</div>
-  <p class="credit">Summaries are my own short notes. Follow each link for the full story. Some reports, such as attributions of attacks, come from a single source.</p>
+  <p class="credit">Summaries are my own short notes. Follow each link for the full story. Deals and prices change quickly, so confirm terms before booking or buying. Some reports come from a single source.</p>
 </section>
 <script>
 (function(){{var btns=document.querySelectorAll('.chipbtn');var secs=document.querySelectorAll('section[data-cat]');
 function show(c){{secs.forEach(function(s){{s.hidden=!(c==='all'||s.getAttribute('data-cat')===c);}});btns.forEach(function(b){{b.setAttribute('aria-pressed',b.getAttribute('data-c')===c?'true':'false');}});}}
-btns.forEach(function(b){{b.addEventListener('click',function(){{show(b.getAttribute('data-c'));}});}});}})();
+btns.forEach(function(b){{b.addEventListener('click',function(){{show(b.getAttribute('data-c'));}});}});
+var h=(location.hash||'').slice(1);if(['tech','coffee','cycling','travel'].indexOf(h)>-1)show(h);}})();
 </script>
 <footer class="site">© 2026 Daniel Rahim · Houston, Texas · brewbit.tech</footer>
 </div>
@@ -49,4 +81,4 @@ btns.forEach(function(b){{b.addEventListener('click',function(){{show(b.getAttri
 </html>
 '''
 open(os.path.join(d, "..", "news.html"), "w", encoding="utf-8").write(head + body)
-print("ok", sum(len(s["items"]) for s in data["sections"]), "stories")
+print("ok", total, "stories")

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Latest news on AI, cybersecurity and IT infrastructure.">
+<meta name="description" content="Daily news on AI, cybersecurity, infrastructure, coffee, cycling and travel.">
 <title>Fresh Bits | Daniel Rahim</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -322,6 +322,45 @@ body { padding-block: 0 56px; padding-inline: 0; }
 .more img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
 .more figcaption { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
 .credit { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); max-width: 70ch; }
+
+/* Fresh Bits four desks */
+:root { --d-tech: var(--accent); --d-coffee: #8A4B2A; --d-cycling: #2E6B3A; --d-travel: #1F5E99; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --d-coffee: #D9A27E; --d-cycling: #7FC48C; --d-travel: #84B6E8; } }
+:root[data-theme="dark"] { --d-coffee: #D9A27E; --d-cycling: #7FC48C; --d-travel: #84B6E8; }
+.desk-tech { --d: var(--d-tech); } .desk-coffee { --d: var(--d-coffee); } .desk-cycling { --d: var(--d-cycling); } .desk-travel { --d: var(--d-travel); }
+.desk { gap: 36px; }
+.desk-head { display: flex; flex-direction: column; gap: 12px; padding-top: 22px; border-top: 3px solid var(--d); }
+.desk-head .kicker { font-family: var(--font-mono); font-size: 0.76rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--d); }
+.desk-head h2 { font-size: clamp(1.9rem, 4.4vw, 2.8rem); font-weight: 700; }
+.desk-head p { color: var(--muted); max-width: 64ch; font-size: 1.02rem; }
+.sub { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.sub-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+.sub-head h3 { font-size: 1.3rem; font-weight: 650; }
+.sub-head span { font-size: 0.9rem; color: var(--muted); }
+.desk .card { border-top: 3px solid var(--d); }
+.desk .card .read { color: var(--d); }
+.desk .label { color: var(--d); }
+.links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.links a { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--surface); text-decoration: none; color: var(--fg); min-width: 0; }
+.links a b { font-weight: 600; color: var(--d); }
+.links a span { font-size: 0.86rem; color: var(--muted); }
+.links a:hover { background: var(--bg); }
+.theme.t-tech b { color: var(--d-tech); } .theme.t-coffee b { color: var(--d-coffee); } .theme.t-cycling b { color: var(--d-cycling); } .theme.t-travel b { color: var(--d-travel); }
+.theme { background: var(--surface); border: 1px solid var(--line); }
+.desknav { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--font-mono); font-size: 0.8rem; }
+
+.news.n4 { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.news.n2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.news.n1 { grid-template-columns: minmax(0, 1fr); }
+.news.n1 .card { padding: 26px 28px; } .news.n1 .card h3 { font-size: 1.4rem; } .news.n1 .card p { font-size: 1rem; max-width: 70ch; }
+.rows { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.row { display: grid; grid-template-columns: minmax(0,1fr); gap: 4px 24px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+@media (min-width: 760px) { .row { grid-template-columns: 150px minmax(0,1fr) auto; align-items: baseline; } }
+.row .when { font-family: var(--font-mono); font-size: 0.76rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--d); }
+.row b { font-family: var(--font-display); font-size: 1.08rem; font-weight: 650; }
+.row p { font-size: 0.92rem; color: var(--muted); margin-top: 2px; max-width: 70ch; }
+.row .read { font-family: var(--font-mono); font-size: 0.8rem; color: var(--d); white-space: nowrap; }
+.themes { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
 </style>
 </head>
 <body>
