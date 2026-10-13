@@ -442,27 +442,55 @@
     },
     {
      "id": "travel-deals",
-     "title": "Deals worth a look",
-     "blurb": "Check terms and dates before booking.",
+     "title": "Best deals: airlines, hotels and tour operators",
+     "blurb": "Deadlines shown on the left. Confirm terms before booking.",
      "items": [
       {
-       "date": "Ends Oct 15",
-       "head": "United offers status match to Delta and American members",
-       "text": "Elite members can match status and keep it through January 2028 by flying and spending within 90 days.",
+       "date": "Airline · ends Oct 15",
+       "head": "United status match for Delta and American elites",
+       "text": "Match your status and keep it through January 2028 by flying and spending within 90 days.",
        "src": "TravelPulse",
        "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
       },
       {
-       "date": "Book by Nov 5",
+       "date": "Airline · by Oct 31",
+       "head": "Flying Blue: 25% off select award flights",
+       "text": "Air France-KLM award seats to Europe from 18,750 miles each way in economy, for travel through March 31, 2027.",
+       "src": "The Points Guy",
+       "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/"
+      },
+      {
+       "date": "Hotel · Oct 15–Dec 31",
+       "head": "Hilton: up to 3,000 bonus points per stay",
+       "text": "3,000 points at resort and upscale hotels, 1,000 elsewhere, on cash or points stays. Register before your first stay.",
+       "src": "Head for Points",
+       "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
+      },
+      {
+       "date": "Hotel · register by Nov 13",
+       "head": "Marriott: 1,500 bonus points per two-night stay",
+       "text": "Rises to 4,500 at resorts on cash stays of two nights or more, through November 22.",
+       "src": "Head for Points",
+       "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
+      },
+      {
+       "date": "Resort · book by Nov 5",
        "head": "Princess Hotels: up to 42% off in Punta Cana and Riviera Maya",
        "text": "For travel through March 28, 2027.",
        "src": "TravelPulse",
        "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
       },
       {
-       "date": "Book by Oct 31",
+       "date": "Tour operator · by Oct 31",
        "head": "Uniworld: $500 to $1,500 off 2027 river cruises",
        "text": "Includes Milan to Venice, Portugal and Spain, and Budapest to Passau itineraries.",
+       "src": "TravelPulse",
+       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+      },
+      {
+       "date": "Tour operator · by end of 2026",
+       "head": "AmaWaterways: up to $2,500 off per stateroom",
+       "text": "On select 2026 and 2027 river sailings, with free upgrades on some cruises.",
        "src": "TravelPulse",
        "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
       }
@@ -482,9 +510,9 @@
      "note": "Flight deal and mistake-fare alerts"
     },
     {
-     "name": "TravelPulse deals",
-     "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026",
-     "note": "Monthly deal roundup"
+     "name": "The Points Guy deals",
+     "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/",
+     "note": "Airline and points offers, updated often"
     }
    ]
   }
