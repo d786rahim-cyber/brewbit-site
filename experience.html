@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Career history, results, skills and references.">
+<title>Experience and Skills | Daniel Rahim</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky identity rail on the left, long single column of work on the right; stacks on phones. */
+:root {
+  --bg: #F1F2EF;
+  --surface: #FAFAF8;
+  --fg: #1D1A17;
+  --muted: #5E5953;
+  --line: #D8D7D0;
+  --accent: #0C6B64;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #DDEBE8;
+  --coffee: #6B4430;
+  --coffee-soft: #EADFD6;
+
+  --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14110F;
+    --surface: #1D1916;
+    --fg: #F0ECE6;
+    --muted: #A59E95;
+    --line: #35302B;
+    --accent: #52C4B9;
+    --accent-ink: #0B1F1D;
+    --accent-soft: #1A2E2C;
+    --coffee: #D2A283;
+    --coffee-soft: #2A211B;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14110F;
+  --surface: #1D1916;
+  --fg: #F0ECE6;
+  --muted: #A59E95;
+  --line: #35302B;
+  --accent: #52C4B9;
+  --accent-ink: #0B1F1D;
+  --accent-soft: #1A2E2C;
+  --coffee: #D2A283;
+  --coffee-soft: #2A211B;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  padding-inline: clamp(16px, 4vw, 48px);
+  padding-block: clamp(24px, 5vw, 56px);
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.1; letter-spacing: -0.01em; }
+p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+
+.shell {
+  max-width: 1180px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 40px;
+}
+@media (min-width: 900px) {
+  .shell { grid-template-columns: 260px minmax(0, 1fr); gap: 64px; }
+  .rail { position: sticky; top: env(safe-area-inset-top, 0px); align-self: start; }
+}
+
+/* Rail */
+.portrait { display: block; width: 148px; height: 148px; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); margin-bottom: 20px; max-width: 100%; }
+@media (max-width: 899px) { .portrait { width: 104px; height: 104px; } }
+.brand { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 500; letter-spacing: 0.02em; margin-bottom: 18px; }
+.brand span { color: var(--accent); }
+.rail { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+.name { font-size: 2.1rem; font-weight: 700; font-variation-settings: "opsz" 48; }
+.role { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+.status {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 0.88rem; padding: 8px 12px;
+  background: var(--accent-soft); color: var(--fg);
+  border-radius: 4px; width: fit-content;
+}
+.status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+.nav { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+@media (min-width: 900px) { .nav { flex-direction: column; gap: 4px; } }
+.nav a {
+  font-family: var(--font-mono); font-size: 0.82rem; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; padding-block: 3px;
+}
+.nav a:hover { color: var(--accent); }
+.rail-links { display: flex; flex-direction: column; gap: 6px; font-size: 0.92rem; }
+
+/* Main */
+main { display: flex; flex-direction: column; gap: clamp(56px, 8vw, 88px); min-width: 0; }
+section { display: flex; flex-direction: column; gap: 24px; min-width: 0; scroll-margin-top: 24px; }
+.label {
+  font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent);
+  display: flex; align-items: center; gap: 12px;
+}
+.label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+h2 { font-size: clamp(1.6rem, 3.4vw, 2.2rem); font-weight: 650; }
+
+/* Hero */
+.hero { gap: 28px; }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); font-weight: 700; font-variation-settings: "opsz" 72; max-width: 18ch; }
+.hero .lede { font-size: 1.12rem; max-width: 62ch; color: var(--muted); }
+.facts {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  border-top: 1px solid var(--line); border-left: 1px solid var(--line);
+}
+.facts div { padding: 16px 16px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.facts dt { font-family: var(--font-display); font-size: 1.7rem; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.facts dd { margin: 6px 0 0; font-size: 0.84rem; color: var(--muted); line-height: 1.4; }
+.facts { margin: 0; }
+
+/* About */
+.about { display: flex; flex-direction: column; gap: 16px; max-width: 66ch; }
+
+/* Experience */
+.jobs { display: flex; flex-direction: column; }
+.job {
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px 32px;
+  padding-block: 28px; border-top: 1px solid var(--line);
+}
+.job:first-child { border-top: 0; padding-top: 4px; }
+@media (min-width: 700px) { .job { grid-template-columns: 170px minmax(0, 1fr); } }
+.when { font-family: var(--font-mono); font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+.when b { display: block; font-weight: 500; color: var(--fg); }
+.job h3 { font-size: 1.3rem; font-weight: 650; }
+.job .org { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+.job .blurb { margin-top: 12px; max-width: 66ch; }
+.job ul { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; max-width: 70ch; }
+.job li { padding-left: 18px; position: relative; }
+.job li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 8px; height: 1px; background: var(--accent); }
+.job.minor { padding-block: 18px; }
+.job.minor h3 { font-size: 1.05rem; font-weight: 600; }
+
+/* Results table */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 0.94rem; min-width: 560px; }
+th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: var(--font-mono); font-weight: 500; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--accent); }
+td:last-child { color: var(--muted); white-space: nowrap; }
+
+/* Leadership pillars */
+.pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.pillar { background: var(--surface); border: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.pillar h3 { font-size: 1.1rem; font-weight: 650; }
+.pillar p { font-size: 0.95rem; color: var(--muted); }
+.pillar .tools { font-family: var(--font-mono); font-size: 0.78rem; color: var(--fg); line-height: 1.6; margin-top: auto; padding-top: 6px; }
+
+/* Expertise */
+.groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px 32px; }
+.group h3 { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips li { font-size: 0.88rem; padding: 4px 10px; border: 1px solid var(--line); background: var(--surface); }
+
+/* Credentials */
+.creds { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px 32px; }
+.creds h3 { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.creds li { padding-block: 6px; border-bottom: 1px solid var(--line); font-size: 0.95rem; }
+.creds li small { color: var(--muted); font-size: 0.82rem; }
+
+/* References */
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 24px; }
+blockquote { margin: 0; display: flex; flex-direction: column; gap: 14px; padding-left: 18px; border-left: 2px solid var(--accent); min-width: 0; }
+blockquote p { font-family: var(--font-display); font-size: 1.12rem; line-height: 1.4; }
+blockquote footer { font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+blockquote footer b { color: var(--fg); font-weight: 600; }
+
+/* Beyond the desk */
+.beyond { background: var(--coffee-soft); padding: clamp(20px, 4vw, 36px); display: flex; flex-direction: column; gap: 24px; }
+.beyond .label { color: var(--coffee); }
+.beyond .label::after { background: color-mix(in srgb, var(--coffee) 30%, transparent); }
+.beyond h2 { max-width: 20ch; }
+.hobbies { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px 28px; }
+.hobby h3 { font-size: 1.15rem; font-weight: 650; color: var(--coffee); margin-bottom: 6px; }
+.hobby p { font-size: 0.95rem; }
+.hobby .tag { display: block; font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+
+/* Contact */
+.contact { display: flex; flex-direction: column; gap: 16px; max-width: 60ch; }
+.contact-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.mail { font-family: var(--font-mono); font-size: 1.05rem; word-break: break-all; user-select: all; }
+button.copy {
+  font: inherit; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.04em;
+  background: var(--accent); color: var(--accent-ink); border: 0; padding: 8px 14px; cursor: pointer; border-radius: 3px;
+}
+button.copy:hover { filter: brightness(1.08); }
+.btn-link {
+  display: inline-block; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.04em; text-decoration: none;
+  border: 1px solid var(--accent); color: var(--accent); padding: 7px 14px; border-radius: 3px;
+}
+.btn-link:hover { background: var(--accent-soft); }
+footer.site { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 20px; }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Multi-page layout: sticky top bar, one wide column per page. */
+body { padding-block: 0 56px; padding-inline: 0; }
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); padding-inline: clamp(16px, 4vw, 48px); }
+.topbar-in { max-width: 1100px; margin-inline: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; padding-block: 12px; }
+.topbar .brand { margin: 0; font-size: 1rem; text-decoration: none; color: var(--fg); }
+.topnav { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.topnav a { font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding-block: 4px; border-bottom: 2px solid transparent; }
+.topnav a:hover { color: var(--accent); }
+.topnav a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--accent); }
+.page { max-width: 1100px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 48px); padding-top: clamp(32px, 6vw, 64px); display: flex; flex-direction: column; gap: clamp(56px, 8vw, 88px); min-width: 0; }
+.page > section { scroll-margin-top: 80px; }
+.home-hero { display: grid; grid-template-columns: minmax(0,1fr); gap: 28px 48px; align-items: center; }
+@media (min-width: 820px) { .home-hero { grid-template-columns: minmax(0,1fr) 260px; } .home-hero .portrait-lg { order: 2; } }
+.about.about-split { display: grid; gap: 24px; align-items: start; }
+@media (min-width: 720px) { .about.about-split { grid-template-columns: 240px minmax(0,1fr); gap: 36px; } }
+.about-photo { width: 100%; max-width: 240px; height: auto; aspect-ratio: 4/5; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); }
+.portrait-lg { width: 100%; max-width: 260px; aspect-ratio: 1; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); }
+.hero-text { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.hero-text h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); font-weight: 700; font-variation-settings: "opsz" 72; max-width: 17ch; }
+.hero-text .lede { font-size: 1.1rem; max-width: 60ch; color: var(--muted); }
+.page-hero { display: flex; flex-direction: column; gap: 18px; }
+.page-hero h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); font-weight: 700; font-variation-settings: "opsz" 72; max-width: 18ch; }
+.page-hero .lede { font-size: 1.12rem; max-width: 62ch; color: var(--muted); }
+.coffee-page .label, .ride-page .label { color: var(--coffee); }
+.coffee-page .label::after, .ride-page .label::after { background: color-mix(in srgb, var(--coffee) 30%, transparent); }
+.coffee-page a, .ride-page a { color: var(--coffee); }
+
+.highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.highlights div { padding: 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.highlights b { display: block; font-family: var(--font-display); font-size: 1.6rem; color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.highlights span { display: block; margin-top: 6px; font-size: 0.9rem; color: var(--muted); }
+.explore { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+.explore a { display: flex; flex-direction: column; gap: 10px; padding: 22px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--fg); min-width: 0; }
+.explore a:hover { border-color: var(--accent); }
+.explore .tag { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.explore h3 { font-size: 1.3rem; font-weight: 650; }
+.explore p { font-size: 0.95rem; color: var(--muted); }
+.explore .go { margin-top: auto; font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); }
+.explore a.warm:hover { border-color: var(--coffee); } .explore a.warm .go { color: var(--coffee); }
+
+.story { display: grid; grid-template-columns: minmax(0,1fr); gap: 16px 48px; }
+@media (min-width: 820px) { .story { grid-template-columns: minmax(0,1fr) minmax(0,1fr); } }
+.story p { max-width: 62ch; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.step { padding: 20px 18px 22px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; min-width: 0; background: var(--surface); }
+.step svg { width: 48px; height: 48px; color: var(--coffee); }
+.step .n { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.step h3 { font-size: 1.15rem; font-weight: 650; }
+.step p { font-size: 0.92rem; color: var(--muted); }
+.ph { margin: 0; position: relative; aspect-ratio: 4 / 3; max-width: 100%; border: 1px solid var(--line); background: var(--coffee-soft); overflow: hidden; display: flex; align-items: flex-end; }
+.ph svg.scene { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--coffee); }
+.ph figcaption, .vid figcaption { position: relative; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; background: var(--surface); color: var(--muted); padding: 6px 10px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); }
+.ph.blue { background: var(--accent-soft); } .ph.blue svg.scene { color: var(--accent); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.gallery figure, .vid { margin: 0; min-width: 0; }
+.vids { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; align-items: start; }
+.vid .box { aspect-ratio: 16 / 9; max-width: 100%; border: 1px solid var(--line); background: var(--surface); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.vid .box svg.scene { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--coffee); opacity: 0.5; }
+.vid .play { position: relative; width: 64px; height: 64px; border-radius: 50%; background: var(--coffee); color: var(--surface); display: flex; align-items: center; justify-content: center; }
+.vid .play svg { width: 26px; height: 26px; margin-left: 3px; }
+.vid h3 { font-size: 1.05rem; font-weight: 650; margin-top: 12px; }
+.vid p { font-size: 0.9rem; color: var(--muted); margin-top: 4px; }
+.vid figcaption { display: inline-block; border: 1px solid var(--line); margin-top: 10px; }
+.note { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.route { border: 1px solid var(--line); background: var(--surface); padding: 18px; overflow-x: auto; }
+.route svg { display: block; width: 100%; min-width: 560px; height: auto; color: var(--fg); }
+.route .road { stroke: var(--coffee); } .route .t { fill: var(--fg); font-family: var(--font-mono); font-size: 13px; } .route .m { fill: var(--muted); font-family: var(--font-mono); font-size: 12px; }
+.route .dot { fill: var(--surface); stroke: var(--coffee); stroke-width: 3; } .route .brace { stroke: var(--muted); fill: none; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin: 0; }
+.stats div { padding: 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.stats dt { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--coffee); line-height: 1.1; }
+.stats dd { margin: 6px 0 0; font-size: 0.86rem; color: var(--muted); }
+.places { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; }
+.place { background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; min-width: 0; }
+.place .ph { aspect-ratio: 16 / 10; border: 0; border-bottom: 1px solid var(--line); }
+.place .body { padding: 14px 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.place h3 { font-size: 1.1rem; font-weight: 650; } .place p { font-size: 0.9rem; color: var(--muted); }
+.place .tag { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--coffee); }
+.pagenext { display: flex; flex-wrap: wrap; gap: 10px 14px; }
+
+.place img.photo { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-bottom: 1px solid var(--line); background: var(--coffee-soft); }
+.place img.top { object-position: center 20%; }
+.vid video { display: block; width: 100%; background: #000; border: 1px solid var(--line); }
+.vid.tall video { width: 225px; max-width: 100%; height: 400px; object-fit: cover; }
+.newsbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.chipbtn { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 7px 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; border-radius: 3px; }
+.chipbtn[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.updated { margin-left: auto; font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.theme { background: var(--accent-soft); padding: 18px 20px; font-size: 0.95rem; min-width: 0; }
+.theme b { display: block; font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.news { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.card .when { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.card h3 { font-size: 1.15rem; font-weight: 650; line-height: 1.25; }
+.card p { font-size: 0.93rem; color: var(--muted); }
+.card .read { margin-top: auto; padding-top: 4px; font-family: var(--font-mono); font-size: 0.8rem; }
+.readers { display: flex; flex-wrap: wrap; gap: 8px 18px; font-family: var(--font-mono); font-size: 0.82rem; }
+.vids, .more { flex: none; }
+.places.five { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.vids.five { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.vids.five .vid video, .vids.five .vid.tall video { width: 100%; max-width: 100%; height: 340px; object-fit: cover; }
+.vid.tall { text-align: left; }
+.more { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 300px)); gap: 16px; align-items: start; }
+.more figure { margin: 0; min-width: 0; }
+.more img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.more figcaption { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+.credit { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); max-width: 70ch; }
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in"><a class="brand" href="index.html">brewbit<span>.tech</span></a><nav class="topnav" aria-label="Pages"><a href="index.html">Home</a><a href="experience.html" aria-current="page">Experience &amp; Skills</a><a href="news.html">Fresh Bits</a><a href="coffee.html">Coffee</a><a href="ride.html">Sports &amp; Travel</a></nav></div></header>
+<div class="page ">
+<section class="page-hero">
+  <p class="label">Experience and skills</p>
+  <h1>Where I have led IT, and what I bring.</h1>
+  <p class="lede">Manufacturing IT, MES and ERP integration, plant infrastructure, cybersecurity and service delivery, across steel manufacturing, software and financial services.</p>
+  <div class="pagenext"><a class="btn-link" href="Daniel_Rahim_Resume.pdf">Open resume (PDF)</a></div>
+</section>
+<section id="experience">
+      <p class="label">Experience</p>
+      <h2>Career history</h2>
+      <div class="jobs">
+
+        <article class="job">
+          <div class="when"><b>2024 – 2026</b>Houston, TX</div>
+          <div>
+            <h3>Head of IT Infrastructure</h3>
+            <p class="org">Tex-Tube Company · multi-site steel manufacturing</p>
+            <p class="blurb">Led infrastructure, manufacturing technology, MES and shop-floor systems, cybersecurity and modernization across steel manufacturing operations in Houston, TX and Atchison, KS, plus 10 remote offices. Partnered with the plant and executive stakeholders on technology roadmaps, budgets, service reliability and production priorities.</p>
+            <ul>
+              <li>Led a hybrid cloud and cybersecurity transformation that retired legacy on-premises infrastructure and moved core systems to Microsoft Azure, cutting operating costs by 20%.</li>
+              <li>Established Zero Trust architecture and governance aligned with NIST and ISO: MFA, conditional access, privileged access management and network segmentation protecting SAP, BI and finance systems.</li>
+              <li>Deployed Abnormal AI, Mimecast, Microsoft Defender, Auto-Elevate, SentinelOne EDR, external penetration testing and Arctic Wolf vulnerability management.</li>
+              <li>Led migration of the legacy QAD ERP to SAP ERP, coordinating application, infrastructure and ERP-to-MES/shop-floor integration readiness, and moved file servers, domain controllers, Active Directory, DNS and backup to Azure with Azure Site Recovery and defined RPO/RTO.</li>
+              <li>Supported MES and manufacturing OT/IT systems, including OTOMES shop-floor/MES, Allen-Bradley and Siemens PLC/SCADA and HMI environments. Enabled real-time production monitoring and control and MES data flow to ERP, and contributed to a reported 20% productivity improvement and downtime reduction. Launched the OTOMES pipe tracking project.</li>
+              <li>Built SD-WAN LAN/WAN/Wi-Fi on Fortinet, including Wi-Fi coverage across a 100-acre mill, and rolled out Verkada cloud cameras at Houston, Laredo and Atchison.</li>
+              <li>Implemented Halo ITSM and HubSpot CRM, and added Microsoft 365 Copilot and Dynatrace AIOps. Implemented Power BI analytics, including MES and production data reporting, for manufacturing KPIs and data-driven decisions.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="when"><b>Jan 2022 – Dec 2023</b>Austin, TX</div>
+          <div>
+            <h3>Director of IT Infrastructure and Applications</h3>
+            <p class="org">Celink</p>
+            <p class="blurb">Led infrastructure, applications, cybersecurity and end-user services for a high-volume, business-critical operation: 2,000+ users, 20+ IT staff, budgets up to $30M and strategic vendors.</p>
+            <ul>
+              <li>Migrated the data center to AWS and Microsoft 365, including 30 core applications, Active Directory, DNS, Citrix VDI, file servers, SharePoint and Exchange. Reliability rose 20% and operating costs fell 35%.</li>
+              <li>Implemented Halo ITSM with incident and change management, cutting incident resolution time by 50%.</li>
+              <li>Opened a new Tulsa, OK office for 200+ employees, from site selection and lease negotiation to infrastructure and build-out.</li>
+              <li>Delivered Microsoft Dynamics 365 and CRM modules and Genesys call routing and IVR.</li>
+              <li>Used ActivTrak to raise agent productivity by 5% and first-call resolution by 20%.</li>
+              <li>Strengthened Zero Trust with Defender 365, Okta MFA, PAM, Cisco Umbrella, Arctic Wolf and Mimecast. Monitoring ran on Datadog, CloudWatch and ThousandEyes.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="when"><b>2018 – 2022</b>Houston, TX</div>
+          <div>
+            <h3>Director of IT Infrastructure Operations</h3>
+            <p class="org">PROS</p>
+            <p class="blurb">Set short and long-term IT operations strategy. Managed a global team of 50+ professionals across 15 countries and a $30M annual IT budget, with monthly availability above 99.92%.</p>
+            <ul>
+              <li>Relocated all systems, network and telecom to the new Houston headquarters: a $6M project delivered on time and on budget, including a $2.0M SD-WAN, LAN and Wi-Fi design.</li>
+              <li>Cut the data center footprint by up to 25% by decommissioning the secondary data center and moving to AWS and Azure, saving $132K a year.</li>
+              <li>Led the application architecture team on the Workday ERP implementation, integrated with Salesforce, Dynamics AX and OpenAir.</li>
+              <li>Rolled out Zoom company-wide and owned business continuity and disaster recovery planning.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="when"><b>2017 – 2018</b>The Woodlands, TX</div>
+          <div>
+            <h3>IT Director</h3>
+            <p class="org">ChampionX (SLB)</p>
+            <p class="blurb">Led 45 direct reports across infrastructure, engineering and application support in Global IT Operations.</p>
+            <ul>
+              <li>Oversaw Oracle NetSuite ERP, Power BI, Visual Studio and DevOps, and moved Power BI and Visual Studio workloads to Azure. Supported ERP and MES/shop-floor data integration for manufacturing and operational reporting.</li>
+              <li>Built a sales order automation data warehouse with Informatica and Jitterbit, pulling from Oracle, Syteline, Dynamics, Salesforce, QuickBooks and Fishbowl into Tableau, including production and MES-related data feeds for sales and operational reporting.</li>
+              <li>Co-developed the Windrock Spotlight edge device on Azure IoT for real-time equipment monitoring in oil and gas, linking equipment and production data to manufacturing systems.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="when"><b>2015 – 2017</b>Waller, TX and Zurich, Switzerland</div>
+          <div>
+            <h3>Director of Global IT Governance</h3>
+            <p class="org">Burckhardt Compression · previously Global IT Service Portfolio Manager</p>
+            <p class="blurb">Moved from the Houston subsidiary to Switzerland on an international assignment and led a global IT team across Switzerland and India.</p>
+            <ul>
+              <li>Supported the SAP implementation and the migration of legacy applications, including manufacturing/MES and shop-floor application interfaces for compressor production.</li>
+              <li>Ran the company-wide ServiceNow implementation: problem, incident, change, asset and service catalogue management.</li>
+              <li>Designed the 21-service IT catalogue, master and individual SLAs and cost sheets, supporting the FY2016 forecast revenue of $14M.</li>
+              <li>Co-led the ISO 9001 re-certification and mapped IT processes to the ITIL service lifecycle.</li>
+              <li>Chaired the weekly IT operations meeting and the monthly change management meeting, tracking CAPEX and OPEX.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job minor">
+          <div class="when"><b>2012 – 2015</b>Houston, TX</div>
+          <div>
+            <h3>IT Manager, Stewart Title</h3>
+            <p class="org">Also IT Service Delivery Manager and Manager of Telecom Data Operations</p>
+          </div>
+        </article>
+
+        <article class="job minor">
+          <div class="when"><b>2010 – 2012</b>Houston and Port Arthur, TX</div>
+          <div>
+            <h3>Team Lead, Honeywell International</h3>
+            <p class="org">Telecommunication team, Honeywell Process Solutions</p>
+          </div>
+        </article>
+
+        <article class="job minor">
+          <div class="when"><b>2006 – 2010</b>Houston, TX</div>
+          <div>
+            <h3>IT Manager, Aviva Metals</h3>
+            <p class="org">Employee of the Quarter and Employee of the Year</p>
+          </div>
+        </article>
+      </div>
+    </section>
+<section id="results">
+      <p class="label">Results</p>
+      <h2>Outcomes I can point to</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Result</th><th>What changed</th><th>Where</th></tr></thead>
+          <tbody>
+            <tr><td>−35%</td><td>Operating cost after moving the data center to AWS and Microsoft 365</td><td>Celink</td></tr>
+            <tr><td>+20%</td><td>System reliability from the same modernization</td><td>Celink</td></tr>
+            <tr><td>−50%</td><td>Incident resolution time after Halo ITSM and change management</td><td>Celink</td></tr>
+            <tr><td>−30%</td><td>Infrastructure cost from retiring unsupported applications, file servers, Datto backup and QAD</td><td>Tex-Tube</td></tr>
+            <tr><td>+40%</td><td>Availability and reliability from clustered Hyper-V and Azure disaster recovery</td><td>Tex-Tube</td></tr>
+            <tr><td>−20%</td><td>Operating cost after the move to Azure</td><td>Tex-Tube</td></tr>
+            <tr><td>$6M</td><td>Headquarters relocation delivered on time and on budget</td><td>PROS</td></tr>
+            <tr><td>$132K</td><td>Annual saving from shrinking the data center footprint by up to 25%</td><td>PROS</td></tr>
+            <tr><td>99.97%</td><td>Uptime on critical infrastructure and core applications</td><td>Celink</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+<section id="leadership">
+      <p class="label">AI and security</p>
+      <h2>Innovation with accountability</h2>
+      <p style="max-width:66ch;color:var(--muted)">I treat AI as a practical business capability. It has to connect to security, operating efficiency and employee productivity, and it needs the governance and controls that make adoption safe.</p>
+      <div class="pillars">
+        <div class="pillar">
+          <h3>AI-driven operations</h3>
+          <p>Correlated infrastructure telemetry, endpoint behavior, network traffic and security events. Used ticket and usage analytics to find recurring issues and turn them into process fixes, automation and infrastructure changes, for roughly 25% better IT operations and end-user support efficiency.</p>
+          <p class="tools">Dynatrace · SolarWinds · Power BI · Microsoft 365 Copilot · ITSM analytics</p>
+        </div>
+        <div class="pillar">
+          <h3>Cyber risk and Zero Trust</h3>
+          <p>Combined security analytics with vulnerability, endpoint and network data to rank risk across assets. Built identity-centric access, segmentation and least-privilege controls, aligned to NIST, ISO 27001 and SOC 2.</p>
+          <p class="tools">SentinelOne · CrowdStrike · Tenable · Qualys · Vectra AI · Abnormal AI · Arctic Wolf</p>
+        </div>
+        <div class="pillar">
+          <h3>Automation</h3>
+          <p>Found repetitive service, onboarding, access and support work and automated it with workflow analysis, intelligent ticket routing and ITSM automation. Teams spend less time on manual steps and more on strategic work.</p>
+          <p class="tools">Halo ITSM · Power Automate · ServiceNow · Jira Service Desk</p>
+        </div>
+      </div>
+    </section>
+<section id="expertise">
+      <p class="label">Expertise</p>
+      <h2>What I bring</h2>
+      <div class="groups">
+        <div class="group">
+          <h3>Leadership</h3>
+          <ul class="chips">
+            <li>Global team management</li><li>IT strategy and roadmaps</li><li>P&amp;L budgeting and forecasting</li><li>Vendor negotiation</li><li>Mergers, acquisitions and carve-outs</li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>Cloud and infrastructure</h3>
+          <ul class="chips">
+            <li>AWS</li><li>Microsoft Azure</li><li>Data center migration</li><li>VMware</li><li>Hyper-V</li><li>SD-WAN</li><li>Fortinet</li><li>Business continuity and DR</li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>Security and compliance</h3>
+          <ul class="chips">
+            <li>Zero Trust</li><li>NIST</li><li>ISO 27001</li><li>SOC 2</li><li>Identity and access</li><li>Incident response</li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>Enterprise applications</h3>
+          <ul class="chips">
+            <li>SAP</li><li>ERP and MES integration</li><li>Workday</li><li>NetSuite</li><li>Dynamics 365</li><li>QAD</li><li>Syteline</li><li>IQMS</li><li>Active Directory and M365</li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>Service management</h3>
+          <ul class="chips">
+            <li>ITIL v4</li><li>Halo ITSM</li><li>ServiceNow</li><li>Jira Service Desk</li><li>Service catalogues and SLAs</li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>Manufacturing IT and MES</h3>
+          <ul class="chips">
+            <li>MES (Manufacturing Execution System)</li><li>OTOMES shop-floor systems</li><li>ERP-to-MES integration</li><li>Work order routing and production tracking</li><li>Traceability and genealogy support</li><li>Manufacturing KPIs and Power BI dashboards</li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>OT and industrial</h3>
+          <ul class="chips">
+            <li>PLC and SCADA</li><li>Allen-Bradley</li><li>Siemens</li><li>OTOMES</li><li>Industry 4.0 and IoT</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<section id="credentials">
+      <p class="label">Credentials</p>
+      <h2>Certifications and education</h2>
+      <div class="creds">
+        <div>
+          <h3>Certifications</h3>
+          <ul>
+            <li>Certified Information Security Manager (CISM)</li>
+            <li>Microsoft Certified Azure Administrator</li>
+            <li>ITIL v4 Foundation</li>
+            <li>Sigma Green Belt</li>
+            <li>Project Management Professional (PMP) <small>· in progress</small></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Training</h3>
+          <ul>
+            <li>AWS Technical Essentials, Cloud Operations on AWS, Migrating to AWS <small>· 2023</small></li>
+            <li>Ignite Leadership Development Program <small>· Rice University</small></li>
+            <li>Disney Approach to Leadership Excellence <small>· Disney Institute</small></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Education and languages</h3>
+          <ul>
+            <li>Bachelor of Business and Commerce <small>· University of Karachi</small></li>
+            <li>English <small>· full professional</small></li>
+            <li>Urdu <small>· full professional</small></li>
+            <li>Russian <small>· limited working</small></li>
+            <li>German <small>· A1 foundation course</small></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<section id="references">
+      <p class="label">References</p>
+      <h2>What colleagues and leaders wrote</h2>
+      <div class="quotes">
+        <blockquote>
+          <p>You have successfully transformed our IT infrastructure model.</p>
+          <footer><b>Thomas Grubach</b><br>Vice President of Operations and Technology, Tex-Tube Company · Letter of recognition, October 2025</footer>
+        </blockquote>
+        <blockquote>
+          <p>An entrepreneurial and conscientious manager who grasps new concepts quickly.</p>
+          <footer><b>Christian Hähni, Head of IT</b><br>Burckhardt Compression AG · Employment reference, December 2016</footer>
+        </blockquote>
+        <blockquote>
+          <p>An extremely motivated and passionate coworker with a deep understanding of service management.</p>
+          <footer><b>Elena Saccani</b><br>Director Global IT Governance, Burckhardt Compression AG · March 2016</footer>
+        </blockquote>
+        <blockquote>
+          <p>His dedication and strong work ethic were great assets to the company.</p>
+          <footer><b>Michael J. Greathead</b><br>President, National Bronze &amp; Metals, Inc. · Reference letter</footer>
+        </blockquote>
+      </div>
+    </section>
+<section id="contact">
+      <p class="label">Contact</p>
+      <h2>Let's talk about your next IT leader</h2>
+      <div class="contact">
+        <p>I am looking for a Senior IT Manager, Manufacturing IT or Director role where MES, ERP, plant infrastructure and security need to work as one plan.</p>
+        <div class="contact-row"><span class="mail" id="mail">dr@brewbit.tech</span><button class="copy" id="copy" type="button">Copy email</button></div>
+        <div class="contact-row">
+          <a class="btn-link" href="https://www.linkedin.com/in/danielr-85760112b">View LinkedIn profile</a>
+          <a class="btn-link" href="Daniel_Rahim_Resume.pdf">Open resume (PDF)</a>
+        </div>
+      </div>
+    </section>
+<footer class="site">© 2026 Daniel Rahim · Houston, Texas · brewbit.tech</footer>
+</div>
+<script>
+(function () {
+  var btn = document.getElementById('copy'), mail = document.getElementById('mail');
+  if (!btn || !mail) return;
+  function selectMail() { try { var r = document.createRange(); r.selectNodeContents(mail); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {} }
+  btn.addEventListener('click', function () {
+    var done = function () { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy email'; }, 1800); };
+    try { navigator.clipboard.writeText(mail.textContent.trim()).then(done, function () { selectMail(); btn.textContent = 'Selected, press copy'; }); }
+    catch (e) { selectMail(); btn.textContent = 'Selected, press copy'; }
+  });
+})();
+</script>
+</body>
+</html>

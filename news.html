@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Latest news on AI, cybersecurity and IT infrastructure.">
+<title>Fresh Bits | Daniel Rahim</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky identity rail on the left, long single column of work on the right; stacks on phones. */
+:root {
+  --bg: #F1F2EF;
+  --surface: #FAFAF8;
+  --fg: #1D1A17;
+  --muted: #5E5953;
+  --line: #D8D7D0;
+  --accent: #0C6B64;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #DDEBE8;
+  --coffee: #6B4430;
+  --coffee-soft: #EADFD6;
+
+  --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14110F;
+    --surface: #1D1916;
+    --fg: #F0ECE6;
+    --muted: #A59E95;
+    --line: #35302B;
+    --accent: #52C4B9;
+    --accent-ink: #0B1F1D;
+    --accent-soft: #1A2E2C;
+    --coffee: #D2A283;
+    --coffee-soft: #2A211B;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14110F;
+  --surface: #1D1916;
+  --fg: #F0ECE6;
+  --muted: #A59E95;
+  --line: #35302B;
+  --accent: #52C4B9;
+  --accent-ink: #0B1F1D;
+  --accent-soft: #1A2E2C;
+  --coffee: #D2A283;
+  --coffee-soft: #2A211B;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  padding-inline: clamp(16px, 4vw, 48px);
+  padding-block: clamp(24px, 5vw, 56px);
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.1; letter-spacing: -0.01em; }
+p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+
+.shell {
+  max-width: 1180px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 40px;
+}
+@media (min-width: 900px) {
+  .shell { grid-template-columns: 260px minmax(0, 1fr); gap: 64px; }
+  .rail { position: sticky; top: env(safe-area-inset-top, 0px); align-self: start; }
+}
+
+/* Rail */
+.portrait { display: block; width: 148px; height: 148px; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); margin-bottom: 20px; max-width: 100%; }
+@media (max-width: 899px) { .portrait { width: 104px; height: 104px; } }
+.brand { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 500; letter-spacing: 0.02em; margin-bottom: 18px; }
+.brand span { color: var(--accent); }
+.rail { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+.name { font-size: 2.1rem; font-weight: 700; font-variation-settings: "opsz" 48; }
+.role { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+.status {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 0.88rem; padding: 8px 12px;
+  background: var(--accent-soft); color: var(--fg);
+  border-radius: 4px; width: fit-content;
+}
+.status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+.nav { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+@media (min-width: 900px) { .nav { flex-direction: column; gap: 4px; } }
+.nav a {
+  font-family: var(--font-mono); font-size: 0.82rem; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; padding-block: 3px;
+}
+.nav a:hover { color: var(--accent); }
+.rail-links { display: flex; flex-direction: column; gap: 6px; font-size: 0.92rem; }
+
+/* Main */
+main { display: flex; flex-direction: column; gap: clamp(56px, 8vw, 88px); min-width: 0; }
+section { display: flex; flex-direction: column; gap: 24px; min-width: 0; scroll-margin-top: 24px; }
+.label {
+  font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent);
+  display: flex; align-items: center; gap: 12px;
+}
+.label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+h2 { font-size: clamp(1.6rem, 3.4vw, 2.2rem); font-weight: 650; }
+
+/* Hero */
+.hero { gap: 28px; }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); font-weight: 700; font-variation-settings: "opsz" 72; max-width: 18ch; }
+.hero .lede { font-size: 1.12rem; max-width: 62ch; color: var(--muted); }
+.facts {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  border-top: 1px solid var(--line); border-left: 1px solid var(--line);
+}
+.facts div { padding: 16px 16px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.facts dt { font-family: var(--font-display); font-size: 1.7rem; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.facts dd { margin: 6px 0 0; font-size: 0.84rem; color: var(--muted); line-height: 1.4; }
+.facts { margin: 0; }
+
+/* About */
+.about { display: flex; flex-direction: column; gap: 16px; max-width: 66ch; }
+
+/* Experience */
+.jobs { display: flex; flex-direction: column; }
+.job {
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px 32px;
+  padding-block: 28px; border-top: 1px solid var(--line);
+}
+.job:first-child { border-top: 0; padding-top: 4px; }
+@media (min-width: 700px) { .job { grid-template-columns: 170px minmax(0, 1fr); } }
+.when { font-family: var(--font-mono); font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+.when b { display: block; font-weight: 500; color: var(--fg); }
+.job h3 { font-size: 1.3rem; font-weight: 650; }
+.job .org { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+.job .blurb { margin-top: 12px; max-width: 66ch; }
+.job ul { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; max-width: 70ch; }
+.job li { padding-left: 18px; position: relative; }
+.job li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 8px; height: 1px; background: var(--accent); }
+.job.minor { padding-block: 18px; }
+.job.minor h3 { font-size: 1.05rem; font-weight: 600; }
+
+/* Results table */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 0.94rem; min-width: 560px; }
+th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: var(--font-mono); font-weight: 500; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--accent); }
+td:last-child { color: var(--muted); white-space: nowrap; }
+
+/* Leadership pillars */
+.pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.pillar { background: var(--surface); border: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.pillar h3 { font-size: 1.1rem; font-weight: 650; }
+.pillar p { font-size: 0.95rem; color: var(--muted); }
+.pillar .tools { font-family: var(--font-mono); font-size: 0.78rem; color: var(--fg); line-height: 1.6; margin-top: auto; padding-top: 6px; }
+
+/* Expertise */
+.groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px 32px; }
+.group h3 { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips li { font-size: 0.88rem; padding: 4px 10px; border: 1px solid var(--line); background: var(--surface); }
+
+/* Credentials */
+.creds { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px 32px; }
+.creds h3 { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.creds li { padding-block: 6px; border-bottom: 1px solid var(--line); font-size: 0.95rem; }
+.creds li small { color: var(--muted); font-size: 0.82rem; }
+
+/* References */
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 24px; }
+blockquote { margin: 0; display: flex; flex-direction: column; gap: 14px; padding-left: 18px; border-left: 2px solid var(--accent); min-width: 0; }
+blockquote p { font-family: var(--font-display); font-size: 1.12rem; line-height: 1.4; }
+blockquote footer { font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+blockquote footer b { color: var(--fg); font-weight: 600; }
+
+/* Beyond the desk */
+.beyond { background: var(--coffee-soft); padding: clamp(20px, 4vw, 36px); display: flex; flex-direction: column; gap: 24px; }
+.beyond .label { color: var(--coffee); }
+.beyond .label::after { background: color-mix(in srgb, var(--coffee) 30%, transparent); }
+.beyond h2 { max-width: 20ch; }
+.hobbies { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px 28px; }
+.hobby h3 { font-size: 1.15rem; font-weight: 650; color: var(--coffee); margin-bottom: 6px; }
+.hobby p { font-size: 0.95rem; }
+.hobby .tag { display: block; font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+
+/* Contact */
+.contact { display: flex; flex-direction: column; gap: 16px; max-width: 60ch; }
+.contact-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.mail { font-family: var(--font-mono); font-size: 1.05rem; word-break: break-all; user-select: all; }
+button.copy {
+  font: inherit; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.04em;
+  background: var(--accent); color: var(--accent-ink); border: 0; padding: 8px 14px; cursor: pointer; border-radius: 3px;
+}
+button.copy:hover { filter: brightness(1.08); }
+.btn-link {
+  display: inline-block; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.04em; text-decoration: none;
+  border: 1px solid var(--accent); color: var(--accent); padding: 7px 14px; border-radius: 3px;
+}
+.btn-link:hover { background: var(--accent-soft); }
+footer.site { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 20px; }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Multi-page layout: sticky top bar, one wide column per page. */
+body { padding-block: 0 56px; padding-inline: 0; }
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); padding-inline: clamp(16px, 4vw, 48px); }
+.topbar-in { max-width: 1100px; margin-inline: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; padding-block: 12px; }
+.topbar .brand { margin: 0; font-size: 1rem; text-decoration: none; color: var(--fg); }
+.topnav { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.topnav a { font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding-block: 4px; border-bottom: 2px solid transparent; }
+.topnav a:hover { color: var(--accent); }
+.topnav a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--accent); }
+.page { max-width: 1100px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 48px); padding-top: clamp(32px, 6vw, 64px); display: flex; flex-direction: column; gap: clamp(56px, 8vw, 88px); min-width: 0; }
+.page > section { scroll-margin-top: 80px; }
+.home-hero { display: grid; grid-template-columns: minmax(0,1fr); gap: 28px 48px; align-items: center; }
+@media (min-width: 820px) { .home-hero { grid-template-columns: minmax(0,1fr) 260px; } .home-hero .portrait-lg { order: 2; } }
+.about.about-split { display: grid; gap: 24px; align-items: start; }
+@media (min-width: 720px) { .about.about-split { grid-template-columns: 240px minmax(0,1fr); gap: 36px; } }
+.about-photo { width: 100%; max-width: 240px; height: auto; aspect-ratio: 4/5; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); }
+.portrait-lg { width: 100%; max-width: 260px; aspect-ratio: 1; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); }
+.hero-text { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.hero-text h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); font-weight: 700; font-variation-settings: "opsz" 72; max-width: 17ch; }
+.hero-text .lede { font-size: 1.1rem; max-width: 60ch; color: var(--muted); }
+.page-hero { display: flex; flex-direction: column; gap: 18px; }
+.page-hero h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); font-weight: 700; font-variation-settings: "opsz" 72; max-width: 18ch; }
+.page-hero .lede { font-size: 1.12rem; max-width: 62ch; color: var(--muted); }
+.coffee-page .label, .ride-page .label { color: var(--coffee); }
+.coffee-page .label::after, .ride-page .label::after { background: color-mix(in srgb, var(--coffee) 30%, transparent); }
+.coffee-page a, .ride-page a { color: var(--coffee); }
+
+.highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.highlights div { padding: 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.highlights b { display: block; font-family: var(--font-display); font-size: 1.6rem; color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.highlights span { display: block; margin-top: 6px; font-size: 0.9rem; color: var(--muted); }
+.explore { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+.explore a { display: flex; flex-direction: column; gap: 10px; padding: 22px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--fg); min-width: 0; }
+.explore a:hover { border-color: var(--accent); }
+.explore .tag { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.explore h3 { font-size: 1.3rem; font-weight: 650; }
+.explore p { font-size: 0.95rem; color: var(--muted); }
+.explore .go { margin-top: auto; font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); }
+.explore a.warm:hover { border-color: var(--coffee); } .explore a.warm .go { color: var(--coffee); }
+
+.story { display: grid; grid-template-columns: minmax(0,1fr); gap: 16px 48px; }
+@media (min-width: 820px) { .story { grid-template-columns: minmax(0,1fr) minmax(0,1fr); } }
+.story p { max-width: 62ch; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.step { padding: 20px 18px 22px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; min-width: 0; background: var(--surface); }
+.step svg { width: 48px; height: 48px; color: var(--coffee); }
+.step .n { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.step h3 { font-size: 1.15rem; font-weight: 650; }
+.step p { font-size: 0.92rem; color: var(--muted); }
+.ph { margin: 0; position: relative; aspect-ratio: 4 / 3; max-width: 100%; border: 1px solid var(--line); background: var(--coffee-soft); overflow: hidden; display: flex; align-items: flex-end; }
+.ph svg.scene { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--coffee); }
+.ph figcaption, .vid figcaption { position: relative; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; background: var(--surface); color: var(--muted); padding: 6px 10px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); }
+.ph.blue { background: var(--accent-soft); } .ph.blue svg.scene { color: var(--accent); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.gallery figure, .vid { margin: 0; min-width: 0; }
+.vids { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; align-items: start; }
+.vid .box { aspect-ratio: 16 / 9; max-width: 100%; border: 1px solid var(--line); background: var(--surface); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.vid .box svg.scene { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--coffee); opacity: 0.5; }
+.vid .play { position: relative; width: 64px; height: 64px; border-radius: 50%; background: var(--coffee); color: var(--surface); display: flex; align-items: center; justify-content: center; }
+.vid .play svg { width: 26px; height: 26px; margin-left: 3px; }
+.vid h3 { font-size: 1.05rem; font-weight: 650; margin-top: 12px; }
+.vid p { font-size: 0.9rem; color: var(--muted); margin-top: 4px; }
+.vid figcaption { display: inline-block; border: 1px solid var(--line); margin-top: 10px; }
+.note { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.route { border: 1px solid var(--line); background: var(--surface); padding: 18px; overflow-x: auto; }
+.route svg { display: block; width: 100%; min-width: 560px; height: auto; color: var(--fg); }
+.route .road { stroke: var(--coffee); } .route .t { fill: var(--fg); font-family: var(--font-mono); font-size: 13px; } .route .m { fill: var(--muted); font-family: var(--font-mono); font-size: 12px; }
+.route .dot { fill: var(--surface); stroke: var(--coffee); stroke-width: 3; } .route .brace { stroke: var(--muted); fill: none; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin: 0; }
+.stats div { padding: 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.stats dt { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--coffee); line-height: 1.1; }
+.stats dd { margin: 6px 0 0; font-size: 0.86rem; color: var(--muted); }
+.places { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; }
+.place { background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; min-width: 0; }
+.place .ph { aspect-ratio: 16 / 10; border: 0; border-bottom: 1px solid var(--line); }
+.place .body { padding: 14px 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.place h3 { font-size: 1.1rem; font-weight: 650; } .place p { font-size: 0.9rem; color: var(--muted); }
+.place .tag { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--coffee); }
+.pagenext { display: flex; flex-wrap: wrap; gap: 10px 14px; }
+
+.place img.photo { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-bottom: 1px solid var(--line); background: var(--coffee-soft); }
+.place img.top { object-position: center 20%; }
+.vid video { display: block; width: 100%; background: #000; border: 1px solid var(--line); }
+.vid.tall video { width: 225px; max-width: 100%; height: 400px; object-fit: cover; }
+.newsbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.chipbtn { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 7px 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; border-radius: 3px; }
+.chipbtn[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.updated { margin-left: auto; font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.theme { background: var(--accent-soft); padding: 18px 20px; font-size: 0.95rem; min-width: 0; }
+.theme b { display: block; font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.news { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.card .when { font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.card h3 { font-size: 1.15rem; font-weight: 650; line-height: 1.25; }
+.card p { font-size: 0.93rem; color: var(--muted); }
+.card .read { margin-top: auto; padding-top: 4px; font-family: var(--font-mono); font-size: 0.8rem; }
+.readers { display: flex; flex-wrap: wrap; gap: 8px 18px; font-family: var(--font-mono); font-size: 0.82rem; }
+.vids, .more { flex: none; }
+.places.five { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.vids.five { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.vids.five .vid video, .vids.five .vid.tall video { width: 100%; max-width: 100%; height: 340px; object-fit: cover; }
+.vid.tall { text-align: left; }
+.more { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 300px)); gap: 16px; align-items: start; }
+.more figure { margin: 0; min-width: 0; }
+.more img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.more figcaption { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+.credit { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); max-width: 70ch; }
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in"><a class="brand" href="index.html">brewbit<span>.tech</span></a><nav class="topnav" aria-label="Pages"><a href="index.html">Home</a><a href="experience.html">Experience &amp; Skills</a><a href="news.html" aria-current="page">Fresh Bits</a><a href="coffee.html">Coffee</a><a href="ride.html">Sports &amp; Travel</a></nav></div></header>
+<div class="page ">
+<section class="page-hero">
+  <p class="label">Fresh Bits</p>
+  <h1>Freshly brewed tech news.</h1>
+  <p class="lede">What is new in AI, cybersecurity and IT infrastructure, with links to the original reporting. I follow these areas every week because they shape the systems I run.</p>
+  <div class="newsbar">
+    <button class="chipbtn" type="button" data-c="all" aria-pressed="true">All</button>
+    <button class="chipbtn" type="button" data-c="ai" aria-pressed="false">AI</button>
+    <button class="chipbtn" type="button" data-c="cyber" aria-pressed="false">Cybersecurity</button>
+    <button class="chipbtn" type="button" data-c="infra" aria-pressed="false">Infrastructure</button>
+    <span class="updated">Updated October 13, 2026</span>
+  </div>
+</section>
+<section>
+  <p class="label">This week at a glance</p>
+  <div class="themes"><div class="theme"><b>Pattern 1</b>Agents are moving faster than the checks around them. Meta&#x27;s new Muse Wonder models target agent work and memory, Microsoft and Anthropic are limiting what agents can reach, and OpenAI pulled three AI-written math papers a day after release.</div><div class="theme"><b>Pattern 2</b>Attackers move within days, sometimes hours, of disclosure. SonicWall SMA 1000, Bricksforge, AhsayCBS and Atlassian Data Center flaws all drew exploitation soon after details went public.</div><div class="theme"><b>Pattern 3</b>Power is still the constraint for data centers. Oracle is trucking in natural gas, PJM gets a data center database, fires and power failures have doubled, and Microsoft pitches Maia 300 on tokens per megawatt.</div></div>
+</section>
+<section id="ai" data-cat="ai"><p class="label">AI</p><h2>Agents, models, standards and policy.</h2><div class="news"><article class="card"><span class="when">Oct 12, 2026</span><h3>Meta launches Muse Wonder frontier models</h3><p>Muse Wonder and Muse Wonder Full target agent work, long-term memory and coding, and are available through the Meta Model API and Muse Code. Meta&#x27;s benchmark claims have not yet been tested independently.</p><a class="read" href="https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai">Axios →</a></article><article class="card"><span class="when">Oct 8, 2026</span><h3>OpenAI pulls three of its 722 AI-written math papers</h3><p>OpenAI posted the papers from an unreleased internal model on Oct 6 and withdrew three a day later over a sign error. Many mathematicians criticized the release for skipping verification.</p><a class="read" href="https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/">Retraction Watch →</a></article><article class="card"><span class="when">Oct 8, 2026</span><h3>White House announces $6 billion in science initiatives</h3><p>Eleven companies pledged $2.4 billion in computing credits and AI tools for DOE&#x27;s Genesis Mission, including $1 billion from Nvidia, $500 million from AMD and $200 million from OpenAI.</p><a class="read" href="https://www.aip.org/fyi/the-week-of-october-12-2026">AIP FYI →</a></article><article class="card"><span class="when">Oct 10, 2026</span><h3>Anthropic turns off live internet for internal agent evaluations</h3><p>The change stays in place until the company can better monitor and control its agents.</p><a class="read" href="https://aiweekly.co/alerts/anthropic-disables-live-internet-for-all-internal-agent-evals">AI Weekly →</a></article><article class="card"><span class="when">Oct 7, 2026</span><h3>Microsoft adds execution containers for AI agents</h3><p>Windows gains local AI models and Microsoft Execution Containers, which restrict the data agents can access. The premium Surface Laptop Ultra starts at $2,599.</p><a class="read" href="https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/">Reuters →</a></article><article class="card"><span class="when">Oct 7, 2026</span><h3>Anthropic cuts Claude Haiku 5.5 prices</h3><p>Anthropic estimates average savings of about 75% and adds adjustable reasoning effort to its smallest model.</p><a class="read" href="https://thenewstack.io/anthropic-claude-haiku-5-5/">The New Stack →</a></article><article class="card"><span class="when">Oct 6, 2026</span><h3>Meta, Walmart and Stripe back an open protocol for AI agents</h3><p>A proposed personal agent protocol would standardize how AI assistants deal with business websites. OpenAI and Anthropic are not yet taking part.</p><a class="read" href="https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html">CNBC →</a></article></div></section>
+<section id="cyber" data-cat="cyber"><p class="label">Cybersecurity</p><h2>Advisories, vulnerabilities and attacks worth knowing.</h2><div class="news"><article class="card"><span class="when">Oct 12, 2026</span><h3>Critical SonicWall SMA 1000 flaw under attack</h3><p>CVE-2026-102255 (CVSS 10.0) is a pre-auth SSRF patched on Oct 6. Previdian has seen 135 exploitation attempts from two US IP addresses. SonicWall&#x27;s advisory does not yet list active exploitation.</p><a class="read" href="https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html">The Hacker News →</a></article><article class="card"><span class="when">Oct 12, 2026</span><h3>Bricksforge WordPress plugin flaw exploited</h3><p>CVE-2026-85097 (CVSS 10.0) lets unauthenticated attackers upload and run PHP code. Patchstack saw attacks from Oct 7. Version 3.1.8.10 fixes it.</p><a class="read" href="https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html">The Hacker News →</a></article><article class="card"><span class="when">Oct 9, 2026</span><h3>AhsayCBS backup flaws used to plant web shells and miners</h3><p>Attackers chain two flaws to bypass authentication and run commands, then install XMRig miners disguised as Microsoft Edge. Huntress says the latest version, 10.3.4, is still vulnerable.</p><a class="read" href="https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html">The Hacker News →</a></article><article class="card"><span class="when">Oct 9, 2026</span><h3>Public exploit gives root on AnyDesk for Linux 8.0.2</h3><p>The pre-auth exploit works over direct TCP connections on port 7070. AnyDesk fixed the bug in 8.0.3 in June without a CVE or advisory, so check Linux hosts are updated.</p><a class="read" href="https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html">The Hacker News →</a></article><article class="card"><span class="when">Oct 7, 2026</span><h3>Atlassian Data Center flaw now exploited</h3><p>CVE-2026-21589 (CVSS 9.3) drew exploitation attempts within two hours of public details, and watchTowr confirms in-the-wild exploitation. It affects Jira, Confluence, Bitbucket and other Data Center products.</p><a class="read" href="https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html">The Hacker News →</a></article><article class="card"><span class="when">Oct 6, 2026</span><h3>FBI and Secret Service warn about FortiBleed</h3><p>A credential-harvesting campaign targets internet-facing FortiGate firewalls and SSL VPN gateways. No CVE has been assigned. SOCRadar counts 86,644 compromised devices in 194 countries, and attackers sometimes change or delete the original admin accounts.</p><a class="read" href="https://therecord.media/fortibleed-warning-fbi-secret-service">The Record →</a></article><article class="card"><span class="when">Oct 2026</span><h3>Ransomware affiliate uses an MCP service for command and control</h3><p>CloudSEK documents an affiliate of the Gentlemen ransomware group running SSH commands through a local Model Context Protocol service. In one case, over 120,000 records were stolen.</p><a class="read" href="https://telefonicatech.com/en/blog/cybersecurity-briefing-3-9-october-2026">Telefónica Tech briefing →</a></article></div></section>
+<section id="infra" data-cat="infra"><p class="label">IT infrastructure</p><h2>Data centers, power, cooling and servers.</h2><div class="news"><article class="card"><span class="when">Oct 13, 2026</span><h3>Microsoft unveils Azure Maia 300</h3><p>Maia 200 is in production across the US, Europe and Australia. Maia 300 racks of 96 accelerators at 167kW arrive in 2027, and Microsoft claims up to 40% more tokens per megawatt than leading GPU systems.</p><a class="read" href="https://www.datacenterdynamics.com/en/news/microsoft-unveils-azure-maia-300-says-chip-will-be-its-primary-inference-system/">Data Center Dynamics →</a></article><article class="card"><span class="when">Oct 13, 2026</span><h3>NTT reportedly near $6.3bn data center deal with Anthropic</h3><p>Nikkei reports an Osaka site of up to 500MW, with partial operations from 2028. Unconfirmed: neither company commented.</p><a class="read" href="https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/">Data Center Dynamics →</a></article><article class="card"><span class="when">Oct 13, 2026</span><h3>Oracle trucks in natural gas to keep data centers running</h3><p>Bloomberg reports Oracle has trucked compressed gas to its Salt Lake City site for over a year while waiting for a pipeline, and is considering the same for its stalled Project Jupiter in New Mexico.</p><a class="read" href="https://www.datacenterdynamics.com/en/news/oracle-trucks-in-gas-to-support-operations-at-utah-and-texas-data-centers-report/">Data Center Dynamics →</a></article><article class="card"><span class="when">Oct 13, 2026</span><h3>FERC approves PJM data center database</h3><p>PJM will track each site&#x27;s location, power providers, ramp-up and backup generation. FERC rejected a separate plan to cut grid power to data centers during peak stress.</p><a class="read" href="https://www.datacenterdynamics.com/en/news/ferc-approves-pjms-request-to-create-data-center-database/">Data Center Dynamics →</a></article><article class="card"><span class="when">Oct 12, 2026</span><h3>Data center fires and power failures have doubled since 2024</h3><p>The Energy Incident Register counts 8 in 2024, 20 in 2025 and 19 so far in 2026. UPS systems and battery rooms are the most common named failure point.</p><a class="read" href="https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024/">Data Center Dynamics →</a></article><article class="card"><span class="when">Oct 10, 2026</span><h3>Cloudflare acquires Deno</h3><p>The Deno team joins Cloudflare Workers. The standalone runtime and Deno Deploy will wind down over the next year.</p><a class="read" href="https://aiweekly.co/alerts/cloudflare-acquires-deno-dahls-team-to-merge-celld-into-workerd">AI Weekly →</a></article><article class="card"><span class="when">Oct 2026</span><h3>Constellation signs nuclear power deals with Google and Amazon</h3><p>Two 20-year agreements within a week support nearly 1.1 GW of nuclear expansion, including an 890 MW deal with Google.</p><a class="read" href="https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/">Construction Dive →</a></article></div></section>
+<section>
+  <p class="label">Where I read</p>
+  <div class="readers"><a href="https://www.axios.com/technology">Axios</a><a href="https://thehackernews.com/">The Hacker News</a><a href="https://www.datacenterdynamics.com/en/">Data Center Dynamics</a><a href="https://www.aip.org/fyi">AIP FYI</a><a href="https://retractionwatch.com/">Retraction Watch</a><a href="https://aiweekly.co/">AI Weekly</a></div>
+  <p class="credit">Summaries are my own short notes. Follow each link for the full story. Some reports, such as attributions of attacks, come from a single source.</p>
+</section>
+<script>
+(function(){var btns=document.querySelectorAll('.chipbtn');var secs=document.querySelectorAll('section[data-cat]');
+function show(c){secs.forEach(function(s){s.hidden=!(c==='all'||s.getAttribute('data-cat')===c);});btns.forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-c')===c?'true':'false');});}
+btns.forEach(function(b){b.addEventListener('click',function(){show(b.getAttribute('data-c'));});});})();
+</script>
+<footer class="site">© 2026 Daniel Rahim · Houston, Texas · brewbit.tech</footer>
+</div>
+</body>
+</html>
