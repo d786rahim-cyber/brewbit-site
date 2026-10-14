@@ -1,21 +1,21 @@
 {
- "updated": "October 13, 2026",
+ "updated": "October 14, 2026",
  "themes": [
   {
    "desk": "Technology",
-   "text": "Agents are moving faster than the checks around them, and attackers now exploit new flaws within days of disclosure."
+   "text": "Attackers chain zero-days faster than patches ship, while AI firms face spies, bankruptcies and self-copying models."
   },
   {
    "desk": "Coffee",
-   "text": "Arabica tops $3 a pound while roasting quietly electrifies, from $2,995 fluid-bed machines to solar heat stored in rock."
+   "text": "Starbucks rules out Chipotle, StoneX buys into Colombian origin, and electric roasting keeps gaining ground."
   },
   {
    "desk": "Cycling",
-   "text": "A 20-year-old wins Il Lombardia, Lachlan Morton outrides the Pony Express, and new gravel world champions are crowned in Australia."
+   "text": "Ganna jumps to Lidl-Trek, Track Worlds start in Shanghai, and Big Sugar Gravel rolls out Saturday."
   },
   {
    "desk": "Travel",
-   "text": "Paris flights may be hit Oct 17–21, ETIAS still isn't open (skip the paid look-alike sites), and new nonstops reach Costa Rica and Iceland."
+   "text": "Riyadh's airport is shut after a deadly strike, France's crew strike is paused, and ETIAS still isn't open."
   }
  ],
  "desks": [
@@ -32,31 +32,31 @@
      "items": [
       {
        "date": "Oct 12, 2026",
-       "head": "Meta launches Muse Wonder frontier models",
-       "text": "Muse Wonder and Muse Wonder Full target agent work, long-term memory and coding, and are available through the Meta Model API and Muse Code. Meta's benchmark claims have not yet been tested independently.",
-       "src": "Axios",
-       "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"
+       "head": "Anthropic warns small AI models could soon spread across IoT devices",
+       "text": "Its Frontier Red Team says small open models may be months from copying themselves onto cheap gadgets like TV boxes. Only one tested model fully replicated; the timing is a trend estimate.",
+       "src": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/anthropic-small-open-models-months-from-iot-self-replication"
       },
       {
-       "date": "Oct 8, 2026",
-       "head": "OpenAI pulls three of its 722 AI-written math papers",
-       "text": "OpenAI posted the papers from an unreleased internal model on Oct 6 and withdrew three a day later over a sign error. Many mathematicians criticized the release for skipping verification.",
-       "src": "Retraction Watch",
-       "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/"
+       "date": "Oct 13, 2026",
+       "head": "Character.AI files for Chapter 11 bankruptcy",
+       "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
+       "src": "404 Media",
+       "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
       },
       {
-       "date": "Oct 8, 2026",
-       "head": "White House announces $6 billion in science initiatives",
-       "text": "Eleven companies pledged $2.4 billion in computing credits and AI tools for DOE's Genesis Mission, including $1 billion from Nvidia, $500 million from AMD and $200 million from OpenAI.",
-       "src": "AIP FYI",
-       "url": "https://www.aip.org/fyi/the-week-of-october-12-2026"
+       "date": "Oct 13, 2026",
+       "head": "FBI arrests OpenAI employee over hidden recorder",
+       "text": "Prosecutors say a product-team engineer hid a recording device behind a TV in an executive conference room in San Francisco. He faces up to five years if convicted; OpenAI fired him.",
+       "src": "TechCrunch",
+       "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
       },
       {
-       "date": "Oct 7, 2026",
-       "head": "Microsoft adds execution containers for AI agents",
-       "text": "Windows gains local AI models and Microsoft Execution Containers, which restrict the data agents can access. The premium Surface Laptop Ultra starts at $2,599.",
-       "src": "Reuters",
-       "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
+       "date": "Oct 12, 2026",
+       "head": "Meta releases Muse Wonder, its first frontier models",
+       "text": "Muse Wonder is on Meta's API at $4 per million input tokens and $20 per million output. Meta's own tests put it level with rival frontier models and ahead on memory.",
+       "src": "TechCrunch",
+       "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder"
       }
      ]
     },
@@ -66,32 +66,32 @@
      "blurb": "",
      "items": [
       {
+       "date": "Oct 13, 2026",
+       "head": "Attackers chain three Ivanti Connect Secure zero-days for root",
+       "text": "Volexity says exploitation began Oct 3 against fully patched VPNs, stealing AD credentials and BitLocker keys. Fixes for two flaws shipped Oct 13; the privilege-escalation fix is still coming.",
+       "src": "Volexity",
+       "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/"
+      },
+      {
+       "date": "Oct 13, 2026",
+       "head": "Record Patch Tuesday fixes 1,411 flaws and three zero-days",
+       "text": "Microsoft's October release includes 70 critical bugs. One zero-day, a Windows Shell Mark of the Web bypass (CVE-2026-96951), is already exploited.",
+       "src": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/"
+      },
+      {
        "date": "Oct 12, 2026",
-       "head": "Critical SonicWall SMA 1000 flaw under attack",
-       "text": "CVE-2026-102255 (CVSS 10.0) is a pre-auth SSRF patched on Oct 6. Previdian has seen 135 exploitation attempts from two US IP addresses. SonicWall's advisory does not yet list active exploitation.",
-       "src": "The Hacker News",
-       "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+       "head": "GitLab patches a CVSS 10 unauthenticated code execution flaw",
+       "text": "CVE-2026-97229 lets an unauthenticated user run code on the server through a crafted regular expression in CI/CD configuration. Fixed in 19.4.2, 19.3.4 and 19.2.8.",
+       "src": "GitLab",
+       "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/"
       },
       {
-       "date": "Oct 7, 2026",
-       "head": "Atlassian Data Center flaw now exploited",
-       "text": "CVE-2026-21589 (CVSS 9.3) drew exploitation attempts within two hours of public details, and watchTowr confirms in-the-wild exploitation. It affects Jira, Confluence, Bitbucket and other Data Center products.",
-       "src": "The Hacker News",
-       "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
-      },
-      {
-       "date": "Oct 9, 2026",
-       "head": "Public exploit gives root on AnyDesk for Linux 8.0.2",
-       "text": "The pre-auth exploit works over direct TCP connections on port 7070. AnyDesk fixed the bug in 8.0.3 in June without a CVE or advisory, so check Linux hosts are updated.",
-       "src": "The Hacker News",
-       "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html"
-      },
-      {
-       "date": "Oct 6, 2026",
-       "head": "FBI and Secret Service warn about FortiBleed",
-       "text": "A credential-harvesting campaign targets internet-facing FortiGate firewalls and SSL VPN gateways. No CVE has been assigned. SOCRadar counts 86,644 compromised devices in 194 countries, and attackers sometimes change or delete the original admin accounts.",
-       "src": "The Record",
-       "url": "https://therecord.media/fortibleed-warning-fbi-secret-service"
+       "date": "Oct 12, 2026",
+       "head": "Ahold Delhaize takes systems offline after cyber incident",
+       "text": "Websites and online ordering went down for Food Lion, Stop & Shop, Hannaford, Giant, Albert Heijn and Delhaize. Stores stayed open.",
+       "src": "Supermarket News",
+       "url": "https://www.supermarketnews.com/company-news/ahold-delhaize-shuts-down-websites-after-cybersecurity-issue"
       }
      ]
     },
@@ -102,31 +102,31 @@
      "items": [
       {
        "date": "Oct 13, 2026",
+       "head": "NTT Data reportedly near deal to build Anthropic's Japan data center",
+       "text": "Nikkei reports a $6.3 billion, up to 500MW site in Osaka Prefecture, partly online in 2028. Neither company has confirmed it.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
+      },
+      {
+       "date": "Oct 13, 2026",
        "head": "Microsoft unveils Azure Maia 300",
        "text": "Maia 200 is in production across the US, Europe and Australia. Maia 300 racks of 96 accelerators at 167kW arrive in 2027, and Microsoft claims up to 40% more tokens per megawatt than leading GPU systems.",
        "src": "Data Center Dynamics",
        "url": "https://www.datacenterdynamics.com/en/news/microsoft-unveils-azure-maia-300-says-chip-will-be-its-primary-inference-system/"
       },
       {
-       "date": "Oct 13, 2026",
-       "head": "Oracle trucks in natural gas to keep data centers running",
-       "text": "Bloomberg reports Oracle has trucked compressed gas to its Salt Lake City site for over a year while waiting for a pipeline, and is considering the same for its stalled Project Jupiter in New Mexico.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/oracle-trucks-in-gas-to-support-operations-at-utah-and-texas-data-centers-report/"
+       "date": "Oct 14, 2026",
+       "head": "DayOne doubles Johor financing to $7.2 billion",
+       "text": "The Singapore developer says over 1GW of its capacity now earns revenue under long-term contracts, with bookings near 2.3GW.",
+       "src": "DayOne via Manila Times",
+       "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/pr-newswire/dayone-upsizes-malaysia-financing-to-us72-billion-total-billings-surpass-1gw-and-bookings-reach-23gw/2445453"
       },
       {
-       "date": "Oct 13, 2026",
-       "head": "FERC approves PJM data center database",
-       "text": "PJM will track each site's location, power providers, ramp-up and backup generation. FERC rejected a separate plan to cut grid power to data centers during peak stress.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/ferc-approves-pjms-request-to-create-data-center-database/"
-      },
-      {
-       "date": "Oct 12, 2026",
-       "head": "Data center fires and power failures have doubled since 2024",
-       "text": "The Energy Incident Register counts 8 in 2024, 20 in 2025 and 19 so far in 2026. UPS systems and battery rooms are the most common named failure point.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024/"
+       "date": "Oct 9, 2026",
+       "head": "Ukrainian drones hit two Yandex data centers",
+       "text": "Strikes in Sasovo and Kaluga knocked out sites that house most of Yandex's AI supercomputers. Yandex says it is working to keep services running.",
+       "src": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/10/9/ukraine-takes-aim-at-russias-ai-data-infrastructure"
       }
      ]
     }
@@ -145,25 +145,25 @@
      "blurb": "Prices, companies and rules that shape the cup.",
      "items": [
       {
-       "date": "Oct 6, 2026",
-       "head": "Arabica climbs above $3 a pound",
-       "text": "A stronger Brazilian real pushed arabica past US$3/lb before prices gave back gains. Brazil's September exports rose over 20% year on year, and US forecasters expect one of the strongest El Niños in 75 years.",
-       "src": "Perfect Daily Grind",
-       "url": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/"
+       "date": "Oct 12, 2026",
+       "head": "Starbucks says it is not buying Chipotle",
+       "text": "After a Financial Times report of talks with advisors, a Starbucks spokesperson said plainly: \"we are not buying Chipotle.\" Analysts had called a roughly $50 billion deal unlikely.",
+       "src": "Nation's Restaurant News",
+       "url": "https://www.nrn.com/mergers-acquisitions/so-much-for-that-idea-starbucks-says-it-is-not-buying-chipotle"
       },
       {
        "date": "Oct 12, 2026",
-       "head": "Coca-Cola reportedly revisits a Costa Coffee sale",
-       "text": "Costa is back in profit on £1.3bn in revenue, and sources say Coca-Cola is again exploring a sale after earlier bids fell short of its valuation.",
-       "src": "World Coffee Portal",
-       "url": "https://www.worldcoffeeportal.com/news/back-to-profitability-back-on-the-market-coca-cola-reportedly-revisits-costa-coffee-sale/"
+       "head": "StoneX to buy Colombian coffee exporter Integra",
+       "text": "Integra runs the La Bonita mill near Medellín and sources from Huila, Cauca and Tolima. It will join StoneX's physical commodities arm; terms were not disclosed.",
+       "src": "Daily Coffee News",
+       "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/"
       },
       {
-       "date": "Oct 8, 2026",
-       "head": "Nespresso drops its compostable paper capsules",
-       "text": "Nespresso is ending the home-compostable capsules sold in 14 European markets, citing short shelf life and customer feedback, and will focus on aluminum.",
-       "src": "Daily Coffee News",
-       "url": "https://dailycoffeenews.com/2026/10/08/citing-quality-nespresso-discontinues-compostable-capsules/"
+       "date": "Oct 9, 2026",
+       "head": "Coca-Cola reportedly revisits a Costa Coffee sale",
+       "text": "Days after Costa reported a return to profit on £1.3bn in revenue, sources say Coca-Cola is exploring a sale again, months after an earlier process was dropped. Not confirmed.",
+       "src": "World Coffee Portal",
+       "url": "https://www.worldcoffeeportal.com/news/back-to-profitability-back-on-the-market-coca-cola-reportedly-revisits-costa-coffee-sale/"
       }
      ]
     },
@@ -213,6 +213,13 @@
        "text": "More than 50 free seminars plus paid workshops, close to home for Texas roasters and café owners.",
        "src": "Perfect Daily Grind",
        "url": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/"
+      },
+      {
+       "date": "Mar 4–6, 2027",
+       "head": "NCA Convention, Austin, Texas",
+       "text": "The National Coffee Association's annual convention comes to the JW Marriott Austin.",
+       "src": "National Coffee Association",
+       "url": "https://www.ncausa.org/Convention"
       }
      ],
      "style": "list"
@@ -253,6 +260,13 @@
      "blurb": "The stories riders are talking about.",
      "items": [
       {
+       "date": "Oct 13, 2026",
+       "head": "Filippo Ganna leaves Ineos early for Lidl-Trek",
+       "text": "The Italian time trial star signs a three-year deal from 2027, leaving Netcompany-Ineos a year before his contract ended.",
+       "src": "Cyclingnews",
+       "url": "https://www.cyclingnews.com/pro-cycling/transfers/filippo-ganna-makes-early-exit-from-netcompany-ineos-to-move-to-lidl-trek/"
+      },
+      {
        "date": "Oct 12, 2026",
        "head": "Lachlan Morton beats the 1861 Pony Express record",
        "text": "Morton rode 1,998 miles from St. Joseph, Missouri to Sacramento in 6 days, 21 hours and 15 minutes, beating the horseback record by 19 hours 45 minutes.",
@@ -265,13 +279,6 @@
        "text": "The Frenchman won the season's last Monument solo, his first Monument victory. Tadej Pogačar did not start.",
        "src": "Cyclingnews",
        "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/its-a-great-dream-to-really-be-able-to-compete-against-tadej-pogacar-paul-seixas-takes-another-step-towards-his-man-made-destiny-at-il-lombardia/"
-      },
-      {
-       "date": "Oct 11, 2026",
-       "head": "Gravel worlds: Bak Klaris and Vos take the rainbow jerseys",
-       "text": "Denmark's Magnus Bak Klaris won the men's 144 km race in Nannup, Western Australia, and Marianne Vos took her second gravel world title, her 15th world title overall.",
-       "src": "Cyclingnews",
-       "url": "https://www.cyclingnews.com/pro-cycling/racing/gravel-world-championships-magnus-bak-klaris-sprints-to-huge-victory-in-thrilling-elite-mens-race/"
       }
      ]
     },
@@ -347,18 +354,25 @@
      "blurb": "Disruptions, routes and rules.",
      "items": [
       {
-       "date": "Oct 12, 2026",
-       "head": "French flight crews file strike notice for Oct 17–21",
-       "text": "About 36,000 crew are covered, with Air France, Transavia and Corsair most exposed. No cancellations announced yet, and the notice could be lifted. Check your airline 48 to 72 hours before flying.",
-       "src": "Sortiraparis",
-       "url": "https://www.sortiraparis.com/en/news/in-paris/articles/353907-strike-on-october-17-2026-air-travel-railways-and-protests-what-to-expect-in-paris"
+       "date": "Oct 13, 2026",
+       "head": "Riyadh airport shut after deadly Houthi strike",
+       "text": "At least 13 died in the Oct 10 attack. The airport is closed until at least Oct 17; Qatar Airways, Emirates and Etihad cancelled Saudi flights, and Delta pushed its Riyadh launch to 2027.",
+       "src": "OpenJaw",
+       "url": "https://openjaw.com/newsroom/airline/2026/10/13/saudi-flights-suspended-after-deadly-airport-strikes-delta-delays-riyadh-launch/"
       },
       {
-       "date": "Oct 10, 2026",
-       "head": "New nonstops to Costa Rica, Austin–San Jose and St. Louis–Iceland",
-       "text": "Breeze now flies Tampa to San José, Costa Rica, its first Central America route. Delta added daily Austin to San Jose, California, and Icelandair adds seasonal St. Louis service from May 2027.",
-       "src": "Upgraded Points",
-       "url": "https://upgradedpoints.com/news/airline-news-roundup-october-week-2-2026/"
+       "date": "Oct 9, 2026",
+       "head": "French flight crew strike for Oct 17–21 suspended",
+       "text": "Unions paused the Air France and Transavia strike after a pension compromise, but say it can return if the promised decree isn't published.",
+       "src": "AeroCorner",
+       "url": "https://aerocorner.com/news/french-pilot-cabin-crew-strike-october-17-21-suspended/"
+      },
+      {
+       "date": "Oct 6, 2026",
+       "head": "Delta starts Austin–San Jose nonstops",
+       "text": "Year-round service on a 132-seat Airbus A319 adds another Bay Area option from Austin.",
+       "src": "The Points Guy",
+       "url": "https://thepointsguy.com/news/delta-air-lines-new-route-austin-san-jose-california/"
       }
      ]
     },
@@ -370,7 +384,7 @@
       {
        "date": "Oct 13, 2026",
        "head": "Don't pay for ETIAS yet: Europe isn't taking applications",
-       "text": "More than 150 sites reportedly sell ETIAS applications for €50 to €178, but the EU system isn't open and has no launch date. Use only the official EU site once it opens.",
+       "text": "The EU says the permit is not operational and has no launch date. Over 150 look-alike sites charge €50 to €178; the official fee will be €20.",
        "src": "Pakistan Observer",
        "url": "https://pakobserver.net/europe-travel-alert-over-150-fake-etias-websites-target-visitors"
       },
@@ -432,10 +446,10 @@
       },
       {
        "date": "Tip",
-       "head": "Check health notices before you book",
-       "text": "CDC lists outbreaks and recommended precautions by destination, from malaria to chikungunya. Some need vaccines or medicine weeks before you leave.",
-       "src": "CDC Travelers' Health",
-       "url": "https://wwwnc.cdc.gov/travel/notices"
+       "head": "Use Mobile Passport Control when flying home to DFW or Houston",
+       "text": "US citizens can submit passport details and customs answers in a free app, then show a QR receipt to the CBP officer. Both DFW and IAH take part.",
+       "src": "CBP",
+       "url": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control"
       }
      ],
      "style": "list"
@@ -445,13 +459,6 @@
      "title": "Best deals: airlines, hotels and tour operators",
      "blurb": "Deadlines shown on the left. Confirm terms before booking.",
      "items": [
-      {
-       "date": "Airline · ends Oct 15",
-       "head": "United status match for Delta and American elites",
-       "text": "Match your status and keep it through January 2028 by flying and spending within 90 days.",
-       "src": "TravelPulse",
-       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
-      },
       {
        "date": "Airline · by Oct 31",
        "head": "Flying Blue: 25% off select award flights",
@@ -519,24 +526,16 @@
  ],
  "readers": [
   {
-   "name": "Axios",
-   "url": "https://www.axios.com/technology"
-  },
-  {
    "name": "The Hacker News",
    "url": "https://thehackernews.com/"
   },
   {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/"
+  },
+  {
    "name": "Data Center Dynamics",
    "url": "https://www.datacenterdynamics.com/en/"
-  },
-  {
-   "name": "AIP FYI",
-   "url": "https://www.aip.org/fyi"
-  },
-  {
-   "name": "Retraction Watch",
-   "url": "https://retractionwatch.com/"
   },
   {
    "name": "AI Weekly",
