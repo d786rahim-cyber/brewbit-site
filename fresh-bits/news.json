@@ -1,21 +1,21 @@
 {
- "updated": "October 14, 2026",
+ "updated": "October 15, 2026",
  "themes": [
   {
    "desk": "Technology",
-   "text": "Attackers chain zero-days faster than patches ship, while AI firms face spies, bankruptcies and self-copying models."
+   "text": "Exploited flaws keep landing in email gateways and VPNs, while Microsoft takes down a billion-message phishing market."
   },
   {
    "desk": "Coffee",
-   "text": "Starbucks rules out Chipotle, StoneX buys into Colombian origin, and electric roasting keeps gaining ground."
+   "text": "Canadian cafe chains consolidate, Starbucks rules out Chipotle, and electric roasting keeps gaining ground."
   },
   {
    "desk": "Cycling",
-   "text": "Ganna jumps to Lidl-Trek, Track Worlds start in Shanghai, and Big Sugar Gravel rolls out Saturday."
+   "text": "Ganna jumps to Lidl-Trek, Castelli returns to the yellow jersey, and Big Sugar Gravel rolls out Saturday."
   },
   {
    "desk": "Travel",
-   "text": "Riyadh's airport is shut after a deadly strike, France's crew strike is paused, and ETIAS still isn't open."
+   "text": "Riyadh's airport stays shut with cancellations into next week, France's crew strike is paused, and ETIAS still isn't open."
   }
  ],
  "desks": [
@@ -66,6 +66,13 @@
      "blurb": "",
      "items": [
       {
+       "date": "Oct 15, 2026",
+       "head": "Cisco email gateway flaw exploited for root access",
+       "text": "CVE-2026-76519 (CVSS 9.8) lets an unauthenticated attacker send a crafted attachment and run commands as root. Fixes shipped in September; CISA gave agencies until Oct 17 to patch.",
+       "src": "SecurityWeek",
+       "url": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/"
+      },
+      {
        "date": "Oct 13, 2026",
        "head": "Attackers chain three Ivanti Connect Secure zero-days for root",
        "text": "Volexity says exploitation began Oct 3 against fully patched VPNs, stealing AD credentials and BitLocker keys. Fixes for two flaws shipped Oct 13; the privilege-escalation fix is still coming.",
@@ -80,18 +87,11 @@
        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/"
       },
       {
-       "date": "Oct 12, 2026",
-       "head": "GitLab patches a CVSS 10 unauthenticated code execution flaw",
-       "text": "CVE-2026-97229 lets an unauthenticated user run code on the server through a crafted regular expression in CI/CD configuration. Fixed in 19.4.2, 19.3.4 and 19.2.8.",
-       "src": "GitLab",
-       "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/"
-      },
-      {
-       "date": "Oct 12, 2026",
-       "head": "Ahold Delhaize takes systems offline after cyber incident",
-       "text": "Websites and online ordering went down for Food Lion, Stop & Shop, Hannaford, Giant, Albert Heijn and Delhaize. Stores stayed open.",
-       "src": "Supermarket News",
-       "url": "https://www.supermarketnews.com/company-news/ahold-delhaize-shuts-down-websites-after-cybersecurity-issue"
+       "date": "Oct 14, 2026",
+       "head": "Microsoft and Health-ISAC take down a phishing market behind 1 billion emails",
+       "text": "A court order seized domains of a Chinese-language marketplace selling hijacked Microsoft 365 accounts and phishing kits that targeted over 75,000 organizations in 150 countries.",
+       "src": "SecurityWeek",
+       "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/"
       }
      ]
     },
@@ -145,6 +145,13 @@
      "blurb": "Prices, companies and rules that shape the cup.",
      "items": [
       {
+       "date": "Oct 14, 2026",
+       "head": "Purebread plans to buy Caffè Artigiano's cafes",
+       "text": "The Canadian bakery chain signed a letter of intent for a C$7.7 million stock deal that would create 27 locations and give Artigiano's owners 49% of Purebread. Not yet final.",
+       "src": "Daily Coffee News",
+       "url": "https://dailycoffeenews.com/2026/10/14/canadas-purebread-plans-to-acquire-caffe-artigianos-cafe-business/"
+      },
+      {
        "date": "Oct 12, 2026",
        "head": "Starbucks says it is not buying Chipotle",
        "text": "After a Financial Times report of talks with advisors, a Starbucks spokesperson said plainly: \"we are not buying Chipotle.\" Analysts had called a roughly $50 billion deal unlikely.",
@@ -157,13 +164,6 @@
        "text": "Integra runs the La Bonita mill near Medellín and sources from Huila, Cauca and Tolima. It will join StoneX's physical commodities arm; terms were not disclosed.",
        "src": "Daily Coffee News",
        "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/"
-      },
-      {
-       "date": "Oct 9, 2026",
-       "head": "Coca-Cola reportedly revisits a Costa Coffee sale",
-       "text": "Days after Costa reported a return to profit on £1.3bn in revenue, sources say Coca-Cola is exploring a sale again, months after an earlier process was dropped. Not confirmed.",
-       "src": "World Coffee Portal",
-       "url": "https://www.worldcoffeeportal.com/news/back-to-profitability-back-on-the-market-coca-cola-reportedly-revisits-costa-coffee-sale/"
       }
      ]
     },
@@ -267,11 +267,11 @@
        "url": "https://www.cyclingnews.com/pro-cycling/transfers/filippo-ganna-makes-early-exit-from-netcompany-ineos-to-move-to-lidl-trek/"
       },
       {
-       "date": "Oct 12, 2026",
-       "head": "Lachlan Morton beats the 1861 Pony Express record",
-       "text": "Morton rode 1,998 miles from St. Joseph, Missouri to Sacramento in 6 days, 21 hours and 15 minutes, beating the horseback record by 19 hours 45 minutes.",
+       "date": "Oct 13, 2026",
+       "head": "Castelli's scorpion returns to the yellow jersey",
+       "text": "Castelli replaces Santini as kit supplier for the Tour de France and 26 other ASO races from 2027, its first time on the yellow jersey since 1994. The design is revealed Oct 22.",
        "src": "Cyclingnews",
-       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/the-scale-of-it-blows-me-away-lachlan-morton-eclipses-160-year-old-pony-express-record-by-more-than-19-hours-in-adventure-across-eight-us-states/"
+       "url": "https://www.cyclingnews.com/pro-cycling/scorpion-logo-returns-to-yellow-jersey-after-33-years-as-castelli-becomes-new-kit-partner-for-tour-de-france-and-other-aso-races/"
       },
       {
        "date": "Oct 10, 2026",
@@ -354,11 +354,11 @@
      "blurb": "Disruptions, routes and rules.",
      "items": [
       {
-       "date": "Oct 13, 2026",
-       "head": "Riyadh airport shut after deadly Houthi strike",
-       "text": "At least 13 died in the Oct 10 attack. The airport is closed until at least Oct 17; Qatar Airways, Emirates and Etihad cancelled Saudi flights, and Delta pushed its Riyadh launch to 2027.",
-       "src": "OpenJaw",
-       "url": "https://openjaw.com/newsroom/airline/2026/10/13/saudi-flights-suspended-after-deadly-airport-strikes-delta-delays-riyadh-launch/"
+       "date": "Oct 14, 2026",
+       "head": "Riyadh airport stays shut; airlines extend Saudi cancellations",
+       "text": "The airport is closed until at least Oct 17. Etihad and flydubai cancelled Riyadh flights to Oct 19, Air France-KLM to month-end, and Delta pushed its launch to March 2027.",
+       "src": "Gulf Business",
+       "url": "https://gulfbusiness.com/en/2026/saudi-arabia/saudi-flight-cancellations-latest-list-affected-airlines-routes/"
       },
       {
        "date": "Oct 9, 2026",
@@ -528,6 +528,10 @@
   {
    "name": "The Hacker News",
    "url": "https://thehackernews.com/"
+  },
+  {
+   "name": "SecurityWeek",
+   "url": "https://www.securityweek.com/"
   },
   {
    "name": "BleepingComputer",
