@@ -1,9 +1,9 @@
 {
- "updated": "October 15, 2026",
+ "updated": "October 16, 2026",
  "themes": [
   {
    "desk": "Technology",
-   "text": "Exploited flaws keep landing in email gateways and VPNs, while Microsoft takes down a billion-message phishing market."
+   "text": "State hackers hit remote-access tools, a Texas utility breach reaches a million people, and data centers face pushback over power."
   },
   {
    "desk": "Coffee",
@@ -31,18 +31,11 @@
      "blurb": "",
      "items": [
       {
-       "date": "Oct 12, 2026",
-       "head": "Anthropic warns small AI models could soon spread across IoT devices",
-       "text": "Its Frontier Red Team says small open models may be months from copying themselves onto cheap gadgets like TV boxes. Only one tested model fully replicated; the timing is a trend estimate.",
-       "src": "AI Weekly",
-       "url": "https://aiweekly.co/alerts/anthropic-small-open-models-months-from-iot-self-replication"
-      },
-      {
-       "date": "Oct 13, 2026",
-       "head": "Character.AI files for Chapter 11 bankruptcy",
-       "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
-       "src": "404 Media",
-       "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
+       "date": "Oct 15, 2026",
+       "head": "Anthropic opens Singapore office and defends usage oversight",
+       "text": "Its fifth Asia-Pacific office opened with GovTech, DBS and Grab as users. Co-founder Ben Mann said Anthropic won't give up all oversight of how its most powerful models are used, citing dual-use risks.",
+       "src": "Fortune",
+       "url": "https://fortune.com/2026/10/15/anthropic-dual-use-ai-defends-oversight-singapore"
       },
       {
        "date": "Oct 13, 2026",
@@ -50,6 +43,13 @@
        "text": "Prosecutors say a product-team engineer hid a recording device behind a TV in an executive conference room in San Francisco. He faces up to five years if convicted; OpenAI fired him.",
        "src": "TechCrunch",
        "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
+      },
+      {
+       "date": "Oct 13, 2026",
+       "head": "Character.AI files for Chapter 11 bankruptcy",
+       "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
+       "src": "404 Media",
+       "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
       },
       {
        "date": "Oct 12, 2026",
@@ -66,6 +66,13 @@
      "blurb": "",
      "items": [
       {
+       "date": "Oct 16, 2026",
+       "head": "China-linked hackers used a BeyondTrust zero-day",
+       "text": "Mandiant ties CVE-2026-102764 (CVSS 9.3) in Remote Support appliances to an espionage group that planted webshells, took root and wiped logs. Self-hosted customers must apply the BT26-05-RS patch.",
+       "src": "SecurityWeek",
+       "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
+      },
+      {
        "date": "Oct 15, 2026",
        "head": "Cisco email gateway flaw exploited for root access",
        "text": "CVE-2026-76519 (CVSS 9.8) lets an unauthenticated attacker send a crafted attachment and run commands as root. Fixes shipped in September; CISA gave agencies until Oct 17 to patch.",
@@ -73,25 +80,18 @@
        "url": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/"
       },
       {
+       "date": "Oct 15, 2026",
+       "head": "CenterPoint Energy breach hits over 1 million Texans",
+       "text": "The utility told the Texas Attorney General that names, addresses, Social Security and driver's license numbers were exposed. A hacker had already posted stolen data online in September.",
+       "src": "SecurityWeek",
+       "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
+      },
+      {
        "date": "Oct 13, 2026",
        "head": "Attackers chain three Ivanti Connect Secure zero-days for root",
        "text": "Volexity says exploitation began Oct 3 against fully patched VPNs, stealing AD credentials and BitLocker keys. Fixes for two flaws shipped Oct 13; the privilege-escalation fix is still coming.",
        "src": "Volexity",
        "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/"
-      },
-      {
-       "date": "Oct 13, 2026",
-       "head": "Record Patch Tuesday fixes 1,411 flaws and three zero-days",
-       "text": "Microsoft's October release includes 70 critical bugs. One zero-day, a Windows Shell Mark of the Web bypass (CVE-2026-96951), is already exploited.",
-       "src": "BleepingComputer",
-       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/"
-      },
-      {
-       "date": "Oct 14, 2026",
-       "head": "Microsoft and Health-ISAC take down a phishing market behind 1 billion emails",
-       "text": "A court order seized domains of a Chinese-language marketplace selling hijacked Microsoft 365 accounts and phishing kits that targeted over 75,000 organizations in 150 countries.",
-       "src": "SecurityWeek",
-       "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/"
       }
      ]
     },
@@ -101,6 +101,20 @@
      "blurb": "",
      "items": [
       {
+       "date": "Oct 15, 2026",
+       "head": "Virginia bill proposes a three-year data center moratorium",
+       "text": "Senate Bill 843 from Loudoun County's Russet Perry would stop state approvals of new data center plans from July 2027, citing grid strain and higher power bills.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/"
+      },
+      {
+       "date": "Oct 15, 2026",
+       "head": "Taylor, Texas approves a 1GW gas-powered data center campus",
+       "text": "PowerHouse and Big Watt's 664-acre site near Austin will run on its own 750MW natural gas plant, with first power targeted for early 2028.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
+      },
+      {
        "date": "Oct 13, 2026",
        "head": "NTT Data reportedly near deal to build Anthropic's Japan data center",
        "text": "Nikkei reports a $6.3 billion, up to 500MW site in Osaka Prefecture, partly online in 2028. Neither company has confirmed it.",
@@ -108,25 +122,11 @@
        "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
       },
       {
-       "date": "Oct 13, 2026",
-       "head": "Microsoft unveils Azure Maia 300",
-       "text": "Maia 200 is in production across the US, Europe and Australia. Maia 300 racks of 96 accelerators at 167kW arrive in 2027, and Microsoft claims up to 40% more tokens per megawatt than leading GPU systems.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/microsoft-unveils-azure-maia-300-says-chip-will-be-its-primary-inference-system/"
-      },
-      {
        "date": "Oct 14, 2026",
        "head": "DayOne doubles Johor financing to $7.2 billion",
        "text": "The Singapore developer says over 1GW of its capacity now earns revenue under long-term contracts, with bookings near 2.3GW.",
        "src": "DayOne via Manila Times",
        "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/pr-newswire/dayone-upsizes-malaysia-financing-to-us72-billion-total-billings-surpass-1gw-and-bookings-reach-23gw/2445453"
-      },
-      {
-       "date": "Oct 9, 2026",
-       "head": "Ukrainian drones hit two Yandex data centers",
-       "text": "Strikes in Sasovo and Kaluga knocked out sites that house most of Yandex's AI supercomputers. Yandex says it is working to keep services running.",
-       "src": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/9/ukraine-takes-aim-at-russias-ai-data-infrastructure"
       }
      ]
     }
@@ -354,9 +354,9 @@
      "blurb": "Disruptions, routes and rules.",
      "items": [
       {
-       "date": "Oct 14, 2026",
+       "date": "Oct 15, 2026",
        "head": "Riyadh airport stays shut; airlines extend Saudi cancellations",
-       "text": "The airport is closed until at least Oct 17. Etihad and flydubai cancelled Riyadh flights to Oct 19, Air France-KLM to month-end, and Delta pushed its launch to March 2027.",
+       "text": "The closure notice now runs to at least 2100 GMT Oct 17. Etihad and flydubai cancelled Riyadh flights to Oct 18–19, Air France-KLM to month-end, and Delta pushed its launch to March 2027.",
        "src": "Gulf Business",
        "url": "https://gulfbusiness.com/en/2026/saudi-arabia/saudi-flight-cancellations-latest-list-affected-airlines-routes/"
       },
