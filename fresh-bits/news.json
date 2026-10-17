@@ -1,9 +1,9 @@
 {
- "updated": "October 16, 2026",
+ "updated": "October 17, 2026",
  "themes": [
   {
    "desk": "Technology",
-   "text": "State hackers hit remote-access tools, a Texas utility breach reaches a million people, and data centers face pushback over power."
+   "text": "Big patch weeks for F5 and Juniper, a contractor outage stalls bankruptcy courts, and AI cloud money keeps flowing."
   },
   {
    "desk": "Coffee",
@@ -15,7 +15,7 @@
   },
   {
    "desk": "Travel",
-   "text": "Riyadh's airport stays shut with cancellations into next week, France's crew strike is paused, and ETIAS still isn't open."
+   "text": "Riyadh's airport stays shut through Oct 17, France's crew strike is paused, and ETIAS still isn't open."
   }
  ],
  "desks": [
@@ -30,6 +30,13 @@
      "title": "AI",
      "blurb": "",
      "items": [
+      {
+       "date": "Oct 16, 2026",
+       "head": "AI cloud Modal raises $750 million at a $15.75 billion valuation",
+       "text": "Accel led the Series D. Modal rents GPUs on demand across 13 cloud partners without owning data centers, and says it has passed $1 billion in annualized revenue.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-modal-raises-750m-in-series-d-funding-round/"
+      },
       {
        "date": "Oct 15, 2026",
        "head": "Anthropic opens Singapore office and defends usage oversight",
@@ -50,13 +57,6 @@
        "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
        "src": "404 Media",
        "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
-      },
-      {
-       "date": "Oct 12, 2026",
-       "head": "Meta releases Muse Wonder, its first frontier models",
-       "text": "Muse Wonder is on Meta's API at $4 per million input tokens and $20 per million output. Meta's own tests put it level with rival frontier models and ahead on memory.",
-       "src": "TechCrunch",
-       "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder"
       }
      ]
     },
@@ -73,11 +73,11 @@
        "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
       },
       {
-       "date": "Oct 15, 2026",
-       "head": "Cisco email gateway flaw exploited for root access",
-       "text": "CVE-2026-76519 (CVSS 9.8) lets an unauthenticated attacker send a crafted attachment and run commands as root. Fixes shipped in September; CISA gave agencies until Oct 17 to patch.",
+       "date": "Oct 16, 2026",
+       "head": "BAE Systems incident halts US bankruptcy court notices",
+       "text": "A security incident at the contractor took the Bankruptcy Noticing Center offline, so notices since Oct 9 haven't gone out. Courts still accept filings; the cause hasn't been disclosed.",
        "src": "SecurityWeek",
-       "url": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/"
+       "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
       },
       {
        "date": "Oct 15, 2026",
@@ -87,11 +87,11 @@
        "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
       },
       {
-       "date": "Oct 13, 2026",
-       "head": "Attackers chain three Ivanti Connect Secure zero-days for root",
-       "text": "Volexity says exploitation began Oct 3 against fully patched VPNs, stealing AD credentials and BitLocker keys. Fixes for two flaws shipped Oct 13; the privilege-escalation fix is still coming.",
-       "src": "Volexity",
-       "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/"
+       "date": "Oct 16, 2026",
+       "head": "F5 and Juniper patch critical NGINX and Junos flaws",
+       "text": "F5 fixed 11 NGINX bugs, three of them critical, and Juniper fixed over 150 Junos flaws, about two dozen critical. Neither vendor reports active exploitation.",
+       "src": "SecurityWeek",
+       "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/"
       }
      ]
     },
@@ -115,18 +115,18 @@
        "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
       },
       {
+       "date": "Oct 16, 2026",
+       "head": "Digital Realty eyes a 1GW campus in Kokomo, Indiana",
+       "text": "The proposed 476-acre site north of Indianapolis would hold three buildings and about 1GW of IT capacity by 2033, with closed-loop cooling. It would be Digital's first in Indiana.",
+       "src": "Data Center Dynamics",
+       "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/"
+      },
+      {
        "date": "Oct 13, 2026",
        "head": "NTT Data reportedly near deal to build Anthropic's Japan data center",
        "text": "Nikkei reports a $6.3 billion, up to 500MW site in Osaka Prefecture, partly online in 2028. Neither company has confirmed it.",
        "src": "Data Center Dynamics",
        "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
-      },
-      {
-       "date": "Oct 14, 2026",
-       "head": "DayOne doubles Johor financing to $7.2 billion",
-       "text": "The Singapore developer says over 1GW of its capacity now earns revenue under long-term contracts, with bookings near 2.3GW.",
-       "src": "DayOne via Manila Times",
-       "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/pr-newswire/dayone-upsizes-malaysia-financing-to-us72-billion-total-billings-surpass-1gw-and-bookings-reach-23gw/2445453"
       }
      ]
     }
@@ -354,9 +354,9 @@
      "blurb": "Disruptions, routes and rules.",
      "items": [
       {
-       "date": "Oct 15, 2026",
-       "head": "Riyadh airport stays shut; airlines extend Saudi cancellations",
-       "text": "The closure notice now runs to at least 2100 GMT Oct 17. Etihad and flydubai cancelled Riyadh flights to Oct 18–19, Air France-KLM to month-end, and Delta pushed its launch to March 2027.",
+       "date": "Oct 16, 2026",
+       "head": "Riyadh airport closure runs through Oct 17",
+       "text": "The closure notice runs to 2100 GMT Oct 17, with no confirmed reopening. Etihad and flydubai cancelled Riyadh flights to Oct 18–19 and Air France-KLM to month-end.",
        "src": "Gulf Business",
        "url": "https://gulfbusiness.com/en/2026/saudi-arabia/saudi-flight-cancellations-latest-list-affected-airlines-routes/"
       },
