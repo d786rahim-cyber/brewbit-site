@@ -1,5 +1,5 @@
 {
- "updated": "October 18, 2026",
+ "updated": "October 19, 2026",
  "themes": [
   {
    "desk": "Technology",
@@ -201,13 +201,6 @@
      "blurb": "Trade events worth knowing.",
      "items": [
       {
-       "date": "Oct 17–18, 2026",
-       "head": "Coffee Fest Dallas-Fort Worth",
-       "text": "More than 50 free seminars plus paid workshops, close to home for Texas roasters and café owners.",
-       "src": "Perfect Daily Grind",
-       "url": "https://perfectdailygrind.com/2026/10/coffee-news-recap-9-october-2026/"
-      },
-      {
        "date": "Mar 4–6, 2027",
        "head": "NCA Convention, Austin, Texas",
        "text": "The National Coffee Association's annual convention comes to the JW Marriott Austin.",
@@ -280,13 +273,6 @@
      "title": "Ride and race calendar",
      "blurb": "US and world events coming up.",
      "items": [
-      {
-       "date": "Oct 14–18, 2026",
-       "head": "UCI Track World Championships, Shanghai",
-       "text": "About 400 riders from some 45 nations race for 22 world titles, with points toward the LA 2028 Olympics.",
-       "src": "Shanghai government",
-       "url": "https://english.shanghai.gov.cn/en-SportsEvents/20260803/b2691b36a6254738ab4656d757b899f4.html"
-      },
       {
        "date": "Oct 22, 2026",
        "head": "2027 Tour de France route revealed in Paris",
