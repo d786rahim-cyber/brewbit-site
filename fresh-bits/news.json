@@ -1,530 +1,537 @@
 {
- "updated": "October 21, 2026",
- "themes": [
-  {
-   "desk": "Technology",
-   "text": "Big patch weeks for F5 and Juniper, a contractor outage stalls bankruptcy courts, and AI cloud money keeps flowing."
-  },
-  {
-   "desk": "Coffee",
-   "text": "Canadian cafe chains consolidate, Starbucks rules out Chipotle, and electric roasting keeps gaining ground."
-  },
-  {
-   "desk": "Cycling",
-   "text": "Ganna jumps to Lidl-Trek, Castelli returns to the yellow jersey, and the 2027 Tour route is revealed Oct 22."
-  },
-  {
-   "desk": "Travel",
-   "text": "France's crew strike is paused, ETIAS still isn't open, and fall deals from airlines and river cruises run through month-end."
-  }
- ],
- "desks": [
-  {
-   "id": "tech",
-   "title": "Technology",
-   "kicker": "AI · Cybersecurity · Infrastructure",
-   "blurb": "The most important moves in AI, security and the infrastructure that runs it, with the original reporting linked.",
-   "sections": [
+  "updated": "October 21, 2026",
+  "themes": [
     {
-     "id": "ai",
-     "title": "AI",
-     "blurb": "",
-     "items": [
-      {
-       "date": "Oct 16, 2026",
-       "head": "AI cloud Modal raises $750 million at a $15.75 billion valuation",
-       "text": "Accel led the Series D. Modal rents GPUs on demand across 13 cloud partners without owning data centers, and says it has passed $1 billion in annualized revenue.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-modal-raises-750m-in-series-d-funding-round/"
-      },
-      {
-       "date": "Oct 15, 2026",
-       "head": "Anthropic opens Singapore office and defends usage oversight",
-       "text": "Its fifth Asia-Pacific office opened with GovTech, DBS and Grab as users. Co-founder Ben Mann said Anthropic won't give up all oversight of how its most powerful models are used, citing dual-use risks.",
-       "src": "Fortune",
-       "url": "https://fortune.com/2026/10/15/anthropic-dual-use-ai-defends-oversight-singapore"
-      },
-      {
-       "date": "Oct 13, 2026",
-       "head": "FBI arrests OpenAI employee over hidden recorder",
-       "text": "Prosecutors say a product-team engineer hid a recording device behind a TV in an executive conference room in San Francisco. He faces up to five years if convicted; OpenAI fired him.",
-       "src": "TechCrunch",
-       "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
-      },
-      {
-       "date": "Oct 13, 2026",
-       "head": "Character.AI files for Chapter 11 bankruptcy",
-       "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
-       "src": "404 Media",
-       "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
-      }
-     ]
+      "desk": "Technology",
+      "text": "Big patch weeks for F5 and Juniper, a contractor outage stalls bankruptcy courts, and AI cloud money keeps flowing."
     },
     {
-     "id": "cyber",
-     "title": "Cybersecurity",
-     "blurb": "",
-     "items": [
-      {
-       "date": "Oct 16, 2026",
-       "head": "China-linked hackers used a BeyondTrust zero-day",
-       "text": "Mandiant ties CVE-2026-102764 (CVSS 9.3) in Remote Support appliances to an espionage group that planted webshells, took root and wiped logs. Self-hosted customers must apply the BT26-05-RS patch.",
-       "src": "SecurityWeek",
-       "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
-      },
-      {
-       "date": "Oct 16, 2026",
-       "head": "BAE Systems incident halts US bankruptcy court notices",
-       "text": "A security incident at the contractor took the Bankruptcy Noticing Center offline, so notices since Oct 9 haven't gone out. Courts still accept filings; the cause hasn't been disclosed.",
-       "src": "SecurityWeek",
-       "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
-      },
-      {
-       "date": "Oct 15, 2026",
-       "head": "CenterPoint Energy breach hits over 1 million Texans",
-       "text": "The utility told the Texas Attorney General that names, addresses, Social Security and driver's license numbers were exposed. A hacker had already posted stolen data online in September.",
-       "src": "SecurityWeek",
-       "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
-      },
-      {
-       "date": "Oct 16, 2026",
-       "head": "F5 and Juniper patch critical NGINX and Junos flaws",
-       "text": "F5 fixed 11 NGINX bugs, three of them critical, and Juniper fixed over 150 Junos flaws, about two dozen critical. Neither vendor reports active exploitation.",
-       "src": "SecurityWeek",
-       "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/"
-      }
-     ]
+      "desk": "Coffee",
+      "text": "Canadian cafe chains consolidate, Starbucks rules out Chipotle, and electric roasting keeps gaining ground."
     },
     {
-     "id": "infra",
-     "title": "IT infrastructure",
-     "blurb": "",
-     "items": [
-      {
-       "date": "Oct 15, 2026",
-       "head": "Virginia bill proposes a three-year data center moratorium",
-       "text": "Senate Bill 843 from Loudoun County's Russet Perry would stop state approvals of new data center plans from July 2027, citing grid strain and higher power bills.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/"
-      },
-      {
-       "date": "Oct 15, 2026",
-       "head": "Taylor, Texas approves a 1GW gas-powered data center campus",
-       "text": "PowerHouse and Big Watt's 664-acre site near Austin will run on its own 750MW natural gas plant, with first power targeted for early 2028.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
-      },
-      {
-       "date": "Oct 16, 2026",
-       "head": "Digital Realty eyes a 1GW campus in Kokomo, Indiana",
-       "text": "The proposed 476-acre site north of Indianapolis would hold three buildings and about 1GW of IT capacity by 2033, with closed-loop cooling. It would be Digital's first in Indiana.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/"
-      },
-      {
-       "date": "Oct 13, 2026",
-       "head": "NTT Data reportedly near deal to build Anthropic's Japan data center",
-       "text": "Nikkei reports a $6.3 billion, up to 500MW site in Osaka Prefecture, partly online in 2028. Neither company has confirmed it.",
-       "src": "Data Center Dynamics",
-       "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
-      }
-     ]
+      "desk": "Cycling",
+      "text": "Ganna jumps to Lidl-Trek, Castelli returns to the yellow jersey, and the 2027 Tour route is revealed Oct 22."
+    },
+    {
+      "desk": "Travel",
+      "text": "France's crew strike is paused, ETIAS still isn't open, and fall deals from airlines and river cruises run through month-end."
     }
-   ],
-   "links": []
-  },
-  {
-   "id": "coffee",
-   "title": "Coffee",
-   "kicker": "Industry · Roasting · Electric roasters",
-   "blurb": "What is moving the coffee business, and the shift from gas drum roasters to electric roasting.",
-   "sections": [
+  ],
+  "desks": [
     {
-     "id": "coffee-industry",
-     "title": "Industry and markets",
-     "blurb": "Prices, companies and rules that shape the cup.",
-     "items": [
-      {
-       "date": "Oct 14, 2026",
-       "head": "Purebread plans to buy Caffè Artigiano's cafes",
-       "text": "The Canadian bakery chain signed a letter of intent for a C$7.7 million stock deal that would create 27 locations and give Artigiano's owners 49% of Purebread. Not yet final.",
-       "src": "Daily Coffee News",
-       "url": "https://dailycoffeenews.com/2026/10/14/canadas-purebread-plans-to-acquire-caffe-artigianos-cafe-business/"
-      },
-      {
-       "date": "Oct 12, 2026",
-       "head": "Starbucks says it is not buying Chipotle",
-       "text": "After a Financial Times report of talks with advisors, a Starbucks spokesperson said plainly: \"we are not buying Chipotle.\" Analysts had called a roughly $50 billion deal unlikely.",
-       "src": "Nation's Restaurant News",
-       "url": "https://www.nrn.com/mergers-acquisitions/so-much-for-that-idea-starbucks-says-it-is-not-buying-chipotle"
-      },
-      {
-       "date": "Oct 12, 2026",
-       "head": "StoneX to buy Colombian coffee exporter Integra",
-       "text": "Integra runs the La Bonita mill near Medellín and sources from Huila, Cauca and Tolima. It will join StoneX's physical commodities arm; terms were not disclosed.",
-       "src": "Daily Coffee News",
-       "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/"
-      }
-     ]
+      "id": "tech",
+      "title": "Technology",
+      "kicker": "AI · Cybersecurity · Infrastructure",
+      "blurb": "The most important moves in AI, security and the infrastructure that runs it, with the original reporting linked.",
+      "sections": [
+        {
+          "id": "ai",
+          "title": "AI",
+          "blurb": "",
+          "items": [
+            {
+              "date": "Oct 16, 2026",
+              "head": "AI cloud Modal raises $750 million at a $15.75 billion valuation",
+              "text": "Accel led the Series D. Modal rents GPUs on demand across 13 cloud partners without owning data centers, and says it has passed $1 billion in annualized revenue.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-modal-raises-750m-in-series-d-funding-round/"
+            },
+            {
+              "date": "Oct 15, 2026",
+              "head": "Anthropic opens Singapore office and defends usage oversight",
+              "text": "Its fifth Asia-Pacific office opened with GovTech, DBS and Grab as users. Co-founder Ben Mann said Anthropic won't give up all oversight of how its most powerful models are used, citing dual-use risks.",
+              "src": "Fortune",
+              "url": "https://fortune.com/2026/10/15/anthropic-dual-use-ai-defends-oversight-singapore"
+            },
+            {
+              "date": "Oct 13, 2026",
+              "head": "FBI arrests OpenAI employee over hidden recorder",
+              "text": "Prosecutors say a product-team engineer hid a recording device behind a TV in an executive conference room in San Francisco. He faces up to five years if convicted; OpenAI fired him.",
+              "src": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
+            },
+            {
+              "date": "Oct 13, 2026",
+              "head": "Character.AI files for Chapter 11 bankruptcy",
+              "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
+              "src": "404 Media",
+              "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
+            }
+          ]
+        },
+        {
+          "id": "cyber",
+          "title": "Cybersecurity",
+          "blurb": "",
+          "items": [
+            {
+              "date": "Oct 21, 2026",
+              "head": "PHP2Shell flaws push BambooHR offline as PHP rushes patches",
+              "text": "Two leaked PHP bugs, CVE-2026-109618 and CVE-2026-109619, rated CVSS 9.2, can allow remote code execution. PHP scheduled emergency fixes for October 21. BambooHR's status page says it took the app offline as a precaution. No exploitation in the wild reported yet.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/"
+            },
+            {
+              "date": "Oct 16, 2026",
+              "head": "China-linked hackers used a BeyondTrust zero-day",
+              "text": "Mandiant ties CVE-2026-102764 (CVSS 9.3) in Remote Support appliances to an espionage group that planted webshells, took root and wiped logs. Self-hosted customers must apply the BT26-05-RS patch.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
+            },
+            {
+              "date": "Oct 16, 2026",
+              "head": "BAE Systems incident halts US bankruptcy court notices",
+              "text": "A security incident at the contractor took the Bankruptcy Noticing Center offline, so notices since Oct 9 haven't gone out. Courts still accept filings; the cause hasn't been disclosed.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
+            },
+            {
+              "date": "Oct 15, 2026",
+              "head": "CenterPoint Energy breach hits over 1 million Texans",
+              "text": "The utility told the Texas Attorney General that names, addresses, Social Security and driver's license numbers were exposed. A hacker had already posted stolen data online in September.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
+            },
+            {
+              "date": "Oct 16, 2026",
+              "head": "F5 and Juniper patch critical NGINX and Junos flaws",
+              "text": "F5 fixed 11 NGINX bugs, three of them critical, and Juniper fixed over 150 Junos flaws, about two dozen critical. Neither vendor reports active exploitation.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/"
+            }
+          ]
+        },
+        {
+          "id": "infra",
+          "title": "IT infrastructure",
+          "blurb": "",
+          "items": [
+            {
+              "date": "Oct 15, 2026",
+              "head": "Virginia bill proposes a three-year data center moratorium",
+              "text": "Senate Bill 843 from Loudoun County's Russet Perry would stop state approvals of new data center plans from July 2027, citing grid strain and higher power bills.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/"
+            },
+            {
+              "date": "Oct 15, 2026",
+              "head": "Taylor, Texas approves a 1GW gas-powered data center campus",
+              "text": "PowerHouse and Big Watt's 664-acre site near Austin will run on its own 750MW natural gas plant, with first power targeted for early 2028.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
+            },
+            {
+              "date": "Oct 16, 2026",
+              "head": "Digital Realty eyes a 1GW campus in Kokomo, Indiana",
+              "text": "The proposed 476-acre site north of Indianapolis would hold three buildings and about 1GW of IT capacity by 2033, with closed-loop cooling. It would be Digital's first in Indiana.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/"
+            },
+            {
+              "date": "Oct 13, 2026",
+              "head": "NTT Data reportedly near deal to build Anthropic's Japan data center",
+              "text": "Nikkei reports a $6.3 billion, up to 500MW site in Osaka Prefecture, partly online in 2028. Neither company has confirmed it.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
+            }
+          ]
+        }
+      ],
+      "links": []
     },
     {
-     "id": "coffee-electric",
-     "title": "Electric roasting watch",
-     "blurb": "Machines and experiments moving roasting off gas.",
-     "items": [
-      {
-       "date": "Sep 21, 2026",
-       "head": "Sandia tests stored solar heat for drum roasters",
-       "text": "Sandia National Laboratories and Albuquerque's Michael Thomas Coffee stored solar electricity as heat in a rock bed and fed it to a drum roaster, reaching 600°C. The goal is a bolt-on retrofit that cuts gas use.",
-       "src": "Daily Coffee News",
-       "url": "https://dailycoffeenews.com/2026/09/21/new-mexico-experiment-brings-solar-heat-to-the-roasting-drum/"
-      },
-      {
-       "date": "Jun 30, 2026",
-       "head": "Coffee Crafters ships the all-electric Duo",
-       "text": "A compact fluid-bed roaster for 200 grams to 2 pounds a batch, up to 10 pounds an hour, on 240-volt power. It starts at $2,995.",
-       "src": "Daily Coffee News",
-       "url": "https://dailycoffeenews.com/2026/06/30/coffee-crafters-returns-to-its-roots-with-new-2-pound-roaster-the-duo/"
-      },
-      {
-       "date": "Apr 15, 2026",
-       "head": "Rex Roaster's 4-pound electric drum plugs into 120 volts",
-       "text": "The manual, stainless machine runs on a standard 20-amp outlet, works with Artisan profiling software and lists at $6,000.",
-       "src": "Daily Coffee News",
-       "url": "https://dailycoffeenews.com/2026/04/15/rex-roaster-readies-release-of-4-pound-capacity-flagship-machine/"
-      }
-     ]
+      "id": "coffee",
+      "title": "Coffee",
+      "kicker": "Industry · Roasting · Electric roasters",
+      "blurb": "What is moving the coffee business, and the shift from gas drum roasters to electric roasting.",
+      "sections": [
+        {
+          "id": "coffee-industry",
+          "title": "Industry and markets",
+          "blurb": "Prices, companies and rules that shape the cup.",
+          "items": [
+            {
+              "date": "Oct 14, 2026",
+              "head": "Purebread plans to buy Caffè Artigiano's cafes",
+              "text": "The Canadian bakery chain signed a letter of intent for a C$7.7 million stock deal that would create 27 locations and give Artigiano's owners 49% of Purebread. Not yet final.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/14/canadas-purebread-plans-to-acquire-caffe-artigianos-cafe-business/"
+            },
+            {
+              "date": "Oct 12, 2026",
+              "head": "Starbucks says it is not buying Chipotle",
+              "text": "After a Financial Times report of talks with advisors, a Starbucks spokesperson said plainly: \"we are not buying Chipotle.\" Analysts had called a roughly $50 billion deal unlikely.",
+              "src": "Nation's Restaurant News",
+              "url": "https://www.nrn.com/mergers-acquisitions/so-much-for-that-idea-starbucks-says-it-is-not-buying-chipotle"
+            },
+            {
+              "date": "Oct 12, 2026",
+              "head": "StoneX to buy Colombian coffee exporter Integra",
+              "text": "Integra runs the La Bonita mill near Medellín and sources from Huila, Cauca and Tolima. It will join StoneX's physical commodities arm; terms were not disclosed.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/"
+            }
+          ]
+        },
+        {
+          "id": "coffee-electric",
+          "title": "Electric roasting watch",
+          "blurb": "Machines and experiments moving roasting off gas.",
+          "items": [
+            {
+              "date": "Sep 21, 2026",
+              "head": "Sandia tests stored solar heat for drum roasters",
+              "text": "Sandia National Laboratories and Albuquerque's Michael Thomas Coffee stored solar electricity as heat in a rock bed and fed it to a drum roaster, reaching 600°C. The goal is a bolt-on retrofit that cuts gas use.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/09/21/new-mexico-experiment-brings-solar-heat-to-the-roasting-drum/"
+            },
+            {
+              "date": "Jun 30, 2026",
+              "head": "Coffee Crafters ships the all-electric Duo",
+              "text": "A compact fluid-bed roaster for 200 grams to 2 pounds a batch, up to 10 pounds an hour, on 240-volt power. It starts at $2,995.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/06/30/coffee-crafters-returns-to-its-roots-with-new-2-pound-roaster-the-duo/"
+            },
+            {
+              "date": "Apr 15, 2026",
+              "head": "Rex Roaster's 4-pound electric drum plugs into 120 volts",
+              "text": "The manual, stainless machine runs on a standard 20-amp outlet, works with Artisan profiling software and lists at $6,000.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/04/15/rex-roaster-readies-release-of-4-pound-capacity-flagship-machine/"
+            }
+          ]
+        },
+        {
+          "id": "coffee-events",
+          "title": "Coming up",
+          "blurb": "Trade events worth knowing.",
+          "items": [
+            {
+              "date": "Mar 4–6, 2027",
+              "head": "NCA Convention, Austin, Texas",
+              "text": "The National Coffee Association's annual convention comes to the JW Marriott Austin.",
+              "src": "National Coffee Association",
+              "url": "https://www.ncausa.org/Convention"
+            }
+          ],
+          "style": "list"
+        }
+      ],
+      "links": [
+        {
+          "name": "Bellwether",
+          "url": "https://bellwethercoffee.com/",
+          "note": "Ventless electric shop roasters"
+        },
+        {
+          "name": "Aillio",
+          "url": "https://aillio.com/",
+          "note": "Bullet electric roasters"
+        },
+        {
+          "name": "ROEST",
+          "url": "https://www.roestcoffee.com/",
+          "note": "Electric sample and production roasters"
+        },
+        {
+          "name": "Why electric roasting?",
+          "url": "https://freshcup.com/is-electric-roasting-here-to-stay/",
+          "note": "Fresh Cup explainer on gas vs electric"
+        }
+      ]
     },
     {
-     "id": "coffee-events",
-     "title": "Coming up",
-     "blurb": "Trade events worth knowing.",
-     "items": [
-      {
-       "date": "Mar 4–6, 2027",
-       "head": "NCA Convention, Austin, Texas",
-       "text": "The National Coffee Association's annual convention comes to the JW Marriott Austin.",
-       "src": "National Coffee Association",
-       "url": "https://www.ncausa.org/Convention"
-      }
-     ],
-     "style": "list"
+      "id": "cycling",
+      "title": "Cycling",
+      "kicker": "Racing · Events · Gear",
+      "blurb": "Big rides and races in the US and worldwide, plus where to buy and service your bike.",
+      "sections": [
+        {
+          "id": "cycling-news",
+          "title": "Racing and rides",
+          "blurb": "The stories riders are talking about.",
+          "items": [
+            {
+              "date": "Oct 13, 2026",
+              "head": "Filippo Ganna leaves Ineos early for Lidl-Trek",
+              "text": "The Italian time trial star signs a three-year deal from 2027, leaving Netcompany-Ineos a year before his contract ended.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/transfers/filippo-ganna-makes-early-exit-from-netcompany-ineos-to-move-to-lidl-trek/"
+            },
+            {
+              "date": "Oct 13, 2026",
+              "head": "Castelli's scorpion returns to the yellow jersey",
+              "text": "Castelli replaces Santini as kit supplier for the Tour de France and 26 other ASO races from 2027, its first time on the yellow jersey since 1994. The design is revealed Oct 22.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/scorpion-logo-returns-to-yellow-jersey-after-33-years-as-castelli-becomes-new-kit-partner-for-tour-de-france-and-other-aso-races/"
+            },
+            {
+              "date": "Oct 10, 2026",
+              "head": "Paul Seixas, 20, becomes youngest Il Lombardia winner",
+              "text": "The Frenchman won the season's last Monument solo, his first Monument victory. Tadej Pogačar did not start.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/its-a-great-dream-to-really-be-able-to-compete-against-tadej-pogacar-paul-seixas-takes-another-step-towards-his-man-made-destiny-at-il-lombardia/"
+            }
+          ]
+        },
+        {
+          "id": "cycling-calendar",
+          "title": "Ride and race calendar",
+          "blurb": "US and world events coming up.",
+          "items": [
+            {
+              "date": "Oct 22, 2026",
+              "head": "2027 Tour de France route revealed in Paris",
+              "text": "The route is announced live; the 2027 race starts in Edinburgh on July 2, Scotland's first Grand Départ.",
+              "src": "IDL Pro Cycling",
+              "url": "https://www.idlprocycling.com/cycling/2027-tour-de-france-route-to-be-revealed-live-on-october-22-heres-what-the-rumour-mill-says"
+            },
+            {
+              "date": "Apr 24–25, 2027",
+              "head": "Texas MS 150: Houston and Austin to College Station",
+              "text": "Two-day ride with starts in Houston and Austin, an overnight in La Grange and the finish in College Station.",
+              "src": "National MS Society",
+              "url": "https://events.nationalmssociety.org/pages/11747"
+            }
+          ],
+          "style": "list"
+        }
+      ],
+      "links": [
+        {
+          "name": "REI Cycling",
+          "url": "https://www.rei.com/c/cycling",
+          "note": "Bikes, gear and in-store service"
+        },
+        {
+          "name": "Competitive Cyclist",
+          "url": "https://www.competitivecyclist.com/",
+          "note": "Road and gravel bikes, components, apparel"
+        },
+        {
+          "name": "velofix",
+          "url": "https://www.velofix.com/",
+          "note": "Mobile bike repair that comes to you"
+        },
+        {
+          "name": "BikeRadar buyer's guides",
+          "url": "https://www.bikeradar.com/advice/buyers-guides",
+          "note": "Tested picks before you buy"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "kicker": "News · Restrictions · Safety · Destinations · Deals",
+      "blurb": "What affects your next trip, the rules and safety basics to check first, where to go, and offers worth a look.",
+      "sections": [
+        {
+          "id": "travel-news",
+          "title": "Travel news",
+          "blurb": "Disruptions, routes and rules.",
+          "items": [
+            {
+              "date": "Oct 9, 2026",
+              "head": "French flight crew strike for Oct 17–21 suspended",
+              "text": "Unions paused the Air France and Transavia strike after a pension compromise, but say it can return if the promised decree isn't published.",
+              "src": "AeroCorner",
+              "url": "https://aerocorner.com/news/french-pilot-cabin-crew-strike-october-17-21-suspended/"
+            },
+            {
+              "date": "Oct 6, 2026",
+              "head": "Delta starts Austin–San Jose nonstops",
+              "text": "Year-round service on a 132-seat Airbus A319 adds another Bay Area option from Austin.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/news/delta-air-lines-new-route-austin-san-jose-california/"
+            }
+          ]
+        },
+        {
+          "id": "travel-restrictions",
+          "title": "Restrictions and entry rules",
+          "blurb": "Advisories, entry permits and health notices to check before you book.",
+          "items": [
+            {
+              "date": "Oct 13, 2026",
+              "head": "Don't pay for ETIAS yet: Europe isn't taking applications",
+              "text": "The EU says the permit is not operational and has no launch date. Over 150 look-alike sites charge €50 to €178; the official fee will be €20.",
+              "src": "Pakistan Observer",
+              "url": "https://pakobserver.net/europe-travel-alert-over-150-fake-etias-websites-target-visitors"
+            },
+            {
+              "date": "Official",
+              "head": "Americans need a UK ETA before flying to Britain",
+              "text": "The electronic travel authorisation costs £20 on GOV.UK, covers visits of up to six months, and every traveler needs one, including children. Unofficial sites charge more.",
+              "src": "GOV.UK",
+              "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
+            },
+            {
+              "date": "Jun 15, 2026",
+              "head": "CDC: reconsider travel to Ebola areas of eastern DR Congo",
+              "text": "A Level 3 notice covers Ituri, North Kivu and South Kivu provinces. Level 2 precautions apply to the rest of DR Congo and Uganda.",
+              "src": "CDC Travelers' Health",
+              "url": "https://wwwnc.cdc.gov/travel/notices"
+            }
+          ]
+        },
+        {
+          "id": "travel-destinations",
+          "title": "Where to go",
+          "blurb": "Fresh picks for planning ahead.",
+          "items": [
+            {
+              "date": "Sep 23, 2026",
+              "head": "Lonely Planet names its Best in Travel 2027",
+              "text": "The 25 picks include Okinawa, Oman, Šibenik, Bariloche, Da Nang and Rabat, plus US choices Maryland, New Mexico and the Northern California redwood coast.",
+              "src": "Time Out",
+              "url": "https://www.timeout.com/news/lonely-planet-best-in-travel-2027-092326"
+            }
+          ]
+        },
+        {
+          "id": "travel-tips",
+          "title": "Safety and smart-travel tips",
+          "blurb": "Simple habits that save money and trouble.",
+          "items": [
+            {
+              "date": "Tip",
+              "head": "Enroll in STEP before any international trip",
+              "text": "The State Department's free Smart Traveler program emails embassy alerts for your destination and helps the embassy reach you in an emergency.",
+              "src": "US State Department",
+              "url": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/step.html"
+            },
+            {
+              "date": "Tip",
+              "head": "Buy entry permits only on government sites",
+              "text": "Look-alike sites charge several times the real fee for UK ETAs and EU permits. Skip sponsored search results and go to GOV.UK or the official EU site directly.",
+              "src": "GOV.UK",
+              "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
+            },
+            {
+              "date": "Tip",
+              "head": "Get TSA PreCheck to keep shoes and laptop in place",
+              "text": "Enrolled travelers keep shoes, belts, laptops and liquids in their bags at screening. Enrollment costs $77.95 to $85 depending on the provider.",
+              "src": "TSA",
+              "url": "https://www.tsa.gov/precheck"
+            },
+            {
+              "date": "Tip",
+              "head": "Use Mobile Passport Control when flying home to DFW or Houston",
+              "text": "US citizens can submit passport details and customs answers in a free app, then show a QR receipt to the CBP officer. Both DFW and IAH take part.",
+              "src": "CBP",
+              "url": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control"
+            }
+          ],
+          "style": "list"
+        },
+        {
+          "id": "travel-deals",
+          "title": "Best deals: airlines, hotels and tour operators",
+          "blurb": "Deadlines shown on the left. Confirm terms before booking.",
+          "items": [
+            {
+              "date": "Airline · by Oct 31",
+              "head": "Flying Blue: 25% off select award flights",
+              "text": "Air France-KLM award seats to Europe from 18,750 miles each way in economy, for travel through March 31, 2027.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/"
+            },
+            {
+              "date": "Hotel · Oct 15–Dec 31",
+              "head": "Hilton: up to 3,000 bonus points per stay",
+              "text": "3,000 points at resort and upscale hotels, 1,000 elsewhere, on cash or points stays. Register before your first stay.",
+              "src": "Head for Points",
+              "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
+            },
+            {
+              "date": "Hotel · register by Nov 13",
+              "head": "Marriott: 1,500 bonus points per two-night stay",
+              "text": "Rises to 4,500 at resorts on cash stays of two nights or more, through November 22.",
+              "src": "Head for Points",
+              "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
+            },
+            {
+              "date": "Resort · book by Nov 5",
+              "head": "Princess Hotels: up to 42% off in Punta Cana and Riviera Maya",
+              "text": "For travel through March 28, 2027.",
+              "src": "TravelPulse",
+              "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+            },
+            {
+              "date": "Tour operator · by Oct 31",
+              "head": "Uniworld: $500 to $1,500 off 2027 river cruises",
+              "text": "Includes Milan to Venice, Portugal and Spain, and Budapest to Passau itineraries.",
+              "src": "TravelPulse",
+              "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+            },
+            {
+              "date": "Tour operator · by end of 2026",
+              "head": "AmaWaterways: up to $2,500 off per stateroom",
+              "text": "On select 2026 and 2027 river sailings, with free upgrades on some cruises.",
+              "src": "TravelPulse",
+              "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+            }
+          ],
+          "style": "list"
+        }
+      ],
+      "links": [
+        {
+          "name": "State Dept travel advisories",
+          "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
+          "note": "Check before you book"
+        },
+        {
+          "name": "Going",
+          "url": "https://www.going.com/",
+          "note": "Flight deal and mistake-fare alerts"
+        },
+        {
+          "name": "The Points Guy deals",
+          "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/",
+          "note": "Airline and points offers, updated often"
+        }
+      ]
     }
-   ],
-   "links": [
+  ],
+  "readers": [
     {
-     "name": "Bellwether",
-     "url": "https://bellwethercoffee.com/",
-     "note": "Ventless electric shop roasters"
+      "name": "The Hacker News",
+      "url": "https://thehackernews.com/"
     },
     {
-     "name": "Aillio",
-     "url": "https://aillio.com/",
-     "note": "Bullet electric roasters"
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/"
     },
     {
-     "name": "ROEST",
-     "url": "https://www.roestcoffee.com/",
-     "note": "Electric sample and production roasters"
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/"
     },
     {
-     "name": "Why electric roasting?",
-     "url": "https://freshcup.com/is-electric-roasting-here-to-stay/",
-     "note": "Fresh Cup explainer on gas vs electric"
+      "name": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/"
+    },
+    {
+      "name": "AI Weekly",
+      "url": "https://aiweekly.co/"
+    },
+    {
+      "name": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/"
+    },
+    {
+      "name": "Perfect Daily Grind",
+      "url": "https://perfectdailygrind.com/"
+    },
+    {
+      "name": "Cyclingnews",
+      "url": "https://www.cyclingnews.com/"
+    },
+    {
+      "name": "Upgraded Points",
+      "url": "https://upgradedpoints.com/news/"
     }
-   ]
-  },
-  {
-   "id": "cycling",
-   "title": "Cycling",
-   "kicker": "Racing · Events · Gear",
-   "blurb": "Big rides and races in the US and worldwide, plus where to buy and service your bike.",
-   "sections": [
-    {
-     "id": "cycling-news",
-     "title": "Racing and rides",
-     "blurb": "The stories riders are talking about.",
-     "items": [
-      {
-       "date": "Oct 13, 2026",
-       "head": "Filippo Ganna leaves Ineos early for Lidl-Trek",
-       "text": "The Italian time trial star signs a three-year deal from 2027, leaving Netcompany-Ineos a year before his contract ended.",
-       "src": "Cyclingnews",
-       "url": "https://www.cyclingnews.com/pro-cycling/transfers/filippo-ganna-makes-early-exit-from-netcompany-ineos-to-move-to-lidl-trek/"
-      },
-      {
-       "date": "Oct 13, 2026",
-       "head": "Castelli's scorpion returns to the yellow jersey",
-       "text": "Castelli replaces Santini as kit supplier for the Tour de France and 26 other ASO races from 2027, its first time on the yellow jersey since 1994. The design is revealed Oct 22.",
-       "src": "Cyclingnews",
-       "url": "https://www.cyclingnews.com/pro-cycling/scorpion-logo-returns-to-yellow-jersey-after-33-years-as-castelli-becomes-new-kit-partner-for-tour-de-france-and-other-aso-races/"
-      },
-      {
-       "date": "Oct 10, 2026",
-       "head": "Paul Seixas, 20, becomes youngest Il Lombardia winner",
-       "text": "The Frenchman won the season's last Monument solo, his first Monument victory. Tadej Pogačar did not start.",
-       "src": "Cyclingnews",
-       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/its-a-great-dream-to-really-be-able-to-compete-against-tadej-pogacar-paul-seixas-takes-another-step-towards-his-man-made-destiny-at-il-lombardia/"
-      }
-     ]
-    },
-    {
-     "id": "cycling-calendar",
-     "title": "Ride and race calendar",
-     "blurb": "US and world events coming up.",
-     "items": [
-      {
-       "date": "Oct 22, 2026",
-       "head": "2027 Tour de France route revealed in Paris",
-       "text": "The route is announced live; the 2027 race starts in Edinburgh on July 2, Scotland's first Grand Départ.",
-       "src": "IDL Pro Cycling",
-       "url": "https://www.idlprocycling.com/cycling/2027-tour-de-france-route-to-be-revealed-live-on-october-22-heres-what-the-rumour-mill-says"
-      },
-      {
-       "date": "Apr 24–25, 2027",
-       "head": "Texas MS 150: Houston and Austin to College Station",
-       "text": "Two-day ride with starts in Houston and Austin, an overnight in La Grange and the finish in College Station.",
-       "src": "National MS Society",
-       "url": "https://events.nationalmssociety.org/pages/11747"
-      }
-     ],
-     "style": "list"
-    }
-   ],
-   "links": [
-    {
-     "name": "REI Cycling",
-     "url": "https://www.rei.com/c/cycling",
-     "note": "Bikes, gear and in-store service"
-    },
-    {
-     "name": "Competitive Cyclist",
-     "url": "https://www.competitivecyclist.com/",
-     "note": "Road and gravel bikes, components, apparel"
-    },
-    {
-     "name": "velofix",
-     "url": "https://www.velofix.com/",
-     "note": "Mobile bike repair that comes to you"
-    },
-    {
-     "name": "BikeRadar buyer's guides",
-     "url": "https://www.bikeradar.com/advice/buyers-guides",
-     "note": "Tested picks before you buy"
-    }
-   ]
-  },
-  {
-   "id": "travel",
-   "title": "Travel",
-   "kicker": "News · Restrictions · Safety · Destinations · Deals",
-   "blurb": "What affects your next trip, the rules and safety basics to check first, where to go, and offers worth a look.",
-   "sections": [
-    {
-     "id": "travel-news",
-     "title": "Travel news",
-     "blurb": "Disruptions, routes and rules.",
-     "items": [
-      {
-       "date": "Oct 9, 2026",
-       "head": "French flight crew strike for Oct 17–21 suspended",
-       "text": "Unions paused the Air France and Transavia strike after a pension compromise, but say it can return if the promised decree isn't published.",
-       "src": "AeroCorner",
-       "url": "https://aerocorner.com/news/french-pilot-cabin-crew-strike-october-17-21-suspended/"
-      },
-      {
-       "date": "Oct 6, 2026",
-       "head": "Delta starts Austin–San Jose nonstops",
-       "text": "Year-round service on a 132-seat Airbus A319 adds another Bay Area option from Austin.",
-       "src": "The Points Guy",
-       "url": "https://thepointsguy.com/news/delta-air-lines-new-route-austin-san-jose-california/"
-      }
-     ]
-    },
-    {
-     "id": "travel-restrictions",
-     "title": "Restrictions and entry rules",
-     "blurb": "Advisories, entry permits and health notices to check before you book.",
-     "items": [
-      {
-       "date": "Oct 13, 2026",
-       "head": "Don't pay for ETIAS yet: Europe isn't taking applications",
-       "text": "The EU says the permit is not operational and has no launch date. Over 150 look-alike sites charge €50 to €178; the official fee will be €20.",
-       "src": "Pakistan Observer",
-       "url": "https://pakobserver.net/europe-travel-alert-over-150-fake-etias-websites-target-visitors"
-      },
-      {
-       "date": "Official",
-       "head": "Americans need a UK ETA before flying to Britain",
-       "text": "The electronic travel authorisation costs £20 on GOV.UK, covers visits of up to six months, and every traveler needs one, including children. Unofficial sites charge more.",
-       "src": "GOV.UK",
-       "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
-      },
-      {
-       "date": "Jun 15, 2026",
-       "head": "CDC: reconsider travel to Ebola areas of eastern DR Congo",
-       "text": "A Level 3 notice covers Ituri, North Kivu and South Kivu provinces. Level 2 precautions apply to the rest of DR Congo and Uganda.",
-       "src": "CDC Travelers' Health",
-       "url": "https://wwwnc.cdc.gov/travel/notices"
-      }
-     ]
-    },
-    {
-     "id": "travel-destinations",
-     "title": "Where to go",
-     "blurb": "Fresh picks for planning ahead.",
-     "items": [
-      {
-       "date": "Sep 23, 2026",
-       "head": "Lonely Planet names its Best in Travel 2027",
-       "text": "The 25 picks include Okinawa, Oman, Šibenik, Bariloche, Da Nang and Rabat, plus US choices Maryland, New Mexico and the Northern California redwood coast.",
-       "src": "Time Out",
-       "url": "https://www.timeout.com/news/lonely-planet-best-in-travel-2027-092326"
-      }
-     ]
-    },
-    {
-     "id": "travel-tips",
-     "title": "Safety and smart-travel tips",
-     "blurb": "Simple habits that save money and trouble.",
-     "items": [
-      {
-       "date": "Tip",
-       "head": "Enroll in STEP before any international trip",
-       "text": "The State Department's free Smart Traveler program emails embassy alerts for your destination and helps the embassy reach you in an emergency.",
-       "src": "US State Department",
-       "url": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/step.html"
-      },
-      {
-       "date": "Tip",
-       "head": "Buy entry permits only on government sites",
-       "text": "Look-alike sites charge several times the real fee for UK ETAs and EU permits. Skip sponsored search results and go to GOV.UK or the official EU site directly.",
-       "src": "GOV.UK",
-       "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta"
-      },
-      {
-       "date": "Tip",
-       "head": "Get TSA PreCheck to keep shoes and laptop in place",
-       "text": "Enrolled travelers keep shoes, belts, laptops and liquids in their bags at screening. Enrollment costs $77.95 to $85 depending on the provider.",
-       "src": "TSA",
-       "url": "https://www.tsa.gov/precheck"
-      },
-      {
-       "date": "Tip",
-       "head": "Use Mobile Passport Control when flying home to DFW or Houston",
-       "text": "US citizens can submit passport details and customs answers in a free app, then show a QR receipt to the CBP officer. Both DFW and IAH take part.",
-       "src": "CBP",
-       "url": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control"
-      }
-     ],
-     "style": "list"
-    },
-    {
-     "id": "travel-deals",
-     "title": "Best deals: airlines, hotels and tour operators",
-     "blurb": "Deadlines shown on the left. Confirm terms before booking.",
-     "items": [
-      {
-       "date": "Airline · by Oct 31",
-       "head": "Flying Blue: 25% off select award flights",
-       "text": "Air France-KLM award seats to Europe from 18,750 miles each way in economy, for travel through March 31, 2027.",
-       "src": "The Points Guy",
-       "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/"
-      },
-      {
-       "date": "Hotel · Oct 15–Dec 31",
-       "head": "Hilton: up to 3,000 bonus points per stay",
-       "text": "3,000 points at resort and upscale hotels, 1,000 elsewhere, on cash or points stays. Register before your first stay.",
-       "src": "Head for Points",
-       "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
-      },
-      {
-       "date": "Hotel · register by Nov 13",
-       "head": "Marriott: 1,500 bonus points per two-night stay",
-       "text": "Rises to 4,500 at resorts on cash stays of two nights or more, through November 22.",
-       "src": "Head for Points",
-       "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
-      },
-      {
-       "date": "Resort · book by Nov 5",
-       "head": "Princess Hotels: up to 42% off in Punta Cana and Riviera Maya",
-       "text": "For travel through March 28, 2027.",
-       "src": "TravelPulse",
-       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
-      },
-      {
-       "date": "Tour operator · by Oct 31",
-       "head": "Uniworld: $500 to $1,500 off 2027 river cruises",
-       "text": "Includes Milan to Venice, Portugal and Spain, and Budapest to Passau itineraries.",
-       "src": "TravelPulse",
-       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
-      },
-      {
-       "date": "Tour operator · by end of 2026",
-       "head": "AmaWaterways: up to $2,500 off per stateroom",
-       "text": "On select 2026 and 2027 river sailings, with free upgrades on some cruises.",
-       "src": "TravelPulse",
-       "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
-      }
-     ],
-     "style": "list"
-    }
-   ],
-   "links": [
-    {
-     "name": "State Dept travel advisories",
-     "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
-     "note": "Check before you book"
-    },
-    {
-     "name": "Going",
-     "url": "https://www.going.com/",
-     "note": "Flight deal and mistake-fare alerts"
-    },
-    {
-     "name": "The Points Guy deals",
-     "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/",
-     "note": "Airline and points offers, updated often"
-    }
-   ]
-  }
- ],
- "readers": [
-  {
-   "name": "The Hacker News",
-   "url": "https://thehackernews.com/"
-  },
-  {
-   "name": "SecurityWeek",
-   "url": "https://www.securityweek.com/"
-  },
-  {
-   "name": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/"
-  },
-  {
-   "name": "Data Center Dynamics",
-   "url": "https://www.datacenterdynamics.com/en/"
-  },
-  {
-   "name": "AI Weekly",
-   "url": "https://aiweekly.co/"
-  },
-  {
-   "name": "Daily Coffee News",
-   "url": "https://dailycoffeenews.com/"
-  },
-  {
-   "name": "Perfect Daily Grind",
-   "url": "https://perfectdailygrind.com/"
-  },
-  {
-   "name": "Cyclingnews",
-   "url": "https://www.cyclingnews.com/"
-  },
-  {
-   "name": "Upgraded Points",
-   "url": "https://upgradedpoints.com/news/"
-  }
- ]
+  ]
 }
