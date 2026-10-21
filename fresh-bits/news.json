@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell forces emergency patching and takes BambooHR and government sites offline, while a poisoned LiteLLM release and the ConnectWise breach show supply chain risk."
+      "text": "PHP2Shell exploit attempts begin as patches land and sites go offline, GitLab fixes a CVSS 10 flaw, and AI-driven supply chain attacks hit LiteLLM and ConnectWise."
     },
     {
       "desk": "Coffee",
@@ -74,10 +74,24 @@
             },
             {
               "date": "Oct 21, 2026",
+              "head": "First PHP2Shell exploit attempts hit as patches land",
+              "text": "watchTowr, Hadrian, Patchstack, Cloudflare and Vega report attempts, some using a public exploit. watchTowr has seen no successful attack yet but expects one soon. PHP also posted backports for 7.4, 8.0 and 8.1.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/"
+            },
+            {
+              "date": "Oct 21, 2026",
               "head": "Governments pull websites offline over PHP2Shell",
               "text": "Agencies in the Netherlands and Finland, including the Dutch cybersecurity agency, took sites offline as a precaution. Agencies in Europe, Australia, Japan and Britain urged PHP users to patch now or go offline.",
               "src": "Global News",
               "url": "https://globalnews.ca/news/12110881/government-sites-go-dark-vuln-in-code/"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "GitLab patches a CVSS 10 flaw reaching back to 2014",
+              "text": "CVE-2026-110264 could let an unauthenticated user run code on self-managed servers from version 7.0 on. Upgrade to 19.5.1, 19.4.3 or your branch's fix; there is no workaround. No attacks reported yet.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
             },
             {
               "date": "Oct 21, 2026",
@@ -88,24 +102,10 @@
             },
             {
               "date": "Oct 21, 2026",
-              "head": "Patchstack reports PHP2Shell attacks are already under way",
-              "text": "Patchstack says it has confirmed multiple active exploitation incidents. watchTowr and Huntress had seen none as of Oct 20 to 21, and CISA has not listed the flaws, so treat this as one firm's report.",
-              "src": "Patchstack",
-              "url": "https://patchstack.com/articles/php-major-vulnerability-alert-10-2026/"
-            },
-            {
-              "date": "Oct 19, 2026",
-              "head": "ConnectWise suspends Cloud Backup after supply chain attack",
-              "text": "A stolen Cloud Backup credential was used to reach customers' Microsoft 365 tenants. Huntress saw unauthorized sign-ins in 162 tenants. ConnectWise also paused its SaaS Security and Cloud Management platforms, with no restore date.",
-              "src": "The Record",
-              "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack"
-            },
-            {
-              "date": "Oct 20, 2026",
-              "head": "Ahold Delhaize cyberattack takes store sites and apps offline",
-              "text": "The grocer behind Stop & Shop, Albert Heijn and Delhaize pulled websites and apps offline in Europe and the US. Stores stayed open. US e-commerce should return in the coming days; no data theft found so far.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe"
+              "head": "Microsoft ties ConnectWise breach to China-aligned Storm-0940",
+              "text": "Microsoft says the group used AI agents to hit more than 2,250 Microsoft 365 tenants through ConnectWise Cloud Backup, after password-spraying 327 accounts. ConnectWise began a phased restore that may take several days.",
+              "src": "CyberScoop",
+              "url": "https://cyberscoop.com/microsoft-attributes-connectwise-supply-chain-attack-china-storm-0940/"
             }
           ]
         },
