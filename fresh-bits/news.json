@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Big patch weeks for F5 and Juniper, a contractor outage stalls bankruptcy courts, and AI cloud money keeps flowing."
+      "text": "PHP2Shell forces emergency patching and takes BambooHR offline, while ConnectWise and Ahold Delhaize show how one breach can shut down services for thousands of customers."
     },
     {
       "desk": "Coffee",
@@ -67,10 +67,31 @@
           "items": [
             {
               "date": "Oct 21, 2026",
-              "head": "PHP2Shell flaws push BambooHR offline as PHP rushes patches",
-              "text": "Two leaked PHP bugs, CVE-2026-109618 and CVE-2026-109619, rated CVSS 9.2, can allow remote code execution. PHP scheduled emergency fixes for October 21. BambooHR's status page says it took the app offline as a precaution. No exploitation in the wild reported yet.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/"
+              "head": "PHP2Shell: patch PHP now as BambooHR goes offline",
+              "text": "PHP shipped emergency fixes in 8.5.12, 8.4.27, 8.3.36 and 8.2.35 for two leaked remote code execution flaws rated CVSS 9.2. PHP 8.1 and older get no fix. BambooHR's status page says it took its app offline as a precaution.",
+              "src": "PHP.net",
+              "url": "https://www.php.net/#2026-10-21-5"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "Patchstack reports PHP2Shell attacks are already under way",
+              "text": "Patchstack says it has confirmed multiple active exploitation incidents. watchTowr and Huntress had seen none as of Oct 20 to 21, and CISA has not listed the flaws, so treat this as one firm's report.",
+              "src": "Patchstack",
+              "url": "https://patchstack.com/articles/php-major-vulnerability-alert-10-2026/"
+            },
+            {
+              "date": "Oct 19, 2026",
+              "head": "ConnectWise suspends Cloud Backup after supply chain attack",
+              "text": "A stolen Cloud Backup credential was used to reach customers' Microsoft 365 tenants. Huntress saw unauthorized sign-ins in 162 tenants. ConnectWise also paused its SaaS Security and Cloud Management platforms, with no restore date.",
+              "src": "The Record",
+              "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack"
+            },
+            {
+              "date": "Oct 20, 2026",
+              "head": "Ahold Delhaize cyberattack takes store sites and apps offline",
+              "text": "The grocer behind Stop & Shop, Albert Heijn and Delhaize pulled websites and apps offline in Europe and the US. Stores stayed open. US e-commerce should return in the coming days; no data theft found so far.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe"
             },
             {
               "date": "Oct 16, 2026",
@@ -80,25 +101,11 @@
               "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
             },
             {
-              "date": "Oct 16, 2026",
-              "head": "BAE Systems incident halts US bankruptcy court notices",
-              "text": "A security incident at the contractor took the Bankruptcy Noticing Center offline, so notices since Oct 9 haven't gone out. Courts still accept filings; the cause hasn't been disclosed.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
-            },
-            {
               "date": "Oct 15, 2026",
               "head": "CenterPoint Energy breach hits over 1 million Texans",
               "text": "The utility told the Texas Attorney General that names, addresses, Social Security and driver's license numbers were exposed. A hacker had already posted stolen data online in September.",
               "src": "SecurityWeek",
               "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
-            },
-            {
-              "date": "Oct 16, 2026",
-              "head": "F5 and Juniper patch critical NGINX and Junos flaws",
-              "text": "F5 fixed 11 NGINX bugs, three of them critical, and Juniper fixed over 150 Junos flaws, about two dozen critical. Neither vendor reports active exploitation.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/"
             }
           ]
         },
