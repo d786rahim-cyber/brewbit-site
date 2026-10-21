@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell forces emergency patching and takes BambooHR offline, while ConnectWise and Ahold Delhaize show how one breach can shut down services for thousands of customers."
+      "text": "PHP2Shell forces emergency patching and takes BambooHR and government sites offline, while a poisoned LiteLLM release and the ConnectWise breach show supply chain risk."
     },
     {
       "desk": "Coffee",
@@ -74,6 +74,20 @@
             },
             {
               "date": "Oct 21, 2026",
+              "head": "Governments pull websites offline over PHP2Shell",
+              "text": "Agencies in the Netherlands and Finland, including the Dutch cybersecurity agency, took sites offline as a precaution. Agencies in Europe, Australia, Japan and Britain urged PHP users to patch now or go offline.",
+              "src": "Global News",
+              "url": "https://globalnews.ca/news/12110881/government-sites-go-dark-vuln-in-code/"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "Poisoned LiteLLM release steals cloud keys and AI API tokens",
+              "text": "LiteLLM 1.107.0 on PyPI and Docker carried malware that grabs AWS, Google Cloud and Azure credentials, SSH keys and LLM API keys. Roll back to 1.106.2 and rotate any secret on affected machines.",
+              "src": "The Register",
+              "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548"
+            },
+            {
+              "date": "Oct 21, 2026",
               "head": "Patchstack reports PHP2Shell attacks are already under way",
               "text": "Patchstack says it has confirmed multiple active exploitation incidents. watchTowr and Huntress had seen none as of Oct 20 to 21, and CISA has not listed the flaws, so treat this as one firm's report.",
               "src": "Patchstack",
@@ -92,20 +106,6 @@
               "text": "The grocer behind Stop & Shop, Albert Heijn and Delhaize pulled websites and apps offline in Europe and the US. Stores stayed open. US e-commerce should return in the coming days; no data theft found so far.",
               "src": "BleepingComputer",
               "url": "https://bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe"
-            },
-            {
-              "date": "Oct 16, 2026",
-              "head": "China-linked hackers used a BeyondTrust zero-day",
-              "text": "Mandiant ties CVE-2026-102764 (CVSS 9.3) in Remote Support appliances to an espionage group that planted webshells, took root and wiped logs. Self-hosted customers must apply the BT26-05-RS patch.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
-            },
-            {
-              "date": "Oct 15, 2026",
-              "head": "CenterPoint Energy breach hits over 1 million Texans",
-              "text": "The utility told the Texas Attorney General that names, addresses, Social Security and driver's license numbers were exposed. A hacker had already posted stolen data online in September.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
             }
           ]
         },
