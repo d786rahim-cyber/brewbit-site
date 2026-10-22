@@ -67,10 +67,17 @@
           "items": [
             {
               "date": "Oct 22, 2026",
-              "head": "PHP2Shell shutdowns reach Wikipedia and German, French sites",
-              "text": "Wikimedia pulled some supporting services, Germany's ITZBund and France's Interior Ministry took sites offline, and the NSA advised going offline until patched. Amazon saw exploit attempts, some before public disclosure.",
-              "src": "Euronews",
-              "url": "https://www.euronews.com/2026/10/22/websites-go-dark-after-ai-exposes-major-programming-language-security-flaw"
+              "head": "AWS: PHP2Shell attacks began four days before patches",
+              "text": "Amazon's honeypots caught an exploit attempt on Oct 17. Cloudflare says attempts jumped to hundreds of thousands within two hours of disclosure and now number in the millions. No confirmed compromises yet.",
+              "src": "The Register",
+              "url": "https://theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749"
+            },
+            {
+              "date": "Oct 22, 2026",
+              "head": "PHP2Shell shutdowns spread to the UK, BBC and Port of Rotterdam",
+              "text": "UK government services, the BBC and Edinburgh pulled web services, joining Germany, France, Belgium, the Netherlands, Finland, Wikimedia and Orange. A former UK cyber chief called it the most serious flaw in five years.",
+              "src": "The National",
+              "url": "https://www.thenationalnews.com/news/europe/2026/10/22/uk-orders-dozens-of-official-websites-offline-after-flaw-warnings/"
             },
             {
               "date": "Oct 21, 2026",
@@ -99,13 +106,6 @@
               "text": "LiteLLM 1.107.0 on PyPI and Docker carried malware that grabs AWS, Google Cloud and Azure credentials, SSH keys and LLM API keys. Roll back to 1.106.2 and rotate any secret on affected machines.",
               "src": "The Register",
               "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "Microsoft ties ConnectWise breach to China-aligned Storm-0940",
-              "text": "Microsoft says the group used AI agents to hit more than 2,250 Microsoft 365 tenants through ConnectWise Cloud Backup, after password-spraying 327 accounts. ConnectWise began a phased restore that may take several days.",
-              "src": "CyberScoop",
-              "url": "https://cyberscoop.com/microsoft-attributes-connectwise-supply-chain-attack-china-storm-0940/"
             }
           ]
         },
