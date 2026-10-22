@@ -1,21 +1,21 @@
 {
-  "updated": "October 21, 2026",
+  "updated": "October 22, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell exploit attempts begin as patches land, ransomware gangs ride a Palo Alto VPN bypass, GitLab fixes a CVSS 10 flaw, and AI-driven supply chain attacks hit LiteLLM and ConnectWise."
+      "text": "PHP2Shell shutdowns spread as patches land, AI helped find the flaw, ransomware rides a Palo Alto VPN bypass, and OpenAI models land on Google Cloud."
     },
     {
       "desk": "Coffee",
-      "text": "Canadian cafe chains consolidate, Starbucks rules out Chipotle, and electric roasting keeps gaining ground."
+      "text": "A Kona fraud case grows, Roast crowns its 2027 roasters, and electric roasting keeps gaining ground."
     },
     {
       "desk": "Cycling",
-      "text": "Ganna jumps to Lidl-Trek, Castelli returns to the yellow jersey, and the 2027 Tour route is revealed Oct 22."
+      "text": "The 2027 Tour starts in Edinburgh with 71km of time trials, and Lidl-Trek closes out its 2027 roster."
     },
     {
       "desk": "Travel",
-      "text": "France's crew strike is paused, ETIAS still isn't open, and fall deals from airlines and river cruises run through month-end."
+      "text": "Delta adds 2027 routes from Boston and Austin, ETIAS still isn't open, and fall deals run through month-end."
     }
   ],
   "desks": [
@@ -31,32 +31,32 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 21, 2026",
+              "head": "OpenAI's GPT models arrive on Google Cloud",
+              "text": "GPT-Astra, GPT-6.1 Sol and GPT-6 Luna are in private preview in Google Cloud's model garden, billed on the Google Cloud invoice. Google says it is now the only hyperscaler offering Gemini, Claude and GPT.",
+              "src": "Google Cloud",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "AI models helped find and exploit the PHP2Shell flaws",
+              "text": "Wiz says Gemini 4 Argon and GPT-5.6 Sol helped it find the bugs in August, build working exploits and check the patch. Wiz says every PHP version from the last decade has at least one of the flaws.",
+              "src": "Wiz",
+              "url": "https://www.wiz.io/blog/php2shell-php-rce"
+            },
+            {
+              "date": "Oct 13, 2026",
+              "head": "Gemini 4 Argon goes wide at $2/$10, doubling Dec 1",
+              "text": "Google opened Gemini 4 Argon to the paid API, AI Studio and Gemini Enterprise. Intro pricing of $2 input and $10 output per million tokens ends Nov 30. Independent rankings are mixed against Claude Opus 5.5.",
+              "src": "VentureBeat",
+              "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token"
+            },
+            {
               "date": "Oct 16, 2026",
               "head": "AI cloud Modal raises $750 million at a $15.75 billion valuation",
               "text": "Accel led the Series D. Modal rents GPUs on demand across 13 cloud partners without owning data centers, and says it has passed $1 billion in annualized revenue.",
               "src": "Data Center Dynamics",
               "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-modal-raises-750m-in-series-d-funding-round/"
-            },
-            {
-              "date": "Oct 15, 2026",
-              "head": "Anthropic opens Singapore office and defends usage oversight",
-              "text": "Its fifth Asia-Pacific office opened with GovTech, DBS and Grab as users. Co-founder Ben Mann said Anthropic won't give up all oversight of how its most powerful models are used, citing dual-use risks.",
-              "src": "Fortune",
-              "url": "https://fortune.com/2026/10/15/anthropic-dual-use-ai-defends-oversight-singapore"
-            },
-            {
-              "date": "Oct 13, 2026",
-              "head": "FBI arrests OpenAI employee over hidden recorder",
-              "text": "Prosecutors say a product-team engineer hid a recording device behind a TV in an executive conference room in San Francisco. He faces up to five years if convicted; OpenAI fired him.",
-              "src": "TechCrunch",
-              "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
-            },
-            {
-              "date": "Oct 13, 2026",
-              "head": "Character.AI files for Chapter 11 bankruptcy",
-              "text": "Court filings show compute costs far above revenue and losses of about $8 to 9 million a month, alongside heavy legal costs from user-harm lawsuits. Disney reportedly offered $20 million to license its IP.",
-              "src": "404 Media",
-              "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
             }
           ]
         },
@@ -66,18 +66,18 @@
           "blurb": "",
           "items": [
             {
-              "date": "Oct 21, 2026",
-              "head": "PHP2Shell: patch PHP now as BambooHR goes offline",
-              "text": "PHP shipped emergency fixes in 8.5.12, 8.4.27, 8.3.36 and 8.2.35 for two leaked remote code execution flaws rated CVSS 9.2. PHP 8.1 and older get no fix. BambooHR's status page says it took its app offline as a precaution.",
-              "src": "PHP.net",
-              "url": "https://www.php.net/#2026-10-21-5"
+              "date": "Oct 22, 2026",
+              "head": "PHP2Shell shutdowns reach Wikipedia and German, French sites",
+              "text": "Wikimedia pulled some supporting services, Germany's ITZBund and France's Interior Ministry took sites offline, and the NSA advised going offline until patched. Amazon saw exploit attempts, some before public disclosure.",
+              "src": "Euronews",
+              "url": "https://www.euronews.com/2026/10/22/websites-go-dark-after-ai-exposes-major-programming-language-security-flaw"
             },
             {
               "date": "Oct 21, 2026",
-              "head": "First PHP2Shell exploit attempts hit as patches land",
-              "text": "watchTowr, Hadrian, Patchstack, Cloudflare and Vega report attempts, some using a public exploit. watchTowr has seen no successful attack yet but expects one soon. PHP also posted backports for 7.4, 8.0 and 8.1.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/"
+              "head": "PHP2Shell: patch PHP to the October 21 releases now",
+              "text": "PHP's emergency fixes are 8.5.12, 8.4.27, 8.3.36 and 8.2.35 for two remote code execution flaws rated CVSS 9.2. PHP says there are no complete workarounds, so updating is the only safe option.",
+              "src": "PHP.net",
+              "url": "https://www.php.net/#2026-10-21-5"
             },
             {
               "date": "Oct 21, 2026",
@@ -115,18 +115,11 @@
           "blurb": "",
           "items": [
             {
-              "date": "Oct 15, 2026",
-              "head": "Virginia bill proposes a three-year data center moratorium",
-              "text": "Senate Bill 843 from Loudoun County's Russet Perry would stop state approvals of new data center plans from July 2027, citing grid strain and higher power bills.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/"
-            },
-            {
-              "date": "Oct 15, 2026",
-              "head": "Taylor, Texas approves a 1GW gas-powered data center campus",
-              "text": "PowerHouse and Big Watt's 664-acre site near Austin will run on its own 750MW natural gas plant, with first power targeted for early 2028.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
+              "date": "Oct 22, 2026",
+              "head": "Google and Voltus build a 1GW virtual power plant in PJM",
+              "text": "Google is funding a Voltus program that pays businesses and homes to cut use when the grid is strained, growing from 100MW in June. PJM serves 67 million customers in 13 states and DC.",
+              "src": "GlobeNewswire via Manila Times",
+              "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/google-and-voltus-announce-one-gigawatt-bring-your-own-capacity-agreement-in-pjm/2451703"
             },
             {
               "date": "Oct 16, 2026",
@@ -136,11 +129,18 @@
               "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/"
             },
             {
-              "date": "Oct 13, 2026",
-              "head": "NTT Data reportedly near deal to build Anthropic's Japan data center",
-              "text": "Nikkei reports a $6.3 billion, up to 500MW site in Osaka Prefecture, partly online in 2028. Neither company has confirmed it.",
+              "date": "Oct 15, 2026",
+              "head": "Taylor, Texas approves a 1GW gas-powered data center campus",
+              "text": "PowerHouse and Big Watt's 664-acre site near Austin will run on its own 750MW natural gas plant, with first power targeted for early 2028.",
               "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
+              "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
+            },
+            {
+              "date": "Oct 15, 2026",
+              "head": "Virginia bill proposes a three-year data center moratorium",
+              "text": "Senate Bill 843 from Loudoun County's Russet Perry would stop state approvals of new data center plans from July 2027, citing grid strain and higher power bills.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/"
             }
           ]
         }
@@ -159,25 +159,25 @@
           "blurb": "Prices, companies and rules that shape the cup.",
           "items": [
             {
+              "date": "Oct 19, 2026",
+              "head": "Tax charges added to the '100% Kona' fraud case",
+              "text": "A superseding indictment brings 28 counts against Kona Coffee Café's owner, who prosecutors say sold foreign coffee as 100% Kona. The government seeks at least $5.26 million; she has pleaded not guilty.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/19/tax-charges-added-to-federal-100-kona-coffee-fraud-case/"
+            },
+            {
+              "date": "Oct 19, 2026",
+              "head": "Roast names its 2027 Roasters of the Year",
+              "text": "Dessert Oasis Coffee Roasters of Ferndale, Michigan, won Micro Roaster of the Year, and Utopian Coffee of Fort Wayne, Indiana, won Macro Roaster of the Year.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/19/roast-magazine-announces-2027-roaster-of-the-year-winners/"
+            },
+            {
               "date": "Oct 14, 2026",
               "head": "Purebread plans to buy Caffè Artigiano's cafes",
               "text": "The Canadian bakery chain signed a letter of intent for a C$7.7 million stock deal that would create 27 locations and give Artigiano's owners 49% of Purebread. Not yet final.",
               "src": "Daily Coffee News",
               "url": "https://dailycoffeenews.com/2026/10/14/canadas-purebread-plans-to-acquire-caffe-artigianos-cafe-business/"
-            },
-            {
-              "date": "Oct 12, 2026",
-              "head": "Starbucks says it is not buying Chipotle",
-              "text": "After a Financial Times report of talks with advisors, a Starbucks spokesperson said plainly: \"we are not buying Chipotle.\" Analysts had called a roughly $50 billion deal unlikely.",
-              "src": "Nation's Restaurant News",
-              "url": "https://www.nrn.com/mergers-acquisitions/so-much-for-that-idea-starbucks-says-it-is-not-buying-chipotle"
-            },
-            {
-              "date": "Oct 12, 2026",
-              "head": "StoneX to buy Colombian coffee exporter Integra",
-              "text": "Integra runs the La Bonita mill near Medellín and sources from Huila, Cauca and Tolima. It will join StoneX's physical commodities arm; terms were not disclosed.",
-              "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/10/12/stonex-acquiring-colombian-coffee-trader-integra/"
             }
           ]
         },
@@ -260,25 +260,25 @@
           "blurb": "The stories riders are talking about.",
           "items": [
             {
+              "date": "Oct 22, 2026",
+              "head": "2027 Tour starts in Edinburgh with 71km of time trials",
+              "text": "The 3,479km race runs July 2 to 25, with the most time trial kilometres since 2012 and a queen stage to Col du Portet. Pogačar is chasing a record sixth title.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-2027-route-unveiled-most-time-trial-kilometres-since-2012-brutal-pyrenean-queen-stage-as-tadej-pogacar-eyes-record-sixth-title/"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "Lidl-Trek fills its 2027 roster with Kragh Andersen renewal",
+              "text": "Søren Kragh Andersen signed through 2028, taking the 30th and final spot. Lidl-Trek's eight arrivals include Filippo Ganna and Felix Gall.",
+              "src": "CyclingUpToDate",
+              "url": "https://cyclinguptodate.com/cycling/lidl-trek-announcement-confirms-final-place-in-their-2027-roster-key-contract-renewal-ends-teams-transfer-market-splash"
+            },
+            {
               "date": "Oct 13, 2026",
               "head": "Filippo Ganna leaves Ineos early for Lidl-Trek",
               "text": "The Italian time trial star signs a three-year deal from 2027, leaving Netcompany-Ineos a year before his contract ended.",
               "src": "Cyclingnews",
               "url": "https://www.cyclingnews.com/pro-cycling/transfers/filippo-ganna-makes-early-exit-from-netcompany-ineos-to-move-to-lidl-trek/"
-            },
-            {
-              "date": "Oct 13, 2026",
-              "head": "Castelli's scorpion returns to the yellow jersey",
-              "text": "Castelli replaces Santini as kit supplier for the Tour de France and 26 other ASO races from 2027, its first time on the yellow jersey since 1994. The design is revealed Oct 22.",
-              "src": "Cyclingnews",
-              "url": "https://www.cyclingnews.com/pro-cycling/scorpion-logo-returns-to-yellow-jersey-after-33-years-as-castelli-becomes-new-kit-partner-for-tour-de-france-and-other-aso-races/"
-            },
-            {
-              "date": "Oct 10, 2026",
-              "head": "Paul Seixas, 20, becomes youngest Il Lombardia winner",
-              "text": "The Frenchman won the season's last Monument solo, his first Monument victory. Tadej Pogačar did not start.",
-              "src": "Cyclingnews",
-              "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/its-a-great-dream-to-really-be-able-to-compete-against-tadej-pogacar-paul-seixas-takes-another-step-towards-his-man-made-destiny-at-il-lombardia/"
             }
           ]
         },
@@ -288,18 +288,18 @@
           "blurb": "US and world events coming up.",
           "items": [
             {
-              "date": "Oct 22, 2026",
-              "head": "2027 Tour de France route revealed in Paris",
-              "text": "The route is announced live; the 2027 race starts in Edinburgh on July 2, Scotland's first Grand Départ.",
-              "src": "IDL Pro Cycling",
-              "url": "https://www.idlprocycling.com/cycling/2027-tour-de-france-route-to-be-revealed-live-on-october-22-heres-what-the-rumour-mill-says"
-            },
-            {
               "date": "Apr 24–25, 2027",
               "head": "Texas MS 150: Houston and Austin to College Station",
               "text": "Two-day ride with starts in Houston and Austin, an overnight in La Grange and the finish in College Station.",
               "src": "National MS Society",
               "url": "https://events.nationalmssociety.org/pages/11747"
+            },
+            {
+              "date": "Jul 2–25, 2027",
+              "head": "Tour de France: Edinburgh to Paris",
+              "text": "21 stages and 3,479km, with time trials at Blois–Chambord and Toulouse and a Montmartre finale in Paris.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-2027-route-unveiled-most-time-trial-kilometres-since-2012-brutal-pyrenean-queen-stage-as-tadej-pogacar-eyes-record-sixth-title/"
             }
           ],
           "style": "list"
@@ -340,11 +340,11 @@
           "blurb": "Disruptions, routes and rules.",
           "items": [
             {
-              "date": "Oct 9, 2026",
-              "head": "French flight crew strike for Oct 17–21 suspended",
-              "text": "Unions paused the Air France and Transavia strike after a pension compromise, but say it can return if the promised decree isn't published.",
-              "src": "AeroCorner",
-              "url": "https://aerocorner.com/news/french-pilot-cabin-crew-strike-october-17-21-suspended/"
+              "date": "Oct 19, 2026",
+              "head": "Delta adds Boston–Reykjavik for summer 2027",
+              "text": "Daily Boeing 757 flights start April 12 and run seasonally to Oct 30. Delta's previously announced Austin–Paris daily service begins March 27, 2027.",
+              "src": "Aviation Week",
+              "url": "https://aviationweek.com/air-transport/airports-networks/routes-networks-latest-rolling-daily-updates-wc-oct-19-2026"
             },
             {
               "date": "Oct 6, 2026",
