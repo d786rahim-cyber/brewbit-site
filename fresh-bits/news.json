@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell exploit attempts begin as patches land and sites go offline, GitLab fixes a CVSS 10 flaw, and AI-driven supply chain attacks hit LiteLLM and ConnectWise."
+      "text": "PHP2Shell exploit attempts begin as patches land, ransomware gangs ride a Palo Alto VPN bypass, GitLab fixes a CVSS 10 flaw, and AI-driven supply chain attacks hit LiteLLM and ConnectWise."
     },
     {
       "desk": "Coffee",
@@ -81,10 +81,10 @@
             },
             {
               "date": "Oct 21, 2026",
-              "head": "Governments pull websites offline over PHP2Shell",
-              "text": "Agencies in the Netherlands and Finland, including the Dutch cybersecurity agency, took sites offline as a precaution. Agencies in Europe, Australia, Japan and Britain urged PHP users to patch now or go offline.",
-              "src": "Global News",
-              "url": "https://globalnews.ca/news/12110881/government-sites-go-dark-vuln-in-code/"
+              "head": "Ransomware gangs exploit Palo Alto GlobalProtect VPN bypass",
+              "text": "Qilin, Inc and Settra are using CVE-2026-0257, patched in May, to open VPN sessions without valid logins and get past MFA. Patch, end active GlobalProtect sessions and assume earlier access may persist.",
+              "src": "Help Net Security",
+              "url": "https://helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257"
             },
             {
               "date": "Oct 21, 2026",
