@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell attacks began before the patches, Fortinet ships critical firewall fixes, malware hits a Japanese cloud, and OpenAI models land on Google Cloud."
+      "text": "A patch-everything week: PHP2Shell attacks predate the fixes, Arista's SD-WAN orchestrator is under attack, and Fortinet and Oracle Java ship critical fixes."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,20 @@
           "items": [
             {
               "date": "Oct 22, 2026",
+              "head": "Arista patches a VeloCloud SD-WAN Orchestrator zero-day under attack",
+              "text": "CVE-2026-114625, a critical SQL injection, lets any logged-in user gain superuser operator rights. Attacks are ongoing. Update to 5.2.3.18, 6.1.3.10 or 6.4.2.12 and limit web access to admin networks.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "Oracle issues out-of-band fix for a CVSS 9.1 Java flaw",
+              "text": "CVE-2026-91403 in Java's JSSE component affects Java SE 8, 11, 17, 21, 25 and 27 and GraalVM. No public exploit yet. Oracle only patches supported releases, so older Java needs an upgrade.",
+              "src": "SOC Prime",
+              "url": "https://socprime.com/blog/cve-2026-91403-analysis/"
+            },
+            {
+              "date": "Oct 22, 2026",
               "head": "Fortinet ships critical fixes for FortiOS, FortiManager and more",
               "text": "Today's release covers critical and high-severity flaws in FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator. FortiOS fixes include 7.6.8 and 7.4.13. No exploitation reported yet; full advisories come Nov 10.",
               "src": "Cybersecurity News",
@@ -78,13 +92,6 @@
               "text": "Amazon's honeypots caught an exploit attempt on Oct 17. Cloudflare says attempts jumped to hundreds of thousands within two hours of disclosure and now number in the millions. No confirmed compromises yet.",
               "src": "The Register",
               "url": "https://theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "Malware hits Japan's Onamae.com cloud; 26,739 servers at risk",
-              "text": "GMO Internet suspended all Desktop Cloud plans after attackers installed malicious programs on customer servers. How they got in hasn't been disclosed. Customers are told to change any credentials used on those servers.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/onamae-com-cloud-servers"
             },
             {
               "date": "Oct 21, 2026",
@@ -99,13 +106,6 @@
               "text": "Qilin, Inc and Settra are using CVE-2026-0257, patched in May, to open VPN sessions without valid logins and get past MFA. Patch, end active GlobalProtect sessions and assume earlier access may persist.",
               "src": "Help Net Security",
               "url": "https://helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "GitLab patches a CVSS 10 flaw reaching back to 2014",
-              "text": "CVE-2026-110264 could let an unauthenticated user run code on self-managed servers from version 7.0 on. Upgrade to 19.5.1, 19.4.3 or your branch's fix; there is no workaround. No attacks reported yet.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
             }
           ]
         },
