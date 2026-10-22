@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 22, 2026",
+              "head": "Dutch cyber agency confirms PHP2Shell is being actively exploited",
+              "text": "The Netherlands' NCSC reversed its earlier no-abuse stance, citing partner signals. About 145,000 Dutch PHP sites look potentially vulnerable, though not confirmed compromised. RTL Nieuws and Exact took systems offline.",
+              "src": "Archyde",
+              "url": "https://www.archyde.com/ncsc-confirms-exploitation-of-critical-php-vulnerability-as-websites-patch-systems/"
+            },
+            {
+              "date": "Oct 22, 2026",
               "head": "Arista patches a VeloCloud SD-WAN Orchestrator zero-day under attack",
               "text": "CVE-2026-114625, a critical SQL injection, lets any logged-in user gain superuser operator rights. Attacks are ongoing. Update to 5.2.3.18, 6.1.3.10 or 6.4.2.12 and limit web access to admin networks.",
               "src": "BleepingComputer",
@@ -99,13 +106,6 @@
               "text": "PHP's emergency fixes are 8.5.12, 8.4.27, 8.3.36 and 8.2.35 for two remote code execution flaws rated CVSS 9.2. PHP says there are no complete workarounds, so updating is the only safe option.",
               "src": "PHP.net",
               "url": "https://www.php.net/#2026-10-21-5"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "Ransomware gangs exploit Palo Alto GlobalProtect VPN bypass",
-              "text": "Qilin, Inc and Settra are using CVE-2026-0257, patched in May, to open VPN sessions without valid logins and get past MFA. Patch, end active GlobalProtect sessions and assume earlier access may persist.",
-              "src": "Help Net Security",
-              "url": "https://helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257"
             }
           ]
         },
