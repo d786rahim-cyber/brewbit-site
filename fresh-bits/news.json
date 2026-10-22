@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell shutdowns spread as patches land, AI helped find the flaw, ransomware rides a Palo Alto VPN bypass, and OpenAI models land on Google Cloud."
+      "text": "PHP2Shell attacks began before the patches, Fortinet ships critical firewall fixes, malware hits a Japanese cloud, and OpenAI models land on Google Cloud."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 22, 2026",
+              "head": "Fortinet ships critical fixes for FortiOS, FortiManager and more",
+              "text": "Today's release covers critical and high-severity flaws in FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator. FortiOS fixes include 7.6.8 and 7.4.13. No exploitation reported yet; full advisories come Nov 10.",
+              "src": "Cybersecurity News",
+              "url": "https://cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws/"
+            },
+            {
+              "date": "Oct 22, 2026",
               "head": "AWS: PHP2Shell attacks began four days before patches",
               "text": "Amazon's honeypots caught an exploit attempt on Oct 17. Cloudflare says attempts jumped to hundreds of thousands within two hours of disclosure and now number in the millions. No confirmed compromises yet.",
               "src": "The Register",
@@ -74,10 +81,10 @@
             },
             {
               "date": "Oct 22, 2026",
-              "head": "PHP2Shell shutdowns spread to the UK, BBC and Port of Rotterdam",
-              "text": "UK government services, the BBC and Edinburgh pulled web services, joining Germany, France, Belgium, the Netherlands, Finland, Wikimedia and Orange. A former UK cyber chief called it the most serious flaw in five years.",
-              "src": "The National",
-              "url": "https://www.thenationalnews.com/news/europe/2026/10/22/uk-orders-dozens-of-official-websites-offline-after-flaw-warnings/"
+              "head": "Malware hits Japan's Onamae.com cloud; 26,739 servers at risk",
+              "text": "GMO Internet suspended all Desktop Cloud plans after attackers installed malicious programs on customer servers. How they got in hasn't been disclosed. Customers are told to change any credentials used on those servers.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/onamae-com-cloud-servers"
             },
             {
               "date": "Oct 21, 2026",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-110264 could let an unauthenticated user run code on self-managed servers from version 7.0 on. Upgrade to 19.5.1, 19.4.3 or your branch's fix; there is no workaround. No attacks reported yet.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "Poisoned LiteLLM release steals cloud keys and AI API tokens",
-              "text": "LiteLLM 1.107.0 on PyPI and Docker carried malware that grabs AWS, Google Cloud and Azure credentials, SSH keys and LLM API keys. Roll back to 1.106.2 and rotate any secret on affected machines.",
-              "src": "The Register",
-              "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548"
             }
           ]
         },
