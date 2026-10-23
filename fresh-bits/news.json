@@ -67,6 +67,20 @@
           "items": [
             {
               "date": "Oct 23, 2026",
+              "head": "Mirai botnet joins PHP2Shell attacks as an ASLR bypass appears",
+              "text": "Sophos and Hunt.io tie PHP2Shell traffic to Mirai-style botnets, and VulnCheck built an exploit that works on hardened production setups. No confirmed compromise yet, but Qualys says only 199,000 PHP instances were patched in 12 hours.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/"
+            },
+            {
+              "date": "Oct 23, 2026",
+              "head": "Browsers drop eMudhra certificates after weak CA keys found",
+              "text": "Google, Apple and Microsoft stopped trusting eMudhra SSL/TLS certificates after eight CA keys proved easy to recover. About 30,000 site certificates may need replacing. Python urges pip 26.2.2 or later and fresh containers.",
+              "src": "Cybernews",
+              "url": "https://cybernews.com/security/emudhra-quits-certificate-business-java-python-flaw"
+            },
+            {
+              "date": "Oct 23, 2026",
               "head": "Supply chain hack lets n0n ransomware into 40+ shipping firms",
               "text": "Ports and shipping companies in 18 countries were listed by the new n0n group, which demands $1.2 billion in total. CyDome suspects maritime IT vendor CyberLogitec as the entry point; that isn't confirmed.",
               "src": "Risky Business",
@@ -81,24 +95,10 @@
             },
             {
               "date": "Oct 22, 2026",
-              "head": "Dutch cyber agency confirms PHP2Shell is being actively exploited",
-              "text": "The Netherlands' NCSC reversed its earlier no-abuse stance, citing partner signals. About 145,000 Dutch PHP sites look potentially vulnerable, though not confirmed compromised. RTL Nieuws and Exact took systems offline.",
-              "src": "Archyde",
-              "url": "https://www.archyde.com/ncsc-confirms-exploitation-of-critical-php-vulnerability-as-websites-patch-systems/"
-            },
-            {
-              "date": "Oct 22, 2026",
               "head": "Arista patches a VeloCloud SD-WAN Orchestrator zero-day under attack",
               "text": "CVE-2026-114625, a critical SQL injection, lets any logged-in user gain superuser operator rights. Attacks are ongoing. Update to 5.2.3.18, 6.1.3.10 or 6.4.2.12 and limit web access to admin networks.",
               "src": "BleepingComputer",
               "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "Fortinet ships critical fixes for FortiOS, FortiManager and more",
-              "text": "Today's release covers critical and high-severity flaws in FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator. FortiOS fixes include 7.6.8 and 7.4.13. No exploitation reported yet; full advisories come Nov 10.",
-              "src": "Cybersecurity News",
-              "url": "https://cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws/"
             },
             {
               "date": "Oct 21, 2026",
