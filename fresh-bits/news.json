@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 23, 2026",
+              "head": "New unpatched PHP flaw: turn off session upload progress",
+              "text": "PHP disclosed CVE-2026-115560, a remote code execution bug with no patch yet. It needs an unusual session configuration, and no exploitation is known. PHP says set session.upload_progress.enabled=0 until the next release.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
+            },
+            {
+              "date": "Oct 23, 2026",
               "head": "Mirai botnet joins PHP2Shell attacks as an ASLR bypass appears",
               "text": "Sophos and Hunt.io tie PHP2Shell traffic to Mirai-style botnets, and VulnCheck built an exploit that works on hardened production setups. No confirmed compromise yet, but Qualys says only 199,000 PHP instances were patched in 12 hours.",
               "src": "SecurityWeek",
@@ -85,13 +92,6 @@
               "text": "Ports and shipping companies in 18 countries were listed by the new n0n group, which demands $1.2 billion in total. CyDome suspects maritime IT vendor CyberLogitec as the entry point; that isn't confirmed.",
               "src": "Risky Business",
               "url": "https://news.risky.biz/risky-bulletin-supply-chain-attack-lets-ransomware-group-inside-40-shipping-companies/"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "LiteLLM hack traced to GitHub tokens captured in its logs",
-              "text": "LiteLLM says attackers reached an internet-exposed internal deployment and pulled GitHub CLI tokens from logs, which Claude Code responses may have included. Three developers' accounts were abused to ship the poisoned 1.107.0 release.",
-              "src": "The Next Web",
-              "url": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code"
             },
             {
               "date": "Oct 22, 2026",
