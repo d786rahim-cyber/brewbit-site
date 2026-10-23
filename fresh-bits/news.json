@@ -1,9 +1,9 @@
 {
-  "updated": "October 22, 2026",
+  "updated": "October 23, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "A patch-everything week: PHP2Shell attacks predate the fixes, Arista's SD-WAN orchestrator is under attack, and Fortinet and Oracle Java ship critical fixes."
+      "text": "Supply chain attacks hit shipping and LiteLLM, PHP2Shell exploitation is confirmed, and power limits reshape where AI data centers go."
     },
     {
       "desk": "Coffee",
@@ -11,11 +11,11 @@
     },
     {
       "desk": "Cycling",
-      "text": "The 2027 Tour starts in Edinburgh with 71km of time trials, and Lidl-Trek closes out its 2027 roster."
+      "text": "The 2027 Tour starts in Edinburgh with 71km of time trials, Lidl-Trek closes its roster, and fall fondos keep rolling."
     },
     {
       "desk": "Travel",
-      "text": "Delta adds 2027 routes from Boston and Austin, ETIAS still isn't open, and fall deals run through month-end."
+      "text": "Holiday fares hit a 10-year high, Delta adds 2027 routes, ETIAS still isn't open, and fall deals run through month-end."
     }
   ],
   "desks": [
@@ -66,6 +66,20 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 23, 2026",
+              "head": "Supply chain hack lets n0n ransomware into 40+ shipping firms",
+              "text": "Ports and shipping companies in 18 countries were listed by the new n0n group, which demands $1.2 billion in total. CyDome suspects maritime IT vendor CyberLogitec as the entry point; that isn't confirmed.",
+              "src": "Risky Business",
+              "url": "https://news.risky.biz/risky-bulletin-supply-chain-attack-lets-ransomware-group-inside-40-shipping-companies/"
+            },
+            {
+              "date": "Oct 23, 2026",
+              "head": "LiteLLM hack traced to GitHub tokens captured in its logs",
+              "text": "LiteLLM says attackers reached an internet-exposed internal deployment and pulled GitHub CLI tokens from logs, which Claude Code responses may have included. Three developers' accounts were abused to ship the poisoned 1.107.0 release.",
+              "src": "The Next Web",
+              "url": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code"
+            },
+            {
               "date": "Oct 22, 2026",
               "head": "Dutch cyber agency confirms PHP2Shell is being actively exploited",
               "text": "The Netherlands' NCSC reversed its earlier no-abuse stance, citing partner signals. About 145,000 Dutch PHP sites look potentially vulnerable, though not confirmed compromised. RTL Nieuws and Exact took systems offline.",
@@ -80,25 +94,11 @@
               "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
             },
             {
-              "date": "Oct 21, 2026",
-              "head": "Oracle issues out-of-band fix for a CVSS 9.1 Java flaw",
-              "text": "CVE-2026-91403 in Java's JSSE component affects Java SE 8, 11, 17, 21, 25 and 27 and GraalVM. No public exploit yet. Oracle only patches supported releases, so older Java needs an upgrade.",
-              "src": "SOC Prime",
-              "url": "https://socprime.com/blog/cve-2026-91403-analysis/"
-            },
-            {
               "date": "Oct 22, 2026",
               "head": "Fortinet ships critical fixes for FortiOS, FortiManager and more",
               "text": "Today's release covers critical and high-severity flaws in FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator. FortiOS fixes include 7.6.8 and 7.4.13. No exploitation reported yet; full advisories come Nov 10.",
               "src": "Cybersecurity News",
               "url": "https://cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws/"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "AWS: PHP2Shell attacks began four days before patches",
-              "text": "Amazon's honeypots caught an exploit attempt on Oct 17. Cloudflare says attempts jumped to hundreds of thousands within two hours of disclosure and now number in the millions. No confirmed compromises yet.",
-              "src": "The Register",
-              "url": "https://theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749"
             },
             {
               "date": "Oct 21, 2026",
@@ -122,25 +122,25 @@
               "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/google-and-voltus-announce-one-gigawatt-bring-your-own-capacity-agreement-in-pjm/2451703"
             },
             {
+              "date": "Oct 21, 2026",
+              "head": "Microsoft exits a UK AI data center over power delays",
+              "text": "Microsoft pulled out as anchor tenant of Nscale's 50MW Loughton, Essex site after grid officials said power may not arrive until the 2030s. Microsoft says it remains committed to its Nscale partnership.",
+              "src": "Network World",
+              "url": "https://www.networkworld.com/article/4238599/microsoft-exits-uk-ai-data-center-project-over-electricity-delays.html"
+            },
+            {
+              "date": "Oct 21, 2026",
+              "head": "Soluna and Applied Digital plan a wind-powered AI site in Texas",
+              "text": "The 50MW Project Dorothy 3 near Silverton in Briscoe County would draw on a 150MW wind farm and the grid. Closing depends on a county tax abatement and is expected by year-end.",
+              "src": "Blackridge Research",
+              "url": "https://www.blackridgeresearch.com/news-releases/soluna-and-applied-digital-build-50-mw-wind-powered-ai-data-center-at-dorothy-3-site-in-texas-us"
+            },
+            {
               "date": "Oct 16, 2026",
               "head": "Digital Realty eyes a 1GW campus in Kokomo, Indiana",
               "text": "The proposed 476-acre site north of Indianapolis would hold three buildings and about 1GW of IT capacity by 2033, with closed-loop cooling. It would be Digital's first in Indiana.",
               "src": "Data Center Dynamics",
               "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/"
-            },
-            {
-              "date": "Oct 15, 2026",
-              "head": "Taylor, Texas approves a 1GW gas-powered data center campus",
-              "text": "PowerHouse and Big Watt's 664-acre site near Austin will run on its own 750MW natural gas plant, with first power targeted for early 2028.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/"
-            },
-            {
-              "date": "Oct 15, 2026",
-              "head": "Virginia bill proposes a three-year data center moratorium",
-              "text": "Senate Bill 843 from Loudoun County's Russet Perry would stop state approvals of new data center plans from July 2027, citing grid strain and higher power bills.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/"
             }
           ]
         }
@@ -288,6 +288,13 @@
           "blurb": "US and world events coming up.",
           "items": [
             {
+              "date": "Nov 14, 2026",
+              "head": "Magnolia Fall Fondo, Moultrie, Georgia",
+              "text": "Third annual fall ride with 38, 65 and 105-mile options starting at 7:30 AM from the Pineland YMCA.",
+              "src": "TrainerDay",
+              "url": "https://trainerday.com/events/us/third-annual-magnolia-fall-fondo"
+            },
+            {
               "date": "Apr 24–25, 2027",
               "head": "Texas MS 150: Houston and Austin to College Station",
               "text": "Two-day ride with starts in Houston and Austin, an overnight in La Grange and the finish in College Station.",
@@ -340,18 +347,18 @@
           "blurb": "Disruptions, routes and rules.",
           "items": [
             {
+              "date": "Oct 22, 2026",
+              "head": "Holiday airfares hit a 10-year high; book by Halloween",
+              "text": "Hopper puts average Thanksgiving tickets near $400, up 31%, and Christmas near $450, up 23%, partly on jet fuel costs. Experts say don't wait for prices to fall.",
+              "src": "KPRC Click2Houston",
+              "url": "https://www.click2houston.com/news/local/2026/10/22/holiday-travel-prices-are-climbing-when-to-book-thanksgiving-and-christmas-trips/"
+            },
+            {
               "date": "Oct 19, 2026",
               "head": "Delta adds Boston–Reykjavik for summer 2027",
               "text": "Daily Boeing 757 flights start April 12 and run seasonally to Oct 30. Delta's previously announced Austin–Paris daily service begins March 27, 2027.",
               "src": "Aviation Week",
               "url": "https://aviationweek.com/air-transport/airports-networks/routes-networks-latest-rolling-daily-updates-wc-oct-19-2026"
-            },
-            {
-              "date": "Oct 6, 2026",
-              "head": "Delta starts Austin–San Jose nonstops",
-              "text": "Year-round service on a 132-seat Airbus A319 adds another Bay Area option from Austin.",
-              "src": "The Points Guy",
-              "url": "https://thepointsguy.com/news/delta-air-lines-new-route-austin-san-jose-california/"
             }
           ]
         },
