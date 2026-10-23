@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Supply chain attacks hit shipping and LiteLLM, PHP2Shell exploitation is confirmed, and power limits reshape where AI data centers go."
+      "text": "PHP's troubles grow with a new unpatched flaw and botnet attacks, Node.js gets its own '2Shell' bug, and supply chain attacks hit shipping and LiteLLM."
     },
     {
       "desk": "Coffee",
@@ -74,6 +74,13 @@
             },
             {
               "date": "Oct 23, 2026",
+              "head": "Node2Shell: patch Node.js for a CVSS 9.2 Brotli flaw",
+              "text": "CVE-2026-111497 lets crafted compressed data trigger remote code execution in Brotli, affecting Node.js, Bun, Envoy and some Python packages. Proof-of-concept code is out. Update to Node.js 22.23.4, 24.22.1 or 26.12.1.",
+              "src": "Crypto Briefing",
+              "url": "https://cryptobriefing.com/openai-brotli-remote-code-execution-vulnerability/"
+            },
+            {
+              "date": "Oct 23, 2026",
               "head": "Mirai botnet joins PHP2Shell attacks as an ASLR bypass appears",
               "text": "Sophos and Hunt.io tie PHP2Shell traffic to Mirai-style botnets, and VulnCheck built an exploit that works on hardened production setups. No confirmed compromise yet, but Qualys says only 199,000 PHP instances were patched in 12 hours.",
               "src": "SecurityWeek",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-114625, a critical SQL injection, lets any logged-in user gain superuser operator rights. Attacks are ongoing. Update to 5.2.3.18, 6.1.3.10 or 6.4.2.12 and limit web access to admin networks.",
               "src": "BleepingComputer",
               "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "PHP2Shell: patch PHP to the October 21 releases now",
-              "text": "PHP's emergency fixes are 8.5.12, 8.4.27, 8.3.36 and 8.2.35 for two remote code execution flaws rated CVSS 9.2. PHP says there are no complete workarounds, so updating is the only safe option.",
-              "src": "PHP.net",
-              "url": "https://www.php.net/#2026-10-21-5"
             }
           ]
         },
