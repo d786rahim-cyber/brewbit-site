@@ -67,6 +67,20 @@
           "items": [
             {
               "date": "Oct 24, 2026",
+              "head": "BlackX bootkit beats Secure Boot on fully patched Windows",
+              "text": "Kaspersky ties the UEFI bootkit to China's APT41, which used the old Baton Drop flaw against Central Asian diplomats. Patching isn't enough: admins must manually revoke and blocklist the Windows Production PCA 2011 certificate.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+            },
+            {
+              "date": "Oct 24, 2026",
+              "head": "CISA flags exploited CVSS 9.2 flaw in Nextcloud's Collabora app",
+              "text": "CVE-2026-110447 in the built-in CODE server lets attackers plant PHP web shells and hunt for credentials; attacks date to September. Update to 26.4.303. Federal agencies must fix it by Oct 26.",
+              "src": "Security Affairs",
+              "url": "https://securityaffairs.com/201652/security/u-s-cisa-adds-collabora-online-flaw-to-its-known-exploited-vulnerabilities-catalog.html"
+            },
+            {
+              "date": "Oct 24, 2026",
               "head": "PHP2Shell reaches Palo Alto firewalls; PAN-OS fixes start Oct 26",
               "text": "Palo Alto says PAN-OS 10.2 to 12.2 and Panorama are affected, with hotfixes expected Oct 26 to 30. No exploitation of its products is known. Until then, limit management interfaces to trusted internal IPs.",
               "src": "Cybersecurity News",
@@ -92,20 +106,6 @@
               "text": "CVE-2026-111497 lets crafted compressed data trigger remote code execution in Brotli, affecting Node.js, Bun, Envoy and some Python packages. Proof-of-concept code is out. Update to Node.js 22.23.4, 24.22.1 or 26.12.1.",
               "src": "Crypto Briefing",
               "url": "https://cryptobriefing.com/openai-brotli-remote-code-execution-vulnerability/"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "Browsers drop eMudhra certificates after weak CA keys found",
-              "text": "Google, Apple and Microsoft stopped trusting eMudhra SSL/TLS certificates after eight CA keys proved easy to recover. About 30,000 site certificates may need replacing. Python urges pip 26.2.2 or later and fresh containers.",
-              "src": "Cybernews",
-              "url": "https://cybernews.com/security/emudhra-quits-certificate-business-java-python-flaw"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "Arista patches a VeloCloud SD-WAN Orchestrator zero-day under attack",
-              "text": "CVE-2026-114625, a critical SQL injection, lets any logged-in user gain superuser operator rights. Attacks are ongoing. Update to 5.2.3.18, 6.1.3.10 or 6.4.2.12 and limit web access to admin networks.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
             }
           ]
         },
