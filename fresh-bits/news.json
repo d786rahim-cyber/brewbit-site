@@ -1,9 +1,9 @@
 {
-  "updated": "October 23, 2026",
+  "updated": "October 24, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP's troubles grow with a new unpatched flaw and botnet attacks, Node.js gets its own '2Shell' bug, and supply chain attacks hit shipping and LiteLLM."
+      "text": "PHP2Shell now reaches Palo Alto firewalls, developer platforms like Railway leak secrets, and AI starts proving code safe."
     },
     {
       "desk": "Coffee",
@@ -31,6 +31,20 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 23, 2026",
+              "head": "Claude proves memory safety across 123 open-source libraries",
+              "text": "Working with Theorem, Anthropic says Claude wrote mathematical proofs for 239 entry points and patched hundreds of bugs. The proofs hold only under specific assumptions, and Anthropic notes verified does not mean bug-free.",
+              "src": "Real Python",
+              "url": "https://realpython.com/ai-news-weekly-2026-10-23"
+            },
+            {
+              "date": "Oct 23, 2026",
+              "head": "OpenAI's Decisions API goes generally available",
+              "text": "Built on GPT-6 Luna for classification, routing and next-action calls, it adds prompt caching and US/EU data residency. OpenAI says it runs up to 10 times faster.",
+              "src": "Real Python",
+              "url": "https://realpython.com/ai-news-weekly-2026-10-23"
+            },
+            {
               "date": "Oct 21, 2026",
               "head": "OpenAI's GPT models arrive on Google Cloud",
               "text": "GPT-Astra, GPT-6.1 Sol and GPT-6 Luna are in private preview in Google Cloud's model garden, billed on the Google Cloud invoice. Google says it is now the only hyperscaler offering Gemini, Claude and GPT.",
@@ -43,20 +57,6 @@
               "text": "Wiz says Gemini 4 Argon and GPT-5.6 Sol helped it find the bugs in August, build working exploits and check the patch. Wiz says every PHP version from the last decade has at least one of the flaws.",
               "src": "Wiz",
               "url": "https://www.wiz.io/blog/php2shell-php-rce"
-            },
-            {
-              "date": "Oct 13, 2026",
-              "head": "Gemini 4 Argon goes wide at $2/$10, doubling Dec 1",
-              "text": "Google opened Gemini 4 Argon to the paid API, AI Studio and Gemini Enterprise. Intro pricing of $2 input and $10 output per million tokens ends Nov 30. Independent rankings are mixed against Claude Opus 5.5.",
-              "src": "VentureBeat",
-              "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token"
-            },
-            {
-              "date": "Oct 16, 2026",
-              "head": "AI cloud Modal raises $750 million at a $15.75 billion valuation",
-              "text": "Accel led the Series D. Modal rents GPUs on demand across 13 cloud partners without owning data centers, and says it has passed $1 billion in annualized revenue.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-modal-raises-750m-in-series-d-funding-round/"
             }
           ]
         },
@@ -65,6 +65,20 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 24, 2026",
+              "head": "PHP2Shell reaches Palo Alto firewalls; PAN-OS fixes start Oct 26",
+              "text": "Palo Alto says PAN-OS 10.2 to 12.2 and Panorama are affected, with hotfixes expected Oct 26 to 30. No exploitation of its products is known. Until then, limit management interfaces to trusted internal IPs.",
+              "src": "Cybersecurity News",
+              "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities"
+            },
+            {
+              "date": "Oct 22, 2026",
+              "head": "Railway breach exposes environment variables; rotate secrets now",
+              "text": "An attacker got into Railway's build system and decrypted some environment variables; up to 1.85% of workspaces may be affected. Railway reset all API tokens and says to roll every variable and registry credential.",
+              "src": "Rescana",
+              "url": "https://www.rescana.com/post/developer-platform-security-incidents-railway-zeabur-tidb-cloud-october-2026"
+            },
             {
               "date": "Oct 23, 2026",
               "head": "New unpatched PHP flaw: turn off session upload progress",
@@ -81,24 +95,10 @@
             },
             {
               "date": "Oct 23, 2026",
-              "head": "Mirai botnet joins PHP2Shell attacks as an ASLR bypass appears",
-              "text": "Sophos and Hunt.io tie PHP2Shell traffic to Mirai-style botnets, and VulnCheck built an exploit that works on hardened production setups. No confirmed compromise yet, but Qualys says only 199,000 PHP instances were patched in 12 hours.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/"
-            },
-            {
-              "date": "Oct 23, 2026",
               "head": "Browsers drop eMudhra certificates after weak CA keys found",
               "text": "Google, Apple and Microsoft stopped trusting eMudhra SSL/TLS certificates after eight CA keys proved easy to recover. About 30,000 site certificates may need replacing. Python urges pip 26.2.2 or later and fresh containers.",
               "src": "Cybernews",
               "url": "https://cybernews.com/security/emudhra-quits-certificate-business-java-python-flaw"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "Supply chain hack lets n0n ransomware into 40+ shipping firms",
-              "text": "Ports and shipping companies in 18 countries were listed by the new n0n group, which demands $1.2 billion in total. CyDome suspects maritime IT vendor CyberLogitec as the entry point; that isn't confirmed.",
-              "src": "Risky Business",
-              "url": "https://news.risky.biz/risky-bulletin-supply-chain-attack-lets-ransomware-group-inside-40-shipping-companies/"
             },
             {
               "date": "Oct 22, 2026",
@@ -114,6 +114,13 @@
           "title": "IT infrastructure",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 23, 2026",
+              "head": "Old Alton, Illinois steel mill pitched for a 1GW data center",
+              "text": "TerraWatt has a contingent deal for the 381-acre mill near St. Louis, building in 200MW blocks with full operation by 2031 if approved. It says it would pay for grid upgrades and skip local tax incentives.",
+              "src": "Data Center Dynamics",
+              "url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-proposed-for-steel-mill-in-illinois/"
+            },
             {
               "date": "Oct 22, 2026",
               "head": "Google and Voltus build a 1GW virtual power plant in PJM",
@@ -134,13 +141,6 @@
               "text": "The 50MW Project Dorothy 3 near Silverton in Briscoe County would draw on a 150MW wind farm and the grid. Closing depends on a county tax abatement and is expected by year-end.",
               "src": "Blackridge Research",
               "url": "https://www.blackridgeresearch.com/news-releases/soluna-and-applied-digital-build-50-mw-wind-powered-ai-data-center-at-dorothy-3-site-in-texas-us"
-            },
-            {
-              "date": "Oct 16, 2026",
-              "head": "Digital Realty eyes a 1GW campus in Kokomo, Indiana",
-              "text": "The proposed 476-acre site north of Indianapolis would hold three buildings and about 1GW of IT capacity by 2033, with closed-loop cooling. It would be Digital's first in Indiana.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/"
             }
           ]
         }
