@@ -1,9 +1,9 @@
 {
-  "updated": "October 24, 2026",
+  "updated": "October 25, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell now reaches Palo Alto firewalls, developer platforms like Railway leak secrets, and AI starts proving code safe."
+      "text": "PHP2Shell spreads to firewalls, NAS drives and containers, a bootkit beats Secure Boot, and local pushback slows data center builds."
     },
     {
       "desk": "Coffee",
@@ -87,18 +87,18 @@
               "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities"
             },
             {
+              "date": "Oct 23, 2026",
+              "head": "PHP2Shell also lurks in NAS drives, firewalls and Docker images",
+              "text": "Patching web servers isn't enough: QNAP NAS fixes are still in progress, Synology lists fixed PHP packages, and Docker updated official images Oct 22. Containers built on older PHP must be pulled again or rebuilt.",
+              "src": "Bushletter",
+              "url": "https://www.bushletter.com/php2shell-hits-firewalls-and-nas-drives-palo-alto-has-no-fix-yet/"
+            },
+            {
               "date": "Oct 22, 2026",
               "head": "Railway breach exposes environment variables; rotate secrets now",
               "text": "An attacker got into Railway's build system and decrypted some environment variables; up to 1.85% of workspaces may be affected. Railway reset all API tokens and says to roll every variable and registry credential.",
               "src": "Rescana",
               "url": "https://www.rescana.com/post/developer-platform-security-incidents-railway-zeabur-tidb-cloud-october-2026"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "New unpatched PHP flaw: turn off session upload progress",
-              "text": "PHP disclosed CVE-2026-115560, a remote code execution bug with no patch yet. It needs an unusual session configuration, and no exploitation is known. PHP says set session.upload_progress.enabled=0 until the next release.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
             },
             {
               "date": "Oct 23, 2026",
@@ -114,6 +114,13 @@
           "title": "IT infrastructure",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 23, 2026",
+              "head": "Finland halts Google data center work after 250,000 trees cleared",
+              "text": "Regulators paused major preparatory work at Google's Muhos and Kajaani sites until environmental reviews are done. The €13 billion plan is Google's largest single European investment; over 96,000 Finns backed tighter data center rules.",
+              "src": "Fortune",
+              "url": "https://fortune.com/2026/10/23/google-finland-data-center-250-000-trees-environment/"
+            },
             {
               "date": "Oct 23, 2026",
               "head": "Old Alton, Illinois steel mill pitched for a 1GW data center",
@@ -134,13 +141,6 @@
               "text": "Microsoft pulled out as anchor tenant of Nscale's 50MW Loughton, Essex site after grid officials said power may not arrive until the 2030s. Microsoft says it remains committed to its Nscale partnership.",
               "src": "Network World",
               "url": "https://www.networkworld.com/article/4238599/microsoft-exits-uk-ai-data-center-project-over-electricity-delays.html"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "Soluna and Applied Digital plan a wind-powered AI site in Texas",
-              "text": "The 50MW Project Dorothy 3 near Silverton in Briscoe County would draw on a 150MW wind farm and the grid. Closing depends on a county tax abatement and is expected by year-end.",
-              "src": "Blackridge Research",
-              "url": "https://www.blackridgeresearch.com/news-releases/soluna-and-applied-digital-build-50-mw-wind-powered-ai-data-center-at-dorothy-3-site-in-texas-us"
             }
           ]
         }
