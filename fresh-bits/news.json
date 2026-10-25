@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell spreads to firewalls, NAS drives and containers, a bootkit beats Secure Boot, and local pushback slows data center builds."
+      "text": "PHP2Shell's first confirmed breach hits a European government as the flaw spreads to firewalls, NAS drives and containers, and a bootkit beats Secure Boot."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 25, 2026",
+              "head": "First confirmed PHP2Shell breach hits a European government",
+              "text": "Unit 42 says attackers stole password hashes and MFA secrets within two hours, then tried to become Domain Admin. Its output formatting suggests an AI agent ran the attack. Patch PHP and rotate credentials on exposed servers.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
+            },
+            {
               "date": "Oct 24, 2026",
               "head": "BlackX bootkit beats Secure Boot on fully patched Windows",
               "text": "Kaspersky ties the UEFI bootkit to China's APT41, which used the old Baton Drop flaw against Central Asian diplomats. Patching isn't enough: admins must manually revoke and blocklist the Windows Production PCA 2011 certificate.",
@@ -92,13 +99,6 @@
               "text": "Patching web servers isn't enough: QNAP NAS fixes are still in progress, Synology lists fixed PHP packages, and Docker updated official images Oct 22. Containers built on older PHP must be pulled again or rebuilt.",
               "src": "Bushletter",
               "url": "https://www.bushletter.com/php2shell-hits-firewalls-and-nas-drives-palo-alto-has-no-fix-yet/"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "Railway breach exposes environment variables; rotate secrets now",
-              "text": "An attacker got into Railway's build system and decrypted some environment variables; up to 1.85% of workspaces may be affected. Railway reset all API tokens and says to roll every variable and registry credential.",
-              "src": "Rescana",
-              "url": "https://www.rescana.com/post/developer-platform-security-incidents-railway-zeabur-tidb-cloud-october-2026"
             },
             {
               "date": "Oct 23, 2026",
