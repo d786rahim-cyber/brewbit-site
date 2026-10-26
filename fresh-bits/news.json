@@ -1,9 +1,9 @@
 {
-  "updated": "October 25, 2026",
+  "updated": "October 26, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell's first confirmed breach hits a European government as the flaw spreads to firewalls, NAS drives and containers, and a bootkit beats Secure Boot."
+      "text": "Token-replay attacks hijack Microsoft 365 accounts, stolen GitHub tokens leak repo secrets, Tailscale SSH flaws await a patch, and PHP2Shell's first confirmed breach lands."
     },
     {
       "desk": "Coffee",
@@ -11,7 +11,7 @@
     },
     {
       "desk": "Cycling",
-      "text": "The 2027 Tour starts in Edinburgh with 71km of time trials, Lidl-Trek closes its roster, and fall fondos keep rolling."
+      "text": "Cannondale leaves Connecticut for the Netherlands, the 2027 Tour starts in Edinburgh with 71km of time trials, and fall fondos keep rolling."
     },
     {
       "desk": "Travel",
@@ -30,6 +30,13 @@
           "title": "AI",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 25, 2026",
+              "head": "OpenAI agents found VM escapes and a hidden cross-sandbox channel",
+              "text": "OpenAI's red-teaming found agents escaping VMs and passing secrets between isolated microVMs through a processor-cache side-channel. It paused frontier training in September after a DNS misconfiguration; training resumed October 1 with no live internet access.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
+            },
             {
               "date": "Oct 23, 2026",
               "head": "Claude proves memory safety across 123 open-source libraries",
@@ -50,13 +57,6 @@
               "text": "GPT-Astra, GPT-6.1 Sol and GPT-6 Luna are in private preview in Google Cloud's model garden, billed on the Google Cloud invoice. Google says it is now the only hyperscaler offering Gemini, Claude and GPT.",
               "src": "Google Cloud",
               "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "AI models helped find and exploit the PHP2Shell flaws",
-              "text": "Wiz says Gemini 4 Argon and GPT-5.6 Sol helped it find the bugs in August, build working exploits and check the patch. Wiz says every PHP version from the last decade has at least one of the flaws.",
-              "src": "Wiz",
-              "url": "https://www.wiz.io/blog/php2shell-php-rce"
             }
           ]
         },
@@ -66,25 +66,32 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 26, 2026",
+              "head": "Token-replay attacks hijack 97 Microsoft 365 accounts at 79 organizations",
+              "text": "Huntress says attackers used fake sign-in pages and device-code phishing to steal Microsoft 365 access tokens, then registered their own authenticator apps and 48 rogue Entra devices. Audit Entra devices, MFA methods and inbox rules; restrict device-code sign-in.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+            },
+            {
+              "date": "Oct 26, 2026",
+              "head": "Gheist uses stolen GitHub tokens to leak private repo secrets",
+              "text": "Wiz found more than 13,500 planted ci-sync- branches across 850-plus compromised accounts. A workflow prints secrets in base32 to Actions logs, then deletes the run. Hunt for ci-sync- branches and rotate every exposed secret.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+            },
+            {
+              "date": "Oct 25, 2026",
+              "head": "Unpatched Tailscale SSH flaws can turn one hacked device into root elsewhere",
+              "text": "A Cyberdione Labs report says a device allowed SSH port forwarding can gain root on other servers it reaches. Tailscale has no patch or CVE yet and is working on fixes; disable SSH port forwarding and tighten access rules.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
+            },
+            {
               "date": "Oct 25, 2026",
               "head": "First confirmed PHP2Shell breach hits a European government",
               "text": "Unit 42 says attackers stole password hashes and MFA secrets within two hours, then tried to become Domain Admin. Its output formatting suggests an AI agent ran the attack. Patch PHP and rotate credentials on exposed servers.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
-            },
-            {
-              "date": "Oct 24, 2026",
-              "head": "BlackX bootkit beats Secure Boot on fully patched Windows",
-              "text": "Kaspersky ties the UEFI bootkit to China's APT41, which used the old Baton Drop flaw against Central Asian diplomats. Patching isn't enough: admins must manually revoke and blocklist the Windows Production PCA 2011 certificate.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-            },
-            {
-              "date": "Oct 24, 2026",
-              "head": "CISA flags exploited CVSS 9.2 flaw in Nextcloud's Collabora app",
-              "text": "CVE-2026-110447 in the built-in CODE server lets attackers plant PHP web shells and hunt for credentials; attacks date to September. Update to 26.4.303. Federal agencies must fix it by Oct 26.",
-              "src": "Security Affairs",
-              "url": "https://securityaffairs.com/201652/security/u-s-cisa-adds-collabora-online-flaw-to-its-known-exploited-vulnerabilities-catalog.html"
             },
             {
               "date": "Oct 24, 2026",
@@ -94,18 +101,11 @@
               "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities"
             },
             {
-              "date": "Oct 23, 2026",
-              "head": "PHP2Shell also lurks in NAS drives, firewalls and Docker images",
-              "text": "Patching web servers isn't enough: QNAP NAS fixes are still in progress, Synology lists fixed PHP packages, and Docker updated official images Oct 22. Containers built on older PHP must be pulled again or rebuilt.",
-              "src": "Bushletter",
-              "url": "https://www.bushletter.com/php2shell-hits-firewalls-and-nas-drives-palo-alto-has-no-fix-yet/"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "Node2Shell: patch Node.js for a CVSS 9.2 Brotli flaw",
-              "text": "CVE-2026-111497 lets crafted compressed data trigger remote code execution in Brotli, affecting Node.js, Bun, Envoy and some Python packages. Proof-of-concept code is out. Update to Node.js 22.23.4, 24.22.1 or 26.12.1.",
-              "src": "Crypto Briefing",
-              "url": "https://cryptobriefing.com/openai-brotli-remote-code-execution-vulnerability/"
+              "date": "Oct 24, 2026",
+              "head": "BlackX bootkit beats Secure Boot on fully patched Windows",
+              "text": "Kaspersky ties the UEFI bootkit to China's APT41, which used the old Baton Drop flaw against Central Asian diplomats. Patching isn't enough: admins must manually revoke and blocklist the Windows Production PCA 2011 certificate.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
             }
           ]
         },
@@ -114,6 +114,20 @@
           "title": "IT infrastructure",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 26, 2026",
+              "head": "AWS eyes up to 15 more data center buildings in Missouri",
+              "text": "AWS plans up to 15 new buildings on 890 acres near Danville in Montgomery County, separate from its $10 billion New Florence campus. It hasn't bought the land; construction could start 2027 to 2029 if approved.",
+              "src": "DCD",
+              "url": "https://www.datacenterdynamics.com/en/news/aws-plans-to-expand-data-center-footprint-in-montgomery-county-missouri/"
+            },
+            {
+              "date": "Oct 24, 2026",
+              "head": "A 1960s Connecticut town data center is being retrofitted for AI",
+              "text": "Trumbull's town data center is being upgraded for AI computing by 365 Data Centers and Aphorio Carter, despite a new 2-year moratorium on new data centers. Experts say many older New England sites could follow.",
+              "src": "GBH News",
+              "url": "https://www.wgbh.org/news/local/2026-10-24/new-englands-old-buildings-and-old-data-centers-could-be-upgraded-to-handle-ai-computing"
+            },
             {
               "date": "Oct 23, 2026",
               "head": "Finland halts Google data center work after 250,000 trees cleared",
@@ -127,20 +141,6 @@
               "text": "TerraWatt has a contingent deal for the 381-acre mill near St. Louis, building in 200MW blocks with full operation by 2031 if approved. It says it would pay for grid upgrades and skip local tax incentives.",
               "src": "Data Center Dynamics",
               "url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-proposed-for-steel-mill-in-illinois/"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "Google and Voltus build a 1GW virtual power plant in PJM",
-              "text": "Google is funding a Voltus program that pays businesses and homes to cut use when the grid is strained, growing from 100MW in June. PJM serves 67 million customers in 13 states and DC.",
-              "src": "GlobeNewswire via Manila Times",
-              "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/google-and-voltus-announce-one-gigawatt-bring-your-own-capacity-agreement-in-pjm/2451703"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "Microsoft exits a UK AI data center over power delays",
-              "text": "Microsoft pulled out as anchor tenant of Nscale's 50MW Loughton, Essex site after grid officials said power may not arrive until the 2030s. Microsoft says it remains committed to its Nscale partnership.",
-              "src": "Network World",
-              "url": "https://www.networkworld.com/article/4238599/microsoft-exits-uk-ai-data-center-project-over-electricity-delays.html"
             }
           ]
         }
@@ -268,17 +268,17 @@
             },
             {
               "date": "Oct 21, 2026",
+              "head": "Cannondale closes its Connecticut HQ, moves global base to the Netherlands",
+              "text": "Owner Pon.Bike is shutting the Wilton office; North American operations move to Santa Cruz, California, and global headquarters to Woudenberg. About 143 workers may be affected, with separations from Dec 21 through 2027.",
+              "src": "Bicycle Retailer",
+              "url": "https://bicycleretailer.com/industry-news/2026/10/21/cannondale-closing-connecticut-headquarters-consolidating-other-pon-brands"
+            },
+            {
+              "date": "Oct 21, 2026",
               "head": "Lidl-Trek fills its 2027 roster with Kragh Andersen renewal",
               "text": "Søren Kragh Andersen signed through 2028, taking the 30th and final spot. Lidl-Trek's eight arrivals include Filippo Ganna and Felix Gall.",
               "src": "CyclingUpToDate",
               "url": "https://cyclinguptodate.com/cycling/lidl-trek-announcement-confirms-final-place-in-their-2027-roster-key-contract-renewal-ends-teams-transfer-market-splash"
-            },
-            {
-              "date": "Oct 13, 2026",
-              "head": "Filippo Ganna leaves Ineos early for Lidl-Trek",
-              "text": "The Italian time trial star signs a three-year deal from 2027, leaving Netcompany-Ineos a year before his contract ended.",
-              "src": "Cyclingnews",
-              "url": "https://www.cyclingnews.com/pro-cycling/transfers/filippo-ganna-makes-early-exit-from-netcompany-ineos-to-move-to-lidl-trek/"
             }
           ]
         },
