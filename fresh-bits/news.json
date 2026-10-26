@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Token-replay attacks hijack Microsoft 365 accounts, stolen GitHub tokens leak repo secrets, Tailscale SSH flaws await a patch, and PHP2Shell's first confirmed breach lands."
+      "text": "PHP2Shell is now confirmed running code on real servers, Microsoft rushes .NET fixes, and token-replay attacks hijack Microsoft 365 accounts."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,20 @@
           "items": [
             {
               "date": "Oct 26, 2026",
+              "head": "PHP2Shell now confirmed running code on real servers",
+              "text": "Perplexity's honeypots recorded working remote code execution against Apache mod_php on PHP 8.4.26, confirmed by Expel's Marcus Hutchins. VirusTotal estimates more than 5.1 million PHP hosts are exposed. Install PHP's October 21 updates now.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild"
+            },
+            {
+              "date": "Oct 26, 2026",
+              "head": "Microsoft ships emergency .NET fixes for a CVSS 9.2 Brotli flaw",
+              "text": "Out-of-band updates for .NET 8, 9, 10 and 11 RC3 fix CVE-2026-111497, a Brotli buffer overflow, plus two incomplete October Patch Tuesday fixes. Install the runtime, then rebuild self-contained apps and container images.",
+              "src": "Infosecurity Magazine",
+              "url": "https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/"
+            },
+            {
+              "date": "Oct 26, 2026",
               "head": "Token-replay attacks hijack 97 Microsoft 365 accounts at 79 organizations",
               "text": "Huntress says attackers used fake sign-in pages and device-code phishing to steal Microsoft 365 access tokens, then registered their own authenticator apps and 48 rogue Entra devices. Audit Entra devices, MFA methods and inbox rules; restrict device-code sign-in.",
               "src": "The Hacker News",
@@ -92,20 +106,6 @@
               "text": "Unit 42 says attackers stole password hashes and MFA secrets within two hours, then tried to become Domain Admin. Its output formatting suggests an AI agent ran the attack. Patch PHP and rotate credentials on exposed servers.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
-            },
-            {
-              "date": "Oct 24, 2026",
-              "head": "PHP2Shell reaches Palo Alto firewalls; PAN-OS fixes start Oct 26",
-              "text": "Palo Alto says PAN-OS 10.2 to 12.2 and Panorama are affected, with hotfixes expected Oct 26 to 30. No exploitation of its products is known. Until then, limit management interfaces to trusted internal IPs.",
-              "src": "Cybersecurity News",
-              "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities"
-            },
-            {
-              "date": "Oct 24, 2026",
-              "head": "BlackX bootkit beats Secure Boot on fully patched Windows",
-              "text": "Kaspersky ties the UEFI bootkit to China's APT41, which used the old Baton Drop flaw against Central Asian diplomats. Patching isn't enough: admins must manually revoke and blocklist the Windows Production PCA 2011 certificate.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
             }
           ]
         },
