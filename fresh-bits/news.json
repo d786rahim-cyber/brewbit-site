@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "PHP2Shell is now confirmed running code on real servers, Microsoft rushes .NET fixes, and token-replay attacks hijack Microsoft 365 accounts."
+      "text": "PHP2Shell is now confirmed running code on real servers, Microsoft rushes .NET fixes, a Japanese host shuts servers after a ransom attack, and token-replay attacks hijack Microsoft 365 accounts."
     },
     {
       "desk": "Coffee",
@@ -81,6 +81,13 @@
             },
             {
               "date": "Oct 26, 2026",
+              "head": "GMO Internet shuts servers after malware hits up to 26,739 cloud desktops",
+              "text": "Japan's GMO Internet found malware on Onamae.com Desktop Cloud servers, saw unauthorised trades at more than 70 brokers, refused a $50 million crypto ransom and began shutting servers down. It will cover trading losses.",
+              "src": "Euronews",
+              "url": "https://www.euronews.com/2026/10/26/japanese-company-to-compensate-users-hit-by-cyberattack"
+            },
+            {
+              "date": "Oct 26, 2026",
               "head": "Token-replay attacks hijack 97 Microsoft 365 accounts at 79 organizations",
               "text": "Huntress says attackers used fake sign-in pages and device-code phishing to steal Microsoft 365 access tokens, then registered their own authenticator apps and 48 rogue Entra devices. Audit Entra devices, MFA methods and inbox rules; restrict device-code sign-in.",
               "src": "The Hacker News",
@@ -99,13 +106,6 @@
               "text": "A Cyberdione Labs report says a device allowed SSH port forwarding can gain root on other servers it reaches. Tailscale has no patch or CVE yet and is working on fixes; disable SSH port forwarding and tighten access rules.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-            },
-            {
-              "date": "Oct 25, 2026",
-              "head": "First confirmed PHP2Shell breach hits a European government",
-              "text": "Unit 42 says attackers stole password hashes and MFA secrets within two hours, then tried to become Domain Admin. Its output formatting suggests an AI agent ran the attack. Patch PHP and rotate credentials on exposed servers.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
             }
           ]
         },
