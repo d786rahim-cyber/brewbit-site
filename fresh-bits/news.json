@@ -88,6 +88,13 @@
             },
             {
               "date": "Oct 26, 2026",
+              "head": "npm worm secretly hijacked 42 GitHub repos and 18 npm packages",
+              "text": "JFrog says a Miasma-family worm steals credentials, alters CI configs, hides 13 MB payloads from GitHub scanning, and wipes the victim's home directory if its stolen token is revoked. Audit repos and npm packages before revoking tokens.",
+              "src": "The Register",
+              "url": "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570"
+            },
+            {
+              "date": "Oct 26, 2026",
               "head": "Token-replay attacks hijack 97 Microsoft 365 accounts at 79 organizations",
               "text": "Huntress says attackers used fake sign-in pages and device-code phishing to steal Microsoft 365 access tokens, then registered their own authenticator apps and 48 rogue Entra devices. Audit Entra devices, MFA methods and inbox rules; restrict device-code sign-in.",
               "src": "The Hacker News",
@@ -99,13 +106,6 @@
               "text": "Wiz found more than 13,500 planted ci-sync- branches across 850-plus compromised accounts. A workflow prints secrets in base32 to Actions logs, then deletes the run. Hunt for ci-sync- branches and rotate every exposed secret.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
-            },
-            {
-              "date": "Oct 25, 2026",
-              "head": "Unpatched Tailscale SSH flaws can turn one hacked device into root elsewhere",
-              "text": "A Cyberdione Labs report says a device allowed SSH port forwarding can gain root on other servers it reaches. Tailscale has no patch or CVE yet and is working on fixes; disable SSH port forwarding and tighten access rules.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
             }
           ]
         },
