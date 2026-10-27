@@ -88,13 +88,6 @@
             },
             {
               "date": "Oct 26, 2026",
-              "head": "PHP2Shell now confirmed running code on real servers",
-              "text": "Perplexity's honeypots recorded working remote code execution against Apache mod_php on PHP 8.4.26, confirmed by Expel's Marcus Hutchins. VirusTotal estimates more than 5.1 million PHP hosts are exposed. Install PHP's October 21 updates now.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild"
-            },
-            {
-              "date": "Oct 26, 2026",
               "head": "Microsoft ships emergency .NET fixes for a CVSS 9.2 Brotli flaw",
               "text": "Out-of-band updates for .NET 8, 9, 10 and 11 RC3 fix CVE-2026-111497, a Brotli buffer overflow, plus two incomplete October Patch Tuesday fixes. Install the runtime, then rebuild self-contained apps and container images.",
               "src": "Infosecurity Magazine",
@@ -106,6 +99,13 @@
               "text": "JFrog says a Miasma-family worm steals credentials, alters CI configs, hides 13 MB payloads from GitHub scanning, and wipes the victim's home directory if its stolen token is revoked. Audit repos and npm packages before revoking tokens.",
               "src": "The Register",
               "url": "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570"
+            },
+            {
+              "date": "Oct 23, 2026",
+              "head": "HPE patches eight max-severity flaws in Aruba wireless gear",
+              "text": "HPE fixed 72 ArubaOS (AOS-8 and AOS-10) bugs, including eight maximum-severity remote code execution and authentication bypass flaws needing no login. No exploitation is known yet; patch and restrict management interfaces to a dedicated VLAN.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
             }
           ]
         },
