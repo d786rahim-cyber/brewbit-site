@@ -73,6 +73,13 @@
               "url": "https://japancyberwatch.com/articles/idcf-cloud-unauthorized-access-outage-2026"
             },
             {
+              "date": "Oct 27, 2026",
+              "head": "DreamHost forces email and FTP password resets after a service incident",
+              "text": "Since October 23, DreamHost's File Manager, webmail and email hosting have been disrupted, and it reset passwords for a subset of email and FTP/SFTP accounts as a precaution. It hasn't disclosed the cause; follow its emailed instructions.",
+              "src": "Help Net Security",
+              "url": "https://www.helpnetsecurity.com/2026/10/27/dreamhost-incident-email-ftp-password-resets/"
+            },
+            {
               "date": "Oct 26, 2026",
               "head": "CISA lists PHP2Shell as exploited; federal deadline is Oct 29",
               "text": "CISA added CVE-2026-109618 and CVE-2026-109619 to its exploited list, giving agencies until October 29. Update to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35; CISA says take unpatchable PHP systems offline.",
@@ -99,13 +106,6 @@
               "text": "JFrog says a Miasma-family worm steals credentials, alters CI configs, hides 13 MB payloads from GitHub scanning, and wipes the victim's home directory if its stolen token is revoked. Audit repos and npm packages before revoking tokens.",
               "src": "The Register",
               "url": "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570"
-            },
-            {
-              "date": "Oct 26, 2026",
-              "head": "Token-replay attacks hijack 97 Microsoft 365 accounts at 79 organizations",
-              "text": "Huntress says attackers used fake sign-in pages and device-code phishing to steal Microsoft 365 access tokens, then registered their own authenticator apps and 48 rogue Entra devices. Audit Entra devices, MFA methods and inbox rules; restrict device-code sign-in.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
             }
           ]
         },
