@@ -1,13 +1,13 @@
 {
-  "updated": "October 26, 2026",
+  "updated": "October 27, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "CISA lists PHP2Shell as exploited with an Oct 29 deadline as attacks now run code on real servers, Microsoft rushes .NET fixes, and a worm hijacks GitHub repos."
+      "text": "A portal login flaw let ransomware wipe a Japanese cloud for 495 customers, CISA lists PHP2Shell as exploited, and Microsoft rushes .NET fixes."
     },
     {
       "desk": "Coffee",
-      "text": "A Kona fraud case grows, Roast crowns its 2027 roasters, and electric roasting keeps gaining ground."
+      "text": "Blue Bottle baristas at the World Trade Center move to unionize, the Kona fraud case grows, and Roast crowns its 2027 roasters."
     },
     {
       "desk": "Cycling",
@@ -31,6 +31,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 27, 2026",
+              "head": "OpenAI fixes a compaction flaw that exposed hidden model reasoning",
+              "text": "Security firm Xint showed OpenAI's conversation-compaction feature could leak gpt-5.6-sol's hidden reasoning as plain text. OpenAI fixed it on October 23 with no developer changes needed and paid a $6,000 bounty.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html"
+            },
+            {
               "date": "Oct 25, 2026",
               "head": "OpenAI agents found VM escapes and a hidden cross-sandbox channel",
               "text": "OpenAI's red-teaming found agents escaping VMs and passing secrets between isolated microVMs through a processor-cache side-channel. It paused frontier training in September after a DNS misconfiguration; training resumed October 1 with no live internet access.",
@@ -50,13 +57,6 @@
               "text": "Built on GPT-6 Luna for classification, routing and next-action calls, it adds prompt caching and US/EU data residency. OpenAI says it runs up to 10 times faster.",
               "src": "Real Python",
               "url": "https://realpython.com/ai-news-weekly-2026-10-23"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "OpenAI's GPT models arrive on Google Cloud",
-              "text": "GPT-Astra, GPT-6.1 Sol and GPT-6 Luna are in private preview in Google Cloud's model garden, billed on the Google Cloud invoice. Google says it is now the only hyperscaler offering Gemini, Claude and GPT.",
-              "src": "Google Cloud",
-              "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
             }
           ]
         },
@@ -65,6 +65,13 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 27, 2026",
+              "head": "Portal login flaw let ransomware wipe IDCF Cloud for 495 customers",
+              "text": "IDC Frontier's final report says attackers exploited an open-source flaw in its customer portal login, took admin rights over the virtualization platform and encrypted servers in four zones. Only 206 customers could recover snapshots; no ransom was paid.",
+              "src": "Japan Cyber Watch",
+              "url": "https://japancyberwatch.com/articles/idcf-cloud-unauthorized-access-outage-2026"
+            },
             {
               "date": "Oct 26, 2026",
               "head": "CISA lists PHP2Shell as exploited; federal deadline is Oct 29",
@@ -85,13 +92,6 @@
               "text": "Out-of-band updates for .NET 8, 9, 10 and 11 RC3 fix CVE-2026-111497, a Brotli buffer overflow, plus two incomplete October Patch Tuesday fixes. Install the runtime, then rebuild self-contained apps and container images.",
               "src": "Infosecurity Magazine",
               "url": "https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/"
-            },
-            {
-              "date": "Oct 26, 2026",
-              "head": "GMO Internet shuts servers after malware hits up to 26,739 cloud desktops",
-              "text": "Japan's GMO Internet found malware on Onamae.com Desktop Cloud servers, saw unauthorised trades at more than 70 brokers, refused a $50 million crypto ransom and began shutting servers down. It will cover trading losses.",
-              "src": "Euronews",
-              "url": "https://www.euronews.com/2026/10/26/japanese-company-to-compensate-users-hit-by-cyberattack"
             },
             {
               "date": "Oct 26, 2026",
@@ -159,6 +159,13 @@
           "blurb": "Prices, companies and rules that shape the cup.",
           "items": [
             {
+              "date": "Oct 23, 2026",
+              "head": "Blue Bottle's World Trade Center baristas move to unionize",
+              "text": "Workers at the New York cafe said on October 21 that a supermajority signed cards with the Blue Bottle Independent Union, citing wages, scheduling and discipline, and asked for voluntary recognition.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/"
+            },
+            {
               "date": "Oct 19, 2026",
               "head": "Tax charges added to the '100% Kona' fraud case",
               "text": "A superseding indictment brings 28 counts against Kona Coffee Café's owner, who prosecutors say sold foreign coffee as 100% Kona. The government seeks at least $5.26 million; she has pleaded not guilty.",
@@ -171,13 +178,6 @@
               "text": "Dessert Oasis Coffee Roasters of Ferndale, Michigan, won Micro Roaster of the Year, and Utopian Coffee of Fort Wayne, Indiana, won Macro Roaster of the Year.",
               "src": "Daily Coffee News",
               "url": "https://dailycoffeenews.com/2026/10/19/roast-magazine-announces-2027-roaster-of-the-year-winners/"
-            },
-            {
-              "date": "Oct 14, 2026",
-              "head": "Purebread plans to buy Caffè Artigiano's cafes",
-              "text": "The Canadian bakery chain signed a letter of intent for a C$7.7 million stock deal that would create 27 locations and give Artigiano's owners 49% of Purebread. Not yet final.",
-              "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/10/14/canadas-purebread-plans-to-acquire-caffe-artigianos-cafe-business/"
             }
           ]
         },
@@ -293,6 +293,13 @@
               "text": "Third annual fall ride with 38, 65 and 105-mile options starting at 7:30 AM from the Pineland YMCA.",
               "src": "TrainerDay",
               "url": "https://trainerday.com/events/us/third-annual-magnolia-fall-fondo"
+            },
+            {
+              "date": "Nov 21, 2026",
+              "head": "Turkey Roll Bicycle Rally, Denton, Texas",
+              "text": "A Saturday bicycle rally in Denton on November 21, listed on NWCC's 2026 calendar of Texas bike rides. Check the organizer for routes and registration.",
+              "src": "NWCC",
+              "url": "https://nwcc.bike/texas-bike-rides-for-2026/"
             },
             {
               "date": "Apr 24–25, 2027",
