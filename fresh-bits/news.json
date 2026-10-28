@@ -1,9 +1,9 @@
 {
-  "updated": "October 27, 2026",
+  "updated": "October 28, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "A portal login flaw let ransomware wipe a Japanese cloud for 495 customers, CISA lists PHP2Shell as exploited, and Microsoft rushes .NET fixes."
+      "text": "CISA says Node2Shell is now exploited, Veeam and Oracle EBS face critical flaws, Tailscale patches Tailworm, and PHP2Shell's federal deadline hits Oct 29."
     },
     {
       "desk": "Coffee",
@@ -15,7 +15,7 @@
     },
     {
       "desk": "Travel",
-      "text": "Holiday fares hit a 10-year high, Delta adds 2027 routes, ETIAS still isn't open, and fall deals run through month-end."
+      "text": "United adds Houston routes to Mexico, Colombia and Venezuela, holiday fares stay high, and fall deals end this week."
     }
   ],
   "desks": [
@@ -30,6 +30,13 @@
           "title": "AI",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 27, 2026",
+              "head": "Anthropic's IPO filing discloses AI models reaching real systems in tests",
+              "text": "Per Fox News, the filing says four models accessed real third-party systems during cyber evaluations after a testing partner left them online; one gained admin access. Anthropic also delayed a new model's pre-training over a month.",
+              "src": "Fox News",
+              "url": "https://www.foxnews.com/live-news/ai-news-anthropic-claude-openai-chatgpt-10-27-26"
+            },
             {
               "date": "Oct 27, 2026",
               "head": "OpenAI fixes a compaction flaw that exposed hidden model reasoning",
@@ -50,13 +57,6 @@
               "text": "Working with Theorem, Anthropic says Claude wrote mathematical proofs for 239 entry points and patched hundreds of bugs. The proofs hold only under specific assumptions, and Anthropic notes verified does not mean bug-free.",
               "src": "Real Python",
               "url": "https://realpython.com/ai-news-weekly-2026-10-23"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "OpenAI's Decisions API goes generally available",
-              "text": "Built on GPT-6 Luna for classification, routing and next-action calls, it adds prompt caching and US/EU data residency. OpenAI says it runs up to 10 times faster.",
-              "src": "Real Python",
-              "url": "https://realpython.com/ai-news-weekly-2026-10-23"
             }
           ]
         },
@@ -66,6 +66,34 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 28, 2026",
+              "head": "CISA: hackers now exploiting the Node2Shell Brotli flaw",
+              "text": "CISA added CVE-2026-111497, the Brotli decoder flaw also called Node2Shell and HTTP2Shell, to its exploited list with a November 10 federal deadline. Patch Brotli, Node.js and .NET, restart processes and rebuild container images.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw"
+            },
+            {
+              "date": "Oct 28, 2026",
+              "head": "Veeam fixes a critical unauthenticated flaw in Backup & Replication",
+              "text": "CVE-2026-108142 (CVSS 9.1) is an authorization bypass in the CDP Coordinator Service of Backup & Replication 13.x. Version 12.x is not affected. Upgrade to 13.1.2.57 or 13.0.3.63.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw-2"
+            },
+            {
+              "date": "Oct 28, 2026",
+              "head": "Tailscale ships fixes for the 11 'Tailworm' flaws",
+              "text": "Tailscale published four security bulletins and fixes for the Cyberdione Labs findings, six rated high, including SSH forwarding that ran as root. No exploitation is reported; update clients and disable SSH forwarding where unneeded.",
+              "src": "CloudLink Tech",
+              "url": "https://www.cloudlinktech.com/news/tailscale-patches-tailworm-flaws-including-ssh-vulnerabilities/"
+            },
+            {
+              "date": "Oct 28, 2026",
+              "head": "Attackers probe a CVSS 9.8 Oracle E-Business Suite flaw",
+              "text": "Defused saw exploratory exploits against its EBS decoys for CVE-2026-101767, which affects versions 12.2.3 to 12.2.15 with no login needed. Oracle patched it in the October 20 Critical Patch Update.",
+              "src": "Cyber Security News",
+              "url": "https://cybersecuritynews.com/oracle-ebs-rce-exploited/"
+            },
+            {
               "date": "Oct 27, 2026",
               "head": "Portal login flaw let ransomware wipe IDCF Cloud for 495 customers",
               "text": "IDC Frontier's final report says attackers exploited an open-source flaw in its customer portal login, took admin rights over the virtualization platform and encrypted servers in four zones. Only 206 customers could recover snapshots; no ransom was paid.",
@@ -73,39 +101,11 @@
               "url": "https://japancyberwatch.com/articles/idcf-cloud-unauthorized-access-outage-2026"
             },
             {
-              "date": "Oct 27, 2026",
-              "head": "DreamHost forces email and FTP password resets after a service incident",
-              "text": "Since October 23, DreamHost's File Manager, webmail and email hosting have been disrupted, and it reset passwords for a subset of email and FTP/SFTP accounts as a precaution. It hasn't disclosed the cause; follow its emailed instructions.",
-              "src": "Help Net Security",
-              "url": "https://www.helpnetsecurity.com/2026/10/27/dreamhost-incident-email-ftp-password-resets/"
-            },
-            {
               "date": "Oct 26, 2026",
               "head": "CISA lists PHP2Shell as exploited; federal deadline is Oct 29",
               "text": "CISA added CVE-2026-109618 and CVE-2026-109619 to its exploited list, giving agencies until October 29. Update to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35; CISA says take unpatchable PHP systems offline.",
               "src": "Defcon Alerts",
               "url": "https://www.defconalerts.com/p/cisa-lists-two-critical-php-flaws"
-            },
-            {
-              "date": "Oct 26, 2026",
-              "head": "Microsoft ships emergency .NET fixes for a CVSS 9.2 Brotli flaw",
-              "text": "Out-of-band updates for .NET 8, 9, 10 and 11 RC3 fix CVE-2026-111497, a Brotli buffer overflow, plus two incomplete October Patch Tuesday fixes. Install the runtime, then rebuild self-contained apps and container images.",
-              "src": "Infosecurity Magazine",
-              "url": "https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/"
-            },
-            {
-              "date": "Oct 26, 2026",
-              "head": "npm worm secretly hijacked 42 GitHub repos and 18 npm packages",
-              "text": "JFrog says a Miasma-family worm steals credentials, alters CI configs, hides 13 MB payloads from GitHub scanning, and wipes the victim's home directory if its stolen token is revoked. Audit repos and npm packages before revoking tokens.",
-              "src": "The Register",
-              "url": "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "HPE patches eight max-severity flaws in Aruba wireless gear",
-              "text": "HPE fixed 72 ArubaOS (AOS-8 and AOS-10) bugs, including eight maximum-severity remote code execution and authentication bypass flaws needing no login. No exploitation is known yet; patch and restrict management interfaces to a dedicated VLAN.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
             }
           ]
         },
@@ -122,6 +122,13 @@
               "url": "https://www.datacenterdynamics.com/en/news/aws-plans-to-expand-data-center-footprint-in-montgomery-county-missouri/"
             },
             {
+              "date": "Oct 27, 2026",
+              "head": "A 444,400-square-foot data center is proposed for South San Jose",
+              "text": "Menlo Equities applied to build on 15.5 acres beside Western Digital's campus. If approved, construction could start in late 2027, with operations by late 2029.",
+              "src": "GovTech Insider",
+              "url": "https://insider.govtech.com/california/news/massive-san-jose-data-center-could-begin-operations-by-2029"
+            },
+            {
               "date": "Oct 24, 2026",
               "head": "A 1960s Connecticut town data center is being retrofitted for AI",
               "text": "Trumbull's town data center is being upgraded for AI computing by 365 Data Centers and Aphorio Carter, despite a new 2-year moratorium on new data centers. Experts say many older New England sites could follow.",
@@ -134,13 +141,6 @@
               "text": "Regulators paused major preparatory work at Google's Muhos and Kajaani sites until environmental reviews are done. The €13 billion plan is Google's largest single European investment; over 96,000 Finns backed tighter data center rules.",
               "src": "Fortune",
               "url": "https://fortune.com/2026/10/23/google-finland-data-center-250-000-trees-environment/"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "Old Alton, Illinois steel mill pitched for a 1GW data center",
-              "text": "TerraWatt has a contingent deal for the 381-acre mill near St. Louis, building in 200MW blocks with full operation by 2031 if approved. It says it would pay for grid upgrades and skip local tax incentives.",
-              "src": "Data Center Dynamics",
-              "url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-proposed-for-steel-mill-in-illinois/"
             }
           ]
         }
@@ -354,18 +354,18 @@
           "blurb": "Disruptions, routes and rules.",
           "items": [
             {
+              "date": "Oct 27, 2026",
+              "head": "United adds new Houston routes to Latin America",
+              "text": "From Houston Bush, United plans Tuxtla Gutiérrez, Mexico later this month, Cartagena in December and Caracas in January 2027, with Chihuahua reportedly returning next spring.",
+              "src": "AirlineGeeks",
+              "url": "https://airlinegeeks.com/2026/10/27/united-adds-routes-from-texas/"
+            },
+            {
               "date": "Oct 22, 2026",
               "head": "Holiday airfares hit a 10-year high; book by Halloween",
               "text": "Hopper puts average Thanksgiving tickets near $400, up 31%, and Christmas near $450, up 23%, partly on jet fuel costs. Experts say don't wait for prices to fall.",
               "src": "KPRC Click2Houston",
               "url": "https://www.click2houston.com/news/local/2026/10/22/holiday-travel-prices-are-climbing-when-to-book-thanksgiving-and-christmas-trips/"
-            },
-            {
-              "date": "Oct 19, 2026",
-              "head": "Delta adds Boston–Reykjavik for summer 2027",
-              "text": "Daily Boeing 757 flights start April 12 and run seasonally to Oct 30. Delta's previously announced Austin–Paris daily service begins March 27, 2027.",
-              "src": "Aviation Week",
-              "url": "https://aviationweek.com/air-transport/airports-networks/routes-networks-latest-rolling-daily-updates-wc-oct-19-2026"
             }
           ]
         },
