@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "CISA says Node2Shell is now exploited, Veeam and Oracle EBS face critical flaws, Tailscale patches Tailworm, and PHP2Shell's federal deadline hits Oct 29."
+      "text": "CISA flags exploited Node2Shell and Adobe Commerce flaws, Veeam and Oracle EBS face critical bugs, and Tailscale patches Tailworm."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 28, 2026",
+              "head": "CISA lists exploited 'PolyShell' Adobe Commerce flaw behind 953 store hacks",
+              "text": "CVE-2026-48356 (CVSS 9.3) is an unrestricted file upload flaw in Adobe Commerce and Magento. Sansec tied it to attacks on at least 953 online stores; federal agencies must fix it by October 29. Check Adobe's advisory.",
+              "src": "InfoSec Today",
+              "url": "https://www.infosectoday.io/u-s-cisa-adds-google-brotli-and-adobe-commerce-and-magento-flaws-to-its-known-exploited-vulnerabilities-catalog"
+            },
+            {
+              "date": "Oct 28, 2026",
               "head": "CISA: hackers now exploiting the Node2Shell Brotli flaw",
               "text": "CISA added CVE-2026-111497, the Brotli decoder flaw also called Node2Shell and HTTP2Shell, to its exploited list with a November 10 federal deadline. Patch Brotli, Node.js and .NET, restart processes and rebuild container images.",
               "src": "BleepingComputer",
@@ -99,13 +106,6 @@
               "text": "IDC Frontier's final report says attackers exploited an open-source flaw in its customer portal login, took admin rights over the virtualization platform and encrypted servers in four zones. Only 206 customers could recover snapshots; no ransom was paid.",
               "src": "Japan Cyber Watch",
               "url": "https://japancyberwatch.com/articles/idcf-cloud-unauthorized-access-outage-2026"
-            },
-            {
-              "date": "Oct 26, 2026",
-              "head": "CISA lists PHP2Shell as exploited; federal deadline is Oct 29",
-              "text": "CISA added CVE-2026-109618 and CVE-2026-109619 to its exploited list, giving agencies until October 29. Update to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35; CISA says take unpatchable PHP systems offline.",
-              "src": "Defcon Alerts",
-              "url": "https://www.defconalerts.com/p/cisa-lists-two-critical-php-flaws"
             }
           ]
         },
