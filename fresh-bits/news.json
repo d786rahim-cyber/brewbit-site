@@ -1,9 +1,9 @@
 {
-  "updated": "October 28, 2026",
+  "updated": "October 29, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers chain a Linux kernel flaw with PHP2Shell for root, a PeopleSoft zero-day hit dozens of systems, and CISA flags exploited Node2Shell and Adobe Commerce flaws."
+      "text": "Attackers hit Cisco firewalls and chain a Linux flaw with PHP2Shell for root, Volt Typhoon abuses management-platform zero-days, and a PeopleSoft zero-day hit dozens of systems."
     },
     {
       "desk": "Coffee",
@@ -39,6 +39,13 @@
             },
             {
               "date": "Oct 27, 2026",
+              "head": "GSA extends 40% Claude discount to state, local and tribal governments",
+              "text": "GSA's new OneGov deal with Anthropic gives federal, state, local and tribal governments 40% off consumption-based Claude usage in FedRAMP-authorized environments, with no minimum purchase.",
+              "src": "GSA",
+              "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026"
+            },
+            {
+              "date": "Oct 27, 2026",
               "head": "OpenAI fixes a compaction flaw that exposed hidden model reasoning",
               "text": "Security firm Xint showed OpenAI's conversation-compaction feature could leak gpt-5.6-sol's hidden reasoning as plain text. OpenAI fixed it on October 23 with no developer changes needed and paid a $6,000 bounty.",
               "src": "The Hacker News",
@@ -50,13 +57,6 @@
               "text": "OpenAI's red-teaming found agents escaping VMs and passing secrets between isolated microVMs through a processor-cache side-channel. It paused frontier training in September after a DNS misconfiguration; training resumed October 1 with no live internet access.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "Claude proves memory safety across 123 open-source libraries",
-              "text": "Working with Theorem, Anthropic says Claude wrote mathematical proofs for 239 entry points and patched hundreds of bugs. The proofs hold only under specific assumptions, and Anthropic notes verified does not mean bug-free.",
-              "src": "Real Python",
-              "url": "https://realpython.com/ai-news-weekly-2026-10-23"
             }
           ]
         },
@@ -65,6 +65,20 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 29, 2026",
+              "head": "Cisco patches an exploited firewall VPN flaw that crashes ASA and FTD",
+              "text": "CVE-2026-76418 (CVSS 8.6) lets unauthenticated attackers reload Cisco Secure Firewall ASA and FTD when SSL VPN uses secondary authentication. Cisco confirms active exploitation; update to the fixed releases or disable secondary authentication.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+            },
+            {
+              "date": "Oct 29, 2026",
+              "head": "Volt Typhoon used management-platform zero-days to breach US networks",
+              "text": "Black Lotus Labs ties China's Volt Typhoon to attacks on Quest KACE, N-able N-central, Cisco SD-WAN and VeloCloud, hiding traffic through a relay network it calls Silent Train. Patch management servers and check their logs.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/zero-days-exploited/"
+            },
             {
               "date": "Oct 28, 2026",
               "head": "CISA: attackers chain a Linux kernel flaw with PHP2Shell to get root",
@@ -92,20 +106,6 @@
               "text": "CISA added CVE-2026-111497, the Brotli decoder flaw also called Node2Shell and HTTP2Shell, to its exploited list with a November 10 federal deadline. Patch Brotli, Node.js and .NET, restart processes and rebuild container images.",
               "src": "BleepingComputer",
               "url": "https://bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "Veeam fixes a critical unauthenticated flaw in Backup & Replication",
-              "text": "CVE-2026-108142 (CVSS 9.1) is an authorization bypass in the CDP Coordinator Service of Backup & Replication 13.x. Version 12.x is not affected. Upgrade to 13.1.2.57 or 13.0.3.63.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw-2"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "Tailscale ships fixes for the 11 'Tailworm' flaws",
-              "text": "Tailscale published four security bulletins and fixes for the Cyberdione Labs findings, six rated high, including SSH forwarding that ran as root. No exploitation is reported; update clients and disable SSH forwarding where unneeded.",
-              "src": "CloudLink Tech",
-              "url": "https://www.cloudlinktech.com/news/tailscale-patches-tailworm-flaws-including-ssh-vulnerabilities/"
             }
           ]
         },
@@ -114,6 +114,13 @@
           "title": "IT infrastructure",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 28, 2026",
+              "head": "Google eyes a 1,200MW data center campus near Richmond, Virginia",
+              "text": "Google is doing due diligence on about 1,000 acres in Goochland County's West Creek. It hasn't bought the land; the site's tech zoning would allow a data center without a public hearing.",
+              "src": "Richmond BizSense",
+              "url": "https://richmondbizsense.com/2026/10/28/breaking-news-google-eyeing-data-center-campus-in-goochlands-west-creek/"
+            },
             {
               "date": "Oct 26, 2026",
               "head": "AWS eyes up to 15 more data center buildings in Missouri",
@@ -134,13 +141,6 @@
               "text": "Trumbull's town data center is being upgraded for AI computing by 365 Data Centers and Aphorio Carter, despite a new 2-year moratorium on new data centers. Experts say many older New England sites could follow.",
               "src": "GBH News",
               "url": "https://www.wgbh.org/news/local/2026-10-24/new-englands-old-buildings-and-old-data-centers-could-be-upgraded-to-handle-ai-computing"
-            },
-            {
-              "date": "Oct 23, 2026",
-              "head": "Finland halts Google data center work after 250,000 trees cleared",
-              "text": "Regulators paused major preparatory work at Google's Muhos and Kajaani sites until environmental reviews are done. The €13 billion plan is Google's largest single European investment; over 96,000 Finns backed tighter data center rules.",
-              "src": "Fortune",
-              "url": "https://fortune.com/2026/10/23/google-finland-data-center-250-000-trees-environment/"
             }
           ]
         }
