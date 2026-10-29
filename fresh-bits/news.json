@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "A PeopleSoft zero-day hit dozens of systems, CISA flags exploited Node2Shell and Adobe Commerce flaws, and Veeam and Oracle EBS face critical bugs."
+      "text": "Attackers chain a Linux kernel flaw with PHP2Shell for root, a PeopleSoft zero-day hit dozens of systems, and CISA flags exploited Node2Shell and Adobe Commerce flaws."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 28, 2026",
+              "head": "CISA: attackers chain a Linux kernel flaw with PHP2Shell to get root",
+              "text": "CISA added Linux kernel CVE-2026-46300 to its exploited list, saying the chain lets attackers implant PHP web shells and run commands as root. Federal deadline is October 31; patch the kernel and PHP.",
+              "src": "Daily CyberSecurity",
+              "url": "https://securityonline.info/cisa-kev-linux-kernel-php2shell-vmware-esx/"
+            },
+            {
+              "date": "Oct 28, 2026",
               "head": "ShinyHunters exploited a PeopleSoft zero-day to plant web shells",
               "text": "Oracle's PeopleSoft fix, CVE-2026-35273, covers bugs that ShinyHunters reportedly exploited since May; Mandiant says web shells hit dozens of systems. Apply Oracle's October patches and hunt for web shells, since patching won't remove them.",
               "src": "The Register",
@@ -99,13 +106,6 @@
               "text": "Tailscale published four security bulletins and fixes for the Cyberdione Labs findings, six rated high, including SSH forwarding that ran as root. No exploitation is reported; update clients and disable SSH forwarding where unneeded.",
               "src": "CloudLink Tech",
               "url": "https://www.cloudlinktech.com/news/tailscale-patches-tailworm-flaws-including-ssh-vulnerabilities/"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "Attackers probe a CVSS 9.8 Oracle E-Business Suite flaw",
-              "text": "Defused saw exploratory exploits against its EBS decoys for CVE-2026-101767, which affects versions 12.2.3 to 12.2.15 with no login needed. Oracle patched it in the October 20 Critical Patch Update.",
-              "src": "Cyber Security News",
-              "url": "https://cybersecuritynews.com/oracle-ebs-rce-exploited/"
             }
           ]
         },
