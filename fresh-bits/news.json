@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 29, 2026",
+              "head": "C3RB3R ransomware is encrypting unpatched Synology NAS drives",
+              "text": "Attackers are hitting Synology NAS devices through CVSS 9.8 DSM flaws patched September 18 and an older 2024 bug. Update DSM, remove port forwarding, enable 2FA and keep an offline backup.",
+              "src": "IT-Connect",
+              "url": "https://www.it-connect.tech/c3rb3r-ransomware-is-hitting-synology-nas-devices-how-to-protect-yours/"
+            },
+            {
+              "date": "Oct 29, 2026",
               "head": "Cisco patches an exploited firewall VPN flaw that crashes ASA and FTD",
               "text": "CVE-2026-76418 (CVSS 8.6) lets unauthenticated attackers reload Cisco Secure Firewall ASA and FTD when SSL VPN uses secondary authentication. Cisco confirms active exploitation; update to the fixed releases or disable secondary authentication.",
               "src": "The Hacker News",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-48356 (CVSS 9.3) is an unrestricted file upload flaw in Adobe Commerce and Magento. Sansec tied it to attacks on at least 953 online stores; federal agencies must fix it by October 29. Check Adobe's advisory.",
               "src": "InfoSec Today",
               "url": "https://www.infosectoday.io/u-s-cisa-adds-google-brotli-and-adobe-commerce-and-magento-flaws-to-its-known-exploited-vulnerabilities-catalog"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "CISA: hackers now exploiting the Node2Shell Brotli flaw",
-              "text": "CISA added CVE-2026-111497, the Brotli decoder flaw also called Node2Shell and HTTP2Shell, to its exploited list with a November 10 federal deadline. Patch Brotli, Node.js and .NET, restart processes and rebuild container images.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw"
             }
           ]
         },
