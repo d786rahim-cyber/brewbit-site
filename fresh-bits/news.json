@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers hit Cisco firewalls and chain a Linux flaw with PHP2Shell for root, Volt Typhoon abuses management-platform zero-days, and a PeopleSoft zero-day hit dozens of systems."
+      "text": "Hackers root 25 Palo Alto firewalls with PHP2Shell, ransomware hits unpatched Synology NAS, and Cisco firewalls and PeopleSoft face active attacks."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 29, 2026",
+              "head": "Suspected Chinese hackers root 25 Palo Alto firewalls with PHP2Shell",
+              "text": "Dream, verified by Unit 42, says attackers chained PHP2Shell with Linux kernel flaw CVE-2026-46300 to root firewalls, then attacked Active Directory. They fingerprinted about 19,000 exposed firewalls; keep PAN-OS management off the internet.",
+              "src": "The Register",
+              "url": "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456"
+            },
+            {
+              "date": "Oct 29, 2026",
               "head": "C3RB3R ransomware is encrypting unpatched Synology NAS drives",
               "text": "Attackers are hitting Synology NAS devices through CVSS 9.8 DSM flaws patched September 18 and an older 2024 bug. Update DSM, remove port forwarding, enable 2FA and keep an offline backup.",
               "src": "IT-Connect",
@@ -85,13 +92,6 @@
               "text": "Black Lotus Labs ties China's Volt Typhoon to attacks on Quest KACE, N-able N-central, Cisco SD-WAN and VeloCloud, hiding traffic through a relay network it calls Silent Train. Patch management servers and check their logs.",
               "src": "GBHackers",
               "url": "https://gbhackers.com/zero-days-exploited/"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "CISA: attackers chain a Linux kernel flaw with PHP2Shell to get root",
-              "text": "CISA added Linux kernel CVE-2026-46300 to its exploited list, saying the chain lets attackers implant PHP web shells and run commands as root. Federal deadline is October 31; patch the kernel and PHP.",
-              "src": "Daily CyberSecurity",
-              "url": "https://securityonline.info/cisa-kev-linux-kernel-php2shell-vmware-esx/"
             },
             {
               "date": "Oct 28, 2026",
