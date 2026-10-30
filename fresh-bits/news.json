@@ -1,9 +1,9 @@
 {
-  "updated": "October 29, 2026",
+  "updated": "October 30, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Hackers root 25 Palo Alto firewalls with PHP2Shell, CISA flags an exploited CVSS 10.0 GitLab flaw, and ransomware hits unpatched Synology NAS."
+      "text": "Ivanti VPN zero-days hit patched appliances, hackers root 25 Palo Alto firewalls with PHP2Shell, and CISA flags an exploited CVSS 10.0 GitLab flaw."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 30, 2026",
+              "head": "Ivanti Connect Secure zero-days hit fully patched VPNs; fixes out",
+              "text": "Volexity says attackers chained three Ivanti flaws from October 3 to get root, then pulled LAPS passwords and BitLocker keys from Active Directory. Upgrade to 25.1.1.3 or 22.8R2.6 and rotate service-account credentials.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/"
+            },
+            {
               "date": "Oct 29, 2026",
               "head": "CISA flags exploited CVSS 10.0 GitLab flaw; federal deadline Nov 1",
               "text": "CVE-2026-97229 is an integer overflow in Ruby's regex engine used by GitLab CI/CD. Upgrade to 19.4.3, 19.3.6 or 19.2.9, which also fix a second CVSS 10.0 bug, and update Ruby if you build GitLab yourself.",
@@ -99,13 +106,6 @@
               "text": "Black Lotus Labs ties China's Volt Typhoon to attacks on Quest KACE, N-able N-central, Cisco SD-WAN and VeloCloud, hiding traffic through a relay network it calls Silent Train. Patch management servers and check their logs.",
               "src": "GBHackers",
               "url": "https://gbhackers.com/zero-days-exploited/"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "ShinyHunters exploited a PeopleSoft zero-day to plant web shells",
-              "text": "Oracle's PeopleSoft fix, CVE-2026-35273, covers bugs that ShinyHunters reportedly exploited since May; Mandiant says web shells hit dozens of systems. Apply Oracle's October patches and hunt for web shells, since patching won't remove them.",
-              "src": "The Register",
-              "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121"
             }
           ]
         },
