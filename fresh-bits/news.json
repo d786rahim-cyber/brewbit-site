@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Hackers root 25 Palo Alto firewalls with PHP2Shell, ransomware hits unpatched Synology NAS, and Cisco firewalls and PeopleSoft face active attacks."
+      "text": "Hackers root 25 Palo Alto firewalls with PHP2Shell, CISA flags an exploited CVSS 10.0 GitLab flaw, and ransomware hits unpatched Synology NAS."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Oct 29, 2026",
+              "head": "CISA flags exploited CVSS 10.0 GitLab flaw; federal deadline Nov 1",
+              "text": "CVE-2026-97229 is an integer overflow in Ruby's regex engine used by GitLab CI/CD. Upgrade to 19.4.3, 19.3.6 or 19.2.9, which also fix a second CVSS 10.0 bug, and update Ruby if you build GitLab yourself.",
+              "src": "PBX Science",
+              "url": "https://pbxscience.com/cisa-adds-gitlabs-cvss-10-0-flaw-to-its-exploited-vulnerabilities-list-and-updating-gitlab-alone-may-not-fix-it/"
+            },
+            {
+              "date": "Oct 29, 2026",
               "head": "Suspected Chinese hackers root 25 Palo Alto firewalls with PHP2Shell",
               "text": "Dream, verified by Unit 42, says attackers chained PHP2Shell with Linux kernel flaw CVE-2026-46300 to root firewalls, then attacked Active Directory. They fingerprinted about 19,000 exposed firewalls; keep PAN-OS management off the internet.",
               "src": "The Register",
@@ -99,13 +106,6 @@
               "text": "Oracle's PeopleSoft fix, CVE-2026-35273, covers bugs that ShinyHunters reportedly exploited since May; Mandiant says web shells hit dozens of systems. Apply Oracle's October patches and hunt for web shells, since patching won't remove them.",
               "src": "The Register",
               "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121"
-            },
-            {
-              "date": "Oct 28, 2026",
-              "head": "CISA lists exploited 'PolyShell' Adobe Commerce flaw behind 953 store hacks",
-              "text": "CVE-2026-48356 (CVSS 9.3) is an unrestricted file upload flaw in Adobe Commerce and Magento. Sansec tied it to attacks on at least 953 online stores; federal agencies must fix it by October 29. Check Adobe's advisory.",
-              "src": "InfoSec Today",
-              "url": "https://www.infosectoday.io/u-s-cisa-adds-google-brotli-and-adobe-commerce-and-magento-flaws-to-its-known-exploited-vulnerabilities-catalog"
             }
           ]
         },
