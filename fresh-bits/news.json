@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Ivanti VPN zero-days hit patched appliances, attackers chase a GitLab flaw and an exploited Drupal Commerce bug, and a startup aims to mass-produce AI data center pods."
+      "text": "Ivanti VPN zero-days hit patched appliances, attackers chase GitLab and Drupal Commerce flaws, an 'SMS of Death' exploit crashes older Android phones, and a startup aims to mass-produce AI data center pods."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 31, 2026",
+              "head": "'SMS of Death' exploit can crash Android 12 and 13 phones",
+              "text": "A public proof-of-concept for zero-click flaw CVE-2026-58882 crashes phones with malicious messages, cutting calls including emergency calls. Google patched Android 14 through 17 in October; Android 12 and 13 got no fix.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/"
+            },
+            {
               "date": "Nov 1, 2026",
               "head": "GitLab flaw attacks hit Alpine Linux; some upgrades missed the fix",
               "text": "Attackers targeted Alpine's GitLab with maximum-severity CVE-2026-97229. Alpine rebuilt the server and reset passwords. Its upgraded custom image stayed exposed because the fix also needs a Ruby patch, so check yours.",
@@ -92,13 +99,6 @@
               "text": "Dream, verified by Unit 42, says attackers chained PHP2Shell with Linux kernel flaw CVE-2026-46300 to root firewalls, then attacked Active Directory. They fingerprinted about 19,000 exposed firewalls; keep PAN-OS management off the internet.",
               "src": "The Register",
               "url": "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "C3RB3R ransomware is encrypting unpatched Synology NAS drives",
-              "text": "Attackers are hitting Synology NAS devices through CVSS 9.8 DSM flaws patched September 18 and an older 2024 bug. Update DSM, remove port forwarding, enable 2FA and keep an offline backup.",
-              "src": "IT-Connect",
-              "url": "https://www.it-connect.tech/c3rb3r-ransomware-is-hitting-synology-nas-devices-how-to-protect-yours/"
             },
             {
               "date": "Oct 29, 2026",
