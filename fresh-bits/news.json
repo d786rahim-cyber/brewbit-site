@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Ivanti VPN zero-days hit patched appliances, attackers chase GitLab and Drupal Commerce flaws, an 'SMS of Death' exploit crashes older Android phones, and a startup aims to mass-produce AI data center pods."
+      "text": "A critical Linux TCP flaw awaits RHEL and Ubuntu fixes, Ivanti VPN zero-days hit patched appliances, attackers chase GitLab and Drupal Commerce flaws, and an 'SMS of Death' exploit crashes older Android phones."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 30, 2026",
+              "head": "Linux TCP flaw rated 9.8 can give remote root; RHEL still unpatched",
+              "text": "CVE-2026-98432 is triggered by a crafted SYN packet. Debian, SUSE and Oracle UEK have fixes; RHEL 8 to 10 have none yet and Ubuntu's are in progress. No in-the-wild exploitation was reported as of October 30.",
+              "src": "TuxCare",
+              "url": "https://tuxcare.com/blog/cve-2026-98432-linux-tcp-remote-root/"
+            },
+            {
               "date": "Oct 31, 2026",
               "head": "'SMS of Death' exploit can crash Android 12 and 13 phones",
               "text": "A public proof-of-concept for zero-click flaw CVE-2026-58882 crashes phones with malicious messages, cutting calls including emergency calls. Google patched Android 14 through 17 in October; Android 12 and 13 got no fix.",
@@ -99,13 +106,6 @@
               "text": "Dream, verified by Unit 42, says attackers chained PHP2Shell with Linux kernel flaw CVE-2026-46300 to root firewalls, then attacked Active Directory. They fingerprinted about 19,000 exposed firewalls; keep PAN-OS management off the internet.",
               "src": "The Register",
               "url": "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "Cisco patches an exploited firewall VPN flaw that crashes ASA and FTD",
-              "text": "CVE-2026-76418 (CVSS 8.6) lets unauthenticated attackers reload Cisco Secure Firewall ASA and FTD when SSL VPN uses secondary authentication. Cisco confirms active exploitation; update to the fixed releases or disable secondary authentication.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
             }
           ]
         },
