@@ -1,21 +1,21 @@
 {
-  "updated": "October 30, 2026",
+  "updated": "November 1, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Ivanti VPN zero-days hit patched appliances, hackers root 25 Palo Alto firewalls with PHP2Shell, and CISA flags an exploited CVSS 10.0 GitLab flaw."
+      "text": "Ivanti VPN zero-days hit patched appliances, Drupal Commerce and GitLab flaws are under attack, and a startup aims to mass-produce AI data center pods."
     },
     {
       "desk": "Coffee",
-      "text": "Blue Bottle baristas at the World Trade Center move to unionize, the Kona fraud case grows, and Roast crowns its 2027 roasters."
+      "text": "China's Pan Wei wins the World Barista Championship, Keurig launches the plastic-free Alta, and Blue Bottle baristas move to unionize."
     },
     {
       "desk": "Cycling",
-      "text": "Cannondale leaves Connecticut for the Netherlands, the 2027 Tour starts in Edinburgh with 71km of time trials, and fall fondos keep rolling."
+      "text": "Roglič is still without a 2027 team, the Tour starts in Edinburgh, and fall rides roll on in Georgia and Texas."
     },
     {
       "desk": "Travel",
-      "text": "United adds Houston routes to Mexico, Colombia and Venezuela, holiday fares stay high, and fall deals end this week."
+      "text": "JetBlue's first adults-only flights sell out, Hilton's Curio brand arrives on Kauai, United adds Houston routes, and November deals are live."
     }
   ],
   "desks": [
@@ -73,6 +73,13 @@
               "url": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/"
             },
             {
+              "date": "Oct 31, 2026",
+              "head": "Drupal Commerce access-bypass flaw is being exploited",
+              "text": "Drupal says attackers are actively exploiting CVE-2026-118539, a missing authorization check in Commerce Core that lets them bypass access controls. Update 3.x sites to 3.3.13 and older sites per Drupal's advisory.",
+              "src": "Security Affairs",
+              "url": "https://securityaffairs.com/202162/security/attackers-exploit-critical-drupal-commerce-core-vulnerability-cve-2026-118539.html"
+            },
+            {
               "date": "Oct 29, 2026",
               "head": "CISA flags exploited CVSS 10.0 GitLab flaw; federal deadline Nov 1",
               "text": "CVE-2026-97229 is an integer overflow in Ruby's regex engine used by GitLab CI/CD. Upgrade to 19.4.3, 19.3.6 or 19.2.9, which also fix a second CVSS 10.0 bug, and update Ruby if you build GitLab yourself.",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-76418 (CVSS 8.6) lets unauthenticated attackers reload Cisco Secure Firewall ASA and FTD when SSL VPN uses secondary authentication. Cisco confirms active exploitation; update to the fixed releases or disable secondary authentication.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "Volt Typhoon used management-platform zero-days to breach US networks",
-              "text": "Black Lotus Labs ties China's Volt Typhoon to attacks on Quest KACE, N-able N-central, Cisco SD-WAN and VeloCloud, hiding traffic through a relay network it calls Silent Train. Patch management servers and check their logs.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/zero-days-exploited/"
             }
           ]
         },
@@ -114,6 +114,13 @@
           "title": "IT infrastructure",
           "blurb": "",
           "items": [
+            {
+              "date": "Oct 30, 2026",
+              "head": "Runware wants to mass-produce AI data center pods",
+              "text": "The startup builds prefabricated, liquid-cooled pods in Romania and aims to bring them online within 48 hours of arrival, targeting 30MW of capacity a day by 2028. It claims $1 billion in committed interest.",
+              "src": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out"
+            },
             {
               "date": "Oct 28, 2026",
               "head": "Google eyes a 1,200MW data center campus near Richmond, Virginia",
@@ -134,13 +141,6 @@
               "text": "Menlo Equities applied to build on 15.5 acres beside Western Digital's campus. If approved, construction could start in late 2027, with operations by late 2029.",
               "src": "GovTech Insider",
               "url": "https://insider.govtech.com/california/news/massive-san-jose-data-center-could-begin-operations-by-2029"
-            },
-            {
-              "date": "Oct 24, 2026",
-              "head": "A 1960s Connecticut town data center is being retrofitted for AI",
-              "text": "Trumbull's town data center is being upgraded for AI computing by 365 Data Centers and Aphorio Carter, despite a new 2-year moratorium on new data centers. Experts say many older New England sites could follow.",
-              "src": "GBH News",
-              "url": "https://www.wgbh.org/news/local/2026-10-24/new-englands-old-buildings-and-old-data-centers-could-be-upgraded-to-handle-ai-computing"
             }
           ]
         }
@@ -159,25 +159,25 @@
           "blurb": "Prices, companies and rules that shape the cup.",
           "items": [
             {
+              "date": "Oct 30, 2026",
+              "head": "China's Pan Wei wins the 2026 World Barista Championship",
+              "text": "Pan Wei took the title on October 25 in Panama, the 26th champion recognized by the SCA. Malaysia's Shing Win was second and the UAE's Frederick Ruben third.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/30/weekly-coffee-news-fao-grant-opportunity-multiple-home-brewer-launches/"
+            },
+            {
+              "date": "Oct 30, 2026",
+              "head": "Keurig launches the $499 Alta with plastic-free coffee rounds",
+              "text": "The Alta uses AltaRounds, pressed coffee portions with a plant-based coating that Keurig says contain no plastic or aluminum. It is now on sale in the U.S.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/10/30/weekly-coffee-news-fao-grant-opportunity-multiple-home-brewer-launches/"
+            },
+            {
               "date": "Oct 23, 2026",
               "head": "Blue Bottle's World Trade Center baristas move to unionize",
               "text": "Workers at the New York cafe said on October 21 that a supermajority signed cards with the Blue Bottle Independent Union, citing wages, scheduling and discipline, and asked for voluntary recognition.",
               "src": "Daily Coffee News",
               "url": "https://dailycoffeenews.com/2026/10/23/weekly-coffee-news-new-20-kilo-roasters-war-impacting-coffee-trade/"
-            },
-            {
-              "date": "Oct 19, 2026",
-              "head": "Tax charges added to the '100% Kona' fraud case",
-              "text": "A superseding indictment brings 28 counts against Kona Coffee Café's owner, who prosecutors say sold foreign coffee as 100% Kona. The government seeks at least $5.26 million; she has pleaded not guilty.",
-              "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/10/19/tax-charges-added-to-federal-100-kona-coffee-fraud-case/"
-            },
-            {
-              "date": "Oct 19, 2026",
-              "head": "Roast names its 2027 Roasters of the Year",
-              "text": "Dessert Oasis Coffee Roasters of Ferndale, Michigan, won Micro Roaster of the Year, and Utopian Coffee of Fort Wayne, Indiana, won Macro Roaster of the Year.",
-              "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/10/19/roast-magazine-announces-2027-roaster-of-the-year-winners/"
             }
           ]
         },
@@ -260,6 +260,13 @@
           "blurb": "The stories riders are talking about.",
           "items": [
             {
+              "date": "Oct 29, 2026",
+              "head": "Roglič is the last big name without a 2027 contract",
+              "text": "The 37-year-old reportedly turned down Lotto-Intermarché, and talks with Visma-Lease a Bike ended. He hasn't ruled out retiring; Pinarello-Q36.5, Unibet Rose Rockets and Tudor still have room.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/primoz-roglics-options-for-a-2027-contract-narrow-as-two-teams-drop-out-of-the-running-for-his-signature/"
+            },
+            {
               "date": "Oct 22, 2026",
               "head": "2027 Tour starts in Edinburgh with 71km of time trials",
               "text": "The 3,479km race runs July 2 to 25, with the most time trial kilometres since 2012 and a queen stage to Col du Portet. Pogačar is chasing a record sixth title.",
@@ -272,13 +279,6 @@
               "text": "Owner Pon.Bike is shutting the Wilton office; North American operations move to Santa Cruz, California, and global headquarters to Woudenberg. About 143 workers may be affected, with separations from Dec 21 through 2027.",
               "src": "Bicycle Retailer",
               "url": "https://bicycleretailer.com/industry-news/2026/10/21/cannondale-closing-connecticut-headquarters-consolidating-other-pon-brands"
-            },
-            {
-              "date": "Oct 21, 2026",
-              "head": "Lidl-Trek fills its 2027 roster with Kragh Andersen renewal",
-              "text": "Søren Kragh Andersen signed through 2028, taking the 30th and final spot. Lidl-Trek's eight arrivals include Filippo Ganna and Felix Gall.",
-              "src": "CyclingUpToDate",
-              "url": "https://cyclinguptodate.com/cycling/lidl-trek-announcement-confirms-final-place-in-their-2027-roster-key-contract-renewal-ends-teams-transfer-market-splash"
             }
           ]
         },
@@ -354,18 +354,25 @@
           "blurb": "Disruptions, routes and rules.",
           "items": [
             {
+              "date": "Oct 30, 2026",
+              "head": "JetBlue and Virgin Voyages sell out their first adults-only flights",
+              "text": "Their 'Do Not Disturb' package paired a Virgin Voyages cruise with JetBlue's first adults-only flights. All 60 cabins sold out within days; it's a one-time offer for now.",
+              "src": "Forbes",
+              "url": "https://www.forbes.com/sites/passport/2026/10/30/adults-only-flights-the-safest-us-cities-and-more-travel-news/"
+            },
+            {
+              "date": "Oct 30, 2026",
+              "head": "Hilton's Curio Collection opens its first Hawaii hotel on Kauai",
+              "text": "The 210-room Hale Hokuala Kauai offers Pacific views, open-air spaces and preferred tee times for guests.",
+              "src": "Forbes",
+              "url": "https://www.forbes.com/sites/passport/2026/10/30/adults-only-flights-the-safest-us-cities-and-more-travel-news/"
+            },
+            {
               "date": "Oct 27, 2026",
               "head": "United adds new Houston routes to Latin America",
               "text": "From Houston Bush, United plans Tuxtla Gutiérrez, Mexico later this month, Cartagena in December and Caracas in January 2027, with Chihuahua reportedly returning next spring.",
               "src": "AirlineGeeks",
               "url": "https://airlinegeeks.com/2026/10/27/united-adds-routes-from-texas/"
-            },
-            {
-              "date": "Oct 22, 2026",
-              "head": "Holiday airfares hit a 10-year high; book by Halloween",
-              "text": "Hopper puts average Thanksgiving tickets near $400, up 31%, and Christmas near $450, up 23%, partly on jet fuel costs. Experts say don't wait for prices to fall.",
-              "src": "KPRC Click2Houston",
-              "url": "https://www.click2houston.com/news/local/2026/10/22/holiday-travel-prices-are-climbing-when-to-book-thanksgiving-and-christmas-trips/"
             }
           ]
         },
@@ -453,13 +460,6 @@
           "blurb": "Deadlines shown on the left. Confirm terms before booking.",
           "items": [
             {
-              "date": "Airline · by Oct 31",
-              "head": "Flying Blue: 25% off select award flights",
-              "text": "Air France-KLM award seats to Europe from 18,750 miles each way in economy, for travel through March 31, 2027.",
-              "src": "The Points Guy",
-              "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/"
-            },
-            {
               "date": "Hotel · Oct 15–Dec 31",
               "head": "Hilton: up to 3,000 bonus points per stay",
               "text": "3,000 points at resort and upscale hotels, 1,000 elsewhere, on cash or points stays. Register before your first stay.",
@@ -481,18 +481,32 @@
               "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
             },
             {
-              "date": "Tour operator · by Oct 31",
-              "head": "Uniworld: $500 to $1,500 off 2027 river cruises",
-              "text": "Includes Milan to Venice, Portugal and Spain, and Budapest to Passau itineraries.",
-              "src": "TravelPulse",
-              "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
-            },
-            {
               "date": "Tour operator · by end of 2026",
               "head": "AmaWaterways: up to $2,500 off per stateroom",
               "text": "On select 2026 and 2027 river sailings, with free upgrades on some cruises.",
               "src": "TravelPulse",
               "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
+            },
+            {
+              "date": "Gift cards · by Nov 3",
+              "head": "Iberia: up to 10% off gift cards",
+              "text": "Buy Iberia gift cards at a discount, such as $500 for $450, by November 3. Cards can be used through October 29, 2027, with a $3,000 maximum per card.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals"
+            },
+            {
+              "date": "Car rental · pick up by Dec 31",
+              "head": "Hertz: fifth day free on SUV and minivan rentals",
+              "text": "Use promo code 212109 on 4- to 27-day SUV or minivan rentals picked up by December 31 to get the fifth day free.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals"
+            },
+            {
+              "date": "Hotel · book by Jan 15",
+              "head": "Wyndham Rewards: 4x points",
+              "text": "Book by January 15, 2027 and complete stays by January 19 to earn four times the usual Wyndham Rewards points.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals"
             }
           ],
           "style": "list"
