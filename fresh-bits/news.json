@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "BTCPay tells merchants to shut down, GitLab and Ivanti attacks continue, a CVSS 10 LXD flaw needs patching, and Apple Intelligence heads to China with Qwen."
+      "text": "An exploited Brotli flaw hits Node.js and .NET, BTCPay tells merchants to shut down, GitLab and Ivanti attacks continue, and Apple Intelligence heads to China with Qwen."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Nov 2, 2026",
+              "head": "Brotli decoder flaw rated 9.8 is reportedly exploited; Node.js and .NET affected",
+              "text": "Singapore's CSA says CVE-2026-111497 has a public proof-of-concept and is reportedly under active exploitation. Affected: Node.js 22, 24 and 26 before the latest releases, and .NET 8 through 11. Update now.",
+              "src": "CSA Singapore",
+              "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-154/"
+            },
+            {
+              "date": "Nov 2, 2026",
               "head": "BTCPay tells merchants to shut down servers after hot-wallet thefts",
               "text": "Attackers with admin access have been sweeping Bitcoin hot wallets on BTCPay Server installs, apparently on version 2.4.1 or older. The project told operators to shut down and update; it has no credible drain reports on 2.4.7.",
               "src": "Decrypt",
@@ -92,13 +99,6 @@
               "text": "CVE-2026-112816 in Canonical's LXD and MicroCloud lets anyone holding a trusted client's public certificate impersonate it, possibly gaining root on the host. Run snap refresh; no exploitation is known.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
-            },
-            {
-              "date": "Oct 30, 2026",
-              "head": "Linux TCP flaw rated 9.8 can give remote root; RHEL still unpatched",
-              "text": "CVE-2026-98432 is triggered by a crafted SYN packet. Debian, SUSE and Oracle UEK have fixes; RHEL 8 to 10 have none yet and Ubuntu's are in progress. No in-the-wild exploitation was reported as of October 30.",
-              "src": "TuxCare",
-              "url": "https://tuxcare.com/blog/cve-2026-98432-linux-tcp-remote-root/"
             },
             {
               "date": "Oct 31, 2026",
