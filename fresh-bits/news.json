@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 1, 2026",
+              "head": "CVSS 10.0 LXD flaw lets attackers log in without a private key",
+              "text": "CVE-2026-112816 in Canonical's LXD and MicroCloud lets anyone holding a trusted client's public certificate impersonate it, possibly gaining root on the host. Run snap refresh; no exploitation is known.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
+            },
+            {
               "date": "Oct 30, 2026",
               "head": "Linux TCP flaw rated 9.8 can give remote root; RHEL still unpatched",
               "text": "CVE-2026-98432 is triggered by a crafted SYN packet. Debian, SUSE and Oracle UEK have fixes; RHEL 8 to 10 have none yet and Ubuntu's are in progress. No in-the-wild exploitation was reported as of October 30.",
@@ -99,13 +106,6 @@
               "text": "Drupal says attackers are actively exploiting CVE-2026-118539, a missing authorization check in Commerce Core that lets them bypass access controls. Update 3.x sites to 3.3.13 and older sites per Drupal's advisory.",
               "src": "Security Affairs",
               "url": "https://securityaffairs.com/202162/security/attackers-exploit-critical-drupal-commerce-core-vulnerability-cve-2026-118539.html"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "Suspected Chinese hackers root 25 Palo Alto firewalls with PHP2Shell",
-              "text": "Dream, verified by Unit 42, says attackers chained PHP2Shell with Linux kernel flaw CVE-2026-46300 to root firewalls, then attacked Active Directory. They fingerprinted about 19,000 exposed firewalls; keep PAN-OS management off the internet.",
-              "src": "The Register",
-              "url": "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456"
             }
           ]
         },
