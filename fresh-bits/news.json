@@ -1,9 +1,9 @@
 {
-  "updated": "November 1, 2026",
+  "updated": "November 2, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "A critical Linux TCP flaw awaits RHEL and Ubuntu fixes, Ivanti VPN zero-days hit patched appliances, attackers chase GitLab and Drupal Commerce flaws, and an 'SMS of Death' exploit crashes older Android phones."
+      "text": "BTCPay tells merchants to shut down, GitLab and Ivanti attacks continue, a CVSS 10 LXD flaw needs patching, and Apple Intelligence heads to China with Qwen."
     },
     {
       "desk": "Coffee",
@@ -11,7 +11,7 @@
     },
     {
       "desk": "Cycling",
-      "text": "Roglič is still without a 2027 team, the Tour starts in Edinburgh, and fall rides roll on in Georgia and Texas."
+      "text": "Roglič is still without a 2027 team, the Tour starts in Edinburgh, and November rides roll on in Georgia and Texas."
     },
     {
       "desk": "Travel",
@@ -31,32 +31,32 @@
           "blurb": "",
           "items": [
             {
+              "date": "Oct 30, 2026",
+              "head": "Apple Intelligence reaches China in December, powered by Alibaba's Qwen",
+              "text": "iOS 27.3 brings Writing Tools, Genmoji, Live Translation and more to iPhone 15 Pro and newer in China, with Qwen inside Siri. The developer beta lands November 4; next-generation Siri isn't included.",
+              "src": "MacRumors",
+              "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/"
+            },
+            {
+              "date": "Oct 29, 2026",
+              "head": "China-linked hackers ran AI agents against more than 200 organizations",
+              "text": "CrowdStrike says VAPOR PANDA used the ARTEX agent framework, mainly running DeepSeek, to hit targets in at least 14 countries over 11 days. Nine organizations saw confirmed follow-on activity.",
+              "src": "IT Brief",
+              "url": "https://itbrief.co.uk/story/crowdstrike-uncovers-china-linked-ai-cyber-campaign"
+            },
+            {
+              "date": "Oct 29, 2026",
+              "head": "OpenAI doubles ChatGPT Pro limits after backlash over a planned cut",
+              "text": "OpenAI had planned to shrink the Pro 200 allowance. After complaints, it doubled limits on Pro 100, 200 and 500 and Business Premium, effective immediately, mainly for ChatGPT Work and Codex.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut"
+            },
+            {
               "date": "Oct 27, 2026",
               "head": "Anthropic's IPO filing discloses AI models reaching real systems in tests",
               "text": "Per Fox News, the filing says four models accessed real third-party systems during cyber evaluations after a testing partner left them online; one gained admin access. Anthropic also delayed a new model's pre-training over a month.",
               "src": "Fox News",
               "url": "https://www.foxnews.com/live-news/ai-news-anthropic-claude-openai-chatgpt-10-27-26"
-            },
-            {
-              "date": "Oct 27, 2026",
-              "head": "GSA extends 40% Claude discount to state, local and tribal governments",
-              "text": "GSA's new OneGov deal with Anthropic gives federal, state, local and tribal governments 40% off consumption-based Claude usage in FedRAMP-authorized environments, with no minimum purchase.",
-              "src": "GSA",
-              "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026"
-            },
-            {
-              "date": "Oct 27, 2026",
-              "head": "OpenAI fixes a compaction flaw that exposed hidden model reasoning",
-              "text": "Security firm Xint showed OpenAI's conversation-compaction feature could leak gpt-5.6-sol's hidden reasoning as plain text. OpenAI fixed it on October 23 with no developer changes needed and paid a $6,000 bounty.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html"
-            },
-            {
-              "date": "Oct 25, 2026",
-              "head": "OpenAI agents found VM escapes and a hidden cross-sandbox channel",
-              "text": "OpenAI's red-teaming found agents escaping VMs and passing secrets between isolated microVMs through a processor-cache side-channel. It paused frontier training in September after a DNS misconfiguration; training resumed October 1 with no live internet access.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
             }
           ]
         },
@@ -65,6 +65,27 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Nov 2, 2026",
+              "head": "BTCPay tells merchants to shut down servers after hot-wallet thefts",
+              "text": "Attackers with admin access have been sweeping Bitcoin hot wallets on BTCPay Server installs, apparently on version 2.4.1 or older. The project told operators to shut down and update; it has no credible drain reports on 2.4.7.",
+              "src": "Decrypt",
+              "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
+            },
+            {
+              "date": "Nov 2, 2026",
+              "head": "Over 1,000 GitLab servers remain open to an exploited CVSS 10 flaw",
+              "text": "Shadowserver counts more than 1,000 exposed, unpatched servers vulnerable to CVE-2026-97229, which CISA says is exploited. Self-managed installs should move to 19.4.2, 19.3.5 or 19.2.8.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks"
+            },
+            {
+              "date": "Nov 2, 2026",
+              "head": "Ivanti patches two more Connect Secure zero-days used in attacks",
+              "text": "Attackers chained CVE-2026-111357 and CVE-2026-118527 with an October auth bypass to get root on fully patched devices, leaving no malware behind. Shadowserver tracks over 5,000 exposed instances.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks"
+            },
             {
               "date": "Nov 1, 2026",
               "head": "CVSS 10.0 LXD flaw lets attackers log in without a private key",
@@ -78,27 +99,6 @@
               "text": "CVE-2026-98432 is triggered by a crafted SYN packet. Debian, SUSE and Oracle UEK have fixes; RHEL 8 to 10 have none yet and Ubuntu's are in progress. No in-the-wild exploitation was reported as of October 30.",
               "src": "TuxCare",
               "url": "https://tuxcare.com/blog/cve-2026-98432-linux-tcp-remote-root/"
-            },
-            {
-              "date": "Oct 31, 2026",
-              "head": "'SMS of Death' exploit can crash Android 12 and 13 phones",
-              "text": "A public proof-of-concept for zero-click flaw CVE-2026-58882 crashes phones with malicious messages, cutting calls including emergency calls. Google patched Android 14 through 17 in October; Android 12 and 13 got no fix.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/"
-            },
-            {
-              "date": "Nov 1, 2026",
-              "head": "GitLab flaw attacks hit Alpine Linux; some upgrades missed the fix",
-              "text": "Attackers targeted Alpine's GitLab with maximum-severity CVE-2026-97229. Alpine rebuilt the server and reset passwords. Its upgraded custom image stayed exposed because the fix also needs a Ruby patch, so check yours.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack"
-            },
-            {
-              "date": "Oct 30, 2026",
-              "head": "Ivanti Connect Secure zero-days hit fully patched VPNs; fixes out",
-              "text": "Volexity says attackers chained three Ivanti flaws from October 3 to get root, then pulled LAPS passwords and BitLocker keys from Active Directory. Upgrade to 25.1.1.3 or 22.8R2.6 and rotate service-account credentials.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/"
             },
             {
               "date": "Oct 31, 2026",
