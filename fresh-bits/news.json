@@ -80,6 +80,13 @@
               "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
             },
             {
+              "date": "Nov 3, 2026",
+              "head": "Red Hat ships fixes for the 9.8-rated Linux TCP flaw",
+              "text": "Patched kernels for CVE-2026-98432 are out for RHEL 8.10, 9.8 and 10.2; a reboot is required. Ubuntu's fixes are still in testing. No attacks have been reported and no working exploit is public.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+            },
+            {
               "date": "Nov 2, 2026",
               "head": "Abrigo takes bank lending platform Sageworks offline over 'irregular activity'",
               "text": "Abrigo disabled Sageworks, used by community banks and credit unions for loan processing, on October 30. Most functions are back, but borrower-facing features remain offline. It hasn't said whether there was a breach.",
@@ -92,13 +99,6 @@
               "text": "Singapore's CSA says CVE-2026-111497 has a public proof-of-concept and is reportedly under active exploitation. Affected: Node.js 22, 24 and 26 before the latest releases, and .NET 8 through 11. Update now.",
               "src": "CSA Singapore",
               "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-154/"
-            },
-            {
-              "date": "Nov 2, 2026",
-              "head": "Critical Langflow flaws let unauthenticated attackers run code",
-              "text": "IBM rates CVE-2026-93680 and CVE-2026-110186 at 9.8; they affect Langflow 1.0.0 through 1.12.8. Upgrade to 1.13.0, which also turns off default superuser auto-login. A public Metasploit module targets the first flaw.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
             },
             {
               "date": "Nov 2, 2026",
