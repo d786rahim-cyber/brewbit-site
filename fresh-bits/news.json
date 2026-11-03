@@ -1,9 +1,9 @@
 {
-  "updated": "November 2, 2026",
+  "updated": "November 3, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "A bank lending platform goes offline, hackers hit supermarket fridges in Europe, an exploited Brotli flaw hits Node.js and .NET, critical Langflow bugs need patching, and Apple Intelligence heads to China."
+      "text": "A ConnectWise backup app is abused to break into Microsoft 365 tenants, supermarket fridge hacks spread across Europe, a bank lending platform goes offline, and Node.js and .NET face an exploited Brotli flaw."
     },
     {
       "desk": "Coffee",
@@ -15,7 +15,7 @@
     },
     {
       "desk": "Travel",
-      "text": "JetBlue's first adults-only flights sell out, Hilton's Curio brand arrives on Kauai, United adds Houston routes, and November deals are live."
+      "text": "An Amadeus breach exposes airline passengers' data, JetBlue's first adults-only flights sell out, Hilton's Curio brand arrives on Kauai, and November deals are live."
     }
   ],
   "desks": [
@@ -66,18 +66,25 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 3, 2026",
+              "head": "ConnectWise backup app abused to break into Microsoft 365 tenants",
+              "text": "Attackers used stolen credentials for ConnectWise Cloud Backup for M365 to sign into customer tenants, bypassing MFA. Huntress counted over 300 successful intrusions; more than 2,300 MSP partners were disrupted. MSPs should audit service-principal activity.",
+              "src": "Channel Insider",
+              "url": "https://www.channelinsider.com/channel-business/channel-analysis/connectwise-cloud-backup-breach-msp-security/"
+            },
+            {
+              "date": "Nov 3, 2026",
+              "head": "Refrigeration hacks spread to supermarkets in eight European countries",
+              "text": "Overnight attacks switched store fridges into defrost in Belgium, Sweden, Ireland, the Netherlands, Finland, Portugal, Italy and Estonia; SuperValu pulled chilled food from 13 stores. Keep refrigeration controllers off the internet and change default passwords.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
+            },
+            {
               "date": "Nov 2, 2026",
               "head": "Abrigo takes bank lending platform Sageworks offline over 'irregular activity'",
               "text": "Abrigo disabled Sageworks, used by community banks and credit unions for loan processing, on October 30. Most functions are back, but borrower-facing features remain offline. It hasn't said whether there was a breach.",
               "src": "BleepingComputer",
               "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
-            },
-            {
-              "date": "Nov 2, 2026",
-              "head": "Hackers warm supermarket fridges across Belgium, Sweden and Ireland",
-              "text": "Overnight attacks hit refrigeration controllers at Delhaize, Carrefour, Spar, Coop, ICA and SuperValu stores, switching evaporators into defrost mode. The same method hit French supermarkets on October 12; some affected controllers no longer get security fixes.",
-              "src": "Brandefense",
-              "url": "https://brandefense.io/security-news/supermarket-refrigeration-cyberattack-belgium-sweden-playbook"
             },
             {
               "date": "Nov 2, 2026",
@@ -92,13 +99,6 @@
               "text": "IBM rates CVE-2026-93680 and CVE-2026-110186 at 9.8; they affect Langflow 1.0.0 through 1.12.8. Upgrade to 1.13.0, which also turns off default superuser auto-login. A public Metasploit module targets the first flaw.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
-            },
-            {
-              "date": "Nov 2, 2026",
-              "head": "Over 1,000 GitLab servers remain open to an exploited CVSS 10 flaw",
-              "text": "Shadowserver counts more than 1,000 exposed, unpatched servers vulnerable to CVE-2026-97229, which CISA says is exploited. Self-managed installs should move to 19.4.2, 19.3.5 or 19.2.8.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks"
             },
             {
               "date": "Nov 2, 2026",
@@ -355,6 +355,13 @@
           "items": [
             {
               "date": "Oct 30, 2026",
+              "head": "Amadeus breach exposes data from at least five airlines' passengers",
+              "text": "Unauthorized access to the airline booking provider ran from August 2023 to September 2026. Cathay Pacific, Japan Airlines, ANA, Korean Air and Condor are affected. Watch for phishing emails posing as your airline.",
+              "src": "Paddle Your Own Kanoo",
+              "url": "https://www.paddleyourownkanoo.com/2026/10/30/major-software-provider-that-manages-bookings-for-hundreds-of-international-airlines-had-a-data-breach-for-three-years/"
+            },
+            {
+              "date": "Oct 30, 2026",
               "head": "JetBlue and Virgin Voyages sell out their first adults-only flights",
               "text": "Their 'Do Not Disturb' package paired a Virgin Voyages cruise with JetBlue's first adults-only flights. All 60 cabins sold out within days; it's a one-time offer for now.",
               "src": "Forbes",
@@ -366,13 +373,6 @@
               "text": "The 210-room Hale Hokuala Kauai offers Pacific views, open-air spaces and preferred tee times for guests.",
               "src": "Forbes",
               "url": "https://www.forbes.com/sites/passport/2026/10/30/adults-only-flights-the-safest-us-cities-and-more-travel-news/"
-            },
-            {
-              "date": "Oct 27, 2026",
-              "head": "United adds new Houston routes to Latin America",
-              "text": "From Houston Bush, United plans Tuxtla Gutiérrez, Mexico later this month, Cartagena in December and Caracas in January 2027, with Chihuahua reportedly returning next spring.",
-              "src": "AirlineGeeks",
-              "url": "https://airlinegeeks.com/2026/10/27/united-adds-routes-from-texas/"
             }
           ]
         },
