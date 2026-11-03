@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "An exploited Brotli flaw hits Node.js and .NET, critical Langflow bugs need patching, BTCPay tells merchants to shut down, GitLab and Ivanti attacks continue, and Apple Intelligence heads to China."
+      "text": "A bank lending platform goes offline, hackers hit supermarket fridges in Europe, an exploited Brotli flaw hits Node.js and .NET, critical Langflow bugs need patching, and Apple Intelligence heads to China."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,20 @@
           "items": [
             {
               "date": "Nov 2, 2026",
+              "head": "Abrigo takes bank lending platform Sageworks offline over 'irregular activity'",
+              "text": "Abrigo disabled Sageworks, used by community banks and credit unions for loan processing, on October 30. Most functions are back, but borrower-facing features remain offline. It hasn't said whether there was a breach.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
+            },
+            {
+              "date": "Nov 2, 2026",
+              "head": "Hackers warm supermarket fridges across Belgium, Sweden and Ireland",
+              "text": "Overnight attacks hit refrigeration controllers at Delhaize, Carrefour, Spar, Coop, ICA and SuperValu stores, switching evaporators into defrost mode. The same method hit French supermarkets on October 12; some affected controllers no longer get security fixes.",
+              "src": "Brandefense",
+              "url": "https://brandefense.io/security-news/supermarket-refrigeration-cyberattack-belgium-sweden-playbook"
+            },
+            {
+              "date": "Nov 2, 2026",
               "head": "Brotli decoder flaw rated 9.8 is reportedly exploited; Node.js and .NET affected",
               "text": "Singapore's CSA says CVE-2026-111497 has a public proof-of-concept and is reportedly under active exploitation. Affected: Node.js 22, 24 and 26 before the latest releases, and .NET 8 through 11. Update now.",
               "src": "CSA Singapore",
@@ -81,13 +95,6 @@
             },
             {
               "date": "Nov 2, 2026",
-              "head": "BTCPay tells merchants to shut down servers after hot-wallet thefts",
-              "text": "Attackers with admin access have been sweeping Bitcoin hot wallets on BTCPay Server installs, apparently on version 2.4.1 or older. The project told operators to shut down and update; it has no credible drain reports on 2.4.7.",
-              "src": "Decrypt",
-              "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports"
-            },
-            {
-              "date": "Nov 2, 2026",
               "head": "Over 1,000 GitLab servers remain open to an exploited CVSS 10 flaw",
               "text": "Shadowserver counts more than 1,000 exposed, unpatched servers vulnerable to CVE-2026-97229, which CISA says is exploited. Self-managed installs should move to 19.4.2, 19.3.5 or 19.2.8.",
               "src": "BleepingComputer",
@@ -99,13 +106,6 @@
               "text": "Attackers chained CVE-2026-111357 and CVE-2026-118527 with an October auth bypass to get root on fully patched devices, leaving no malware behind. Shadowserver tracks over 5,000 exposed instances.",
               "src": "BleepingComputer",
               "url": "https://bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks"
-            },
-            {
-              "date": "Nov 1, 2026",
-              "head": "CVSS 10.0 LXD flaw lets attackers log in without a private key",
-              "text": "CVE-2026-112816 in Canonical's LXD and MicroCloud lets anyone holding a trusted client's public certificate impersonate it, possibly gaining root on the host. Run snap refresh; no exploitation is known.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
             }
           ]
         },
