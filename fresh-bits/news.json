@@ -74,6 +74,13 @@
             },
             {
               "date": "Nov 4, 2026",
+              "head": "Critical Rails Active Storage flaw lets crafted uploads write server files",
+              "text": "Rails rates the ImageMagick flaw 9.8. Apps that use ImageMagick and accept untrusted uploads are at risk; attaching an upload is enough. Update to 8.1.4.1 or 8.0.5.2; series before 8.0 get no fix.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
+            },
+            {
+              "date": "Nov 4, 2026",
               "head": "Android November update fixes a zero-click remote code flaw",
               "text": "Google's bulletin patches 216 flaws, 23 critical, including CVE-2026-58868, which allows remote code execution on Android 14 to 17 with no user interaction. Install the 2026-11-05 patch level when your phone offers it.",
               "src": "The Hacker News",
@@ -99,13 +106,6 @@
               "text": "Attackers used stolen credentials for ConnectWise Cloud Backup for M365 to sign into customer tenants, bypassing MFA. Huntress counted over 300 successful intrusions; more than 2,300 MSP partners were disrupted. MSPs should audit service-principal activity.",
               "src": "Channel Insider",
               "url": "https://www.channelinsider.com/channel-business/channel-analysis/connectwise-cloud-backup-breach-msp-security/"
-            },
-            {
-              "date": "Nov 3, 2026",
-              "head": "Red Hat ships fixes for the 9.8-rated Linux TCP flaw",
-              "text": "Patched kernels for CVE-2026-98432 are out for RHEL 8.10, 9.8 and 10.2; a reboot is required. Ubuntu's fixes are still in testing. No attacks have been reported and no working exploit is public.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
             }
           ]
         },
