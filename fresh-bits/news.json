@@ -74,6 +74,13 @@
             },
             {
               "date": "Nov 3, 2026",
+              "head": "cPGuard update channel hijacked to backdoor Linux servers",
+              "text": "Attackers pushed a malicious script through cPGuard versions 5.88.12 to 5.88.19, stealing password hashes, SSH keys and root shell history. Update to 5.88.25 or later, then reset root passwords and rotate keys on any exposed server.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
+            },
+            {
+              "date": "Nov 3, 2026",
               "head": "ConnectWise backup app abused to break into Microsoft 365 tenants",
               "text": "Attackers used stolen credentials for ConnectWise Cloud Backup for M365 to sign into customer tenants, bypassing MFA. Huntress counted over 300 successful intrusions; more than 2,300 MSP partners were disrupted. MSPs should audit service-principal activity.",
               "src": "Channel Insider",
@@ -92,13 +99,6 @@
               "text": "Patched kernels for CVE-2026-98432 are out for RHEL 8.10, 9.8 and 10.2; a reboot is required. Ubuntu's fixes are still in testing. No attacks have been reported and no working exploit is public.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
-            },
-            {
-              "date": "Nov 2, 2026",
-              "head": "Abrigo takes bank lending platform Sageworks offline over 'irregular activity'",
-              "text": "Abrigo disabled Sageworks, used by community banks and credit unions for loan processing, on October 30. Most functions are back, but borrower-facing features remain offline. It hasn't said whether there was a breach.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
             },
             {
               "date": "Nov 2, 2026",
