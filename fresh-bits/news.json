@@ -81,6 +81,13 @@
             },
             {
               "date": "Nov 4, 2026",
+              "head": "APT flaw lets a hostile mirror swap Debian and Ubuntu packages",
+              "text": "CVE-2026-109518 lets anyone who can alter HTTP package downloads, such as a malicious mirror or proxy, slip in a package that runs as root. Debian 12 and Ubuntu 22.04 onward are exposed by default; install the fixed APT builds.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+            },
+            {
+              "date": "Nov 4, 2026",
               "head": "Android November update fixes a zero-click remote code flaw",
               "text": "Google's bulletin patches 216 flaws, 23 critical, including CVE-2026-58868, which allows remote code execution on Android 14 to 17 with no user interaction. Install the 2026-11-05 patch level when your phone offers it.",
               "src": "The Hacker News",
@@ -92,13 +99,6 @@
               "text": "The June fix missed the real bug, CVE-2026-107441, which gives unauthenticated root access. One actor hit 996 switches in 48 countries. Install Zyxel's October 22 firmware and pull web management off the internet.",
               "src": "Cyber Security News",
               "url": "https://cybersecuritynews.com/zyxel-gs1900-zero-day-exploited"
-            },
-            {
-              "date": "Nov 3, 2026",
-              "head": "cPGuard update channel hijacked to backdoor Linux servers",
-              "text": "Attackers pushed a malicious script through cPGuard versions 5.88.12 to 5.88.19, stealing password hashes, SSH keys and root shell history. Update to 5.88.25 or later, then reset root passwords and rotate keys on any exposed server.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
             },
             {
               "date": "Nov 3, 2026",
