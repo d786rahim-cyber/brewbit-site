@@ -1,9 +1,9 @@
 {
-  "updated": "November 4, 2026",
+  "updated": "November 5, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers exploit a WordPress core flaw, Android patches a zero-click bug, a Zyxel switch zero-day outlived its patch, a cPGuard update was hijacked, and Google warns of LLMjacking bills."
+      "text": "WordPress and Apple flaws are under attack, Rails and APT bugs need patching, a Zyxel zero-day outlived its fix, and OpenAI's AI churned out 948 Linux exploits in 30 hours."
     },
     {
       "desk": "Coffee",
@@ -31,6 +31,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 5, 2026",
+              "head": "OpenAI's AI pipeline produced 948 Linux root exploits in 30 hours",
+              "text": "An upcoming cyber-focused OpenAI model reproduced 1,724 kernel bugs and wrote 948 working privilege-escalation exploits for a popular Linux distribution, at about $1,279 each, in a run built to find and patch flaws.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
+            },
+            {
               "date": "Nov 3, 2026",
               "head": "Google warns LLMjacking can run up $1 million in stolen AI charges",
               "text": "Attackers use stolen cloud keys and tokens to run large language models on victims' accounts. Google says single incidents topped $100,000 in a day, and cumulative charges hit $1 million at some organizations.",
@@ -50,13 +57,6 @@
               "text": "CrowdStrike says VAPOR PANDA used the ARTEX agent framework, mainly running DeepSeek, to hit targets in at least 14 countries over 11 days. Nine organizations saw confirmed follow-on activity.",
               "src": "IT Brief",
               "url": "https://itbrief.co.uk/story/crowdstrike-uncovers-china-linked-ai-cyber-campaign"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "OpenAI doubles ChatGPT Pro limits after backlash over a planned cut",
-              "text": "OpenAI had planned to shrink the Pro 200 allowance. After complaints, it doubled limits on Pro 100, 200 and 500 and Business Premium, effective immediately, mainly for ChatGPT Work and Codex.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut"
             }
           ]
         },
@@ -71,6 +71,13 @@
               "text": "CVE-2026-119977 lets an unauthenticated attacker run code by hitting a staged installer during the seconds a core update runs. It affects WordPress 4.7.0 through 7.1.3; update to 7.1.4 or a patched branch release.",
               "src": "HOL",
               "url": "https://hol.org/guard/security/campaigns/cve-2026-119977-wordpress-update-hijack-cisa-kev"
+            },
+            {
+              "date": "Nov 5, 2026",
+              "head": "CISA: Russian hackers exploit old Apple flaw to steal browser data",
+              "text": "APT29 is chaining patched Safari and Chrome bugs, including Apple's CVE-2024-27834, to plant info-stealing malware via hijacked websites. Federal agencies must patch by November 18; update iPhones, Macs and Safari.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
             },
             {
               "date": "Nov 4, 2026",
@@ -99,13 +106,6 @@
               "text": "The June fix missed the real bug, CVE-2026-107441, which gives unauthenticated root access. One actor hit 996 switches in 48 countries. Install Zyxel's October 22 firmware and pull web management off the internet.",
               "src": "Cyber Security News",
               "url": "https://cybersecuritynews.com/zyxel-gs1900-zero-day-exploited"
-            },
-            {
-              "date": "Nov 3, 2026",
-              "head": "ConnectWise backup app abused to break into Microsoft 365 tenants",
-              "text": "Attackers used stolen credentials for ConnectWise Cloud Backup for M365 to sign into customer tenants, bypassing MFA. Huntress counted over 300 successful intrusions; more than 2,300 MSP partners were disrupted. MSPs should audit service-principal activity.",
-              "src": "Channel Insider",
-              "url": "https://www.channelinsider.com/channel-business/channel-analysis/connectwise-cloud-backup-breach-msp-security/"
             }
           ]
         },
