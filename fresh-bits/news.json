@@ -1,9 +1,9 @@
 {
-  "updated": "November 5, 2026",
+  "updated": "November 6, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "WordPress and Apple flaws are under attack, Rails and APT bugs need patching, a Zyxel zero-day outlived its fix, and OpenAI's AI churned out 948 Linux exploits in 30 hours."
+      "text": "Chainalysis's breach exposes every user's credentials, DreamHost loses FTP logins, Russian hackers exploit an old Apple flaw, and OpenAI's AI churned out 948 Linux exploits in 30 hours."
     },
     {
       "desk": "Coffee",
@@ -66,11 +66,18 @@
           "blurb": "",
           "items": [
             {
-              "date": "Nov 3, 2026",
-              "head": "CISA flags exploited WordPress core update flaw; federal deadline Nov 6",
-              "text": "CVE-2026-119977 lets an unauthenticated attacker run code by hitting a staged installer during the seconds a core update runs. It affects WordPress 4.7.0 through 7.1.3; update to 7.1.4 or a patched branch release.",
-              "src": "HOL",
-              "url": "https://hol.org/guard/security/campaigns/cve-2026-119977-wordpress-update-hijack-cisa-kev"
+              "date": "Nov 6, 2026",
+              "head": "Chainalysis breach exposed all users' credentials; key services still offline",
+              "text": "Names, usernames, password hashes and live tokens for all users were exposed. Reactor and Data Solutions remain offline while KYT returns via IP allowlists. Every user will need to reset passwords and rotate API keys.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+            },
+            {
+              "date": "Nov 5, 2026",
+              "head": "DreamHost says hackers stole FTP logins via its web File Manager",
+              "text": "From August to October 23, an attacker exploited a flaw in the File Manager to capture FTP/SFTP credentials and reached some webmail. DreamHost found no sign control panel or billing data was accessed.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
             },
             {
               "date": "Nov 5, 2026",
@@ -92,13 +99,6 @@
               "text": "CVE-2026-109518 lets anyone who can alter HTTP package downloads, such as a malicious mirror or proxy, slip in a package that runs as root. Debian 12 and Ubuntu 22.04 onward are exposed by default; install the fixed APT builds.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-            },
-            {
-              "date": "Nov 4, 2026",
-              "head": "Android November update fixes a zero-click remote code flaw",
-              "text": "Google's bulletin patches 216 flaws, 23 critical, including CVE-2026-58868, which allows remote code execution on Android 14 to 17 with no user interaction. Install the 2026-11-05 patch level when your phone offers it.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
             },
             {
               "date": "Nov 4, 2026",
@@ -472,13 +472,6 @@
               "text": "Rises to 4,500 at resorts on cash stays of two nights or more, through November 22.",
               "src": "Head for Points",
               "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
-            },
-            {
-              "date": "Resort · book by Nov 5",
-              "head": "Princess Hotels: up to 42% off in Punta Cana and Riviera Maya",
-              "text": "For travel through March 28, 2027.",
-              "src": "TravelPulse",
-              "url": "https://www.travelpulse.com/news/features/top-travel-deals-for-october-2026"
             },
             {
               "date": "Tour operator · by end of 2026",
