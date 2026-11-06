@@ -80,6 +80,13 @@
               "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
             },
             {
+              "date": "Nov 6, 2026",
+              "head": "Barracuda email gateway flaws chain into root access without a login",
+              "text": "watchTowr showed that CVE-2026-116606 (rated 9.3) plus CVE-2026-111560 give unauthenticated root on the Email Security Gateway. No attacks or public exploit are known yet. Update to firmware 9.4.0.030 or later.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
+            },
+            {
               "date": "Nov 5, 2026",
               "head": "CISA: Russian hackers exploit old Apple flaw to steal browser data",
               "text": "APT29 is chaining patched Safari and Chrome bugs, including Apple's CVE-2024-27834, to plant info-stealing malware via hijacked websites. Federal agencies must patch by November 18; update iPhones, Macs and Safari.",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-109518 lets anyone who can alter HTTP package downloads, such as a malicious mirror or proxy, slip in a package that runs as root. Debian 12 and Ubuntu 22.04 onward are exposed by default; install the fixed APT builds.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-            },
-            {
-              "date": "Nov 4, 2026",
-              "head": "Zyxel GS1900 switch zero-day was exploited even after June patch",
-              "text": "The June fix missed the real bug, CVE-2026-107441, which gives unauthenticated root access. One actor hit 996 switches in 48 countries. Install Zyxel's October 22 firmware and pull web management off the internet.",
-              "src": "Cyber Security News",
-              "url": "https://cybersecuritynews.com/zyxel-gs1900-zero-day-exploited"
             }
           ]
         },
