@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Chainalysis's breach exposes every user's credentials, DreamHost loses FTP logins, Russian hackers exploit an old Apple flaw, and OpenAI's AI churned out 948 Linux exploits in 30 hours."
+      "text": "Chainalysis's breach exposes every user's credentials, CISA and the FBI warn about fridge-controller attacks, Barracuda flaws chain into root, and OpenAI's AI churned out 948 Linux exploits."
     },
     {
       "desk": "Coffee",
@@ -73,6 +73,13 @@
               "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
             },
             {
+              "date": "Nov 6, 2026",
+              "head": "CISA and FBI warn US firms after fridge controller attacks",
+              "text": "Five agencies say attackers are exploiting internet-exposed refrigeration and temperature controllers, often via default passwords, to force heating and defrost cycles. Take controllers offline from the internet, change passwords and patch firmware.",
+              "src": "The Cyber Express",
+              "url": "https://thecyberexpress.com/cold-chain-cyberattacks-fbi-explains"
+            },
+            {
               "date": "Nov 5, 2026",
               "head": "DreamHost says hackers stole FTP logins via its web File Manager",
               "text": "From August to October 23, an attacker exploited a flaw in the File Manager to capture FTP/SFTP credentials and reached some webmail. DreamHost found no sign control panel or billing data was accessed.",
@@ -99,13 +106,6 @@
               "text": "Rails rates the ImageMagick flaw 9.8. Apps that use ImageMagick and accept untrusted uploads are at risk; attaching an upload is enough. Update to 8.1.4.1 or 8.0.5.2; series before 8.0 get no fix.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
-            },
-            {
-              "date": "Nov 4, 2026",
-              "head": "APT flaw lets a hostile mirror swap Debian and Ubuntu packages",
-              "text": "CVE-2026-109518 lets anyone who can alter HTTP package downloads, such as a malicious mirror or proxy, slip in a package that runs as root. Debian 12 and Ubuntu 22.04 onward are exposed by default; install the fixed APT builds.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
             }
           ]
         },
