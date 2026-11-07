@@ -1,9 +1,9 @@
 {
-  "updated": "November 6, 2026",
+  "updated": "November 7, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Chainalysis's breach exposes every user's credentials, CISA and the FBI warn about fridge-controller attacks, Barracuda flaws chain into root, and OpenAI's AI churned out 948 Linux exploits."
+      "text": "Attackers hit OpenSSH's SSHole flaw within hours, SonicWall patches an exploited VPN bug, Chainalysis exposes every user's credentials, and OpenAI launches GPT-6 Cyber."
     },
     {
       "desk": "Coffee",
@@ -31,11 +31,18 @@
           "blurb": "",
           "items": [
             {
-              "date": "Nov 5, 2026",
-              "head": "OpenAI's AI pipeline produced 948 Linux root exploits in 30 hours",
-              "text": "An upcoming cyber-focused OpenAI model reproduced 1,724 kernel bugs and wrote 948 working privilege-escalation exploits for a popular Linux distribution, at about $1,279 each, in a run built to find and patch flaws.",
+              "date": "Nov 6, 2026",
+              "head": "OpenAI launches GPT-6 Cyber after its AI found 81 Firefox flaws",
+              "text": "The security model, rated 'Critical' in cybersecurity under OpenAI's own framework, goes first to select Daybreak Red customers via API and Codex. OpenAI credits it with 948 Linux exploits and 81 high-severity Firefox bugs.",
               "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
+              "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+            },
+            {
+              "date": "Nov 6, 2026",
+              "head": "Researchers: malicious browser extensions could abuse Claude Dispatch",
+              "text": "Forever Security showed an extension running scripts on claude.ai could send Claude Desktop tasks through Dispatch, launching an app in a test. Anthropic says Dispatch is being retired; turn it off if you don't need it.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
             },
             {
               "date": "Nov 3, 2026",
@@ -50,13 +57,6 @@
               "text": "iOS 27.3 brings Writing Tools, Genmoji, Live Translation and more to iPhone 15 Pro and newer in China, with Qwen inside Siri. The developer beta lands November 4; next-generation Siri isn't included.",
               "src": "MacRumors",
               "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "China-linked hackers ran AI agents against more than 200 organizations",
-              "text": "CrowdStrike says VAPOR PANDA used the ARTEX agent framework, mainly running DeepSeek, to hit targets in at least 14 countries over 11 days. Nine organizations saw confirmed follow-on activity.",
-              "src": "IT Brief",
-              "url": "https://itbrief.co.uk/story/crowdstrike-uncovers-china-linked-ai-cyber-campaign"
             }
           ]
         },
@@ -65,6 +65,20 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Nov 6, 2026",
+              "head": "OpenSSH 'SSHole' flaw exploited within hours, root gained on honeypot",
+              "text": "CVE-2026-123158 lets an oversized password log into accounts with no usable password on musl systems like Alpine without PAM. Attackers got root on a honeypot within nine hours. Update to OpenSSH 10.6p2 and restart sshd.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+            },
+            {
+              "date": "Nov 7, 2026",
+              "head": "SonicWall patches exploited SonicOS VPN flaw that can skip SAML MFA",
+              "text": "CVE-2026-19868 lets someone with valid credentials for another login method bypass SAML, and possibly MFA, on SSL VPNs with SAML enabled. CISA set a November 20 deadline. Update to SonicOS 7.3.4-7013 or 8.2.3-8015.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+            },
             {
               "date": "Nov 6, 2026",
               "head": "Chainalysis breach exposed all users' credentials; key services still offline",
@@ -80,13 +94,6 @@
               "url": "https://thecyberexpress.com/cold-chain-cyberattacks-fbi-explains"
             },
             {
-              "date": "Nov 5, 2026",
-              "head": "DreamHost says hackers stole FTP logins via its web File Manager",
-              "text": "From August to October 23, an attacker exploited a flaw in the File Manager to capture FTP/SFTP credentials and reached some webmail. DreamHost found no sign control panel or billing data was accessed.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
-            },
-            {
               "date": "Nov 6, 2026",
               "head": "Barracuda email gateway flaws chain into root access without a login",
               "text": "watchTowr showed that CVE-2026-116606 (rated 9.3) plus CVE-2026-111560 give unauthenticated root on the Email Security Gateway. No attacks or public exploit are known yet. Update to firmware 9.4.0.030 or later.",
@@ -99,13 +106,6 @@
               "text": "APT29 is chaining patched Safari and Chrome bugs, including Apple's CVE-2024-27834, to plant info-stealing malware via hijacked websites. Federal agencies must patch by November 18; update iPhones, Macs and Safari.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
-            },
-            {
-              "date": "Nov 4, 2026",
-              "head": "Critical Rails Active Storage flaw lets crafted uploads write server files",
-              "text": "Rails rates the ImageMagick flaw 9.8. Apps that use ImageMagick and accept untrusted uploads are at risk; attaching an upload is enough. Update to 8.1.4.1 or 8.0.5.2; series before 8.0 get no fix.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
             }
           ]
         },
