@@ -31,6 +31,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 7, 2026",
+              "head": "Claude Code's 'don't ask again' file leaked secrets into public repos",
+              "text": "Apiiro found 1,379 secrets, including database passwords and AWS keys, in .claude/settings.local.json files across public GitHub repositories. Rotate anything typed into approved commands and add the file to .gitignore.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+            },
+            {
               "date": "Nov 6, 2026",
               "head": "OpenAI launches GPT-6 Cyber after its AI found 81 Firefox flaws",
               "text": "The security model, rated 'Critical' in cybersecurity under OpenAI's own framework, goes first to select Daybreak Red customers via API and Codex. OpenAI credits it with 948 Linux exploits and 81 high-severity Firefox bugs.",
@@ -50,13 +57,6 @@
               "text": "Attackers use stolen cloud keys and tokens to run large language models on victims' accounts. Google says single incidents topped $100,000 in a day, and cumulative charges hit $1 million at some organizations.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html"
-            },
-            {
-              "date": "Oct 30, 2026",
-              "head": "Apple Intelligence reaches China in December, powered by Alibaba's Qwen",
-              "text": "iOS 27.3 brings Writing Tools, Genmoji, Live Translation and more to iPhone 15 Pro and newer in China, with Qwen inside Siri. The developer beta lands November 4; next-generation Siri isn't included.",
-              "src": "MacRumors",
-              "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/"
             }
           ]
         },
