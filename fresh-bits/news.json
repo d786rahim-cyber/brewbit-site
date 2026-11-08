@@ -1,9 +1,9 @@
 {
-  "updated": "November 7, 2026",
+  "updated": "November 8, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers hit OpenSSH's SSHole flaw within hours, SonicWall patches an exploited VPN bug, Chainalysis exposes every user's credentials, and OpenAI launches GPT-6 Cyber."
+      "text": "SonicWall patches an exploited VPN bug, attackers hit OpenSSH's SSHole within hours, Chainalysis and DigiCert disclose breaches, and OpenAI launches GPT-6 Cyber."
     },
     {
       "desk": "Coffee",
@@ -88,6 +88,13 @@
             },
             {
               "date": "Nov 6, 2026",
+              "head": "DigiCert breach exposed business customers' contact data and ID documents",
+              "text": "An exposed archive let an attacker create a read-only account and read business contacts, and sometimes driver's licenses or passports, from June 27 to July 2. DigiCert says certificate systems were untouched.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
+            },
+            {
+              "date": "Nov 6, 2026",
               "head": "CISA and FBI warn US firms after fridge controller attacks",
               "text": "Five agencies say attackers are exploiting internet-exposed refrigeration and temperature controllers, often via default passwords, to force heating and defrost cycles. Take controllers offline from the internet, change passwords and patch firmware.",
               "src": "The Cyber Express",
@@ -99,13 +106,6 @@
               "text": "watchTowr showed that CVE-2026-116606 (rated 9.3) plus CVE-2026-111560 give unauthenticated root on the Email Security Gateway. No attacks or public exploit are known yet. Update to firmware 9.4.0.030 or later.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
-            },
-            {
-              "date": "Nov 5, 2026",
-              "head": "CISA: Russian hackers exploit old Apple flaw to steal browser data",
-              "text": "APT29 is chaining patched Safari and Chrome bugs, including Apple's CVE-2024-27834, to plant info-stealing malware via hijacked websites. Federal agencies must patch by November 18; update iPhones, Macs and Safari.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
             }
           ]
         },
