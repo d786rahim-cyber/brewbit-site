@@ -1,9 +1,9 @@
 {
-  "updated": "November 8, 2026",
+  "updated": "November 9, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "SonicWall patches an exploited VPN bug, attackers hit OpenSSH's SSHole within hours, Chainalysis and DigiCert disclose breaches, and OpenAI launches GPT-6 Cyber."
+      "text": "SonicWall patches an exploited VPN bug, attackers hit OpenSSH's SSHole within hours, Anubis ransomware targets SQL Servers, and Claude Code's approvals file leaks secrets."
     },
     {
       "desk": "Coffee",
@@ -66,18 +66,25 @@
           "blurb": "",
           "items": [
             {
-              "date": "Nov 6, 2026",
-              "head": "OpenSSH 'SSHole' flaw exploited within hours, root gained on honeypot",
-              "text": "CVE-2026-123158 lets an oversized password log into accounts with no usable password on musl systems like Alpine without PAM. Attackers got root on a honeypot within nine hours. Update to OpenSSH 10.6p2 and restart sshd.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-            },
-            {
               "date": "Nov 7, 2026",
               "head": "SonicWall patches exploited SonicOS VPN flaw that can skip SAML MFA",
               "text": "CVE-2026-19868 lets someone with valid credentials for another login method bypass SAML, and possibly MFA, on SSL VPNs with SAML enabled. CISA set a November 20 deadline. Update to SonicOS 7.3.4-7013 or 8.2.3-8015.",
               "src": "SecurityWeek",
               "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+            },
+            {
+              "date": "Nov 9, 2026",
+              "head": "Anubis ransomware crew planted a new backdoor on SQL Servers",
+              "text": "Symantec says the Lindnor backdoor, disguised as Chrome or VMware files, ran on two Microsoft SQL Servers at a U.S. organization in October. The ransomware was blocked before encrypting files. Watch for unexpected AnyDesk installs on SQL hosts.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/anubis-ransomware-attack"
+            },
+            {
+              "date": "Nov 6, 2026",
+              "head": "OpenSSH 'SSHole' flaw exploited within hours, root gained on honeypot",
+              "text": "CVE-2026-123158 lets an oversized password log into accounts with no usable password on musl systems like Alpine without PAM. Attackers got root on a honeypot within nine hours. Update to OpenSSH 10.6p2 and restart sshd.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
             },
             {
               "date": "Nov 6, 2026",
@@ -99,13 +106,6 @@
               "text": "Five agencies say attackers are exploiting internet-exposed refrigeration and temperature controllers, often via default passwords, to force heating and defrost cycles. Take controllers offline from the internet, change passwords and patch firmware.",
               "src": "The Cyber Express",
               "url": "https://thecyberexpress.com/cold-chain-cyberattacks-fbi-explains"
-            },
-            {
-              "date": "Nov 6, 2026",
-              "head": "Barracuda email gateway flaws chain into root access without a login",
-              "text": "watchTowr showed that CVE-2026-116606 (rated 9.3) plus CVE-2026-111560 give unauthenticated root on the Email Security Gateway. No attacks or public exploit are known yet. Update to firmware 9.4.0.030 or later.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
             }
           ]
         },
