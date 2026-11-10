@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "SonicWall patches an exploited VPN bug, attackers hit OpenSSH's SSHole within hours, Anubis ransomware targets SQL Servers, and Claude Code's approvals file leaks secrets."
+      "text": "Google patches an exploited Chrome zero-day, SonicWall fixes an exploited VPN bug, attackers hit OpenSSH's SSHole within hours, and Claude Code's approvals file leaks secrets."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 9, 2026",
+              "head": "Google patches Chrome zero-day exploited in the wild",
+              "text": "CVE-2026-125350 is a use-after-free bug in Chrome's XML component, and Google says an exploit exists in the wild. Update to Chrome 157.0.8103.50 or later on Windows, Mac and Linux, and restart the browser.",
+              "src": "SecurityOnline",
+              "url": "https://securityonline.info/chrome-zero-day-cve-2026-125350/"
+            },
+            {
               "date": "Nov 7, 2026",
               "head": "SonicWall patches exploited SonicOS VPN flaw that can skip SAML MFA",
               "text": "CVE-2026-19868 lets someone with valid credentials for another login method bypass SAML, and possibly MFA, on SSL VPNs with SAML enabled. CISA set a November 20 deadline. Update to SonicOS 7.3.4-7013 or 8.2.3-8015.",
@@ -92,13 +99,6 @@
               "text": "Names, usernames, password hashes and live tokens for all users were exposed. Reactor and Data Solutions remain offline while KYT returns via IP allowlists. Every user will need to reset passwords and rotate API keys.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
-            },
-            {
-              "date": "Nov 6, 2026",
-              "head": "DigiCert breach exposed business customers' contact data and ID documents",
-              "text": "An exposed archive let an attacker create a read-only account and read business contacts, and sometimes driver's licenses or passports, from June 27 to July 2. DigiCert says certificate systems were untouched.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
             },
             {
               "date": "Nov 6, 2026",
