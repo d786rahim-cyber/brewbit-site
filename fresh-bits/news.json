@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Google patches an exploited Chrome zero-day, SonicWall fixes an exploited VPN bug, attackers hit OpenSSH's SSHole within hours, and Claude Code's approvals file leaks secrets."
+      "text": "N-able takes N-central offline after 33 alleged zero-days, Google patches an exploited Chrome zero-day, SonicWall fixes an exploited VPN bug, and attackers hit OpenSSH's SSHole."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 10, 2026",
+              "head": "N-able takes N-central offline worldwide after 33 alleged zero-days",
+              "text": "A researcher published 'Able2Shell' exploit code, including an unauthenticated chain to remote code execution. N-able shut hosted N-central in all regions and told on-premises customers to go offline until further notice. It reported no active exploitation yet.",
+              "src": "Cyber Security News",
+              "url": "https://cybersecuritynews.com/n-able-takes-n-central-servers-offline/"
+            },
+            {
               "date": "Nov 9, 2026",
               "head": "Google patches Chrome zero-day exploited in the wild",
               "text": "CVE-2026-125350 is a use-after-free bug in Chrome's XML component, and Google says an exploit exists in the wild. Update to Chrome 157.0.8103.50 or later on Windows, Mac and Linux, and restart the browser.",
@@ -99,13 +106,6 @@
               "text": "Names, usernames, password hashes and live tokens for all users were exposed. Reactor and Data Solutions remain offline while KYT returns via IP allowlists. Every user will need to reset passwords and rotate API keys.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
-            },
-            {
-              "date": "Nov 6, 2026",
-              "head": "CISA and FBI warn US firms after fridge controller attacks",
-              "text": "Five agencies say attackers are exploiting internet-exposed refrigeration and temperature controllers, often via default passwords, to force heating and defrost cycles. Take controllers offline from the internet, change passwords and patch firmware.",
-              "src": "The Cyber Express",
-              "url": "https://thecyberexpress.com/cold-chain-cyberattacks-fbi-explains"
             }
           ]
         },
