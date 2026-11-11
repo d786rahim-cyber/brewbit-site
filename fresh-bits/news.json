@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Microsoft patches an exploited Outlook zero-day, N-able keeps N-central offline after 33 alleged zero-days, Google fixes an exploited Chrome zero-day, and attackers abuse Qubole's AWS access."
+      "text": "Microsoft patches an exploited Outlook zero-day, N-able keeps N-central offline, a GhostAction variant raids GitHub repos for secrets, and attackers abuse Qubole's AWS access."
     },
     {
       "desk": "Coffee",
@@ -73,6 +73,13 @@
               "url": "https://www.tenable.com/blog/microsoft-november-2026-patch-tuesday-addresses-1093-cves-cve-2026-124194"
             },
             {
+              "date": "Nov 9, 2026",
+              "head": "GhostAction variant hits tens of thousands of GitHub repos with credential stealer",
+              "text": "Socket found two accounts pushed a fake 'security-audit.yml' GitHub Actions workflow that steals credentials, now also searching files and full Git history for cloud and AI keys. Uber's athenadriver repo was among those hit.",
+              "src": "Infosecurity Magazine",
+              "url": "https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/"
+            },
+            {
               "date": "Nov 10, 2026",
               "head": "N-able takes N-central offline worldwide after 33 alleged zero-days",
               "text": "A researcher published 'Able2Shell' exploit code, including an unauthenticated chain to remote code execution. N-able shut hosted N-central in all regions and told on-premises customers to go offline until further notice. It reported no active exploitation yet.",
@@ -92,13 +99,6 @@
               "text": "Using credentials for the AWS account Qubole uses to reach customers, an attacker assumed customer roles, harvested AWS, Entra ID and Okta secrets, and copied S3 data. Check CloudTrail for AssumeRole from account 805246085872 since October 1.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-            },
-            {
-              "date": "Nov 7, 2026",
-              "head": "SonicWall patches exploited SonicOS VPN flaw that can skip SAML MFA",
-              "text": "CVE-2026-19868 lets someone with valid credentials for another login method bypass SAML, and possibly MFA, on SSL VPNs with SAML enabled. CISA set a November 20 deadline. Update to SonicOS 7.3.4-7013 or 8.2.3-8015.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
             },
             {
               "date": "Nov 9, 2026",
