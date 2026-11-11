@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "N-able restores hosted N-central after a hotfix, Microsoft patches an exploited Outlook zero-day, a GhostAction variant raids GitHub repos for secrets, and Google fixes an exploited Chrome zero-day."
+      "text": "N-able restores hosted N-central after a hotfix, Microsoft patches an exploited Outlook zero-day, Fortinet fixes a critical FortiClient flaw, and a GhostAction variant raids GitHub repos for secrets."
     },
     {
       "desk": "Coffee",
@@ -80,6 +80,13 @@
               "url": "https://www.tenable.com/blog/microsoft-november-2026-patch-tuesday-addresses-1093-cves-cve-2026-124194"
             },
             {
+              "date": "Nov 10, 2026",
+              "head": "Fortinet fixes critical FortiClient flaw malicious websites could abuse",
+              "text": "CVE-2026-121529 (CVSS 9.1), dubbed Fortinet2Shell, lets a malicious website run code on FortiClient for Windows and Mac 7.2 and 7.4 through a local API. It isn't known to be exploited. Update to 7.4.8 or 7.2.15; there's no workaround.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/fortinet2shell-vulnerability/"
+            },
+            {
               "date": "Nov 9, 2026",
               "head": "GhostAction variant hits tens of thousands of GitHub repos with credential stealer",
               "text": "Socket found two accounts pushed a fake 'security-audit.yml' GitHub Actions workflow that steals credentials, now also searching files and full Git history for cloud and AI keys. Uber's athenadriver repo was among those hit.",
@@ -99,13 +106,6 @@
               "text": "Using credentials for the AWS account Qubole uses to reach customers, an attacker assumed customer roles, harvested AWS, Entra ID and Okta secrets, and copied S3 data. Check CloudTrail for AssumeRole from account 805246085872 since October 1.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-            },
-            {
-              "date": "Nov 9, 2026",
-              "head": "Anubis ransomware crew planted a new backdoor on SQL Servers",
-              "text": "Symantec says the Lindnor backdoor, disguised as Chrome or VMware files, ran on two Microsoft SQL Servers at a U.S. organization in October. The ransomware was blocked before encrypting files. Watch for unexpected AnyDesk installs on SQL hosts.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/anubis-ransomware-attack"
             }
           ]
         },
