@@ -1,9 +1,9 @@
 {
-  "updated": "November 11, 2026",
+  "updated": "November 12, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "N-able restores hosted N-central after a hotfix, Microsoft patches an exploited Outlook zero-day, attackers hijack Xen Orchestra servers, and Fortinet fixes a critical FortiClient flaw."
+      "text": "Attackers hijack MSPs' ScreenConnect panels, stolen GitHub accounts spread a CI secret stealer, MongoDB patches a critical flaw, and N-able restores hosted N-central."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,27 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 12, 2026",
+              "head": "Attackers hijack MSPs' ScreenConnect panels to plant rogue remote access",
+              "text": "Huntress found rogue ScreenConnect clients on at least 288 endpoints across 48 organizations, likely via stolen credentials. ConnectWise disabled five third-party extensions, including RMM Plus, in about 400 partner environments. Check your Run Command history.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+            },
+            {
+              "date": "Nov 12, 2026",
+              "head": "Stolen GitHub accounts plant a CI secret stealer in 1,806+ repos",
+              "text": "Aikido Security reports that 4,837 hijacked accounts added a stealer to at least 1,806 repositories. It grabs GitHub secrets, cloud keys and tokens. The accounts overlap with October's GhostAction wave. Rotate any secret affected workflows could reach.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
+            },
+            {
+              "date": "Nov 12, 2026",
+              "head": "MongoDB patches critical flaw that can crash or hijack replica sets",
+              "text": "CVE-2026-118383 (CVSS 9.5) lets unauthenticated attackers crash replica set members and possibly run code; standalone servers aren't affected. MongoDB knows of no exploitation. Upgrade every member, for example to 8.0.37 or 7.0.48.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/"
+            },
+            {
               "date": "Nov 11, 2026",
               "head": "N-able brings hosted N-central back after an emergency hotfix",
               "text": "Per Cyber Press, N-able upgraded every hosted N-central server to 2026.4 HF2 (build 2026.4.1.26), fixing seven CVEs, and finished early Nov 11. Self-hosted servers should stay offline until upgraded; N-able reports scanning tied to the public exploit code.",
@@ -85,27 +106,6 @@
               "text": "Vates confirmed attacks on an authentication bypass (VSA-2026-062): a crafted cookie grants admin rights and can lead to root on XCP-ng hosts. Update to Xen Orchestra 6.9.1 or 6.10.0 and keep it off the internet.",
               "src": "BleepingComputer",
               "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/"
-            },
-            {
-              "date": "Nov 10, 2026",
-              "head": "Fortinet fixes critical FortiClient flaw malicious websites could abuse",
-              "text": "CVE-2026-121529 (CVSS 9.1), dubbed Fortinet2Shell, lets a malicious website run code on FortiClient for Windows and Mac 7.2 and 7.4 through a local API. It isn't known to be exploited. Update to 7.4.8 or 7.2.15; there's no workaround.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/fortinet2shell-vulnerability/"
-            },
-            {
-              "date": "Nov 9, 2026",
-              "head": "GhostAction variant hits tens of thousands of GitHub repos with credential stealer",
-              "text": "Socket found two accounts pushed a fake 'security-audit.yml' GitHub Actions workflow that steals credentials, now also searching files and full Git history for cloud and AI keys. Uber's athenadriver repo was among those hit.",
-              "src": "Infosecurity Magazine",
-              "url": "https://www.infosecurity-magazine.com/news/supply-chain-attack-thousands/"
-            },
-            {
-              "date": "Nov 9, 2026",
-              "head": "Google patches Chrome zero-day exploited in the wild",
-              "text": "CVE-2026-125350 is a use-after-free bug in Chrome's XML component, and Google says an exploit exists in the wild. Update to Chrome 157.0.8103.50 or later on Windows, Mac and Linux, and restart the browser.",
-              "src": "SecurityOnline",
-              "url": "https://securityonline.info/chrome-zero-day-cve-2026-125350/"
             }
           ]
         },
