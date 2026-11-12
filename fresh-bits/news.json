@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers hijack MSPs' ScreenConnect panels, stolen GitHub accounts spread a CI secret stealer, MongoDB patches a critical flaw, and N-able restores hosted N-central."
+      "text": "New exploits beat N-able's N-central hotfix, Apache fixes a critical HTTP/2 flaw, attackers hijack MSPs' ScreenConnect panels, and stolen GitHub accounts spread a CI secret stealer."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,20 @@
           "items": [
             {
               "date": "Nov 12, 2026",
+              "head": "New N-central exploits beat N-able's hotfix; attackers already probing",
+              "text": "A researcher released 4EverAble2Shell and Agent2Shell, which reportedly work against Hotfix 2. Attackers probed on-premises servers within hours, with no successful exploitation seen yet. N-able says hosted servers aren't affected and urges disabling the Legacy API.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+            },
+            {
+              "date": "Nov 12, 2026",
+              "head": "Apache fixes critical HTTP/2 flaw in HTTP Server; update to 2.4.71",
+              "text": "CVE-2026-119618, rated 9.8 by Red Hat, is a race condition in mod_http2 affecting Apache 2.4.55 to 2.4.70 with HTTP/2 enabled. No exploitation has been reported. Anthropic's OSS Scanner and Google researchers found it.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
+            },
+            {
+              "date": "Nov 12, 2026",
               "head": "Attackers hijack MSPs' ScreenConnect panels to plant rogue remote access",
               "text": "Huntress found rogue ScreenConnect clients on at least 288 endpoints across 48 organizations, likely via stolen credentials. ConnectWise disabled five third-party extensions, including RMM Plus, in about 400 partner environments. Check your Run Command history.",
               "src": "The Hacker News",
@@ -87,25 +101,11 @@
               "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/"
             },
             {
-              "date": "Nov 11, 2026",
-              "head": "N-able brings hosted N-central back after an emergency hotfix",
-              "text": "Per Cyber Press, N-able upgraded every hosted N-central server to 2026.4 HF2 (build 2026.4.1.26), fixing seven CVEs, and finished early Nov 11. Self-hosted servers should stay offline until upgraded; N-able reports scanning tied to the public exploit code.",
-              "src": "Cyber Press",
-              "url": "https://cyberpress.org/n-able-restores-n-central-cloud-services/"
-            },
-            {
               "date": "Nov 10, 2026",
               "head": "Microsoft fixes exploited Outlook zero-day in 1,093-CVE Patch Tuesday",
               "text": "Microsoft's November update fixes 1,093 CVEs, 63 of them critical. CVE-2026-124194, an Outlook spoofing flaw exploited as a zero-day, can leak a target's NTLMv2 hash when they open a crafted Office file. A researcher using Claude found it.",
               "src": "Tenable",
               "url": "https://www.tenable.com/blog/microsoft-november-2026-patch-tuesday-addresses-1093-cves-cve-2026-124194"
-            },
-            {
-              "date": "Nov 10, 2026",
-              "head": "Attackers exploit Xen Orchestra auth bypass to take over virtualization hosts",
-              "text": "Vates confirmed attacks on an authentication bypass (VSA-2026-062): a crafted cookie grants admin rights and can lead to root on XCP-ng hosts. Update to Xen Orchestra 6.9.1 or 6.10.0 and keep it off the internet.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/"
             }
           ]
         },
