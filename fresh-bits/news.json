@@ -1,9 +1,9 @@
 {
-  "updated": "November 12, 2026",
+  "updated": "November 13, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "New exploits beat N-able's N-central hotfix, Apache fixes a critical HTTP/2 flaw, attackers hijack MSPs' ScreenConnect panels, and stolen GitHub accounts spread a CI secret stealer."
+      "text": "Attackers hack 21 N-central servers despite the hotfix, the Microsoft 365 outage drags past a day, Citrix patches 28 NetScaler flaws, and the wfx-loot GitHub stealer plants cloud backdoors."
     },
     {
       "desk": "Coffee",
@@ -66,25 +66,32 @@
           "blurb": "",
           "items": [
             {
-              "date": "Nov 12, 2026",
-              "head": "New N-central exploits beat N-able's hotfix; attackers already probing",
-              "text": "A researcher released 4EverAble2Shell and Agent2Shell, which reportedly work against Hotfix 2. Attackers probed on-premises servers within hours, with no successful exploitation seen yet. N-able says hosted servers aren't affected and urges disabling the Legacy API.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+              "date": "Nov 13, 2026",
+              "head": "Attackers hack 21 N-central servers, 19 already running N-able's hotfix",
+              "text": "Huntback says one attacker used 4EverAble2Shell to plant a Monero miner on 21 servers. N-able is restricting some features and disabled Intune integration. Upgrade Agents and Probes, disable the Legacy API, and treat any hit as a full compromise.",
+              "src": "The Hacker News via Simply Secure",
+              "url": "https://simplysecuregroup.com/hackers-exploit-n-central-flaws-to-infect-21-servers-including-19-running-hotfix-2/"
+            },
+            {
+              "date": "Nov 13, 2026",
+              "head": "Microsoft 365 outage drags past a day; restored servers crashed again",
+              "text": "Outlook, Teams and other 365 apps were still not fully fixed Friday morning after servers Microsoft restored overnight failed again. Downdetector logged nearly 140,000 Outlook reports. Microsoft says it's unaware of malicious activity.",
+              "src": "Euronews",
+              "url": "https://www.euronews.com/2026/11/13/microsoft-outage-explained-what-went-wrong-and-is-your-data-at-risk"
+            },
+            {
+              "date": "Nov 13, 2026",
+              "head": "Citrix patches 28 NetScaler flaws, nine rated 9.0 or higher",
+              "text": "CVE-2026-120868 (CVSS 9.3) affects every NetScaler ADC and Gateway in default configuration. Citrix says it knows of no unmitigated exploits. Update to 14.1-73.57 or 13.1-64.39 or later as soon as possible.",
+              "src": "Rescana",
+              "url": "https://www.rescana.com/post/citrix-netscaler-cve-2026-120868-patch-now"
             },
             {
               "date": "Nov 12, 2026",
-              "head": "Apache fixes critical HTTP/2 flaw in HTTP Server; update to 2.4.71",
-              "text": "CVE-2026-119618, rated 9.8 by Red Hat, is a race condition in mod_http2 affecting Apache 2.4.55 to 2.4.70 with HTTP/2 enabled. No exploitation has been reported. Anthropic's OSS Scanner and Google researchers found it.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "Microsoft 365 outage disrupts Exchange Online, Teams and SharePoint",
-              "text": "Microsoft blamed a large number of servers failing automated health checks, leaving the rest to carry the load. It has disclosed no evidence of a cyberattack. Exchange Online in the Americas was hit first, then Teams, SharePoint, Copilot and Defender XDR.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/"
+              "head": "wfx-loot GitHub stealer hit tens of thousands of repos and plants cloud backdoors",
+              "text": "Hijacked accounts opened probe pull requests in 61,764 repos; the stealer ran in 1,800+. It also adds Azure and AWS backdoors, so rotating secrets isn't enough. Look for a wfx-docs branch and review cloud trust settings.",
+              "src": "Chainguard",
+              "url": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026"
             },
             {
               "date": "Nov 12, 2026",
@@ -95,17 +102,10 @@
             },
             {
               "date": "Nov 12, 2026",
-              "head": "Stolen GitHub accounts plant a CI secret stealer in 1,806+ repos",
-              "text": "Aikido Security reports that 4,837 hijacked accounts added a stealer to at least 1,806 repositories. It grabs GitHub secrets, cloud keys and tokens. The accounts overlap with October's GhostAction wave. Rotate any secret affected workflows could reach.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "MongoDB patches critical flaw that can crash or hijack replica sets",
-              "text": "CVE-2026-118383 (CVSS 9.5) lets unauthenticated attackers crash replica set members and possibly run code; standalone servers aren't affected. MongoDB knows of no exploitation. Upgrade every member, for example to 8.0.37 or 7.0.48.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/"
+              "head": "Apache fixes critical HTTP/2 flaw in HTTP Server; update to 2.4.71",
+              "text": "CVE-2026-119618, rated 9.8 by Red Hat, is a race condition in mod_http2 affecting Apache 2.4.55 to 2.4.70 with HTTP/2 enabled. No exploitation has been reported. Anthropic's OSS Scanner and Google researchers found it.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
             }
           ]
         },
