@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers hack 21 N-central servers despite the hotfix, the Microsoft 365 outage drags past a day, Citrix patches 28 NetScaler flaws, and the wfx-loot GitHub stealer plants cloud backdoors."
+      "text": "Attackers hack 21 N-central servers despite the hotfix, CISA flags an exploited Check Point firewall flaw, the Microsoft 365 outage drags past a day, and Citrix patches 28 NetScaler flaws."
     },
     {
       "desk": "Coffee",
@@ -74,6 +74,13 @@
             },
             {
               "date": "Nov 13, 2026",
+              "head": "CISA flags exploited Check Point firewall flaw used to plant backdoors",
+              "text": "CVE-2026-123039 (CVSS 7.8) gives root on Gaia R80.30 to R82.20. Attackers chained it with PHP2Shell, planted backdoors and wiped an ESXi host; Check Point says a couple dozen customers were hit. Install the latest Jumbo Hotfix.",
+              "src": "WindowsForum",
+              "url": "https://windowsforum.com/news/cisa-kev-alert-patch-unrealircd-cve-2026-114713-and-check-point-cve-2026-123039.452241/"
+            },
+            {
+              "date": "Nov 13, 2026",
               "head": "Microsoft 365 outage drags past a day; restored servers crashed again",
               "text": "Outlook, Teams and other 365 apps were still not fully fixed Friday morning after servers Microsoft restored overnight failed again. Downdetector logged nearly 140,000 Outlook reports. Microsoft says it's unaware of malicious activity.",
               "src": "Euronews",
@@ -99,13 +106,6 @@
               "text": "Huntress found rogue ScreenConnect clients on at least 288 endpoints across 48 organizations, likely via stolen credentials. ConnectWise disabled five third-party extensions, including RMM Plus, in about 400 partner environments. Check your Run Command history.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "Apache fixes critical HTTP/2 flaw in HTTP Server; update to 2.4.71",
-              "text": "CVE-2026-119618, rated 9.8 by Red Hat, is a race condition in mod_http2 affecting Apache 2.4.55 to 2.4.70 with HTTP/2 enabled. No exploitation has been reported. Anthropic's OSS Scanner and Google researchers found it.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
             }
           ]
         },
