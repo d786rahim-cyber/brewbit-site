@@ -74,10 +74,10 @@
             },
             {
               "date": "Nov 13, 2026",
-              "head": "CISA flags exploited Check Point firewall flaw used to plant backdoors",
-              "text": "CVE-2026-123039 (CVSS 7.8) gives root on Gaia R80.30 to R82.20. Attackers chained it with PHP2Shell, planted backdoors and wiped an ESXi host; Check Point says a couple dozen customers were hit. Install the latest Jumbo Hotfix.",
-              "src": "WindowsForum",
-              "url": "https://windowsforum.com/news/cisa-kev-alert-patch-unrealircd-cve-2026-114713-and-check-point-cve-2026-123039.452241/"
+              "head": "Check Point patches exploited firewall zero-day that gives attackers root",
+              "text": "Check Point says attackers hit a couple of dozen customers, chaining PHP2Shell with CVE-2026-123039 to get root, plant backdoors, then wipe a VMware ESXi host. Install the emergency hotfix or stop dynamic_server, and check the published indicators of compromise.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
             },
             {
               "date": "Nov 13, 2026",
