@@ -1,5 +1,5 @@
 {
-  "updated": "November 13, 2026",
+  "updated": "November 14, 2026",
   "themes": [
     {
       "desk": "Technology",
@@ -81,10 +81,10 @@
             },
             {
               "date": "Nov 13, 2026",
-              "head": "Microsoft 365 outage drags past a day; restored servers crashed again",
-              "text": "Outlook, Teams and other 365 apps were still not fully fixed Friday morning after servers Microsoft restored overnight failed again. Downdetector logged nearly 140,000 Outlook reports. Microsoft says it's unaware of malicious activity.",
-              "src": "Euronews",
-              "url": "https://www.euronews.com/2026/11/13/microsoft-outage-explained-what-went-wrong-and-is-your-data-at-risk"
+              "head": "Microsoft 365 outage recovery continues; experts warn of fake-support phishing",
+              "text": "Microsoft says capacity hasn't fully returned after the outage, which isn't believed to be cyber-related. Experts warn attackers may pose as Microsoft or IT support. Review sign-ins, mailbox rules and new forwarding rules from the outage window.",
+              "src": "Infosecurity Magazine",
+              "url": "https://www.infosecurity-magazine.com/news/microsoft-365-outage-security/"
             },
             {
               "date": "Nov 13, 2026",
@@ -463,13 +463,6 @@
               "date": "Hotel · Oct 15–Dec 31",
               "head": "Hilton: up to 3,000 bonus points per stay",
               "text": "3,000 points at resort and upscale hotels, 1,000 elsewhere, on cash or points stays. Register before your first stay.",
-              "src": "Head for Points",
-              "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
-            },
-            {
-              "date": "Hotel · register by Nov 13",
-              "head": "Marriott: 1,500 bonus points per two-night stay",
-              "text": "Rises to 4,500 at resorts on cash stays of two nights or more, through November 22.",
               "src": "Head for Points",
               "url": "https://www.headforpoints.com/2026/10/07/best-hotel-promos-october-2026/"
             },
