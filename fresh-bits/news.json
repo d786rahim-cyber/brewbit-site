@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers hack 21 N-central servers despite the hotfix, Check Point patches an exploited firewall zero-day, Cursor traces a backdoored extension to a leaked partner key, and Microsoft 365 recovers from a long outage."
+      "text": "Expedia confirms a breach through the Qubole supply chain attack, attackers hack 21 N-central servers despite the hotfix, Check Point patches an exploited firewall zero-day, and Cursor traces a backdoored extension to a leaked key."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 14, 2026",
+              "head": "Expedia confirms breach through Qubole supply chain attack; hackers claim huge haul",
+              "text": "Expedia told Skift that attackers got in through a compromised third-party data platform. Wiz and Sentra link it to a stolen Qubole key. The extortion group n0n claims 830 million loyalty records; Expedia hasn't confirmed those figures.",
+              "src": "Security Affairs",
+              "url": "https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html"
+            },
+            {
               "date": "Nov 13, 2026",
               "head": "Attackers hack 21 N-central servers, 19 already running N-able's hotfix",
               "text": "Huntback says one attacker used 4EverAble2Shell to plant a Monero miner on 21 servers. N-able is restricting some features and disabled Intune integration. Upgrade Agents and Probes, disable the Legacy API, and treat any hit as a full compromise.",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-120868 (CVSS 9.3) affects every NetScaler ADC and Gateway in default configuration. Citrix says it knows of no unmitigated exploits. Update to 14.1-73.57 or 13.1-64.39 or later as soon as possible.",
               "src": "Rescana",
               "url": "https://www.rescana.com/post/citrix-netscaler-cve-2026-120868-patch-now"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "Attackers hijack MSPs' ScreenConnect panels to plant rogue remote access",
-              "text": "Huntress found rogue ScreenConnect clients on at least 288 endpoints across 48 organizations, likely via stolen credentials. ConnectWise disabled five third-party extensions, including RMM Plus, in about 400 partner environments. Check your Run Command history.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
             }
           ]
         },
