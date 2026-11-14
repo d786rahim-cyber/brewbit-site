@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers hack 21 N-central servers despite the hotfix, CISA flags an exploited Check Point firewall flaw, the Microsoft 365 outage drags past a day, and Citrix patches 28 NetScaler flaws."
+      "text": "Attackers hack 21 N-central servers despite the hotfix, Check Point patches an exploited firewall zero-day, Cursor traces a backdoored extension to a leaked partner key, and Microsoft 365 recovers from a long outage."
     },
     {
       "desk": "Coffee",
@@ -81,6 +81,13 @@
             },
             {
               "date": "Nov 13, 2026",
+              "head": "Cursor traces backdoored Claude Code extension to a key Fireworks AI exposed",
+              "text": "Using a leaked key, an attacker planted Claude Code 2.1.312 and 2.1.313 builds in Cursor's extension cache for about 11 hours from Oct 29; up to 5,000 users may have received them. Check for an svc-telemetry SSH key and rotate credentials.",
+              "src": "Cyber Security News",
+              "url": "https://cybersecuritynews.com/cursor-data-breach/"
+            },
+            {
+              "date": "Nov 13, 2026",
               "head": "Microsoft 365 outage recovery continues; experts warn of fake-support phishing",
               "text": "Microsoft says capacity hasn't fully returned after the outage, which isn't believed to be cyber-related. Experts warn attackers may pose as Microsoft or IT support. Review sign-ins, mailbox rules and new forwarding rules from the outage window.",
               "src": "Infosecurity Magazine",
@@ -92,13 +99,6 @@
               "text": "CVE-2026-120868 (CVSS 9.3) affects every NetScaler ADC and Gateway in default configuration. Citrix says it knows of no unmitigated exploits. Update to 14.1-73.57 or 13.1-64.39 or later as soon as possible.",
               "src": "Rescana",
               "url": "https://www.rescana.com/post/citrix-netscaler-cve-2026-120868-patch-now"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "wfx-loot GitHub stealer hit tens of thousands of repos and plants cloud backdoors",
-              "text": "Hijacked accounts opened probe pull requests in 61,764 repos; the stealer ran in 1,800+. It also adds Azure and AWS backdoors, so rotating secrets isn't enough. Look for a wfx-docs branch and review cloud trust settings.",
-              "src": "Chainguard",
-              "url": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026"
             },
             {
               "date": "Nov 12, 2026",
