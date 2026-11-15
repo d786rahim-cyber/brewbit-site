@@ -1,5 +1,5 @@
 {
-  "updated": "November 14, 2026",
+  "updated": "November 15, 2026",
   "themes": [
     {
       "desk": "Technology",
@@ -287,13 +287,6 @@
           "title": "Ride and race calendar",
           "blurb": "US and world events coming up.",
           "items": [
-            {
-              "date": "Nov 14, 2026",
-              "head": "Magnolia Fall Fondo, Moultrie, Georgia",
-              "text": "Third annual fall ride with 38, 65 and 105-mile options starting at 7:30 AM from the Pineland YMCA.",
-              "src": "TrainerDay",
-              "url": "https://trainerday.com/events/us/third-annual-magnolia-fall-fondo"
-            },
             {
               "date": "Nov 21, 2026",
               "head": "Turkey Roll Bicycle Rally, Denton, Texas",
