@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Expedia confirms a breach through the Qubole supply chain attack, attackers hack 21 N-central servers despite the hotfix, Check Point patches an exploited firewall zero-day, and Cursor traces a backdoored extension to a leaked key."
+      "text": "The FBI warns of the ARTEX AI hacking tool, Expedia confirms a breach through the Qubole supply chain attack, attackers hack 21 N-central servers despite the hotfix, and Check Point patches an exploited firewall zero-day."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 15, 2026",
+              "head": "FBI warns attackers are using the ARTEX AI hacking tool worldwide",
+              "text": "An FBI FLASH says multiple groups have used ARTEX, an AI-driven pentesting framework, since August, sometimes reaching privileged access in under three hours. Harden internet-facing apps, lock down cloud admin access and watch for bursts of automated requests.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+            },
+            {
               "date": "Nov 14, 2026",
               "head": "Expedia confirms breach through Qubole supply chain attack; hackers claim huge haul",
               "text": "Expedia told Skift that attackers got in through a compromised third-party data platform. Wiz and Sentra link it to a stolen Qubole key. The extortion group n0n claims 830 million loyalty records; Expedia hasn't confirmed those figures.",
@@ -92,13 +99,6 @@
               "text": "Using a leaked key, an attacker planted Claude Code 2.1.312 and 2.1.313 builds in Cursor's extension cache for about 11 hours from Oct 29; up to 5,000 users may have received them. Check for an svc-telemetry SSH key and rotate credentials.",
               "src": "Cyber Security News",
               "url": "https://cybersecuritynews.com/cursor-data-breach/"
-            },
-            {
-              "date": "Nov 13, 2026",
-              "head": "Microsoft 365 outage recovery continues; experts warn of fake-support phishing",
-              "text": "Microsoft says capacity hasn't fully returned after the outage, which isn't believed to be cyber-related. Experts warn attackers may pose as Microsoft or IT support. Review sign-ins, mailbox rules and new forwarding rules from the outage window.",
-              "src": "Infosecurity Magazine",
-              "url": "https://www.infosecurity-magazine.com/news/microsoft-365-outage-security/"
             },
             {
               "date": "Nov 13, 2026",
