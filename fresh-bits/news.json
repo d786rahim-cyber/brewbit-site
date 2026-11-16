@@ -1,9 +1,9 @@
 {
-  "updated": "November 15, 2026",
+  "updated": "November 16, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "The FBI warns of the ARTEX AI hacking tool, Expedia confirms a breach through the Qubole supply chain attack, attackers hack 21 N-central servers despite the hotfix, and Check Point patches an exploited firewall zero-day."
+      "text": "The FBI warns of the ARTEX AI hacking tool, Expedia confirms a breach through the Qubole supply chain attack, N-central servers are hacked despite the hotfix, and Google plans a $17 billion Wyoming data center."
     },
     {
       "desk": "Coffee",
@@ -115,32 +115,32 @@
           "blurb": "",
           "items": [
             {
-              "date": "Oct 30, 2026",
-              "head": "Runware wants to mass-produce AI data center pods",
-              "text": "The startup builds prefabricated, liquid-cooled pods in Romania and aims to bring them online within 48 hours of arrival, targeting 30MW of capacity a day by 2028. It claims $1 billion in committed interest.",
-              "src": "TechCrunch",
-              "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out"
+              "date": "Nov 12, 2026",
+              "head": "Google plans a $17 billion fuel-cell data center in Wyoming",
+              "text": "Google's first Wyoming data center is a planned 702MW development powered by fuel cells with carbon capture and storage, and it uses air cooling, according to Mission Critical News.",
+              "src": "Mission Critical News",
+              "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
             },
             {
-              "date": "Oct 28, 2026",
-              "head": "Google eyes a 1,200MW data center campus near Richmond, Virginia",
-              "text": "Google is doing due diligence on about 1,000 acres in Goochland County's West Creek. It hasn't bought the land; the site's tech zoning would allow a data center without a public hearing.",
-              "src": "Richmond BizSense",
-              "url": "https://richmondbizsense.com/2026/10/28/breaking-news-google-eyeing-data-center-campus-in-goochlands-west-creek/"
+              "date": "Nov 12, 2026",
+              "head": "Kraft Group proposes a $16 billion, 900MW campus in Massachusetts",
+              "text": "The Kraft Group's Sutton, Massachusetts project would grow from two buildings to ten by 2033, reaching 900MW, Mission Critical News reports.",
+              "src": "Mission Critical News",
+              "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
             },
             {
-              "date": "Oct 26, 2026",
-              "head": "AWS eyes up to 15 more data center buildings in Missouri",
-              "text": "AWS plans up to 15 new buildings on 890 acres near Danville in Montgomery County, separate from its $10 billion New Florence campus. It hasn't bought the land; construction could start 2027 to 2029 if approved.",
-              "src": "DCD",
-              "url": "https://www.datacenterdynamics.com/en/news/aws-plans-to-expand-data-center-footprint-in-montgomery-county-missouri/"
+              "date": "Nov 12, 2026",
+              "head": "Riot Platforms signs a frontier AI lab at its 910MW Texas site",
+              "text": "Riot Platforms agreed a capacity deal with an unnamed frontier AI lab at its 910MW data center in Corsicana, Texas, as bitcoin miners keep pivoting to AI hosting.",
+              "src": "Mission Critical News",
+              "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
             },
             {
-              "date": "Oct 27, 2026",
-              "head": "A 444,400-square-foot data center is proposed for South San Jose",
-              "text": "Menlo Equities applied to build on 15.5 acres beside Western Digital's campus. If approved, construction could start in late 2027, with operations by late 2029.",
-              "src": "GovTech Insider",
-              "url": "https://insider.govtech.com/california/news/massive-san-jose-data-center-could-begin-operations-by-2029"
+              "date": "Nov 12, 2026",
+              "head": "Integra files for an $8 billion, 756MW data center in North Texas",
+              "text": "Integra has filed an application for a 756MW, $8 billion project in Quanah, near Childress, Texas, adding to the state's crowded pipeline of AI data center proposals.",
+              "src": "Mission Critical News",
+              "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
             }
           ]
         }
