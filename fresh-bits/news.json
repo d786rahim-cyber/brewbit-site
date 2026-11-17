@@ -1,9 +1,9 @@
 {
-  "updated": "November 16, 2026",
+  "updated": "November 17, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers exploit a critical Apache Axis flaw in Confluence, Barracuda ties its cloud breach to the ARTEX AI tool, Expedia confirms a Qubole supply chain breach, and Google plans a $17 billion Wyoming data center."
+      "text": "An Optimizely flaw plants malware on 178 major websites, N-able blocks legacy APIs in a new N-central hotfix, attackers abuse a ScreenConnect flaw against MSPs, and Confluence servers come under attack."
     },
     {
       "desk": "Coffee",
@@ -15,7 +15,7 @@
     },
     {
       "desk": "Travel",
-      "text": "An Amadeus breach exposes airline passengers' data, JetBlue's first adults-only flights sell out, Hilton's Curio brand arrives on Kauai, and November deals are live."
+      "text": "Expedia confirms a breach through the Qubole supply chain attack, an Amadeus breach exposes airline passengers' data, and JetBlue tries adults-only flights."
     }
   ],
   "desks": [
@@ -67,6 +67,27 @@
           "items": [
             {
               "date": "Nov 17, 2026",
+              "head": "Optimizely flaw let attackers plant malware on 178 major websites",
+              "text": "Attackers abused Optimizely Web Experimentation to inject JavaScript served from its CDN. Report URI found 188 infected scripts from 178 organizations, including CNN, Zoom and HSBC, that could skim cards and swap crypto wallet addresses. Optimizely has fixed the flaw.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/"
+            },
+            {
+              "date": "Nov 17, 2026",
+              "head": "N-able ships Hotfix 3: 17 N-central fixes and Legacy APIs blocked for good",
+              "text": "N-central 2026.4 HF3 fixes CVE-2026-129271 through 129287 and permanently blocks the legacy APIs used by the 4EverAble2Shell chain. Hosted servers are patched; upgrade on-premises servers and all Agents and Probes now.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/"
+            },
+            {
+              "date": "Nov 17, 2026",
+              "head": "Attackers abuse ScreenConnect file-transfer flaw to infect MSP technicians",
+              "text": "CVE-2026-84869 (CVSS 9.9) lets a malicious guest run a file on the technician's computer once they join a session. Huntress logged 688,000 delivery attempts since Oct 20. Update technician host clients to 26.6.5 or later; patching the server alone isn't enough.",
+              "src": "Cyber Security News",
+              "url": "https://cybersecuritynews.com/critical-screenconnect-flaw/"
+            },
+            {
+              "date": "Nov 17, 2026",
               "head": "Attackers exploit critical Apache Axis flaw in Confluence Data Center",
               "text": "Rapid7 saw CVE-2026-90436 (CVSS 9.8) exploited against Confluence Data Center on Nov 13 when its Remote API is on; a related flaw hits N-central. Upgrade Confluence to 9.2.28 or 10.x, or disable the Remote API now.",
               "src": "Cyber Daily",
@@ -85,27 +106,6 @@
               "text": "An FBI FLASH says multiple groups have used ARTEX, an AI-driven pentesting framework, since August, sometimes reaching privileged access in under three hours. Harden internet-facing apps, lock down cloud admin access and watch for bursts of automated requests.",
               "src": "BleepingComputer",
               "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
-            },
-            {
-              "date": "Nov 14, 2026",
-              "head": "Expedia confirms breach through Qubole supply chain attack; hackers claim huge haul",
-              "text": "Expedia told Skift that attackers got in through a compromised third-party data platform. Wiz and Sentra link it to a stolen Qubole key. The extortion group n0n claims 830 million loyalty records; Expedia hasn't confirmed those figures.",
-              "src": "Security Affairs",
-              "url": "https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html"
-            },
-            {
-              "date": "Nov 13, 2026",
-              "head": "Attackers hack 21 N-central servers, 19 already running N-able's hotfix",
-              "text": "Huntback says one attacker used 4EverAble2Shell to plant a Monero miner on 21 servers. N-able is restricting some features and disabled Intune integration. Upgrade Agents and Probes, disable the Legacy API, and treat any hit as a full compromise.",
-              "src": "The Hacker News via Simply Secure",
-              "url": "https://simplysecuregroup.com/hackers-exploit-n-central-flaws-to-infect-21-servers-including-19-running-hotfix-2/"
-            },
-            {
-              "date": "Nov 13, 2026",
-              "head": "Check Point patches exploited firewall zero-day that gives attackers root",
-              "text": "Check Point says attackers hit a couple of dozen customers, chaining PHP2Shell with CVE-2026-123039 to get root, plant backdoors, then wipe a VMware ESXi host. Install the emergency hotfix or stop dynamic_server, and check the published indicators of compromise.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
             }
           ]
         },
@@ -347,6 +347,13 @@
           "blurb": "Disruptions, routes and rules.",
           "items": [
             {
+              "date": "Nov 14, 2026",
+              "head": "Expedia confirms breach through Qubole supply chain attack; hackers claim huge haul",
+              "text": "Expedia told Skift that attackers got in through a compromised third-party data platform. Wiz and Sentra link it to a stolen Qubole key. The extortion group n0n claims 830 million loyalty records; Expedia hasn't confirmed those figures.",
+              "src": "Security Affairs",
+              "url": "https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html"
+            },
+            {
               "date": "Oct 30, 2026",
               "head": "Amadeus breach exposes data from at least five airlines' passengers",
               "text": "Unauthorized access to the airline booking provider ran from August 2023 to September 2026. Cathay Pacific, Japan Airlines, ANA, Korean Air and Condor are affected. Watch for phishing emails posing as your airline.",
@@ -357,13 +364,6 @@
               "date": "Oct 30, 2026",
               "head": "JetBlue and Virgin Voyages sell out their first adults-only flights",
               "text": "Their 'Do Not Disturb' package paired a Virgin Voyages cruise with JetBlue's first adults-only flights. All 60 cabins sold out within days; it's a one-time offer for now.",
-              "src": "Forbes",
-              "url": "https://www.forbes.com/sites/passport/2026/10/30/adults-only-flights-the-safest-us-cities-and-more-travel-news/"
-            },
-            {
-              "date": "Oct 30, 2026",
-              "head": "Hilton's Curio Collection opens its first Hawaii hotel on Kauai",
-              "text": "The 210-room Hale Hokuala Kauai offers Pacific views, open-air spaces and preferred tee times for guests.",
               "src": "Forbes",
               "url": "https://www.forbes.com/sites/passport/2026/10/30/adults-only-flights-the-safest-us-cities-and-more-travel-news/"
             }
