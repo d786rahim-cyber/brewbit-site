@@ -88,6 +88,13 @@
             },
             {
               "date": "Nov 17, 2026",
+              "head": "Unconfirmed critical Java 17 flaw reported as Oracle ships Java updates",
+              "text": "CVE-2026-114938, reportedly a CVSS 9.2 remote code execution flaw in OpenJDK 17.0.6 and later, has no public details, proof of concept or confirmed exploitation. Oracle's Nov 17 update moves Java 17 to 17.0.21.1; inventory your Java runtimes and patch.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+            },
+            {
+              "date": "Nov 17, 2026",
               "head": "Attackers exploit critical Apache Axis flaw in Confluence Data Center",
               "text": "Rapid7 saw CVE-2026-90436 (CVSS 9.8) exploited against Confluence Data Center on Nov 13 when its Remote API is on; a related flaw hits N-central. Upgrade Confluence to 9.2.28 or 10.x, or disable the Remote API now.",
               "src": "Cyber Daily",
@@ -99,13 +106,6 @@
               "text": "Using a cloud key Barracuda never retired after an AI vendor project, attackers hit about 10 cloud accounts over 44 hours on Nov 1–2. Barracuda tied the intrusion to the ARTEX AI framework. Some XDR customers must reissue integration credentials.",
               "src": "BleepingComputer",
               "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"
-            },
-            {
-              "date": "Nov 15, 2026",
-              "head": "FBI warns attackers are using the ARTEX AI hacking tool worldwide",
-              "text": "An FBI FLASH says multiple groups have used ARTEX, an AI-driven pentesting framework, since August, sometimes reaching privileged access in under three hours. Harden internet-facing apps, lock down cloud admin access and watch for bursts of automated requests.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
             }
           ]
         },
