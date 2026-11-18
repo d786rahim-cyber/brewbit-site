@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "An Optimizely flaw plants malware on 178 major websites, N-able blocks legacy APIs in a new N-central hotfix, attackers abuse a ScreenConnect flaw against MSPs, and Confluence servers come under attack."
+      "text": "The Java4Shell flaw puts Jira, Confluence and Jenkins at risk, an Optimizely flaw plants malware on 178 major websites, N-able blocks legacy APIs in a new hotfix, and attackers abuse a ScreenConnect flaw against MSPs."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Nov 17, 2026",
+              "head": "Java4Shell: Java flaw enables remote attacks on Jira, Confluence and Jenkins",
+              "text": "CVE-2026-114938, a memory bug in Java's AVX-512 Base64 decoder, can allow unauthenticated code execution in Keycloak, Jira, Confluence, Artifactory and Jenkins. Oracle patched it Nov 17. Update Java now, or use -XX:-UseBASE64Intrinsics temporarily.",
+              "src": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+            },
+            {
+              "date": "Nov 17, 2026",
               "head": "Optimizely flaw let attackers plant malware on 178 major websites",
               "text": "Attackers abused Optimizely Web Experimentation to inject JavaScript served from its CDN. Report URI found 188 infected scripts from 178 organizations, including CNN, Zoom and HSBC, that could skim cards and swap crypto wallet addresses. Optimizely has fixed the flaw.",
               "src": "SecurityWeek",
@@ -85,13 +92,6 @@
               "text": "CVE-2026-84869 (CVSS 9.9) lets a malicious guest run a file on the technician's computer once they join a session. Huntress logged 688,000 delivery attempts since Oct 20. Update technician host clients to 26.6.5 or later; patching the server alone isn't enough.",
               "src": "Cyber Security News",
               "url": "https://cybersecuritynews.com/critical-screenconnect-flaw/"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "Unconfirmed critical Java 17 flaw reported as Oracle ships Java updates",
-              "text": "CVE-2026-114938, reportedly a CVSS 9.2 remote code execution flaw in OpenJDK 17.0.6 and later, has no public details, proof of concept or confirmed exploitation. Oracle's Nov 17 update moves Java 17 to 17.0.21.1; inventory your Java runtimes and patch.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
             },
             {
               "date": "Nov 17, 2026",
