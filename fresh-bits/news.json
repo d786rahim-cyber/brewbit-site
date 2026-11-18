@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 18, 2026",
+              "head": "Microsoft's agent-framework package on PyPI hijacked to steal cloud credentials",
+              "text": "Malicious versions 1.26.1 and 1.26.2 use Python startup hooks to grab Azure, GitHub Actions, npm, Docker and Hugging Face secrets. Remove them and rotate any exposed credentials.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/microsofts-ai-agent-framework-package-compromised-on-pypi/"
+            },
+            {
               "date": "Nov 17, 2026",
               "head": "Java4Shell: Java flaw enables remote attacks on Jira, Confluence and Jenkins",
               "text": "CVE-2026-114938, a memory bug in Java's AVX-512 Base64 decoder, can allow unauthenticated code execution in Keycloak, Jira, Confluence, Artifactory and Jenkins. Oracle patched it Nov 17. Update Java now, or use -XX:-UseBASE64Intrinsics temporarily.",
@@ -99,13 +106,6 @@
               "text": "N-central 2026.4 HF3 fixes CVE-2026-129271 through 129287 and permanently blocks the legacy APIs used by the 4EverAble2Shell chain. Hosted servers are patched; upgrade on-premises servers and all Agents and Probes now.",
               "src": "SecurityWeek",
               "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "Attackers abuse ScreenConnect file-transfer flaw to infect MSP technicians",
-              "text": "CVE-2026-84869 (CVSS 9.9) lets a malicious guest run a file on the technician's computer once they join a session. Huntress logged 688,000 delivery attempts since Oct 20. Update technician host clients to 26.6.5 or later; patching the server alone isn't enough.",
-              "src": "Cyber Security News",
-              "url": "https://cybersecuritynews.com/critical-screenconnect-flaw/"
             }
           ]
         },
