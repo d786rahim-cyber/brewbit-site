@@ -1,21 +1,21 @@
 {
-  "updated": "November 18, 2026",
+  "updated": "November 19, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Java4Shell puts Jira, Confluence and Jenkins at risk, attackers now exploit Apache's HTTP/2 flaw and a critical Puppet bug, and OpenAI and Microsoft launch new AI models."
+      "text": "Attackers use an Apache Axis flaw to breach Confluence and Microsoft 365, PHP ships critical fixes, and Anthropic prices its IPO at $83 a share."
     },
     {
       "desk": "Coffee",
-      "text": "Kraft Heinz sells Maxwell House for $650 million, Dutch Bros keeps growing fast, and El Niño trims Costa Rica's harvest."
+      "text": "De'Longhi's La Marzocco division grows 35%, the ICO price edges down, and Kentucky launches a coffee science certificate."
     },
     {
       "desk": "Cycling",
-      "text": "The TotalEnergies team reportedly finds a sponsor to survive, Garmin may share rider locations with Waze, and Roglič is still without a 2027 team."
+      "text": "Twenty-four teams form the Collective Cycling Group, TotalEnergies survives into 2027, and Garmin may share rider locations with Waze."
     },
     {
       "desk": "Travel",
-      "text": "Expedia confirms a breach through the Qubole supply chain attack, an Amadeus breach exposes airline passengers' data, and JetBlue tries adults-only flights."
+      "text": "Experts say Thanksgiving flying is safe after the FAA meltdown, Expedia confirms a supply chain breach, and Black Friday hotel sales begin."
     }
   ],
   "desks": [
@@ -31,6 +31,20 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 19, 2026",
+              "head": "Anthropic prices its IPO at $83 a share, above the planned range",
+              "text": "The price beat the marketed $70 to $78 range and Anthropic sold more shares than planned. Reports put the valuation near $1.5 trillion, though they differ on the total raised.",
+              "src": "AI News Digest",
+              "url": "https://aienews.org/digest/2026-11-19/"
+            },
+            {
+              "date": "Nov 18, 2026",
+              "head": "Google releases Gemini 4 Neon with a 1M-token context window",
+              "text": "Priced at $3 per million input tokens and $15 per million output, Neon scores 61 on the AA Intelligence Index and ranks first on AA's Coding Agent Index.",
+              "src": "AI News Digest",
+              "url": "https://aienews.org/digest/2026-11-19/"
+            },
+            {
               "date": "Nov 17, 2026",
               "head": "OpenAI releases GPT-6.2 Astra and Sol, cutting Astra's API price 20%",
               "text": "Astra is OpenAI's new frontier model at $8 per million input tokens and $40 output; Sol keeps its everyday pricing. OpenAI's own tests claim Astra beats GPT-6 Astra at under a third of the cost.",
@@ -43,20 +57,6 @@
               "text": "The lineup includes MAI Code 2 for coding and MAI Cyber 2 Flash for security. Microsoft claims MAI Code 2 reaches 96% of Claude Opus 5.5's coding performance at 5% of the price; those are its own figures.",
               "src": "The AI Gazette",
               "url": "https://luongnv.com/news/reports/2026-11-18-morning.html"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "Google makes Gemini's task agent free in six countries",
-              "text": "Gemini's Tasks mode, which can call businesses, book appointments and buy items, is now free in the US and five other countries. Purchases use Mastercard and Visa tokens, and users can set a hard spending cap.",
-              "src": "The AI Gazette",
-              "url": "https://luongnv.com/news/reports/2026-11-18-morning.html"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "Oregon sues OpenAI for $2.035 billion over ChatGPT child safety",
-              "text": "Oregon's attorney general alleges OpenAI misled parents about ChatGPT's safety for children. The claims are allegations, not court findings.",
-              "src": "The AI Gazette",
-              "url": "https://luongnv.com/news/reports/2026-11-18-morning.html"
             }
           ]
         },
@@ -65,6 +65,20 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Nov 19, 2026",
+              "head": "Attackers exploit critical Apache Axis flaw to breach Confluence and Microsoft 365",
+              "text": "CVE-2026-90436 (CVSS 9.8) in end-of-life Apache Axis 1.x was used against Confluence Data Center, with one attacker reaching Microsoft 365 within about 12 hours. CISA set a November 21 deadline.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/"
+            },
+            {
+              "date": "Nov 19, 2026",
+              "head": "PHP ships critical security fixes today for all supported versions",
+              "text": "Expected to include CVE-2026-115560, a remote code execution flaw needing uncommon session settings. Until patched, set session.upload_progress.enabled=0. No exploitation of the new flaws is reported.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
+            },
             {
               "date": "Nov 18, 2026",
               "head": "Microsoft's agent-framework package on PyPI hijacked to steal cloud credentials",
@@ -92,20 +106,6 @@
               "text": "CVE-2026-115731 (CVSS 9.4) lets a client with a Puppet-signed certificate run code on the server and possibly steal its signing key. CISA added it to its exploited list Nov 17. Patch to 2026.0.1 or Core 9.1.3 and turn off auto-signing.",
               "src": "SecurityWeek",
               "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "Optimizely flaw let attackers plant malware on 178 major websites",
-              "text": "Attackers abused Optimizely Web Experimentation to inject JavaScript served from its CDN. Report URI found 188 infected scripts from 178 organizations, including CNN, Zoom and HSBC, that could skim cards and swap crypto wallet addresses. Optimizely has fixed the flaw.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "N-able ships Hotfix 3: 17 N-central fixes and Legacy APIs blocked for good",
-              "text": "N-central 2026.4 HF3 fixes CVE-2026-129271 through 129287 and permanently blocks the legacy APIs used by the 4EverAble2Shell chain. Hosted servers are patched; upgrade on-premises servers and all Agents and Probes now.",
-              "src": "SecurityWeek",
-              "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/"
             }
           ]
         },
@@ -114,6 +114,20 @@
           "title": "IT infrastructure",
           "blurb": "",
           "items": [
+            {
+              "date": "Nov 19, 2026",
+              "head": "IEA: data centers to produce 70% more carbon emissions by 2030",
+              "text": "An International Energy Agency report warns that emissions from data centers will climb as the US and China turn to fossil fuels to power AI growth.",
+              "src": "AI News Digest",
+              "url": "https://aienews.org/digest/2026-11-19/"
+            },
+            {
+              "date": "Nov 19, 2026",
+              "head": "University of Michigan weighs a $785 million computing center with Los Alamos",
+              "text": "Regents vote on a high-performance computing center on 144 acres in Ypsilanti Township, capped at 300,000 square feet and $785 million. The township opposes the project.",
+              "src": "Data Centers: Daily Notes",
+              "url": "https://writing.strisker.com/data-centers-daily-notes-november-18-2026/"
+            },
             {
               "date": "Nov 12, 2026",
               "head": "Google plans a $17 billion fuel-cell data center in Wyoming",
@@ -125,20 +139,6 @@
               "date": "Nov 12, 2026",
               "head": "Kraft Group proposes a $16 billion, 900MW campus in Massachusetts",
               "text": "The Kraft Group's Sutton, Massachusetts project would grow from two buildings to ten by 2033, reaching 900MW, Mission Critical News reports.",
-              "src": "Mission Critical News",
-              "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "Riot Platforms signs a frontier AI lab at its 910MW Texas site",
-              "text": "Riot Platforms agreed a capacity deal with an unnamed frontier AI lab at its 910MW data center in Corsicana, Texas, as bitcoin miners keep pivoting to AI hosting.",
-              "src": "Mission Critical News",
-              "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
-            },
-            {
-              "date": "Nov 12, 2026",
-              "head": "Integra files for an $8 billion, 756MW data center in North Texas",
-              "text": "Integra has filed an application for a 756MW, $8 billion project in Quanah, near Childress, Texas, adding to the state's crowded pipeline of AI data center proposals.",
               "src": "Mission Critical News",
               "url": "https://missioncriticalconnections.substack.com/p/mission-critical-news-november-12"
             }
@@ -159,25 +159,25 @@
           "blurb": "Prices, companies and rules that shape the cup.",
           "items": [
             {
-              "date": "Nov 4, 2026",
-              "head": "Kraft Heinz sells Maxwell House and Gevalia for $650 million",
-              "text": "Kraft Heinz agreed to sell its North American coffee business to One Rock Capital Partners for $650 million. It keeps a 30% non-controlling stake, and the deal is expected to close in mid-2027, Daily Coffee News reports.",
+              "date": "Nov 13, 2026",
+              "head": "De'Longhi revenue rises 7.7% as La Marzocco's division grows 35%",
+              "text": "Third-quarter revenue reached €944.9 million and net income €84.5 million, up 19%. The professional division, home to La Marzocco and Eversys, grew more than 35%.",
               "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/"
+              "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/"
             },
             {
-              "date": "Nov 6, 2026",
-              "head": "Dutch Bros revenue jumps 29.8% as it reaches 1,273 shops",
-              "text": "Dutch Bros posted third-quarter revenue of $549.8 million, up 29.8%, with net income of $37.2 million. It opened 48 shops in the quarter and is targeting about 250 openings in 2027.",
+              "date": "Nov 13, 2026",
+              "head": "ICO coffee price edges down to $2.61 a pound in October",
+              "text": "The ICO composite averaged $2.6126 per pound, down 0.3% from September. All three arabica groups rose, while robusta fell 2% to $1.6419.",
               "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/"
+              "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/"
             },
             {
-              "date": "Nov 6, 2026",
-              "head": "Costa Rica trims harvest estimates by 10% to 15% on El Niño",
-              "text": "Costa Rica's coffee institute ICAFE cut regional harvest estimates by 10% to 15% after irregular rain and heat disrupted fertilization and hurt the quality and weight of export coffee. These are cuts to earlier forecasts.",
+              "date": "Nov 13, 2026",
+              "head": "University of Kentucky launches a coffee science certificate",
+              "text": "The 12-credit undergraduate certificate in coffee science and culture opens for spring 2027, with core courses including Coffee Sensory Science plus two electives.",
               "src": "Daily Coffee News",
-              "url": "https://dailycoffeenews.com/2026/11/06/weekly-coffee-news-costa-rica-harvest-concerns-restoring-iconic-coffee-sign/"
+              "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/"
             }
           ]
         },
@@ -214,6 +214,13 @@
           "title": "Coming up",
           "blurb": "Trade events worth knowing.",
           "items": [
+            {
+              "date": "Entries by Nov 30, 2026",
+              "head": "Roastar packaging design awards",
+              "text": "The third annual awards take up to three designs first printed by Roastar in 2026, plus a new tin-design contest for kids 13 and under. Winners come in early January.",
+              "src": "Daily Coffee News",
+              "url": "https://dailycoffeenews.com/2026/11/13/weekly-coffee-news-new-coffee-education-certificate-ico-price-edges-down/"
+            },
             {
               "date": "Mar 4–6, 2027",
               "head": "NCA Convention, Austin, Texas",
@@ -260,6 +267,13 @@
           "blurb": "The stories riders are talking about.",
           "items": [
             {
+              "date": "Nov 18, 2026",
+              "head": "24 teams form the Collective Cycling Group after One Cycling's collapse",
+              "text": "The UK company, essentially One Cycling renamed, aims to market pro cycling's commercial rights. EF Education, Canyon-SRAM and Pinarello-Q36.5 confirmed; UAE and Red Bull are reportedly absent.",
+              "src": "Cyclingnews",
+              "url": "https://www.cyclingnews.com/pro-cycling/racing/24-teams-come-together-to-form-collective-cycling-group-the-latest-venture-aiming-to-unlock-the-value-of-pro-cycling/"
+            },
+            {
               "date": "Nov 7, 2026",
               "head": "TotalEnergies team finds a three-year title sponsor to survive into 2027",
               "text": "The French team, which had about a week to find a sponsor before UCI 2027 registration, has reportedly secured three years of title funding, per Ouest France. It will get a new name and colours, with Pardus as bike sponsor.",
@@ -272,13 +286,6 @@
               "text": "Code in Garmin Connect v5.31 hints at an opt-in 'Waze Location Sharing' feature that would use LiveTrack data to show drivers nearby cyclists. Neither Garmin nor Waze has announced it, and there's no timeline.",
               "src": "9to5Google",
               "url": "https://9to5google.com/2026/11/05/waze-may-soon-be-able-to-show-cyclists-using-garmin-smartwatches/"
-            },
-            {
-              "date": "Oct 29, 2026",
-              "head": "Roglič is the last big name without a 2027 contract",
-              "text": "The 37-year-old reportedly turned down Lotto-Intermarché, and talks with Visma-Lease a Bike ended. He hasn't ruled out retiring; Pinarello-Q36.5, Unibet Rose Rockets and Tudor still have room.",
-              "src": "Cyclingnews",
-              "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/primoz-roglics-options-for-a-2027-contract-narrow-as-two-teams-drop-out-of-the-running-for-his-signature/"
             }
           ]
         },
@@ -347,6 +354,13 @@
           "blurb": "Disruptions, routes and rules.",
           "items": [
             {
+              "date": "Nov 18, 2026",
+              "head": "After the FAA meltdown, experts say Thanksgiving flying is safe",
+              "text": "A router swap reportedly set off the outage behind Friday's nationwide ground stop. Every plane landed safely, but understaffed controllers and old systems keep worries alive.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/news/air-travel-back-on-track-thanksgiving-next-meltdown"
+            },
+            {
               "date": "Nov 14, 2026",
               "head": "Expedia confirms breach through Qubole supply chain attack; hackers claim huge haul",
               "text": "Expedia told Skift that attackers got in through a compromised third-party data platform. Wiz and Sentra link it to a stolen Qubole key. The extortion group n0n claims 830 million loyalty records; Expedia hasn't confirmed those figures.",
@@ -359,13 +373,6 @@
               "text": "Unauthorized access to the airline booking provider ran from August 2023 to September 2026. Cathay Pacific, Japan Airlines, ANA, Korean Air and Condor are affected. Watch for phishing emails posing as your airline.",
               "src": "Paddle Your Own Kanoo",
               "url": "https://www.paddleyourownkanoo.com/2026/10/30/major-software-provider-that-manages-bookings-for-hundreds-of-international-airlines-had-a-data-breach-for-three-years/"
-            },
-            {
-              "date": "Oct 30, 2026",
-              "head": "JetBlue and Virgin Voyages sell out their first adults-only flights",
-              "text": "Their 'Do Not Disturb' package paired a Virgin Voyages cruise with JetBlue's first adults-only flights. All 60 cabins sold out within days; it's a one-time offer for now.",
-              "src": "Forbes",
-              "url": "https://www.forbes.com/sites/passport/2026/10/30/adults-only-flights-the-safest-us-cities-and-more-travel-news/"
             }
           ]
         },
@@ -479,6 +486,27 @@
               "text": "Book by January 15, 2027 and complete stays by January 19 to earn four times the usual Wyndham Rewards points.",
               "src": "The Points Guy",
               "url": "https://thepointsguy.com/deals/points-and-miles-travel-deals"
+            },
+            {
+              "date": "Hotel · book by Dec 3",
+              "head": "IHG Black Friday: up to 30% off for members",
+              "text": "IHG One Rewards members save up to 30% and nonmembers up to 20% on stays from November 21 through April 30, 2027.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/hotel/deals/black-friday-cyber-monday-hotel-deals"
+            },
+            {
+              "date": "Hotel · book Nov 24–Dec 1",
+              "head": "Marriott Bonvoy: up to 25% off in the app",
+              "text": "Members get up to 25% off through the mobile app, and anyone gets 15% on the website, for stays from November 29 to May 2, 2027.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/hotel/deals/black-friday-cyber-monday-hotel-deals"
+            },
+            {
+              "date": "Hotel · book Nov 23–Dec 3",
+              "head": "Preferred Hotels: 35% off stays of two nights or more",
+              "text": "The Black Friday sale covers Preferred Hotels properties, including Beyond Green, for stays through June 30, 2027.",
+              "src": "The Points Guy",
+              "url": "https://thepointsguy.com/hotel/deals/black-friday-cyber-monday-hotel-deals"
             }
           ],
           "style": "list"
