@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers use an Apache Axis flaw to breach Confluence and Microsoft 365, PHP ships critical fixes, and Anthropic prices its IPO at $83 a share."
+      "text": "A China-linked group exploited a critical vCenter flaw, attackers use Apache Axis to breach Confluence and Microsoft 365, and Anthropic prices its IPO at $83 a share."
     },
     {
       "desk": "Coffee",
@@ -67,6 +67,13 @@
           "items": [
             {
               "date": "Nov 19, 2026",
+              "head": "Chinese hackers exploited a critical vCenter flaw; Broadcom patches it now",
+              "text": "CVE-2026-123890 (CVSS 9.8) lets unauthenticated attackers take admin control of vCenter. A China-linked group used it since September. Broadcom lists no workaround, so patch to 9.1.1.0200, 9.0.2.0200 or 8.0 U3m.",
+              "src": "SecurityOnline",
+              "url": "https://securityonline.info/vcenter-zero-day-cve-2026-123890-exploited/"
+            },
+            {
+              "date": "Nov 19, 2026",
               "head": "Attackers exploit critical Apache Axis flaw to breach Confluence and Microsoft 365",
               "text": "CVE-2026-90436 (CVSS 9.8) in end-of-life Apache Axis 1.x was used against Confluence Data Center, with one attacker reaching Microsoft 365 within about 12 hours. CISA set a November 21 deadline.",
               "src": "SecurityWeek",
@@ -85,13 +92,6 @@
               "text": "Malicious versions 1.26.1 and 1.26.2 use Python startup hooks to grab Azure, GitHub Actions, npm, Docker and Hugging Face secrets. Remove them and rotate any exposed credentials.",
               "src": "GBHackers",
               "url": "https://gbhackers.com/microsofts-ai-agent-framework-package-compromised-on-pypi/"
-            },
-            {
-              "date": "Nov 17, 2026",
-              "head": "Java4Shell: Java flaw enables remote attacks on Jira, Confluence and Jenkins",
-              "text": "CVE-2026-114938, a memory bug in Java's AVX-512 Base64 decoder, can allow unauthenticated code execution in Keycloak, Jira, Confluence, Artifactory and Jenkins. Oracle patched it Nov 17. Update Java now, or use -XX:-UseBASE64Intrinsics temporarily.",
-              "src": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
             },
             {
               "date": "Nov 18, 2026",
