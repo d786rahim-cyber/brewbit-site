@@ -81,10 +81,10 @@
             },
             {
               "date": "Nov 19, 2026",
-              "head": "PHP ships critical security fixes today for all supported versions",
-              "text": "Expected to include CVE-2026-115560, a remote code execution flaw needing uncommon session settings. Until patched, set session.upload_progress.enabled=0. No exploitation of the new flaws is reported.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
+              "head": "PHP patches seven critical remote code execution flaws",
+              "text": "PHP 8.6.0 and 8.5.13 fix all seven critical bugs, while 8.4.28, 8.3.37 and 8.2.36 patch most issues. None of the new flaws is known to be exploited, but October's PHP2Shell bug is.",
+              "src": "SecurityWeek",
+              "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/"
             },
             {
               "date": "Nov 18, 2026",
