@@ -1,9 +1,9 @@
 {
-  "updated": "November 19, 2026",
+  "updated": "November 20, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "A China-linked group exploited a critical vCenter flaw, JPMorgan Chase, Visa and Mastercard confirm vendor breaches, and Anthropic prices its IPO at $83 a share."
+      "text": "Attackers exploit a critical Cisco Expressway flaw and a China-linked group hit vCenter, JPMorgan, Visa and Mastercard confirm vendor breaches, and DeepSeek raises $15.8 billion."
     },
     {
       "desk": "Coffee",
@@ -45,18 +45,18 @@
               "url": "https://aienews.org/digest/2026-11-19/"
             },
             {
-              "date": "Nov 17, 2026",
-              "head": "OpenAI releases GPT-6.2 Astra and Sol, cutting Astra's API price 20%",
-              "text": "Astra is OpenAI's new frontier model at $8 per million input tokens and $40 output; Sol keeps its everyday pricing. OpenAI's own tests claim Astra beats GPT-6 Astra at under a third of the cost.",
-              "src": "The AI Gazette",
-              "url": "https://luongnv.com/news/reports/2026-11-18-morning.html"
+              "date": "Nov 19, 2026",
+              "head": "DeepSeek closes a $15.8 billion funding round",
+              "text": "The roughly 105.5 billion yuan round brings DeepSeek's total funding to about $23.5 billion. Tencent and CATL tie as the largest investors at 9.5653% each.",
+              "src": "AI Weekly",
+              "url": "https://aiweekly.co/ai-news-today"
             },
             {
-              "date": "Nov 17, 2026",
-              "head": "Microsoft launches seven MAI models at Ignite, including MAI Cyber 2 Flash",
-              "text": "The lineup includes MAI Code 2 for coding and MAI Cyber 2 Flash for security. Microsoft claims MAI Code 2 reaches 96% of Claude Opus 5.5's coding performance at 5% of the price; those are its own figures.",
-              "src": "The AI Gazette",
-              "url": "https://luongnv.com/news/reports/2026-11-18-morning.html"
+              "date": "Nov 19, 2026",
+              "head": "California's attorney general subpoenas Nvidia over chips reaching China",
+              "text": "Rob Bonta's investigation covers whether advanced chips or confidential information reached China and whether Nvidia misled investors. CFO Colette Kress is serving as interim CEO.",
+              "src": "AI Weekly",
+              "url": "https://aiweekly.co/ai-news-today"
             }
           ]
         },
@@ -65,6 +65,13 @@
           "title": "Cybersecurity",
           "blurb": "",
           "items": [
+            {
+              "date": "Nov 20, 2026",
+              "head": "Hackers exploit critical Cisco Expressway flaw to reach internal networks",
+              "text": "CVE-2026-76466 (CVSS 9.8) gives unauthenticated attackers root. After a public exploit, attackers breached four devices, then went after SMB shares, SQL Server and GitLab credentials. Upgrade to X15.5.20 and check for compromise.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+            },
             {
               "date": "Nov 19, 2026",
               "head": "Chinese hackers exploited a critical vCenter flaw; Broadcom patches it now",
@@ -99,13 +106,6 @@
               "text": "Malicious versions 1.26.1 and 1.26.2 use Python startup hooks to grab Azure, GitHub Actions, npm, Docker and Hugging Face secrets. Remove them and rotate any exposed credentials.",
               "src": "GBHackers",
               "url": "https://gbhackers.com/microsofts-ai-agent-framework-package-compromised-on-pypi/"
-            },
-            {
-              "date": "Nov 18, 2026",
-              "head": "Critical Apache HTTP Server HTTP/2 flaw now exploited in attacks",
-              "text": "Singapore's CSA warns attackers are exploiting CVE-2026-119618 in mod_http2, which can allow unauthenticated code execution on Apache 2.4.55 to 2.4.70 with HTTP/2 on. Upgrade to 2.4.71 or limit Protocols to http/1.1.",
-              "src": "Cyber Security News",
-              "url": "https://cybersecuritynews.com/apache-http-server-rce-exploitation/"
             }
           ]
         },
