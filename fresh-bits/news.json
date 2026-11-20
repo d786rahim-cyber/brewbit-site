@@ -73,6 +73,13 @@
               "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
             },
             {
+              "date": "Nov 20, 2026",
+              "head": "N-able confirms breach, takes Mail Assure and SpamExperts portals offline",
+              "text": "After unauthorized access to a hosted server, N-able disabled UI and API access worldwide. Mail still flows and is filtered, but customers can't sign in, release quarantined mail or review logs. No customer data loss found so far.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage"
+            },
+            {
               "date": "Nov 19, 2026",
               "head": "Chinese hackers exploited a critical vCenter flaw; Broadcom patches it now",
               "text": "CVE-2026-123890 (CVSS 9.8) lets unauthenticated attackers take admin control of vCenter. A China-linked group used it since September. Broadcom lists no workaround, so patch to 9.1.1.0200, 9.0.2.0200 or 8.0 U3m.",
@@ -99,13 +106,6 @@
               "text": "PHP 8.6.0 and 8.5.13 fix all seven critical bugs, while 8.4.28, 8.3.37 and 8.2.36 patch most issues. None of the new flaws is known to be exploited, but October's PHP2Shell bug is.",
               "src": "SecurityWeek",
               "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/"
-            },
-            {
-              "date": "Nov 18, 2026",
-              "head": "Microsoft's agent-framework package on PyPI hijacked to steal cloud credentials",
-              "text": "Malicious versions 1.26.1 and 1.26.2 use Python startup hooks to grab Azure, GitHub Actions, npm, Docker and Hugging Face secrets. Remove them and rotate any exposed credentials.",
-              "src": "GBHackers",
-              "url": "https://gbhackers.com/microsofts-ai-agent-framework-package-compromised-on-pypi/"
             }
           ]
         },
