@@ -3,7 +3,7 @@
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers read tenant data through a Microsoft Entra flaw, hackers exploit Cisco Expressway, and N-able takes Mail Assure offline after a breach."
+      "text": "Attackers read tenant data through a Microsoft Entra flaw, critical NGINX2Root bugs put web servers at risk, and hackers exploit Cisco Expressway."
     },
     {
       "desk": "Coffee",
@@ -73,6 +73,13 @@
               "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw"
             },
             {
+              "date": "Nov 19, 2026",
+              "head": "Critical 'NGINX2Root' flaws let attackers take over web servers",
+              "text": "Two HTTP/2 bugs allow unauthenticated code execution; Wiz showed it working. Censys counts about 8.8 million exposed services. Upgrade to NGINX 1.30.7 or 1.31.9, or NGINX Plus 37.0.8.1, or disable HTTP/2 for now.",
+              "src": "BleepingComputer",
+              "url": "https://bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers"
+            },
+            {
               "date": "Nov 20, 2026",
               "head": "Hackers exploit critical Cisco Expressway flaw to reach internal networks",
               "text": "CVE-2026-76466 (CVSS 9.8) gives unauthenticated attackers root. After a public exploit, attackers breached four devices, then went after SMB shares, SQL Server and GitLab credentials. Upgrade to X15.5.20 and check for compromise.",
@@ -99,13 +106,6 @@
               "text": "CVE-2026-123890 (CVSS 9.8) lets unauthenticated attackers take admin control of vCenter. A China-linked group used it since September. Broadcom lists no workaround, so patch to 9.1.1.0200, 9.0.2.0200 or 8.0 U3m.",
               "src": "SecurityOnline",
               "url": "https://securityonline.info/vcenter-zero-day-cve-2026-123890-exploited/"
-            },
-            {
-              "date": "Nov 19, 2026",
-              "head": "JPMorgan Chase, Visa and Mastercard confirm breaches at outside vendors",
-              "text": "Attackers took marketing data that may include customer names and email addresses. All three say payment systems and card numbers were safe. The Russia-based extortion group n0n claimed the hacks.",
-              "src": "The Register",
-              "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175"
             }
           ]
         },
