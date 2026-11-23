@@ -1,9 +1,9 @@
 {
-  "updated": "November 22, 2026",
+  "updated": "November 23, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers read tenant data through a Microsoft Entra flaw, critical NGINX2Root bugs put web servers at risk, and hackers exploit Cisco Expressway."
+      "text": "Attackers exploit an unpatchable ASP.NET module flaw, a Microsoft Entra bug exposed tenant data, and critical NGINX2Root bugs put web servers at risk."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 23, 2026",
+              "head": "Attackers exploit an unpatchable flaw in an old ASP.NET anti-CSRF module",
+              "text": "CVE-2026-131914 (CVSS 9.3) in the abandoned Idunno.AntiCsrf module lets attackers run code on IIS servers through any public .aspx page. Mandiant has seen it exploited. No patch exists, so find and remove the module.",
+              "src": "GBHackers",
+              "url": "https://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/"
+            },
+            {
               "date": "Nov 22, 2026",
               "head": "Attackers read tenant data through a Microsoft Entra Connect Health flaw",
               "text": "An API flaw exposed admin contact emails, tenant IDs and sync details. Microsoft fixed it November 19; passwords and tokens were not exposed. Check Azure Service Health to see if your tenant is listed.",
@@ -92,13 +99,6 @@
               "text": "After unauthorized access to a hosted server, N-able disabled UI and API access worldwide. Mail still flows and is filtered, but customers can't sign in, release quarantined mail or review logs. No customer data loss found so far.",
               "src": "BleepingComputer",
               "url": "https://bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage"
-            },
-            {
-              "date": "Nov 18, 2026",
-              "head": "F5 ships emergency hotfixes for six critical BIG-IP flaws",
-              "text": "Six stack overflows rated CVSS 9.8 can crash BIG-IP traffic handling and may allow remote code execution. There is no workaround and only engineering hotfixes so far. No exploitation is reported yet.",
-              "src": "The Hacker News",
-              "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html"
             },
             {
               "date": "Nov 19, 2026",
