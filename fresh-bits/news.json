@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 24, 2026",
+              "head": "CISA confirms attackers exploited an N-able Mail Assure flaw",
+              "text": "CVE-2026-134624 (CVSS 9.3), an SSRF bug in Mail Assure's LDAP sync check, was behind N-able's breach. N-able says it was confined to one hosted server and fixed; dashboards and APIs were restored November 21.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
+            },
+            {
               "date": "Nov 23, 2026",
               "head": "Attackers exploit an unpatchable flaw in an old ASP.NET anti-CSRF module",
               "text": "CVE-2026-131914 (CVSS 9.3) in the abandoned Idunno.AntiCsrf module lets attackers run code on IIS servers through any public .aspx page. Mandiant has seen it exploited. No patch exists, so find and remove the module.",
@@ -92,13 +99,6 @@
               "text": "CVE-2026-76466 (CVSS 9.8) gives unauthenticated attackers root. After a public exploit, attackers breached four devices, then went after SMB shares, SQL Server and GitLab credentials. Upgrade to X15.5.20 and check for compromise.",
               "src": "The Hacker News",
               "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
-            },
-            {
-              "date": "Nov 20, 2026",
-              "head": "N-able confirms breach, takes Mail Assure and SpamExperts portals offline",
-              "text": "After unauthorized access to a hosted server, N-able disabled UI and API access worldwide. Mail still flows and is filtered, but customers can't sign in, release quarantined mail or review logs. No customer data loss found so far.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage"
             },
             {
               "date": "Nov 19, 2026",
