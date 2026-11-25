@@ -1,9 +1,9 @@
 {
-  "updated": "November 23, 2026",
+  "updated": "November 25, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers exploit an unpatchable ASP.NET module flaw, a Microsoft Entra bug exposed tenant data, and critical NGINX2Root bugs put web servers at risk."
+      "text": "Attackers exploit a critical Drupal core flaw, Broadcom patches a second critical vCenter bug, and CISA confirms the N-able Mail Assure exploit."
     },
     {
       "desk": "Coffee",
@@ -66,6 +66,13 @@
           "blurb": "",
           "items": [
             {
+              "date": "Nov 25, 2026",
+              "head": "Attackers exploit a critical Drupal core flaw to hijack sites",
+              "text": "CVE-2026-132165 in install.php can let attackers reinstall a site and take control, some paths without logging in. Exploitation began November 19. Upgrade to Drupal 10.6.22, 11.3.22 or 11.4.13; CISA set a November 27 deadline.",
+              "src": "Market Intel Labs",
+              "url": "https://marketintellabs.com/research/cisa-kev-drupal-core-rce-2026-11-25"
+            },
+            {
               "date": "Nov 24, 2026",
               "head": "Second critical vCenter flaw: patch again to newer builds",
               "text": "Broadcom fixed CVE-2026-123903 (CVSS 9.8), separate from the exploited CVE-2026-123890 zero-day. Move to vCenter 8.0 U3m, VCF 5.2.5, or 9.0.2.0300 and 9.1.2 on 9.x lines. The new flaw is not yet exploited.",
@@ -92,13 +99,6 @@
               "text": "An API flaw exposed admin contact emails, tenant IDs and sync details. Microsoft fixed it November 19; passwords and tokens were not exposed. Check Azure Service Health to see if your tenant is listed.",
               "src": "Cyber Security News",
               "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw"
-            },
-            {
-              "date": "Nov 19, 2026",
-              "head": "Critical 'NGINX2Root' flaws let attackers take over web servers",
-              "text": "Two HTTP/2 bugs allow unauthenticated code execution; Wiz showed it working. Censys counts about 8.8 million exposed services. Upgrade to NGINX 1.30.7 or 1.31.9, or NGINX Plus 37.0.8.1, or disable HTTP/2 for now.",
-              "src": "BleepingComputer",
-              "url": "https://bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers"
             },
             {
               "date": "Nov 20, 2026",
