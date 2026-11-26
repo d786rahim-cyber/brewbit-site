@@ -1,9 +1,9 @@
 {
-  "updated": "November 25, 2026",
+  "updated": "November 26, 2026",
   "themes": [
     {
       "desk": "Technology",
-      "text": "Attackers exploit a critical Drupal core flaw, Broadcom patches a second critical vCenter bug, and CISA confirms the N-able Mail Assure exploit."
+      "text": "Attackers exploit a second Drupal site-takeover flaw, Broadcom patches a second critical vCenter bug, and CISA confirms the N-able Mail Assure exploit."
     },
     {
       "desk": "Coffee",
@@ -66,11 +66,11 @@
           "blurb": "",
           "items": [
             {
-              "date": "Nov 25, 2026",
-              "head": "Attackers exploit a critical Drupal core flaw to hijack sites",
-              "text": "CVE-2026-132165 in install.php can let attackers reinstall a site and take control, some paths without logging in. Exploitation began November 19. Upgrade to Drupal 10.6.22, 11.3.22 or 11.4.13; CISA set a November 27 deadline.",
-              "src": "Market Intel Labs",
-              "url": "https://marketintellabs.com/research/cisa-kev-drupal-core-rce-2026-11-25"
+              "date": "Nov 26, 2026",
+              "head": "Second Drupal takeover flaw now exploited: update to the newest builds",
+              "text": "CVE-2026-136716 leaves sites in odd install states open to takeover, even after the first fix. Update to Drupal 10.6.23, 11.3.23 or 11.4.14, run update.php, and check that the user 1 account is still yours.",
+              "src": "The Hacker News",
+              "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
             },
             {
               "date": "Nov 24, 2026",
